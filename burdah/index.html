@@ -27,7 +27,8 @@ img{max-width:100%}
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap"></noscript>
 <style>
 :root{
   --paper:#F3F4F1; --panel:#FAFBF9; --ink:#1A2130; --soft:#4E586A; --rule:#D9DDE2;
@@ -1472,6 +1473,16 @@ body.has-player{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
   // Reading ahead or back pauses the follow-along for a few seconds, so the page never pulls the reader away mid-line.
   ['wheel', 'touchmove'].forEach(function(e){ window.addEventListener(e, function(){ lastUserScroll = Date.now(); }, {passive: true}); });
   window.addEventListener('keydown', function(e){ if (/^(Page|Arrow(Up|Down)|Home|End| )/.test(e.key) && !/INPUT|BUTTON/.test(e.target.tagName)) lastUserScroll = Date.now(); });
+
+  // Arriving from a search result (#v75): the web fonts land after the jump and reflow the page,
+  // so line the verse up again as each font arrives, unless the reader has started scrolling.
+  var target = location.hash && document.getElementById(location.hash.slice(1));
+  if (target && document.fonts) {
+    var arrived = Date.now();
+    var realign = function(){ if (Date.now() - arrived < 8000 && Date.now() - lastUserScroll > 8000) target.scrollIntoView({block: 'start'}); };
+    document.fonts.addEventListener('loadingdone', realign);
+    document.fonts.ready.then(realign);
+  }
 
   if ('mediaSession' in navigator) {
     var ms = navigator.mediaSession;
