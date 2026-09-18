@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Khaled Ayad</title>
+<meta name="description" content="Khaled Ayad's corner of the web: founder of Robocode, PhD researcher at the University of Wolverhampton, and the things he is learning, making and returning to.">
+<link rel="canonical" href="https://khaleds.blog/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#172C58">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Khaled Ayad">
+<meta property="og:title" content="Khaled Ayad · خالد عيّاد">
+<meta property="og:description" content="Founder of Robocode, PhD researcher, and the things he is learning, making and returning to.">
+<meta property="og:url" content="https://khaleds.blog/">
+<meta property="og:image" content="https://khaleds.blog/assets/og-home.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri&family=Aref+Ruqaa:wght@700&family=Marcellus&family=Reem+Kufi:wght@700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap">
+    <h1 class="name">
+      <span class="en">Khaled Ayad</span>
+      <span class="bridge" aria-hidden="true"><svg viewBox="0 0 16 16"><path fill="currentColor" d="M8 0l2.1 3.3L14 2l-1.3 3.9L16 8l-3.3 2.1L14 14l-3.9-1.3L8 16l-2.1-3.3L2 14l1.3-3.9L0 8l3.3-2.1L2 2l3.9 1.3z"/></svg></span>
+      <span class="ar" lang="ar" dir="rtl">خالد عيّاد</span>
+    </h1>
+    <p class="welcome">Welcome. I'm Khaled. I founded <b>Robocode</b>, where young people learn to become creators of technology rather than only its users, and I'm researching a <b>PhD at the University of Wolverhampton</b> on how competing delivery firms can share the last mile of our cities. This is my own corner of the web: the things I'm learning, making and returning to. The first is a poem I love.</p>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="rule" role="separator"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0l2.1 3.3L14 2l-1.3 3.9L16 8l-3.3 2.1L14 14l-3.9-1.3L8 16l-2.1-3.3L2 14l1.3-3.9L0 8l3.3-2.1L2 2l3.9 1.3z"/></svg></div>
+
+  <form class="search" role="search" onsubmit="return false">
+    <label class="sr" for="q">Search this site</label>
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10.5 18a7.5 7.5 0 1 1 0-15 7.5 7.5 0 0 1 0 15zM16 16l5 5"/></svg>
+    <input type="search" id="q" name="q" autocomplete="off" spellcheck="false" placeholder="Search projects, verses and words, in English or العربية">
+  </form>
+
+  <div class="rule" role="separator"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0l2.1 3.3L14 2l-1.3 3.9L16 8l-3.3 2.1L14 14l-3.9-1.3L8 16l-2.1-3.3L2 14l1.3-3.9L0 8l3.3-2.1L2 2l3.9 1.3z"/></svg></div>
+
+  <section class="results" id="results" hidden aria-live="polite">
+    <p class="results-head" id="results-head"></p>
+    <ol class="hits" id="hits"></ol>
+    <button type="button" class="more" id="more" hidden></button>
+  </section>
+  <p class="nothing" id="nothing" hidden></p>
+
+  <div class="cards" id="cards">
+    <a class="card" href="/burdah/" data-project="burdah"
+       data-text="Qasida al-Burdah Burdah Burda Poem of the Mantle Imam al-Busiri Busiri poetry Arabic English audio recitation nasheed قصيدة البردة البوصيري">
+      <div class="cover" aria-hidden="true">
+        <span class="callig" lang="ar">البُرْدَة</span>
+        <span class="pill"><svg viewBox="0 0 12 12"><path fill="currentColor" d="M3 1.5v9l7.5-4.5z"/></svg>Listen · 28 min</span>
+      </div>
+      <div class="card-body">
+        <p class="eyebrow">Poetry · Arabic &amp; English · Audio</p>
+        <h2>Qasida al-Burdah</h2>
+        <p class="desc">Imam al-Būṣīrī's Poem of the Mantle: all 160 verses with their meanings, and a recitation of verses 1 to 89 that follows along as it plays.</p>
+        <span class="open">Open the poem →</span>
+      </div>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">© <span id="yr">2026</span> Khaled Ayad</div>
+</footer>
+
+<script src="/assets/home.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Qasida al-Burdah</title>
+<meta name="description" content="Imam al-Būṣīrī's Poem of the Mantle: all 160 verses in Arabic with English meanings and notes, and a recitation without music that follows along verse by verse.">
+<link rel="canonical" href="https://khaleds.blog/burdah/">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#1C3464">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Khaled Ayad">
+<meta property="og:title" content="Qasida al-Burdah, the Poem of the Mantle">
+<meta property="og:description" content="Imam al-Būṣīrī's Poem of the Mantle: all 160 verses in Arabic with English meanings and notes, and a recitation without music that follows along verse by verse.">
+<meta property="og:url" content="https://khaleds.blog/burdah/">
+<meta property="og:image" content="https://khaleds.blog/assets/og-burdah.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<style>
+:root{color-scheme:light dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}
+body{margin:0;padding:0}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Reem+Kufi:wght@500;700&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+:root{
+  --paper:#F3F4F1; --panel:#FAFBF9; --ink:#1A2130; --soft:#4E586A; --rule:#D9DDE2;
+  --lapis:#1F3C73; --gold:#8A6524;
+  --band:#1C3464; --band-ink:#EEF0F4; --band-gold:#D8B46A; --band-soft:#B9C3D8;
+  --ar:"Amiri","Traditional Arabic","Geeza Pro",serif;
+  --kufi:"Reem Kufi","Amiri","Geeza Pro",sans-serif;
+  --en:"Spectral",Georgia,"Times New Roman",serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --paper:#0E1320; --panel:#141B2B; --ink:#E8E6DF; --soft:#A2ABBC; --rule:#263047;
+    --lapis:#A9BDE8; --gold:#D6B066;
+    --band:#14223F; --band-ink:#EEF0F4; --band-gold:#DDBB72; --band-soft:#AEB9D0;
+  }
+}
+:root[data-theme="dark"]{
+  --paper:#0E1320; --panel:#141B2B; --ink:#E8E6DF; --soft:#A2ABBC; --rule:#263047;
+  --lapis:#A9BDE8; --gold:#D6B066;
+  --band:#14223F; --band-ink:#EEF0F4; --band-gold:#DDBB72; --band-soft:#AEB9D0;
+}
+body{background:var(--paper);color:var(--ink);font-family:var(--en);font-size:17px;line-height:1.6}
+.wrap{max-width:860px;margin:0 auto;padding-inline:20px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+
+/* Title band */
+.band{background:var(--band);color:var(--band-ink);padding-block:44px 36px;
+  background-image:
+    radial-gradient(circle at 50% 0, rgba(216,180,106,.14), transparent 60%),
+    repeating-linear-gradient(45deg, rgba(255,255,255,.025) 0 2px, transparent 2px 14px);}
+.band .wrap{display:grid;gap:10px;justify-items:center;text-align:center}
+.band .ttl-ar{font-family:var(--kufi);font-weight:700;font-size:clamp(3rem,2rem + 5vw,5.2rem);line-height:1.15;color:var(--band-gold);margin:0}
+.band h1{font-family:var(--en);font-weight:600;font-size:clamp(1.35rem,1.1rem + 1vw,1.8rem);letter-spacing:.01em;margin:0;text-wrap:balance}
+.band .full{font-family:var(--ar);font-size:1.25rem;margin:0;color:var(--band-ink)}
+.band .full-en{font-style:italic;color:var(--band-soft);margin:0;font-size:.98rem}
+.band .by{margin:6px 0 0;font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--band-soft)}
+
+/* Intro */
+.intro{padding-block:32px 8px;display:grid;gap:14px}
+.intro p{margin:0;max-width:66ch;color:var(--ink)}
+.facts{display:flex;flex-wrap:wrap;gap:8px 22px;margin:4px 0 0;padding:0;list-style:none;font-size:.86rem;color:var(--soft)}
+.facts b{color:var(--ink);font-weight:600}
+
+/* Refrain */
+.refrain{margin-block:26px 10px;padding:22px 20px;background:var(--panel);border-block:1px solid var(--gold);text-align:center;display:grid;gap:8px}
+.refrain .lbl{font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0}
+.refrain .ar{font-family:var(--ar);font-size:clamp(1.35rem,1.15rem + .9vw,1.7rem);line-height:2;margin:0;color:var(--lapis);display:flex;flex-wrap:wrap;justify-content:center;column-gap:2.2rem}
+.refrain .en{margin:0;color:var(--soft);font-style:italic}
+.refrain .note{margin:0;font-size:.82rem;color:var(--soft)}
+
+/* Contents + control */
+.contents{padding-block:22px 6px}
+.contents h2{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--soft);font-weight:600;margin:0 0 10px}
+.contents ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 18px}
+.contents a{display:flex;gap:10px;align-items:baseline;text-decoration:none;padding:5px 0;border-bottom:1px solid var(--rule)}
+.contents a:hover .navt{color:var(--lapis);text-decoration:underline;text-underline-offset:3px}
+.navn{font-variant-numeric:tabular-nums;color:var(--gold);font-weight:600;min-width:1.4em}
+.navt{font-size:.95rem}
+.controls{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:18px}
+.control{display:flex;align-items:center;gap:10px;font-size:.92rem;color:var(--soft)}
+.control input{width:18px;height:18px;accent-color:var(--lapis);margin:0}
+.control label{cursor:pointer}
+
+/* Chapters */
+.chapter{padding-block:34px 6px}
+.chhead{display:grid;gap:4px;padding-bottom:14px;border-bottom:2px solid var(--lapis);margin-bottom:4px}
+.chmeta{margin:0;font-size:.76rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.chapter h2{margin:0;display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:4px 20px}
+.char{font-family:var(--kufi);font-weight:500;font-size:clamp(1.4rem,1.2rem + 1vw,1.9rem);color:var(--lapis);line-height:1.6;order:2}
+.chen{font-family:var(--en);font-weight:600;font-size:1.2rem;text-wrap:balance;order:1}
+
+/* Verses */
+.bayt{display:grid;grid-template-columns:2.4rem 1fr;column-gap:14px;padding-block:14px 16px;border-bottom:1px solid var(--rule);scroll-margin-top:16px}
+.bayt:target{background:var(--panel)}
+.num{grid-row:1 / span 2;font-size:.8rem;font-weight:600;color:var(--gold);font-variant-numeric:tabular-nums;padding-top:.85rem}
+.bayt .ar{margin:0;font-family:var(--ar);font-size:clamp(1.28rem,1.05rem + 1vw,1.62rem);line-height:2.15;color:var(--ink);
+  display:grid;grid-template-columns:1fr 1fr;column-gap:2.2rem}
+.s1{text-align:right}
+.s2{text-align:left}
+.bayt .en{margin:4px 0 0;max-width:64ch;color:var(--soft);font-size:1rem;line-height:1.55}
+body.ar-only .bayt .en, body.ar-only .refrain .en{display:none}
+
+/* Word meanings */
+.gl{grid-column:2;margin:10px 0 2px;padding:1px 0 1px 12px;border-left:2px solid var(--rule);display:grid;gap:5px;max-width:64ch;font-size:.9rem;line-height:1.5;color:var(--soft)}
+.gl dt{display:inline;font-weight:600;color:var(--gold)}
+.gl dt::after{content:":"}
+.gl dd{display:inline;margin:0 0 0 .3em}
+body.no-gl .gl{display:none}
+
+.closing{padding-block:34px 6px}
+.closing .chhead{border-bottom-color:var(--gold)}
+
+footer{padding-block:34px 56px;color:var(--soft);font-size:.86rem;display:grid;gap:8px}
+footer p{margin:0;max-width:70ch}
+
+/* Recording */
+.listen{display:flex;flex-wrap:wrap;align-items:center;gap:12px 18px;margin-top:6px}
+.listen p{margin:0;flex:1 1 280px;font-size:.92rem;color:var(--soft);max-width:60ch}
+.listen p b{color:var(--ink);font-weight:600}
+.listen-btn{display:inline-flex;align-items:center;gap:10px;appearance:none;border:0;border-radius:999px;cursor:pointer;
+  background:var(--lapis);color:var(--paper);font:600 .95rem/1 var(--en);padding:12px 20px 12px 16px;letter-spacing:.02em}
+.listen-btn:hover{filter:brightness(1.12)}
+.listen-btn svg{width:18px;height:18px;fill:currentColor}
+
+.bayt{margin-inline:-12px;padding-inline:12px}
+button.num{appearance:none;background:none;border:0;margin:0;cursor:pointer;font:inherit;font-size:.8rem;font-weight:600;
+  color:var(--gold);font-variant-numeric:tabular-nums;text-align:left;padding:.85rem 0 .6rem;align-self:start;
+  display:inline-flex;align-items:baseline;gap:4px;border-radius:2px}
+.pg{display:inline-block;width:0;height:0;border-left:.5em solid currentColor;border-block:.3em solid transparent;opacity:.5;transition:opacity .15s}
+button.num:hover .pg, button.num:focus-visible .pg{opacity:1}
+button.num:hover{color:var(--lapis)}
+.bayt.now{background:var(--panel);box-shadow:inset 3px 0 0 var(--gold)}
+.bayt.now button.num{color:var(--lapis)}
+.bayt.now .pg{opacity:1}
+.refrain.now{box-shadow:inset 3px 0 0 var(--gold),inset -3px 0 0 var(--gold)}
+.refrain.now .lbl::after{content:" · playing now"}
+
+.opening{padding-block:26px 0}
+.opening .chhead{border-bottom-color:var(--gold)}
+.rec-end{display:flex;align-items:center;gap:14px;margin:18px 0 4px;font-size:.74rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.rec-end::before,.rec-end::after{content:"";flex:1;border-top:1px solid var(--gold);opacity:.5}
+
+/* Player bar */
+.player{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--band);color:var(--band-ink);
+  padding-bottom:env(safe-area-inset-bottom,0px);box-shadow:0 -6px 24px rgba(10,16,32,.22)}
+.player-in{max-width:860px;margin:0 auto;padding:0 20px 10px;display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:6px 14px}
+.pseek{grid-column:1 / -1;width:100%;margin:0;height:22px;accent-color:var(--band-gold);cursor:pointer}
+.pbtns{display:flex;align-items:center;gap:4px}
+.pbtns button{appearance:none;border:0;background:none;color:var(--band-ink);cursor:pointer;width:40px;height:40px;border-radius:50%;
+  display:grid;place-items:center;padding:0}
+.pbtns button:hover{color:var(--band-gold)}
+.pbtns svg{width:18px;height:18px;fill:currentColor}
+.pbtns .pmain{width:46px;height:46px;background:var(--band-gold);color:var(--band)}
+.pbtns .pmain:hover{color:var(--band);filter:brightness(1.08)}
+.pbtns .pmain svg{width:20px;height:20px}
+.ico-pause{display:none}
+.player.playing .ico-play{display:none}
+.player.playing .ico-pause{display:block}
+.pinfo{min-width:0}
+.plabel{margin:0;font-weight:600;font-size:.98rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.psub{margin:0;font-size:.8rem;color:var(--band-soft);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ptime{font-variant-numeric:tabular-nums}
+.pspeed{display:flex;align-items:center;gap:2px;border:1px solid rgba(238,240,244,.2);border-radius:999px;padding:2px}
+.pspeed button{appearance:none;border:0;background:none;color:var(--band-ink);width:34px;height:34px;border-radius:50%;cursor:pointer;
+  font:600 1.15rem/1 var(--en);display:grid;place-items:center;padding:0}
+.pspeed button:hover:not(:disabled){color:var(--band-gold);background:rgba(238,240,244,.08)}
+.pspeed button:disabled{opacity:.35;cursor:default}
+.pspeed output{min-width:3.3em;text-align:center;font-variant-numeric:tabular-nums;font-size:.9rem;font-weight:600;color:var(--band-gold)}
+.home{justify-self:start;margin:-26px 0 6px;font-size:.84rem;letter-spacing:.04em;color:var(--band-soft);text-decoration:none;padding:4px 0}
+.home:hover{color:var(--band-gold);text-decoration:underline;text-underline-offset:3px}
+body.has-player{padding-bottom:calc(100px + env(safe-area-inset-bottom,0px))}
+@media (max-width:640px){
+  .player-in{padding-inline:16px;gap:4px 10px}
+  .pbtns button{width:38px;height:38px}
+  .pbtns .pmain{width:44px;height:44px}
+  .pspeed button{width:30px;height:30px;font-size:1.05rem}
+  .pspeed output{min-width:2.9em;font-size:.8rem}
+  .plabel .lc{display:none}
+  .home{margin-top:-30px}
+}
+
+@media (max-width:640px){
+  body{font-size:16px}
+  .wrap{padding-inline:16px}
+  .bayt{grid-template-columns:1.8rem 1fr;column-gap:8px}
+  .bayt .ar{grid-template-columns:1fr;row-gap:0}
+  .s2{padding-right:1.6rem}
+  .chapter h2{flex-direction:column}
+  .char{order:1}
+  .chen{order:2}
+}
+@media (prefers-reduced-motion:no-preference){ html{scroll-behavior:smooth} }
+</style>
+</head>
+<body class="has-player">
+<div class="band">
+  <div class="wrap">
+    <a class="home" href="/">← khaleds.blog</a>
+    <p class="ttl-ar" lang="ar" dir="rtl">البُرْدَة</p>
+    <h1>Qasida al-Burdah, the Poem of the Mantle</h1>
+    <p class="full" lang="ar" dir="rtl">الكَوَاكِبُ الدُّرِّيَّةُ فِي مَدْحِ خَيْرِ البَرِيَّةِ</p>
+    <p class="full-en">The Shining Stars in Praise of the Best of Creation</p>
+    <p class="by">Imam Sharaf al-Dīn al-Būṣīrī</p>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="intro">
+    <p>Composed in Egypt in the thirteenth century by Imam al-Būṣīrī (1212 to c. 1295). Tradition holds that he wrote it while paralysed, then saw the Prophet ﷺ in a dream place his mantle, the <i>burda</i>, over him, and woke healed. It has been recited, sung and memorised across the Muslim world ever since.</p>
+    <p>Each line below is one verse (<i>bayt</i>): the Arabic in its two halves, and the English meaning beneath it. Words in brackets are added to make the sense clear. Where a verse names a place, a person or an idea that may be unfamiliar, a short note underneath explains it.</p>
+    <p>The sign ﷺ, written after the Prophet’s name, stands for <i>ṣallā Allāhu ‘alayhi wa-sallam</i>: “God bless him and give him peace.”</p>
+    <ul class="facts">
+      <li><b>160</b> verses</li>
+      <li><b>10</b> chapters</li>
+      <li>Metre: <b>al-basīṭ</b></li>
+      <li>Every verse ends on the letter <b lang="ar">م</b> (a <i>mīmiyya</i>)</li>
+    </ul>
+    <div class="listen">
+      <button type="button" class="listen-btn" id="listen-play"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg><span>Listen</span></button>
+      <p><b>The opening verse, the refrain and verses 1 to 89</b>, recited without music. 28 minutes. Tap a verse number to start from that verse.</p>
+    </div>
+  </div>
+
+  <section class="closing opening" id="opening" aria-labelledby="openh">
+    <header class="chhead">
+      <p class="chmeta">Often recited at the opening</p>
+      <h2 id="openh"><span class="chen">An opening verse added in later tradition</span></h2>
+    </header>
+    <div class="bayt" id="v0">
+  <button class="num" type="button" data-v="0" aria-label="Play from the opening verse"><span class="pg" aria-hidden="true"></span></button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">الْحَمْدُ لِلَّهِ مُنْشِي الْخَلْقِ مِنْ عَدَمِ</span><span class="s2">ثُمَّ الصَّلَاةُ عَلَى الْمُخْتَارِ فِي الْقِدَمِ</span></p>
+  <p class="en">Praise be to God, who brought creation out of nothing, then blessings on the Chosen One, chosen before time began.</p>
+  <dl class="gl">
+    <div><dt>the Chosen One</dt><dd>Al-Mukhtār, a title of the Prophet ﷺ. “Before time began” (fī al-qidam) means he was chosen before anything was created.</dd></div>
+  </dl>
+</div>
+  </section>
+
+  <div class="refrain" id="refrain">
+    <p class="lbl">The refrain sung between verses</p>
+    <p class="ar" lang="ar" dir="rtl"><span>مَوْلَايَ صَلِّ وَسَلِّمْ دَائِماً أَبَداً</span> <span>عَلَى حَبِيبِكَ خَيْرِ الْخَلْقِ كُلِّهِمِ</span></p>
+    <p class="en">My Master, send blessings and peace, always and for ever, upon Your beloved, the best of all creation.</p>
+    <p class="note">Added by later reciters, not part of al-Būṣīrī's text.</p>
+  </div>
+
+  <nav class="contents" aria-label="Chapters">
+    <h2>The ten chapters</h2>
+    <ol>
+<li><a href="#ch1"><span class="navn">1</span><span class="navt">Love and the pain of longing</span></a></li>
+<li><a href="#ch2"><span class="navn">2</span><span class="navt">A warning against the desires of the self</span></a></li>
+<li><a href="#ch3"><span class="navn">3</span><span class="navt">In praise of the Master of the Messengers ﷺ</span></a></li>
+<li><a href="#ch4"><span class="navn">4</span><span class="navt">His birth ﷺ</span></a></li>
+<li><a href="#ch5"><span class="navn">5</span><span class="navt">His miracles ﷺ</span></a></li>
+<li><a href="#ch6"><span class="navn">6</span><span class="navt">The honour of the Qur&#x27;an</span></a></li>
+<li><a href="#ch7"><span class="navn">7</span><span class="navt">The Night Journey and the Ascension ﷺ</span></a></li>
+<li><a href="#ch8"><span class="navn">8</span><span class="navt">The Prophet&#x27;s campaigns ﷺ</span></a></li>
+<li><a href="#ch9"><span class="navn">9</span><span class="navt">Seeking his intercession ﷺ</span></a></li>
+<li><a href="#ch10"><span class="navn">10</span><span class="navt">Intimate prayer and petition</span></a></li>
+    </ol>
+    <div class="controls">
+      <div class="control">
+        <input type="checkbox" id="show-en" checked>
+        <label for="show-en">Show the English translation</label>
+      </div>
+      <div class="control">
+        <input type="checkbox" id="show-gl" checked>
+        <label for="show-gl">Show word meanings</label>
+      </div>
+      <div class="control">
+        <input type="checkbox" id="follow" checked>
+        <label for="follow">Follow the recording</label>
+      </div>
+    </div>
+  </nav>
+
+<section class="chapter" id="ch1" aria-labelledby="ch1h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 1 <span aria-hidden="true">·</span> verses 1 to 12</p>
+    <h2 id="ch1h"><span class="char" lang="ar" dir="rtl">فِي الْغَزَلِ وَشَكْوَى الْغَرَامِ</span><span class="chen">Love and the pain of longing</span></h2>
+  </header>
+  <div class="bayt" id="v1">
+  <button class="num" type="button" data-v="1" aria-label="Play from verse 1"><span class="pg" aria-hidden="true"></span>1</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَمِنْ تَذَكُّرِ جِيرَانٍ بِذِي سَلَمِ</span><span class="s2">مَزَجْتَ دَمْعاً جَرَى مِنْ مُقْلَةٍ بِدَمِ</span></p>
+  <p class="en">Is it from remembering neighbours at Dhū Salam that you have mixed the tears flowing from your eye with blood?</p>
+  <dl class="gl">
+    <div><dt>Dhū Salam</dt><dd>A place between Mecca and Medina, named after its salam trees (a thorny acacia). The poet uses it to mean the Prophet’s homeland ﷺ, and the “neighbours” are the people who live near him.</dd></div>
+    <div><dt>tears … with blood</dt><dd>Weeping so long that the tears run red: an old Arabic image of the deepest grief.</dd></div>
+  </dl>
+</div><div class="bayt" id="v2">
+  <button class="num" type="button" data-v="2" aria-label="Play from verse 2"><span class="pg" aria-hidden="true"></span>2</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَمْ هَبَّتِ الرِّيحُ مِنْ تِلْقَاءِ كَاظِمَةٍ</span><span class="s2">وَأَوْمَضَ الْبَرْقُ فِي الظَّلْمَاءِ مِنْ إِضَمِ</span></p>
+  <p class="en">Or is it that the wind has blown from the direction of Kāẓima, and lightning has flashed in the darkness over Iḍam?</p>
+  <dl class="gl">
+    <div><dt>Kāẓima</dt><dd>A place in Arabia on the old road to Mecca, often named in classical love poetry.</dd></div>
+    <div><dt>Iḍam</dt><dd>A valley near Medina. A breeze or a flash of lightning from the Beloved’s direction is enough to set the lover weeping.</dd></div>
+  </dl>
+</div><div class="bayt" id="v3">
+  <button class="num" type="button" data-v="3" aria-label="Play from verse 3"><span class="pg" aria-hidden="true"></span>3</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَمَا لِعَيْنَيْكَ إِنْ قُلْتَ اكْفُفَا هَمَتَا</span><span class="s2">وَمَا لِقَلْبِكَ إِنْ قُلْتَ اسْتَفِقْ يَهِمِ</span></p>
+  <p class="en">What is wrong with your eyes? Tell them &quot;Stop&quot; and they pour all the more. And your heart? Tell it &quot;Come to your senses&quot; and it wanders lost.</p>
+</div><div class="bayt" id="v4">
+  <button class="num" type="button" data-v="4" aria-label="Play from verse 4"><span class="pg" aria-hidden="true"></span>4</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَيَحْسَبُ الصَّبُّ أَنَّ الْحُبَّ مُنْكَتِمٌ</span><span class="s2">مَا بَيْنَ مُنْسَجِمٍ مِنْهُ وَمُضْطَرِمِ</span></p>
+  <p class="en">Does the lover think his love can stay hidden, between tears that stream and a heart that burns?</p>
+</div><div class="bayt" id="v5">
+  <button class="num" type="button" data-v="5" aria-label="Play from verse 5"><span class="pg" aria-hidden="true"></span>5</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَوْلَا الْهَوَى لَمْ تُرِقْ دَمْعاً عَلَى طَلَلٍ</span><span class="s2">وَلَا أَرِقْتَ لِذِكْرِ الْبَانِ وَالْعَلَمِ</span></p>
+  <p class="en">Were it not for love, you would not shed tears over abandoned ruins, nor lie awake at the mention of the willow and the mountain.</p>
+  <dl class="gl">
+    <div><dt>abandoned ruins</dt><dd>The traces of a deserted campsite. Classical Arabic poems open with the poet weeping where the beloved once lived, and al-Būṣīrī begins his poem the same way.</dd></div>
+    <div><dt>the willow and the mountain</dt><dd>Al-bān, a slender, sweet-scented tree usually translated “willow”, and al-‘alam, a mountain. Both stand for the Beloved’s country.</dd></div>
+  </dl>
+</div><div class="bayt" id="v6">
+  <button class="num" type="button" data-v="6" aria-label="Play from verse 6"><span class="pg" aria-hidden="true"></span>6</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَكَيْفَ تُنْكِرُ حُبّاً بَعْدَ مَا شَهِدَتْ</span><span class="s2">بِهِ عَلَيْكَ عُدُولُ الدَّمْعِ وَالسَّقَمِ</span></p>
+  <p class="en">So how can you deny a love when two honest witnesses have testified to it against you: your tears and your sickness?</p>
+  <dl class="gl">
+    <div><dt>two honest witnesses</dt><dd>In Islamic law a claim is proven by two upright witnesses (‘udūl). His tears and his sickness are the two witnesses against him.</dd></div>
+  </dl>
+</div><div class="bayt" id="v7">
+  <button class="num" type="button" data-v="7" aria-label="Play from verse 7"><span class="pg" aria-hidden="true"></span>7</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَأَثْبَتَ الْوَجْدُ خَطَّيْ عَبْرَةٍ وَضَنىً</span><span class="s2">مِثْلَ الْبَهَارِ عَلَى خَدَّيْكَ وَالْعَنَمِ</span></p>
+  <p class="en">Passion has written two lines on your cheeks, one of weeping and one of wasting, yellow as the ox-eye flower and red as the ‘anam blossom.</p>
+  <dl class="gl">
+    <div><dt>ox-eye flower</dt><dd>Bahār, a yellow flower: the colour of a face drained by illness.</dd></div>
+    <div><dt>‘anam</dt><dd>A plant with bright red tips: the colour of the bloody tears.</dd></div>
+  </dl>
+</div><div class="bayt" id="v8">
+  <button class="num" type="button" data-v="8" aria-label="Play from verse 8"><span class="pg" aria-hidden="true"></span>8</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">نَعَمْ سَرَى طَيْفُ مَنْ أَهْوَى فَأَرَّقَنِي</span><span class="s2">وَالْحُبُّ يَعْتَرِضُ اللَّذَّاتِ بِالْأَلَمِ</span></p>
+  <p class="en">Yes, the image of the one I love came to me by night and kept me awake. Love always cuts across pleasure with pain.</p>
+  <dl class="gl">
+    <div><dt>the image of the one I love</dt><dd>Ṭayf, the phantom of the beloved that visits a lover in sleep, a favourite image of Arabic love poetry.</dd></div>
+  </dl>
+</div><div class="bayt" id="v9">
+  <button class="num" type="button" data-v="9" aria-label="Play from verse 9"><span class="pg" aria-hidden="true"></span>9</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا لَائِمِي فِي الْهَوَى الْعُذْرِيِّ مَعْذِرَةً</span><span class="s2">مِنِّي إِلَيْكَ وَلَوْ أَنْصَفْتَ لَمْ تَلُمِ</span></p>
+  <p class="en">You who blame me for this pure and chaste love, forgive me. Had you been fair, you would not have blamed me.</p>
+  <dl class="gl">
+    <div><dt>pure and chaste love</dt><dd>Al-hawā al-‘udhrī, named after the tribe of ‘Udhra, whose poets were famous for loving chastely and dying of longing.</dd></div>
+  </dl>
+</div><div class="bayt" id="v10">
+  <button class="num" type="button" data-v="10" aria-label="Play from verse 10"><span class="pg" aria-hidden="true"></span>10</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">عَدَتْكَ حَالِيَ لَا سِرِّي بِمُسْتَتِرٍ</span><span class="s2">عَنِ الْوُشَاةِ وَلَا دَائِي بِمُنْحَسِمِ</span></p>
+  <p class="en">May my condition never reach you! My secret is not hidden from the gossips, and my sickness shows no sign of ending.</p>
+  <dl class="gl">
+    <div><dt>May my condition never reach you</dt><dd>A well-wisher’s phrase, meaning “may you be spared what I am going through”.</dd></div>
+  </dl>
+</div><div class="bayt" id="v11">
+  <button class="num" type="button" data-v="11" aria-label="Play from verse 11"><span class="pg" aria-hidden="true"></span>11</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَحَّضْتَنِي النُّصْحَ لَكِنْ لَسْتُ أَسْمَعُهُ</span><span class="s2">إِنَّ الْمُحِبَّ عَنِ الْعُذَّالِ فِي صَمَمِ</span></p>
+  <p class="en">You gave me sincere advice, but I cannot hear it. A lover is deaf to those who reproach him.</p>
+</div><div class="bayt" id="v12">
+  <button class="num" type="button" data-v="12" aria-label="Play from verse 12"><span class="pg" aria-hidden="true"></span>12</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">إِنِّي اتَّهَمْتُ نَصِيحَ الشَّيْبِ فِي عَذَلٍ</span><span class="s2">وَالشَّيْبُ أَبْعَدُ فِي نُصْحٍ عَنِ التُّهَمِ</span></p>
+  <p class="en">I even doubted the advice of my grey hair when it scolded me, though grey hair is the adviser least open to doubt.</p>
+  <dl class="gl">
+    <div><dt>grey hair</dt><dd>The first grey hairs warn that old age and death are near. No adviser is more honest, yet he ignored them.</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch2" aria-labelledby="ch2h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 2 <span aria-hidden="true">·</span> verses 13 to 28</p>
+    <h2 id="ch2h"><span class="char" lang="ar" dir="rtl">فِي التَّحْذِيرِ مِنْ هَوَى النَّفْسِ</span><span class="chen">A warning against the desires of the self</span></h2>
+  </header>
+  <div class="bayt" id="v13">
+  <button class="num" type="button" data-v="13" aria-label="Play from verse 13"><span class="pg" aria-hidden="true"></span>13</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَإِنَّ أَمَّارَتِي بِالسُّوءِ مَا اتَّعَظَتْ</span><span class="s2">مِنْ جَهْلِهَا بِنَذِيرِ الشَّيْبِ وَالْهَرَمِ</span></p>
+  <p class="en">For my soul, which urges me to evil, in its ignorance has taken no lesson from the warning of grey hair and old age.</p>
+  <dl class="gl">
+    <div><dt>my soul, which urges me to evil</dt><dd>Al-nafs al-ammāra bil-sū’, the lower self that pushes a person toward wrong, named in the Qur’an (Yūsuf 12:53).</dd></div>
+  </dl>
+</div><div class="bayt" id="v14">
+  <button class="num" type="button" data-v="14" aria-label="Play from verse 14"><span class="pg" aria-hidden="true"></span>14</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَا أَعَدَّتْ مِنَ الْفِعْلِ الْجَمِيلِ قِرَى</span><span class="s2">ضَيْفٍ أَلَمَّ بِرَأْسِي غَيْرَ مُحْتَشِمِ</span></p>
+  <p class="en">Nor has it prepared any good deeds as a meal of welcome for the guest who settled on my head without shame.</p>
+  <dl class="gl">
+    <div><dt>a meal of welcome</dt><dd>Qirā, the meal an Arab host must set before a guest. The guest is his grey hair, which arrived uninvited, and his soul had no good deeds ready to serve it.</dd></div>
+  </dl>
+</div><div class="bayt" id="v15">
+  <button class="num" type="button" data-v="15" aria-label="Play from verse 15"><span class="pg" aria-hidden="true"></span>15</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَوْ كُنْتُ أَعْلَمُ أَنِّي مَا أُوَقِّرُهُ</span><span class="s2">كَتَمْتُ سِرّاً بَدَا لِي مِنْهُ بِالْكَتَمِ</span></p>
+  <p class="en">Had I known I would not honour that guest, I would have hidden with dye the secret it revealed to me.</p>
+  <dl class="gl">
+    <div><dt>dye</dt><dd>Katam, a plant used with henna to dye grey hair. Had he known he would give his grey hair no respect, he would at least have hidden it.</dd></div>
+  </dl>
+</div><div class="bayt" id="v16">
+  <button class="num" type="button" data-v="16" aria-label="Play from verse 16"><span class="pg" aria-hidden="true"></span>16</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَنْ لِي بِرَدِّ جِمَاحٍ مِنْ غَوَايَتِهَا</span><span class="s2">كَمَا يُرَدُّ جِمَاحُ الْخَيْلِ بِاللُّجُمِ</span></p>
+  <p class="en">Who will help me rein in its runaway waywardness, as a bolting horse is pulled back by the bridle?</p>
+</div><div class="bayt" id="v17">
+  <button class="num" type="button" data-v="17" aria-label="Play from verse 17"><span class="pg" aria-hidden="true"></span>17</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَلَا تَرُمْ بِالْمَعَاصِي كَسْرَ شَهْوَتِهَا</span><span class="s2">إِنَّ الطَّعَامَ يُقَوِّي شَهْوَةَ النَّهِمِ</span></p>
+  <p class="en">Do not try to break its appetite by feeding it sins. Food only strengthens the glutton&#x27;s hunger.</p>
+</div><div class="bayt" id="v18">
+  <button class="num" type="button" data-v="18" aria-label="Play from verse 18"><span class="pg" aria-hidden="true"></span>18</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالنَّفْسُ كَالطِّفْلِ إِنْ تُهْمِلْهُ شَبَّ عَلَى</span><span class="s2">حُبِّ الرَّضَاعِ وَإِنْ تَفْطِمْهُ يَنْفَطِمِ</span></p>
+  <p class="en">The soul is like an infant: neglect it and it grows up still loving to suckle; wean it and it is weaned.</p>
+</div><div class="bayt" id="v19">
+  <button class="num" type="button" data-v="19" aria-label="Play from verse 19"><span class="pg" aria-hidden="true"></span>19</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَاصْرِفْ هَوَاهَا وَحَاذِرْ أَنْ تُوَلِّيَهُ</span><span class="s2">إِنَّ الْهَوَى مَا تَوَلَّى يُصْمِ أَوْ يَصِمِ</span></p>
+  <p class="en">So turn its desires away, and beware of putting them in charge. Whenever desire takes control, it kills or it disgraces.</p>
+</div><div class="bayt" id="v20">
+  <button class="num" type="button" data-v="20" aria-label="Play from verse 20"><span class="pg" aria-hidden="true"></span>20</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَرَاعِهَا وَهْيَ فِي الْأَعْمَالِ سَائِمَةٌ</span><span class="s2">وَإِنْ هِيَ اسْتَحْلَتِ الْمَرْعَى فَلَا تُسِمِ</span></p>
+  <p class="en">Watch over it as it grazes among deeds, and if it finds a pasture too sweet, do not let it graze there.</p>
+  <dl class="gl">
+    <div><dt>grazes … pasture</dt><dd>The soul is pictured as livestock at pasture. If it starts to enjoy a good deed for the pleasure or praise it brings, move it on.</dd></div>
+  </dl>
+</div><div class="bayt" id="v21">
+  <button class="num" type="button" data-v="21" aria-label="Play from verse 21"><span class="pg" aria-hidden="true"></span>21</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَمْ حَسَّنَتْ لَذَّةً لِلْمَرْءِ قَاتِلَةً</span><span class="s2">مِنْ حَيْثُ لَمْ يَدْرِ أَنَّ السُّمَّ فِي الدَّسَمِ</span></p>
+  <p class="en">How often it has made a deadly pleasure look good to a man, who never knew the poison was in the fat.</p>
+</div><div class="bayt" id="v22">
+  <button class="num" type="button" data-v="22" aria-label="Play from verse 22"><span class="pg" aria-hidden="true"></span>22</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَاخْشَ الدَّسَائِسَ مِنْ جُوعٍ وَمِنْ شِبَعٍ</span><span class="s2">فَرُبَّ مَخْمَصَةٍ شَرٌّ مِنَ التُّخَمِ</span></p>
+  <p class="en">Fear the hidden traps of both hunger and fullness. An empty stomach can be worse than an overfull one.</p>
+  <dl class="gl">
+    <div><dt>an empty stomach</dt><dd>Hunger here means fasting and going without. Commentators explain that it can breed pride, or weaken a person for worship, and so do more harm than overeating.</dd></div>
+  </dl>
+</div><div class="bayt" id="v23">
+  <button class="num" type="button" data-v="23" aria-label="Play from verse 23"><span class="pg" aria-hidden="true"></span>23</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَاسْتَفْرِغِ الدَّمْعَ مِنْ عَيْنٍ قَدِ امْتَلَأَتْ</span><span class="s2">مِنَ الْمَحَارِمِ وَالْزَمْ حِمْيَةَ النَّدَمِ</span></p>
+  <p class="en">Empty the tears from an eye that has filled itself with forbidden sights, and keep to the diet of regret.</p>
+  <dl class="gl">
+    <div><dt>the diet of regret</dt><dd>Ḥimya, a doctor’s strict diet. Regret is the cure, and he must keep to it.</dd></div>
+  </dl>
+</div><div class="bayt" id="v24">
+  <button class="num" type="button" data-v="24" aria-label="Play from verse 24"><span class="pg" aria-hidden="true"></span>24</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَخَالِفِ النَّفْسَ وَالشَّيْطَانَ وَاعْصِهِمَا</span><span class="s2">وَإِنْ هُمَا مَحَّضَاكَ النُّصْحَ فَاتَّهِمِ</span></p>
+  <p class="en">Go against the self and Satan, and disobey them both. Even if they offer you sincere advice, suspect it.</p>
+</div><div class="bayt" id="v25">
+  <button class="num" type="button" data-v="25" aria-label="Play from verse 25"><span class="pg" aria-hidden="true"></span>25</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَا تُطِعْ مِنْهُمَا خَصْماً وَلَا حَكَماً</span><span class="s2">فَأَنْتَ تَعْرِفُ كَيْدَ الْخَصْمِ وَالْحَكَمِ</span></p>
+  <p class="en">Obey neither of them, whether as opponent or as judge, for you know the tricks of such an opponent and such a judge.</p>
+</div><div class="bayt" id="v26">
+  <button class="num" type="button" data-v="26" aria-label="Play from verse 26"><span class="pg" aria-hidden="true"></span>26</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَسْتَغْفِرُ اللهَ مِنْ قَوْلٍ بِلَا عَمَلٍ</span><span class="s2">لَقَدْ نَسَبْتُ بِهِ نَسْلاً لِذِي عُقُمِ</span></p>
+  <p class="en">I ask God&#x27;s forgiveness for words without deeds. With them I have claimed children for someone who is barren.</p>
+  <dl class="gl">
+    <div><dt>children for someone who is barren</dt><dd>Words without deeds bear no fruit. Taking credit for them is like naming children for a man who cannot have any.</dd></div>
+  </dl>
+</div><div class="bayt" id="v27">
+  <button class="num" type="button" data-v="27" aria-label="Play from verse 27"><span class="pg" aria-hidden="true"></span>27</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَمَرْتُكَ الْخَيْرَ لَكِنْ مَا ائْتَمَرْتُ بِهِ</span><span class="s2">وَمَا اسْتَقَمْتُ فَمَا قَوْلِي لَكَ اسْتَقِمِ</span></p>
+  <p class="en">I told you to do good, but I did not do it myself. I have not been upright, so what is my &quot;Be upright&quot; worth to you?</p>
+</div><div class="bayt" id="v28">
+  <button class="num" type="button" data-v="28" aria-label="Play from verse 28"><span class="pg" aria-hidden="true"></span>28</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَا تَزَوَّدْتُ قَبْلَ الْمَوْتِ نَافِلَةً</span><span class="s2">وَلَمْ أُصَلِّ سِوَى فَرْضٍ وَلَمْ أَصُمِ</span></p>
+  <p class="en">I have stored up no extra worship as provision before death. I have prayed only what was obligatory, and fasted no more than I had to.</p>
+  <dl class="gl">
+    <div><dt>extra worship</dt><dd>Nāfila, voluntary prayer and fasting beyond what is obligatory (farḍ).</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch3" aria-labelledby="ch3h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 3 <span aria-hidden="true">·</span> verses 29 to 58</p>
+    <h2 id="ch3h"><span class="char" lang="ar" dir="rtl">فِي مَدْحِ سَيِّدِ الْمُرْسَلِينَ ﷺ</span><span class="chen">In praise of the Master of the Messengers ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v29">
+  <button class="num" type="button" data-v="29" aria-label="Play from verse 29"><span class="pg" aria-hidden="true"></span>29</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">ظَلَمْتُ سُنَّةَ مَنْ أَحْيَا الظَّلَامَ إِلَى</span><span class="s2">أَنِ اشْتَكَتْ قَدَمَاهُ الضُّرَّ مِنْ وَرَمِ</span></p>
+  <p class="en">I have wronged the way of the one who brought the nights to life with prayer until his feet complained of pain from swelling.</p>
+  <dl class="gl">
+    <div><dt>the way</dt><dd>The Sunna, the example of the Prophet ﷺ. He prayed so long at night that his feet swelled.</dd></div>
+  </dl>
+</div><div class="bayt" id="v30">
+  <button class="num" type="button" data-v="30" aria-label="Play from verse 30"><span class="pg" aria-hidden="true"></span>30</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَشَدَّ مِنْ سَغَبٍ أَحْشَاءَهُ وَطَوَى</span><span class="s2">تَحْتَ الْحِجَارَةِ كَشْحاً مُتْرَفَ الْأَدَمِ</span></p>
+  <p class="en">Who, from hunger, bound his stomach and pressed a stone against his side, soft as its skin was.</p>
+  <dl class="gl">
+    <div><dt>a stone against his side</dt><dd>Arabs tied a stone against the stomach to dull hunger. The Prophet ﷺ did this while digging the Trench at Medina in 627 CE.</dd></div>
+  </dl>
+</div><div class="bayt" id="v31">
+  <button class="num" type="button" data-v="31" aria-label="Play from verse 31"><span class="pg" aria-hidden="true"></span>31</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَرَاوَدَتْهُ الْجِبَالُ الشُّمُّ مِنْ ذَهَبٍ</span><span class="s2">عَنْ نَفْسِهِ فَأَرَاهَا أَيَّمَا شَمَمِ</span></p>
+  <p class="en">The towering mountains offered themselves to him as gold to tempt him, and he showed them a loftier disdain.</p>
+  <dl class="gl">
+    <div><dt>mountains … as gold</dt><dd>A hadith relates that he was offered the valley of Mecca turned to gold, and chose instead to be full one day and hungry the next.</dd></div>
+  </dl>
+</div><div class="bayt" id="v32">
+  <button class="num" type="button" data-v="32" aria-label="Play from verse 32"><span class="pg" aria-hidden="true"></span>32</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَأَكَّدَتْ زُهْدَهُ فِيهَا ضَرُورَتُهُ</span><span class="s2">إِنَّ الضَّرُورَةَ لَا تَعْدُو عَلَى الْعِصَمِ</span></p>
+  <p class="en">His poverty only confirmed his turning away from the world. Need has no power over those whom God protects.</p>
+  <dl class="gl">
+    <div><dt>those whom God protects</dt><dd>‘Iṣma, God’s protection of the prophets from sin. Poverty could never push him into wrongdoing.</dd></div>
+  </dl>
+</div><div class="bayt" id="v33">
+  <button class="num" type="button" data-v="33" aria-label="Play from verse 33"><span class="pg" aria-hidden="true"></span>33</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَكَيْفَ تَدْعُو إِلَى الدُّنْيَا ضَرُورَةُ مَنْ</span><span class="s2">لَوْلَاهُ لَمْ تُخْرَجِ الدُّنْيَا مِنَ الْعَدَمِ</span></p>
+  <p class="en">How could need draw toward this world the one without whom the world would never have been brought out of nothingness?</p>
+</div><div class="bayt" id="v34">
+  <button class="num" type="button" data-v="34" aria-label="Play from verse 34"><span class="pg" aria-hidden="true"></span>34</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مُحَمَّدٌ سَيِّدُ الْكَوْنَيْنِ وَالثَّقَلَيْـ</span><span class="s2">ـنِ وَالْفَرِيقَيْنِ مِنْ عُرْبٍ وَمِنْ عَجَمِ</span></p>
+  <p class="en">Muhammad, master of both worlds, of both humankind and jinn, and of both peoples, Arab and non-Arab.</p>
+  <dl class="gl">
+    <div><dt>both worlds</dt><dd>This world and the next.</dd></div>
+    <div><dt>jinn</dt><dd>Beings created from smokeless fire, unseen by people. The Qur’an addresses them alongside humankind.</dd></div>
+  </dl>
+</div><div class="bayt" id="v35">
+  <button class="num" type="button" data-v="35" aria-label="Play from verse 35"><span class="pg" aria-hidden="true"></span>35</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">نَبِيُّنَا الْآمِرُ النَّاهِي فَلَا أَحَدٌ</span><span class="s2">أَبَرَّ فِي قَوْلِ لَا مِنْهُ وَلَا نَعَمِ</span></p>
+  <p class="en">Our Prophet, who commands and forbids. No one is truer than he in saying &quot;no&quot;, nor in saying &quot;yes&quot;.</p>
+</div><div class="bayt" id="v36">
+  <button class="num" type="button" data-v="36" aria-label="Play from verse 36"><span class="pg" aria-hidden="true"></span>36</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">هُوَ الْحَبِيبُ الَّذِي تُرْجَى شَفَاعَتُهُ</span><span class="s2">لِكُلِّ هَوْلٍ مِنَ الْأَهْوَالِ مُقْتَحِمِ</span></p>
+  <p class="en">He is the beloved whose intercession is hoped for in every terror that comes crashing in.</p>
+  <dl class="gl">
+    <div><dt>intercession</dt><dd>Shafā‘a, the Prophet’s pleading with God for others on the Day of Judgement ﷺ.</dd></div>
+  </dl>
+</div><div class="bayt" id="v37">
+  <button class="num" type="button" data-v="37" aria-label="Play from verse 37"><span class="pg" aria-hidden="true"></span>37</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">دَعَا إِلَى اللهِ فَالْمُسْتَمْسِكُونَ بِهِ</span><span class="s2">مُسْتَمْسِكُونَ بِحَبْلٍ غَيْرِ مُنْفَصِمِ</span></p>
+  <p class="en">He called people to God, and those who hold fast to him are holding a rope that will never break.</p>
+  <dl class="gl">
+    <div><dt>a rope that will never break</dt><dd>An echo of the Qur’an: “the firmest handhold, which will never break” (al-Baqara 2:256).</dd></div>
+  </dl>
+</div><div class="bayt" id="v38">
+  <button class="num" type="button" data-v="38" aria-label="Play from verse 38"><span class="pg" aria-hidden="true"></span>38</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَاقَ النَّبِيِّينَ فِي خَلْقٍ وَفِي خُلُقٍ</span><span class="s2">وَلَمْ يُدَانُوهُ فِي عِلْمٍ وَلَا كَرَمِ</span></p>
+  <p class="en">He surpassed the prophets in form and in character, and they did not come near him in knowledge or in generosity.</p>
+  <dl class="gl">
+    <div><dt>form and character</dt><dd>A play on words: khalq (outward form) and khuluq (character) are written with the same letters.</dd></div>
+  </dl>
+</div><div class="bayt" id="v39">
+  <button class="num" type="button" data-v="39" aria-label="Play from verse 39"><span class="pg" aria-hidden="true"></span>39</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَكُلُّهُمْ مِنْ رَسُولِ اللهِ مُلْتَمِسٌ</span><span class="s2">غَرْفاً مِنَ الْبَحْرِ أَوْ رَشْفاً مِنَ الدِّيَمِ</span></p>
+  <p class="en">Every one of them seeks from the Messenger of God a handful from his ocean, or a sip from his endless rain.</p>
+</div><div class="bayt" id="v40">
+  <button class="num" type="button" data-v="40" aria-label="Play from verse 40"><span class="pg" aria-hidden="true"></span>40</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَوَاقِفُونَ لَدَيْهِ عِنْدَ حَدِّهِمِ</span><span class="s2">مِنْ نُقْطَةِ الْعِلْمِ أَوْ مِنْ شَكْلَةِ الْحِكَمِ</span></p>
+  <p class="en">They stand before him, each at his own limit: a single dot of his knowledge, or a single vowel mark of his wisdom.</p>
+  <dl class="gl">
+    <div><dt>dot … vowel mark</dt><dd>Arabic letters carry dots (nuqṭa) and small vowel marks (shakla). Each prophet’s share is like one dot or one vowel mark from the whole book of his knowledge.</dd></div>
+  </dl>
+</div><div class="bayt" id="v41">
+  <button class="num" type="button" data-v="41" aria-label="Play from verse 41"><span class="pg" aria-hidden="true"></span>41</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَهْوَ الَّذِي تَمَّ مَعْنَاهُ وَصُورَتُهُ</span><span class="s2">ثُمَّ اصْطَفَاهُ حَبِيباً بَارِئُ النَّسَمِ</span></p>
+  <p class="en">He is the one whose inner meaning and outward form were made complete, and then the Creator of souls chose him as His beloved.</p>
+</div><div class="bayt" id="v42">
+  <button class="num" type="button" data-v="42" aria-label="Play from verse 42"><span class="pg" aria-hidden="true"></span>42</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مُنَزَّهٌ عَنْ شَرِيكٍ فِي مَحَاسِنِهِ</span><span class="s2">فَجَوْهَرُ الْحُسْنِ فِيهِ غَيْرُ مُنْقَسِمِ</span></p>
+  <p class="en">No one shares in his beauty. The essence of beauty in him is whole and undivided.</p>
+</div><div class="bayt" id="v43">
+  <button class="num" type="button" data-v="43" aria-label="Play from verse 43"><span class="pg" aria-hidden="true"></span>43</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">دَعْ مَا ادَّعَتْهُ النَّصَارَى فِي نَبِيِّهِمِ</span><span class="s2">وَاحْكُمْ بِمَا شِئْتَ مَدْحاً فِيهِ وَاحْتَكِمِ</span></p>
+  <p class="en">Leave aside what the Christians claimed for their prophet; beyond that, praise him however you wish, and stand by it.</p>
+  <dl class="gl">
+    <div><dt>what the Christians claimed</dt><dd>That Jesus is divine. Any praise short of that is allowed.</dd></div>
+  </dl>
+</div><div class="bayt" id="v44">
+  <button class="num" type="button" data-v="44" aria-label="Play from verse 44"><span class="pg" aria-hidden="true"></span>44</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَانْسُبْ إِلَى ذَاتِهِ مَا شِئْتَ مِنْ شَرَفٍ</span><span class="s2">وَانْسُبْ إِلَى قَدْرِهِ مَا شِئْتَ مِنْ عِظَمِ</span></p>
+  <p class="en">Attribute to his person whatever honour you wish, and to his rank whatever greatness you wish.</p>
+</div><div class="bayt" id="v45">
+  <button class="num" type="button" data-v="45" aria-label="Play from verse 45"><span class="pg" aria-hidden="true"></span>45</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَإِنَّ فَضْلَ رَسُولِ اللهِ لَيْسَ لَهُ</span><span class="s2">حَدٌّ فَيُعْرِبَ عَنْهُ نَاطِقٌ بِفَمِ</span></p>
+  <p class="en">For the excellence of the Messenger of God has no limit that any speaker could put into words.</p>
+</div><div class="bayt" id="v46">
+  <button class="num" type="button" data-v="46" aria-label="Play from verse 46"><span class="pg" aria-hidden="true"></span>46</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَوْ نَاسَبَتْ قَدْرَهُ آيَاتُهُ عِظَماً</span><span class="s2">أَحْيَا اسْمُهُ حِينَ يُدْعَى دَارِسَ الرِّمَمِ</span></p>
+  <p class="en">If his miracles matched his rank in greatness, the mere mention of his name would bring crumbled bones back to life.</p>
+</div><div class="bayt" id="v47">
+  <button class="num" type="button" data-v="47" aria-label="Play from verse 47"><span class="pg" aria-hidden="true"></span>47</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَمْ يَمْتَحِنَّا بِمَا تَعْيَا الْعُقُولُ بِهِ</span><span class="s2">حِرْصاً عَلَيْنَا فَلَمْ نَرْتَبْ وَلَمْ نَهِمِ</span></p>
+  <p class="en">Out of care for us, he never tested us with what minds cannot grasp, so we neither doubted nor lost our way.</p>
+</div><div class="bayt" id="v48">
+  <button class="num" type="button" data-v="48" aria-label="Play from verse 48"><span class="pg" aria-hidden="true"></span>48</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَعْيَا الْوَرَى فَهْمُ مَعْنَاهُ فَلَيْسَ يُرَى</span><span class="s2">فِي الْقُرْبِ وَالْبُعْدِ فِيهِ غَيْرُ مُنْفَحِمِ</span></p>
+  <p class="en">Understanding his true meaning has defeated all creation. Near or far, everyone is left speechless before him.</p>
+</div><div class="bayt" id="v49">
+  <button class="num" type="button" data-v="49" aria-label="Play from verse 49"><span class="pg" aria-hidden="true"></span>49</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَالشَّمْسِ تَظْهَرُ لِلْعَيْنَيْنِ مِنْ بُعُدٍ</span><span class="s2">صَغِيرَةً وَتُكِلُّ الطَّرْفَ مِنْ أَمَمِ</span></p>
+  <p class="en">Like the sun, which looks small to the eyes from far away, yet dazzles and tires the sight up close.</p>
+</div><div class="bayt" id="v50">
+  <button class="num" type="button" data-v="50" aria-label="Play from verse 50"><span class="pg" aria-hidden="true"></span>50</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَكَيْفَ يُدْرِكُ فِي الدُّنْيَا حَقِيقَتَهُ</span><span class="s2">قَوْمٌ نِيَامٌ تَسَلَّوْا عَنْهُ بِالْحُلُمِ</span></p>
+  <p class="en">How can people in this world grasp his reality, when they are asleep and content with dreams of him?</p>
+  <dl class="gl">
+    <div><dt>asleep and content with dreams</dt><dd>An old saying, often attributed to ‘Alī: “People are asleep, and when they die they wake up.” In this life we know him only as a dreamer knows.</dd></div>
+  </dl>
+</div><div class="bayt" id="v51">
+  <button class="num" type="button" data-v="51" aria-label="Play from verse 51"><span class="pg" aria-hidden="true"></span>51</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَمَبْلَغُ الْعِلْمِ فِيهِ أَنَّهُ بَشَرٌ</span><span class="s2">وَأَنَّهُ خَيْرُ خَلْقِ اللهِ كُلِّهِمِ</span></p>
+  <p class="en">The sum of our knowledge of him is that he is a human being, and that he is the best of all God&#x27;s creation.</p>
+</div><div class="bayt" id="v52">
+  <button class="num" type="button" data-v="52" aria-label="Play from verse 52"><span class="pg" aria-hidden="true"></span>52</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَكُلُّ آيٍ أَتَى الرُّسْلُ الْكِرَامُ بِهَا</span><span class="s2">فَإِنَّمَا اتَّصَلَتْ مِنْ نُورِهِ بِهِمِ</span></p>
+  <p class="en">Every sign that the noble messengers brought reached them only from his light.</p>
+</div><div class="bayt" id="v53">
+  <button class="num" type="button" data-v="53" aria-label="Play from verse 53"><span class="pg" aria-hidden="true"></span>53</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَإِنَّهُ شَمْسُ فَضْلٍ هُمْ كَوَاكِبُهَا</span><span class="s2">يُظْهِرْنَ أَنْوَارَهَا لِلنَّاسِ فِي الظُّلَمِ</span></p>
+  <p class="en">He is a sun of excellence and they are its stars, showing its light to people in the darkness.</p>
+</div><div class="bayt" id="v54">
+  <button class="num" type="button" data-v="54" aria-label="Play from verse 54"><span class="pg" aria-hidden="true"></span>54</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَكْرِمْ بِخَلْقِ نَبِيٍّ زَانَهُ خُلُقٌ</span><span class="s2">بِالْحُسْنِ مُشْتَمِلٍ بِالْبِشْرِ مُتَّسِمِ</span></p>
+  <p class="en">How noble the form of a prophet made beautiful by his character, wrapped in beauty and marked by a cheerful face.</p>
+</div><div class="bayt" id="v55">
+  <button class="num" type="button" data-v="55" aria-label="Play from verse 55"><span class="pg" aria-hidden="true"></span>55</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَالزَّهْرِ فِي تَرَفٍ وَالْبَدْرِ فِي شَرَفٍ</span><span class="s2">وَالْبَحْرِ فِي كَرَمٍ وَالدَّهْرِ فِي هِمَمِ</span></p>
+  <p class="en">Like a flower in freshness, the full moon in nobility, the ocean in generosity, and time itself in resolve.</p>
+</div><div class="bayt" id="v56">
+  <button class="num" type="button" data-v="56" aria-label="Play from verse 56"><span class="pg" aria-hidden="true"></span>56</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّهُ وَهْوَ فَرْدٌ مِنْ جَلَالَتِهِ</span><span class="s2">فِي عَسْكَرٍ حِينَ تَلْقَاهُ وَفِي حَشَمِ</span></p>
+  <p class="en">Even when he is alone, his majesty makes him seem, when you meet him, surrounded by an army and an entourage.</p>
+</div><div class="bayt" id="v57">
+  <button class="num" type="button" data-v="57" aria-label="Play from verse 57"><span class="pg" aria-hidden="true"></span>57</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّمَا اللُّؤْلُؤُ الْمَكْنُونُ فِي صَدَفٍ</span><span class="s2">مِنْ مَعْدِنَيْ مَنْطِقٍ مِنْهُ وَمُبْتَسَمِ</span></p>
+  <p class="en">It is as if pearls hidden in their shells came from two sources in him: his speech and his smile.</p>
+</div><div class="bayt" id="v58">
+  <button class="num" type="button" data-v="58" aria-label="Play from verse 58"><span class="pg" aria-hidden="true"></span>58</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَا طِيبَ يَعْدِلُ تُرْباً ضَمَّ أَعْظُمَهُ</span><span class="s2">طُوبَى لِمُنْتَشِقٍ مِنْهُ وَمُلْتَثِمِ</span></p>
+  <p class="en">No perfume equals the earth that holds his body. Blessed is the one who breathes its scent and kisses it.</p>
+  <dl class="gl">
+    <div><dt>the earth that holds his body</dt><dd>His resting place in Medina, inside the Prophet’s Mosque.</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch4" aria-labelledby="ch4h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 4 <span aria-hidden="true">·</span> verses 59 to 71</p>
+    <h2 id="ch4h"><span class="char" lang="ar" dir="rtl">فِي مَوْلِدِهِ ﷺ</span><span class="chen">His birth ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v59">
+  <button class="num" type="button" data-v="59" aria-label="Play from verse 59"><span class="pg" aria-hidden="true"></span>59</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَبَانَ مَوْلِدُهُ عَنْ طِيبِ عُنْصُرِهِ</span><span class="s2">يَا طِيبَ مُبْتَدَإٍ مِنْهُ وَمُخْتَتَمِ</span></p>
+  <p class="en">His birth showed the purity of his origin. How pure his beginning, and how pure his end!</p>
+</div><div class="bayt" id="v60">
+  <button class="num" type="button" data-v="60" aria-label="Play from verse 60"><span class="pg" aria-hidden="true"></span>60</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَوْمٌ تَفَرَّسَ فِيهِ الْفُرْسُ أَنَّهُمُ</span><span class="s2">قَدْ أُنْذِرُوا بِحُلُولِ الْبُؤْسِ وَالنِّقَمِ</span></p>
+  <p class="en">A day on which the Persians sensed that they had been warned of the coming of misery and ruin.</p>
+  <dl class="gl">
+    <div><dt>the Persians</dt><dd>The Sasanian Persian empire, the great power east of Arabia when the Prophet ﷺ was born.</dd></div>
+  </dl>
+</div><div class="bayt" id="v61">
+  <button class="num" type="button" data-v="61" aria-label="Play from verse 61"><span class="pg" aria-hidden="true"></span>61</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَبَاتَ إِيوَانُ كِسْرَى وَهْوَ مُنْصَدِعٌ</span><span class="s2">كَشَمْلِ أَصْحَابِ كِسْرَى غَيْرَ مُلْتَئِمِ</span></p>
+  <p class="en">That night the palace of Chosroes split apart, like the followers of Chosroes, never to be joined again.</p>
+  <dl class="gl">
+    <div><dt>Chosroes</dt><dd>Kisrā, the title of the Persian emperors. Reports say the arch of his palace at Ctesiphon, near today’s Baghdad, cracked on the night of the Prophet’s birth ﷺ and fourteen of its battlements fell.</dd></div>
+  </dl>
+</div><div class="bayt" id="v62">
+  <button class="num" type="button" data-v="62" aria-label="Play from verse 62"><span class="pg" aria-hidden="true"></span>62</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالنَّارُ خَامِدَةُ الْأَنْفَاسِ مِنْ أَسَفٍ</span><span class="s2">عَلَيْهِ وَالنَّهْرُ سَاهِي الْعَيْنِ مِنْ سَدَمِ</span></p>
+  <p class="en">The sacred fire died down, its breath stilled by grief, and the river stared blankly in sorrow.</p>
+  <dl class="gl">
+    <div><dt>the sacred fire</dt><dd>The fire of the Persian fire-temples, said to have burned for a thousand years, went out that night.</dd></div>
+  </dl>
+</div><div class="bayt" id="v63">
+  <button class="num" type="button" data-v="63" aria-label="Play from verse 63"><span class="pg" aria-hidden="true"></span>63</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَسَاءَ سَاوَةَ أَنْ غَاضَتْ بُحَيْرَتُهَا</span><span class="s2">وَرُدَّ وَارِدُهَا بِالْغَيْظِ حِينَ ظَمِي</span></p>
+  <p class="en">Sāwa was grieved when its lake sank away, and whoever came to drink was turned back, thirsty and angry.</p>
+  <dl class="gl">
+    <div><dt>Sāwa</dt><dd>A town in Persia whose lake, the reports say, sank away on the night of his birth.</dd></div>
+  </dl>
+</div><div class="bayt" id="v64">
+  <button class="num" type="button" data-v="64" aria-label="Play from verse 64"><span class="pg" aria-hidden="true"></span>64</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّ بِالنَّارِ مَا بِالْمَاءِ مِنْ بَلَلٍ</span><span class="s2">حُزْناً وَبِالْمَاءِ مَا بِالنَّارِ مِنْ ضَرَمِ</span></p>
+  <p class="en">It was as if, in grief, the fire had taken the water&#x27;s wetness and the water had taken the fire&#x27;s blaze.</p>
+</div><div class="bayt" id="v65">
+  <button class="num" type="button" data-v="65" aria-label="Play from verse 65"><span class="pg" aria-hidden="true"></span>65</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالْجِنُّ تَهْتِفُ وَالْأَنْوَارُ سَاطِعَةٌ</span><span class="s2">وَالْحَقُّ يَظْهَرُ مِنْ مَعْنىً وَمِنْ كَلِمِ</span></p>
+  <p class="en">The jinn called out, lights shone, and the truth appeared, in meaning and in words.</p>
+</div><div class="bayt" id="v66">
+  <button class="num" type="button" data-v="66" aria-label="Play from verse 66"><span class="pg" aria-hidden="true"></span>66</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">عَمُوا وَصَمُّوا فَإِعْلَانُ الْبَشَائِرِ لَمْ</span><span class="s2">تُسْمَعْ وَبَارِقَةُ الْإِنْذَارِ لَمْ تُشَمِ</span></p>
+  <p class="en">But they were blind and deaf. The announcement of good news went unheard, and the flash of warning went unseen.</p>
+</div><div class="bayt" id="v67">
+  <button class="num" type="button" data-v="67" aria-label="Play from verse 67"><span class="pg" aria-hidden="true"></span>67</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مِنْ بَعْدِ مَا أَخْبَرَ الْأَقْوَامَ كَاهِنُهُمْ</span><span class="s2">بِأَنَّ دِينَهُمُ الْمُعْوَجَّ لَمْ يَقُمِ</span></p>
+  <p class="en">This after their own soothsayers had told the people that their crooked religion would not stand,</p>
+  <dl class="gl">
+    <div><dt>soothsayers</dt><dd>Kāhin, the fortune-tellers of pre-Islamic Arabia. Reports say some of them foretold the coming of a prophet.</dd></div>
+  </dl>
+</div><div class="bayt" id="v68">
+  <button class="num" type="button" data-v="68" aria-label="Play from verse 68"><span class="pg" aria-hidden="true"></span>68</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَبَعْدَ مَا عَايَنُوا فِي الْأُفْقِ مِنْ شُهُبٍ</span><span class="s2">مُنْقَضَّةٍ وَفْقَ مَا فِي الْأَرْضِ مِنْ صَنَمِ</span></p>
+  <p class="en">and after they had seen shooting stars fall across the sky, just as the idols on earth were falling.</p>
+</div><div class="bayt" id="v69">
+  <button class="num" type="button" data-v="69" aria-label="Play from verse 69"><span class="pg" aria-hidden="true"></span>69</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">حَتَّى غَدَا عَنْ طَرِيقِ الْوَحْيِ مُنْهَزِمٌ</span><span class="s2">مِنَ الشَّيَاطِينِ يَقْفُو إِثْرَ مُنْهَزِمِ</span></p>
+  <p class="en">Until the devils fled from the path of revelation, one routed devil running in the tracks of another,</p>
+  <dl class="gl">
+    <div><dt>the path of revelation</dt><dd>The Qur’an says devils used to listen in on heaven, and after the Prophet came ﷺ they were driven off by shooting stars (al-Jinn 72:8-9).</dd></div>
+  </dl>
+</div><div class="bayt" id="v70">
+  <button class="num" type="button" data-v="70" aria-label="Play from verse 70"><span class="pg" aria-hidden="true"></span>70</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّهُمْ هَرَباً أَبْطَالُ أَبْرَهَةٍ</span><span class="s2">أَوْ عَسْكَرٌ بِالْحَصَى مِنْ رَاحَتَيْهِ رُمِي</span></p>
+  <p class="en">as though in their flight they were the warriors of Abraha, or the army pelted with pebbles thrown from his palms:</p>
+  <dl class="gl">
+    <div><dt>Abraha</dt><dd>The ruler of Yemen who marched on Mecca with elephants in the year the Prophet ﷺ was born. Birds pelted his army with stones (Sūrat al-Fīl, 105).</dd></div>
+    <div><dt>pebbles thrown from his palms</dt><dd>In battle the Prophet ﷺ threw a handful of pebbles at the enemy. The Qur’an says: “You did not throw when you threw, but God threw” (al-Anfāl 8:17).</dd></div>
+  </dl>
+</div><div class="bayt" id="v71">
+  <button class="num" type="button" data-v="71" aria-label="Play from verse 71"><span class="pg" aria-hidden="true"></span>71</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">نَبْذاً بِهِ بَعْدَ تَسْبِيحٍ بِبَطْنِهِمَا</span><span class="s2">نَبْذَ الْمُسَبِّحِ مِنْ أَحْشَاءِ مُلْتَقِمِ</span></p>
+  <p class="en">pebbles he threw after they had glorified God in his hands, just as the one who glorified God (Jonah) was cast out from the belly of the whale that swallowed him.</p>
+  <dl class="gl">
+    <div><dt>glorified God in his hands</dt><dd>A hadith reports that pebbles in his hand were heard glorifying God (tasbīḥ).</dd></div>
+    <div><dt>Jonah</dt><dd>The prophet Yūnus, swallowed by the whale and cast out onto the shore because he glorified God (al-Ṣāffāt 37:143-145).</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch5" aria-labelledby="ch5h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 5 <span aria-hidden="true">·</span> verses 72 to 87</p>
+    <h2 id="ch5h"><span class="char" lang="ar" dir="rtl">فِي مُعْجِزَاتِهِ ﷺ</span><span class="chen">His miracles ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v72">
+  <button class="num" type="button" data-v="72" aria-label="Play from verse 72"><span class="pg" aria-hidden="true"></span>72</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">جَاءَتْ لِدَعْوَتِهِ الْأَشْجَارُ سَاجِدَةً</span><span class="s2">تَمْشِي إِلَيْهِ عَلَى سَاقٍ بِلَا قَدَمِ</span></p>
+  <p class="en">At his call the trees came to him bowing, walking toward him on trunks without feet,</p>
+  <dl class="gl">
+    <div><dt>the trees came to him</dt><dd>Hadiths tell of trees that moved to him when he called them, then went back to their places.</dd></div>
+  </dl>
+</div><div class="bayt" id="v73">
+  <button class="num" type="button" data-v="73" aria-label="Play from verse 73"><span class="pg" aria-hidden="true"></span>73</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّمَا سَطَرَتْ سَطْراً لِمَا كَتَبَتْ</span><span class="s2">فُرُوعُهَا مِنْ بَدِيعِ الْخَطِّ فِي اللَّقَمِ</span></p>
+  <p class="en">as if their branches were writing lines of beautiful script along the middle of the road.</p>
+</div><div class="bayt" id="v74">
+  <button class="num" type="button" data-v="74" aria-label="Play from verse 74"><span class="pg" aria-hidden="true"></span>74</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مِثْلَ الْغَمَامَةِ أَنَّى سَارَ سَائِرَةً</span><span class="s2">تَقِيهِ حَرَّ وَطِيسٍ لِلْهَجِيرِ حَمِي</span></p>
+  <p class="en">Like the cloud that moved wherever he moved, shielding him from the furnace heat of midday.</p>
+  <dl class="gl">
+    <div><dt>the cloud</dt><dd>As a boy travelling with a caravan to Syria, he was shaded by a cloud that moved with him. The monk Baḥīrā saw it and recognised him.</dd></div>
+  </dl>
+</div><div class="bayt" id="v75">
+  <button class="num" type="button" data-v="75" aria-label="Play from verse 75"><span class="pg" aria-hidden="true"></span>75</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَقْسَمْتُ بِالْقَمَرِ الْمُنْشَقِّ إِنَّ لَهُ</span><span class="s2">مِنْ قَلْبِهِ نِسْبَةً مَبْرُورَةَ الْقَسَمِ</span></p>
+  <p class="en">I swear by the moon that split in two: it has a kinship with his heart (which was also split open). My oath is true.</p>
+  <dl class="gl">
+    <div><dt>the moon that split</dt><dd>“The Hour has drawn near and the moon has split” (al-Qamar 54:1).</dd></div>
+    <div><dt>his heart … split open</dt><dd>As a child, angels opened his chest and washed his heart (sharḥ al-ṣadr).</dd></div>
+  </dl>
+</div><div class="bayt" id="v76">
+  <button class="num" type="button" data-v="76" aria-label="Play from verse 76"><span class="pg" aria-hidden="true"></span>76</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَمَا حَوَى الْغَارُ مِنْ خَيْرٍ وَمِنْ كَرَمٍ</span><span class="s2">وَكُلُّ طَرْفٍ مِنَ الْكُفَّارِ عَنْهُ عَمِي</span></p>
+  <p class="en">And I swear by the goodness and nobility the cave held, while every eye among the unbelievers was blind to him.</p>
+  <dl class="gl">
+    <div><dt>the cave</dt><dd>The cave of Thawr near Mecca, where the Prophet ﷺ and Abu Bakr hid for three nights on their migration (the Hijra) to Medina.</dd></div>
+  </dl>
+</div><div class="bayt" id="v77">
+  <button class="num" type="button" data-v="77" aria-label="Play from verse 77"><span class="pg" aria-hidden="true"></span>77</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَالصِّدْقُ فِي الْغَارِ وَالصِّدِّيقُ لَمْ يَرِمَا</span><span class="s2">وَهُمْ يَقُولُونَ مَا بِالْغَارِ مِنْ أَرِمِ</span></p>
+  <p class="en">Truth itself and al-Ṣiddīq (Abu Bakr) did not leave the cave, while they were saying, &quot;There is no one in the cave.&quot;</p>
+  <dl class="gl">
+    <div><dt>Truth itself and al-Ṣiddīq</dt><dd>“Truth” (al-ṣidq) is the Prophet ﷺ. Al-Ṣiddīq, “the one who confirms the truth”, is Abu Bakr’s title. The pursuers stood at the mouth of the cave and saw no one.</dd></div>
+  </dl>
+</div><div class="bayt" id="v78">
+  <button class="num" type="button" data-v="78" aria-label="Play from verse 78"><span class="pg" aria-hidden="true"></span>78</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">ظَنُّوا الْحَمَامَ وَظَنُّوا الْعَنْكَبُوتَ عَلَى</span><span class="s2">خَيْرِ الْبَرِيَّةِ لَمْ تَنْسُجْ وَلَمْ تَحُمِ</span></p>
+  <p class="en">They thought that no dove would hover and no spider would spin over the best of creation.</p>
+  <dl class="gl">
+    <div><dt>dove … spider</dt><dd>A spider spun its web across the cave’s mouth and doves nested there, so the pursuers were sure no one had gone in.</dd></div>
+  </dl>
+</div><div class="bayt" id="v79">
+  <button class="num" type="button" data-v="79" aria-label="Play from verse 79"><span class="pg" aria-hidden="true"></span>79</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وِقَايَةُ اللهِ أَغْنَتْ عَنْ مُضَاعَفَةٍ</span><span class="s2">مِنَ الدُّرُوعِ وَعَنْ عَالٍ مِنَ الْأُطُمِ</span></p>
+  <p class="en">God&#x27;s protection made double-layered armour and high fortresses unnecessary.</p>
+</div><div class="bayt" id="v80">
+  <button class="num" type="button" data-v="80" aria-label="Play from verse 80"><span class="pg" aria-hidden="true"></span>80</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَا سَامَنِي الدَّهْرُ ضَيْماً وَاسْتَجَرْتُ بِهِ</span><span class="s2">إِلَّا وَنِلْتُ جِوَاراً مِنْهُ لَمْ يُضَمِ</span></p>
+  <p class="en">Whenever time has treated me unjustly and I sought his protection, I received from him a protection that could not be violated.</p>
+  <dl class="gl">
+    <div><dt>time</dt><dd>Al-dahr, fate or the turning of time, which Arabic poetry blames for every misfortune.</dd></div>
+  </dl>
+</div><div class="bayt" id="v81">
+  <button class="num" type="button" data-v="81" aria-label="Play from verse 81"><span class="pg" aria-hidden="true"></span>81</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَا الْتَمَسْتُ غِنَى الدَّارَيْنِ مِنْ يَدِهِ</span><span class="s2">إِلَّا اسْتَلَمْتُ النَّدَى مِنْ خَيْرِ مُسْتَلَمِ</span></p>
+  <p class="en">I never sought the riches of both worlds from his hand without receiving generosity from the best hand ever held.</p>
+</div><div class="bayt" id="v82">
+  <button class="num" type="button" data-v="82" aria-label="Play from verse 82"><span class="pg" aria-hidden="true"></span>82</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَا تُنْكِرِ الْوَحْيَ مِنْ رُؤْيَاهُ إِنَّ لَهُ</span><span class="s2">قَلْباً إِذَا نَامَتِ الْعَيْنَانِ لَمْ يَنَمِ</span></p>
+  <p class="en">Do not deny the revelation that came to him in dreams. He has a heart that does not sleep when his eyes sleep.</p>
+  <dl class="gl">
+    <div><dt>a heart that does not sleep</dt><dd>A prophet’s dreams are revelation. The Prophet ﷺ said: “My eyes sleep, but my heart does not sleep” (al-Bukhārī).</dd></div>
+  </dl>
+</div><div class="bayt" id="v83">
+  <button class="num" type="button" data-v="83" aria-label="Play from verse 83"><span class="pg" aria-hidden="true"></span>83</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَذَاكَ حِينَ بُلُوغٍ مِنْ نُبُوَّتِهِ</span><span class="s2">فَلَيْسَ يُنْكَرُ فِيهِ حَالُ مُحْتَلِمِ</span></p>
+  <p class="en">That was when he came of age in his prophethood, and the state of one come of age is not to be denied.</p>
+  <dl class="gl">
+    <div><dt>came of age</dt><dd>His revelation began with true dreams, around the age of forty. The Arabic plays on muḥtalim, which means both “one who dreams” and “one who has come of age”.</dd></div>
+  </dl>
+</div><div class="bayt" id="v84">
+  <button class="num" type="button" data-v="84" aria-label="Play from verse 84"><span class="pg" aria-hidden="true"></span>84</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">تَبَارَكَ اللهُ مَا وَحْيٌ بِمُكْتَسَبٍ</span><span class="s2">وَلَا نَبِيٌّ عَلَى غَيْبٍ بِمُتَّهَمِ</span></p>
+  <p class="en">Blessed is God! Revelation is not something earned, and a prophet is not to be doubted about the unseen.</p>
+  <dl class="gl">
+    <div><dt>the unseen</dt><dd>Al-ghayb, what is hidden from human knowledge and known only through revelation.</dd></div>
+  </dl>
+</div><div class="bayt" id="v85">
+  <button class="num" type="button" data-v="85" aria-label="Play from verse 85"><span class="pg" aria-hidden="true"></span>85</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَمْ أَبْرَأَتْ وَصِباً بِاللَّمْسِ رَاحَتُهُ</span><span class="s2">وَأَطْلَقَتْ أَرِباً مِنْ رِبْقَةِ اللَّمَمِ</span></p>
+  <p class="en">How often the touch of his palm cured the sick, and freed the troubled from the noose of madness.</p>
+</div><div class="bayt" id="v86">
+  <button class="num" type="button" data-v="86" aria-label="Play from verse 86"><span class="pg" aria-hidden="true"></span>86</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَأَحْيَتِ السَّنَةَ الشَّهْبَاءَ دَعْوَتُهُ</span><span class="s2">حَتَّى حَكَتْ غُرَّةً فِي الْأَعْصُرِ الدُّهُمِ</span></p>
+  <p class="en">His prayer brought a barren year of drought back to life, until it shone like a white blaze on the dark face of time,</p>
+  <dl class="gl">
+    <div><dt>a barren year of drought</dt><dd>In a year of drought a man asked the Prophet ﷺ, during the Friday sermon, to pray for rain. It rained for a week.</dd></div>
+    <div><dt>a white blaze</dt><dd>Ghurra, the white mark on a horse’s forehead. That year shines out against dark times.</dd></div>
+  </dl>
+</div><div class="bayt" id="v87">
+  <button class="num" type="button" data-v="87" aria-label="Play from verse 87"><span class="pg" aria-hidden="true"></span>87</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">بِعَارِضٍ جَادَ أَوْ خِلْتَ الْبِطَاحَ بِهَا</span><span class="s2">سَيْبٌ مِنَ الْيَمِّ أَوْ سَيْلٌ مِنَ الْعَرِمِ</span></p>
+  <p class="en">with a cloud so generous you would think the valleys were flooded by the sea, or by the torrent of the great dam (of Maʾrib).</p>
+  <dl class="gl">
+    <div><dt>the great dam</dt><dd>Sayl al-‘Arim, the flood that burst the dam of Ma’rib in Yemen (Saba’ 34:16).</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch6" aria-labelledby="ch6h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 6 <span aria-hidden="true">·</span> verses 88 to 104</p>
+    <h2 id="ch6h"><span class="char" lang="ar" dir="rtl">فِي شَرَفِ الْقُرْآنِ وَمَدْحِهِ</span><span class="chen">The honour of the Qur&#x27;an</span></h2>
+  </header>
+  <div class="bayt" id="v88">
+  <button class="num" type="button" data-v="88" aria-label="Play from verse 88"><span class="pg" aria-hidden="true"></span>88</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">دَعْنِي وَوَصْفِي آيَاتٍ لَهُ ظَهَرَتْ</span><span class="s2">ظُهُورَ نَارِ الْقِرَى لَيْلاً عَلَى عَلَمِ</span></p>
+  <p class="en">Leave me to describe his signs, which appeared as clearly as a welcoming fire lit at night on a mountain top.</p>
+  <dl class="gl">
+    <div><dt>a welcoming fire</dt><dd>Nār al-qirā. Arabs lit fires on hilltops at night so that travellers could find their way to food and shelter.</dd></div>
+  </dl>
+</div><div class="bayt" id="v89">
+  <button class="num" type="button" data-v="89" aria-label="Play from verse 89"><span class="pg" aria-hidden="true"></span>89</button>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَالدُّرُّ يَزْدَادُ حُسْناً وَهْوَ مُنْتَظِمٌ</span><span class="s2">وَلَيْسَ يَنْقُصُ قَدْراً غَيْرَ مُنْتَظِمِ</span></p>
+  <p class="en">Pearls grow more beautiful when strung together, yet lose none of their worth when they are not.</p>
+  <dl class="gl">
+    <div><dt>Pearls</dt><dd>The pearls are the virtues of the Prophet ﷺ. Setting them in verse makes them lovelier, but they lose nothing if left unstrung.</dd></div>
+  </dl>
+</div>
+<p class="rec-end">The recording ends here, at verse 89</p>
+<div class="bayt" id="v90">
+  <span class="num" aria-label="Verse 90">90</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَمَا تَطَاوُلُ آمَالِ الْمَدِيحِ إِلَى</span><span class="s2">مَا فِيهِ مِنْ كَرَمِ الْأَخْلَاقِ وَالشِّيَمِ</span></p>
+  <p class="en">How far can the hopes of praise reach toward the noble character and virtues that are in him?</p>
+</div><div class="bayt" id="v91">
+  <span class="num" aria-label="Verse 91">91</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">آيَاتُ حَقٍّ مِنَ الرَّحْمَنِ مُحْدَثَةٌ</span><span class="s2">قَدِيمَةٌ صِفَةُ الْمَوْصُوفِ بِالْقِدَمِ</span></p>
+  <p class="en">Verses of truth from the Most Merciful: new in their coming down, yet eternal, an attribute of the One who is eternal.</p>
+  <dl class="gl">
+    <div><dt>new … yet eternal</dt><dd>A point of belief: the Qur’an came down at moments in time, yet as the Speech of God it is eternal, like all His attributes.</dd></div>
+  </dl>
+</div><div class="bayt" id="v92">
+  <span class="num" aria-label="Verse 92">92</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَمْ تَقْتَرِنْ بِزَمَانٍ وَهْيَ تُخْبِرُنَا</span><span class="s2">عَنِ الْمَعَادِ وَعَنْ عَادٍ وَعَنْ إِرَمِ</span></p>
+  <p class="en">They are bound to no single time, and they tell us of the Hereafter, and of ‘Ād, and of Iram.</p>
+  <dl class="gl">
+    <div><dt>the Hereafter</dt><dd>Al-ma‘ād, “the Return”: life after death.</dd></div>
+    <div><dt>‘Ād … Iram</dt><dd>‘Ād, an ancient Arabian people destroyed for their arrogance, to whom the prophet Hūd was sent. Iram “of the lofty pillars” was their city (al-Fajr 89:6-8).</dd></div>
+  </dl>
+</div><div class="bayt" id="v93">
+  <span class="num" aria-label="Verse 93">93</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">دَامَتْ لَدَيْنَا فَفَاقَتْ كُلَّ مُعْجِزَةٍ</span><span class="s2">مِنَ النَّبِيِّينَ إِذْ جَاءَتْ وَلَمْ تَدُمِ</span></p>
+  <p class="en">They have stayed with us, and so surpass every miracle of the earlier prophets, which came and did not remain.</p>
+</div><div class="bayt" id="v94">
+  <span class="num" aria-label="Verse 94">94</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مُحَكَّمَاتٌ فَمَا تُبْقِينَ مِنْ شُبَهٍ</span><span class="s2">لِذِي شِقَاقٍ وَمَا تَبْغِينَ مِنْ حَكَمِ</span></p>
+  <p class="en">They are clear and decisive, leaving no doubt for the quarrelsome, and needing no one to judge between them.</p>
+  <dl class="gl">
+    <div><dt>clear and decisive</dt><dd>Muḥkamāt, the Qur’an’s clear, firmly established verses (Āl ‘Imrān 3:7).</dd></div>
+  </dl>
+</div><div class="bayt" id="v95">
+  <span class="num" aria-label="Verse 95">95</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَا حُورِبَتْ قَطُّ إِلَّا عَادَ مِنْ حَرَبٍ</span><span class="s2">أَعْدَى الْأَعَادِي إِلَيْهَا مُلْقِيَ السَّلَمِ</span></p>
+  <p class="en">Whenever they were fought against, even their fiercest enemy came back from the fight offering surrender.</p>
+</div><div class="bayt" id="v96">
+  <span class="num" aria-label="Verse 96">96</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">رَدَّتْ بَلَاغَتُهَا دَعْوَى مُعَارِضِهَا</span><span class="s2">رَدَّ الْغَيُورِ يَدَ الْجَانِي عَنِ الْحُرَمِ</span></p>
+  <p class="en">Their eloquence threw back the claims of anyone who tried to match them, as a protective man pushes an intruder&#x27;s hand away from his family.</p>
+  <dl class="gl">
+    <div><dt>anyone who tried to match them</dt><dd>The Qur’an challenges anyone who doubts it to produce even one chapter like it (al-Baqara 2:23).</dd></div>
+  </dl>
+</div><div class="bayt" id="v97">
+  <span class="num" aria-label="Verse 97">97</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَهَا مَعَانٍ كَمَوْجِ الْبَحْرِ فِي مَدَدٍ</span><span class="s2">وَفَوْقَ جَوْهَرِهِ فِي الْحُسْنِ وَالْقِيَمِ</span></p>
+  <p class="en">Their meanings roll on like the waves of the sea, and surpass the sea&#x27;s pearls in beauty and value.</p>
+</div><div class="bayt" id="v98">
+  <span class="num" aria-label="Verse 98">98</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَمَا تُعَدُّ وَلَا تُحْصَى عَجَائِبُهَا</span><span class="s2">وَلَا تُسَامُ عَلَى الْإِكْثَارِ بِالسَّأَمِ</span></p>
+  <p class="en">Their wonders cannot be counted or measured, and however often they are repeated, they never grow tiresome.</p>
+</div><div class="bayt" id="v99">
+  <span class="num" aria-label="Verse 99">99</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">قَرَّتْ بِهَا عَيْنُ قَارِيهَا فَقُلْتُ لَهُ</span><span class="s2">لَقَدْ ظَفِرْتَ بِحَبْلِ اللهِ فَاعْتَصِمِ</span></p>
+  <p class="en">They brought joy to the eye of the one who recites them, so I told him: you have taken hold of God&#x27;s rope, so hold on tight.</p>
+  <dl class="gl">
+    <div><dt>God’s rope</dt><dd>“Hold fast, all together, to the rope of God” (Āl ‘Imrān 3:103). The rope is the Qur’an.</dd></div>
+  </dl>
+</div><div class="bayt" id="v100">
+  <span class="num" aria-label="Verse 100">100</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">إِنْ تَتْلُهَا خِيفَةً مِنْ حَرِّ نَارِ لَظَى</span><span class="s2">أَطْفَأْتَ حَرَّ لَظَى مِنْ وِرْدِهَا الشَّبِمِ</span></p>
+  <p class="en">If you recite them out of fear of the blazing Fire, you will put out that blaze with their cool, fresh water.</p>
+  <dl class="gl">
+    <div><dt>the blazing Fire</dt><dd>Laẓā, one of the names of Hell in the Qur’an (al-Ma‘ārij 70:15).</dd></div>
+  </dl>
+</div><div class="bayt" id="v101">
+  <span class="num" aria-label="Verse 101">101</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّهَا الْحَوْضُ تَبْيَضُّ الْوُجُوهُ بِهِ</span><span class="s2">مِنَ الْعُصَاةِ وَقَدْ جَاؤُوهُ كَالْحُمَمِ</span></p>
+  <p class="en">They are like the Prophet&#x27;s Pool, where the faces of sinners turn white, though they arrived black as coal.</p>
+  <dl class="gl">
+    <div><dt>the Prophet’s Pool</dt><dd>Al-Ḥawḍ, the Pool on the Day of Judgement where the Prophet ﷺ gives his people water. Whoever drinks from it will never thirst again.</dd></div>
+    <div><dt>faces … turn white</dt><dd>“On the Day when some faces turn white and some turn black” (Āl ‘Imrān 3:106).</dd></div>
+  </dl>
+</div><div class="bayt" id="v102">
+  <span class="num" aria-label="Verse 102">102</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَكَالصِّرَاطِ وَكَالْمِيزَانِ مَعْدَلَةً</span><span class="s2">فَالْقِسْطُ مِنْ غَيْرِهَا فِي النَّاسِ لَمْ يَقُمِ</span></p>
+  <p class="en">And like the Bridge and the Scale in their justice. Without them, fairness would never have stood among people.</p>
+  <dl class="gl">
+    <div><dt>the Bridge and the Scale</dt><dd>Al-Ṣirāṭ, the bridge over Hell that everyone must cross, and al-Mīzān, the scale that weighs every person’s deeds on the Day of Judgement.</dd></div>
+  </dl>
+</div><div class="bayt" id="v103">
+  <span class="num" aria-label="Verse 103">103</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَا تَعْجَبَنْ لِحَسُودٍ رَاحَ يُنْكِرُهَا</span><span class="s2">تَجَاهُلاً وَهْوَ عَيْنُ الْحَاذِقِ الْفَهِمِ</span></p>
+  <p class="en">Do not be surprised at the envious man who denies them, pretending not to understand, when he is sharp and perceptive.</p>
+</div><div class="bayt" id="v104">
+  <span class="num" aria-label="Verse 104">104</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">قَدْ تُنْكِرُ الْعَيْنُ ضَوْءَ الشَّمْسِ مِنْ رَمَدٍ</span><span class="s2">وَيُنْكِرُ الْفَمُ طَعْمَ الْمَاءِ مِنْ سَقَمِ</span></p>
+  <p class="en">A sore eye may reject the light of the sun, and a sick mouth may reject the taste of water.</p>
+</div>
+</section>
+<section class="chapter" id="ch7" aria-labelledby="ch7h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 7 <span aria-hidden="true">·</span> verses 105 to 117</p>
+    <h2 id="ch7h"><span class="char" lang="ar" dir="rtl">فِي إِسْرَائِهِ وَمِعْرَاجِهِ ﷺ</span><span class="chen">The Night Journey and the Ascension ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v105">
+  <span class="num" aria-label="Verse 105">105</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا خَيْرَ مَنْ يَمَّمَ الْعَافُونَ سَاحَتَهُ</span><span class="s2">سَعْياً وَفَوْقَ مُتُونِ الْأَيْنُقِ الرُّسُمِ</span></p>
+  <p class="en">O best of all to whose door those in need have come, on foot and on the backs of swift camels.</p>
+</div><div class="bayt" id="v106">
+  <span class="num" aria-label="Verse 106">106</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَمَنْ هُوَ الْآيَةُ الْكُبْرَى لِمُعْتَبِرٍ</span><span class="s2">وَمَنْ هُوَ النِّعْمَةُ الْعُظْمَى لِمُغْتَنِمِ</span></p>
+  <p class="en">You who are the greatest sign for anyone who reflects, and the greatest blessing for anyone who seizes it.</p>
+</div><div class="bayt" id="v107">
+  <span class="num" aria-label="Verse 107">107</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">سَرَيْتَ مِنْ حَرَمٍ لَيْلاً إِلَى حَرَمٍ</span><span class="s2">كَمَا سَرَى الْبَدْرُ فِي دَاجٍ مِنَ الظُّلَمِ</span></p>
+  <p class="en">You travelled by night from one sanctuary to another (Mecca to Jerusalem), as the full moon travels through the pitch-dark night.</p>
+  <dl class="gl">
+    <div><dt>one sanctuary to another</dt><dd>The Night Journey (al-Isrā’), in a single night, from the Sacred Mosque in Mecca to al-Aqṣā in Jerusalem (al-Isrā’ 17:1).</dd></div>
+  </dl>
+</div><div class="bayt" id="v108">
+  <span class="num" aria-label="Verse 108">108</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَبِتَّ تَرْقَى إِلَى أَنْ نِلْتَ مَنْزِلَةً</span><span class="s2">مِنْ قَابِ قَوْسَيْنِ لَمْ تُدْرَكْ وَلَمْ تُرَمِ</span></p>
+  <p class="en">All night you rose, until you reached a station &quot;two bow-lengths&quot; near, never reached and never even hoped for by anyone.</p>
+  <dl class="gl">
+    <div><dt>two bow-lengths</dt><dd>From the Qur’an: “He was two bow-lengths away, or nearer” (al-Najm 53:9). It describes the closeness he reached on the Ascension (al-Mi‘rāj).</dd></div>
+  </dl>
+</div><div class="bayt" id="v109">
+  <span class="num" aria-label="Verse 109">109</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَقَدَّمَتْكَ جَمِيعُ الْأَنْبِيَاءِ بِهَا</span><span class="s2">وَالرُّسْلِ تَقْدِيمَ مَخْدُومٍ عَلَى خَدَمِ</span></p>
+  <p class="en">There all the prophets and messengers put you before them, as a master is put before his servants.</p>
+  <dl class="gl">
+    <div><dt>put you before them</dt><dd>In Jerusalem he led all the prophets in prayer.</dd></div>
+  </dl>
+</div><div class="bayt" id="v110">
+  <span class="num" aria-label="Verse 110">110</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَأَنْتَ تَخْتَرِقُ السَّبْعَ الطِّبَاقَ بِهِمْ</span><span class="s2">فِي مَوْكِبٍ كُنْتَ فِيهِ صَاحِبَ الْعَلَمِ</span></p>
+  <p class="en">You passed through the seven heavens with them in a procession in which you carried the banner.</p>
+  <dl class="gl">
+    <div><dt>the seven heavens</dt><dd>On the Ascension (al-Mi‘rāj) he rose through the seven heavens, meeting prophets in each one.</dd></div>
+  </dl>
+</div><div class="bayt" id="v111">
+  <span class="num" aria-label="Verse 111">111</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">حَتَّى إِذَا لَمْ تَدَعْ شَأْواً لِمُسْتَبِقٍ</span><span class="s2">مِنَ الدُّنُوِّ وَلَا مَرْقىً لِمُسْتَنِمِ</span></p>
+  <p class="en">Until you left no goal of nearness for anyone racing after you, and no height for anyone to climb.</p>
+</div><div class="bayt" id="v112">
+  <span class="num" aria-label="Verse 112">112</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">خَفَضْتَ كُلَّ مَقَامٍ بِالْإِضَافَةِ إِذْ</span><span class="s2">نُودِيتَ بِالرَّفْعِ مِثْلَ الْمُفْرَدِ الْعَلَمِ</span></p>
+  <p class="en">Beside you every other rank was lowered, when you were called and raised up, like a name called out on its own. (A play on Arabic grammar: a word &quot;added&quot; to another is lowered in case, while a single name that is called is raised.)</p>
+</div><div class="bayt" id="v113">
+  <span class="num" aria-label="Verse 113">113</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَيْمَا تَفُوزَ بِوَصْلٍ أَيِّ مُسْتَتِرٍ</span><span class="s2">عَنِ الْعُيُونِ وَسِرٍّ أَيِّ مُكْتَتَمِ</span></p>
+  <p class="en">So that you might win a closeness hidden from every eye, and a secret kept utterly concealed.</p>
+</div><div class="bayt" id="v114">
+  <span class="num" aria-label="Verse 114">114</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَحُزْتَ كُلَّ فَخَارٍ غَيْرَ مُشْتَرَكٍ</span><span class="s2">وَجُزْتَ كُلَّ مَقَامٍ غَيْرَ مُزْدَحَمِ</span></p>
+  <p class="en">You gathered every honour, sharing it with no one, and passed every station, crowded by no one.</p>
+</div><div class="bayt" id="v115">
+  <span class="num" aria-label="Verse 115">115</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَجَلَّ مِقْدَارُ مَا وُلِّيتَ مِنْ رُتَبٍ</span><span class="s2">وَعَزَّ إِدْرَاكُ مَا أُولِيتَ مِنْ نِعَمِ</span></p>
+  <p class="en">Great beyond measure are the ranks you were given, and beyond understanding the blessings you received.</p>
+</div><div class="bayt" id="v116">
+  <span class="num" aria-label="Verse 116">116</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">بُشْرَى لَنَا مَعْشَرَ الْإِسْلَامِ إِنَّ لَنَا</span><span class="s2">مِنَ الْعِنَايَةِ رُكْناً غَيْرَ مُنْهَدِمِ</span></p>
+  <p class="en">Good news for us, the people of Islam! We have, from God&#x27;s care, a pillar that will never fall.</p>
+</div><div class="bayt" id="v117">
+  <span class="num" aria-label="Verse 117">117</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَمَّا دَعَا اللهُ دَاعِينَا لِطَاعَتِهِ</span><span class="s2">بِأَكْرَمِ الرُّسْلِ كُنَّا أَكْرَمَ الْأُمَمِ</span></p>
+  <p class="en">Since God called the one who calls us to obey Him the noblest of messengers, we became the noblest of nations.</p>
+  <dl class="gl">
+    <div><dt>the noblest of nations</dt><dd>An echo of the Qur’an: “You are the best community brought out for mankind” (Āl ‘Imrān 3:110).</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch8" aria-labelledby="ch8h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 8 <span aria-hidden="true">·</span> verses 118 to 139</p>
+    <h2 id="ch8h"><span class="char" lang="ar" dir="rtl">فِي جِهَادِ النَّبِيِّ ﷺ</span><span class="chen">The Prophet&#x27;s campaigns ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v118">
+  <span class="num" aria-label="Verse 118">118</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">رَاعَتْ قُلُوبَ الْعِدَا أَنْبَاءُ بِعْثَتِهِ</span><span class="s2">كَنَبْأَةٍ أَجْفَلَتْ غُفْلاً مِنَ الْغَنَمِ</span></p>
+  <p class="en">News of his mission struck fear into the hearts of his enemies, like a sudden noise that scatters grazing sheep.</p>
+</div><div class="bayt" id="v119">
+  <span class="num" aria-label="Verse 119">119</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَا زَالَ يَلْقَاهُمُ فِي كُلِّ مُعْتَرَكٍ</span><span class="s2">حَتَّى حَكَوْا بِالْقَنَا لَحْماً عَلَى وَضَمِ</span></p>
+  <p class="en">He kept meeting them on every battlefield, until the spears left them like meat on a butcher&#x27;s block.</p>
+</div><div class="bayt" id="v120">
+  <span class="num" aria-label="Verse 120">120</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَدُّوا الْفِرَارَ فَكَادُوا يَغْبِطُونَ بِهِ</span><span class="s2">أَشْلَاءَ شَالَتْ مَعَ الْعِقْبَانِ وَالرَّخَمِ</span></p>
+  <p class="en">They longed to run away, and almost envied the fallen whose remains were carried off by eagles and vultures.</p>
+</div><div class="bayt" id="v121">
+  <span class="num" aria-label="Verse 121">121</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">تَمْضِي اللَّيَالِي وَلَا يَدْرُونَ عِدَّتَهَا</span><span class="s2">مَا لَمْ تَكُنْ مِنْ لَيَالِي الْأَشْهُرِ الْحُرُمِ</span></p>
+  <p class="en">Nights went by and they lost count of them, except the nights of the sacred months (when fighting stopped).</p>
+  <dl class="gl">
+    <div><dt>the sacred months</dt><dd>Four months in which fighting was forbidden: Dhū al-Qa‘da, Dhū al-Ḥijja, Muḥarram and Rajab. Only then could the enemy rest and count the nights.</dd></div>
+  </dl>
+</div><div class="bayt" id="v122">
+  <span class="num" aria-label="Verse 122">122</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّمَا الدِّينُ ضَيْفٌ حَلَّ سَاحَتَهُمْ</span><span class="s2">بِكُلِّ قَرْمٍ إِلَى لَحْمِ الْعِدَا قَرِمِ</span></p>
+  <p class="en">It was as if the faith were a guest arriving in their courtyard with every noble chief, hungry to meet the enemy.</p>
+  <dl class="gl">
+    <div><dt>noble chief … hungry</dt><dd>A play on words: qarm is a noble chief, and qarim is someone who is hungry.</dd></div>
+  </dl>
+</div><div class="bayt" id="v123">
+  <span class="num" aria-label="Verse 123">123</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَجُرُّ بَحْرَ خَمِيسٍ فَوْقَ سَابِحَةٍ</span><span class="s2">يَرْمِي بِمَوْجٍ مِنَ الْأَبْطَالِ مُلْتَطِمِ</span></p>
+  <p class="en">It led a sea of an army on swift horses, throwing up crashing waves of heroes.</p>
+  <dl class="gl">
+    <div><dt>a sea of an army</dt><dd>Khamīs, an Arabic word for an army, from its five parts: vanguard, rearguard, centre and two wings.</dd></div>
+  </dl>
+</div><div class="bayt" id="v124">
+  <span class="num" aria-label="Verse 124">124</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مِنْ كُلِّ مُنْتَدِبٍ لِلهِ مُحْتَسِبٍ</span><span class="s2">يَسْطُو بِمُسْتَأْصِلٍ لِلْكُفْرِ مُصْطَلِمِ</span></p>
+  <p class="en">Every man of them answering God&#x27;s call and seeking His reward, striking with a blade that tears unbelief out by the roots.</p>
+</div><div class="bayt" id="v125">
+  <span class="num" aria-label="Verse 125">125</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">حَتَّى غَدَتْ مِلَّةُ الْإِسْلَامِ وَهْيَ بِهِمْ</span><span class="s2">مِنْ بَعْدِ غُرْبَتِهَا مَوْصُولَةَ الرَّحِمِ</span></p>
+  <p class="en">Until, through them, the religion of Islam, once a stranger, had its family ties restored,</p>
+  <dl class="gl">
+    <div><dt>once a stranger</dt><dd>A hadith: “Islam began as a stranger, and will return as a stranger” (Muslim).</dd></div>
+  </dl>
+</div><div class="bayt" id="v126">
+  <span class="num" aria-label="Verse 126">126</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَكْفُولَةً أَبَداً مِنْهُمْ بِخَيْرِ أَبٍ</span><span class="s2">وَخَيْرِ بَعْلٍ فَلَمْ تَيْتَمْ وَلَمْ تَئِمِ</span></p>
+  <p class="en">cared for by them for ever, by the best of fathers and the best of husbands, so it was never orphaned and never widowed.</p>
+  <dl class="gl">
+    <div><dt>fathers … husbands</dt><dd>Islam is pictured as a woman who always has a father and a husband to protect her, so she is never orphaned or widowed.</dd></div>
+  </dl>
+</div><div class="bayt" id="v127">
+  <span class="num" aria-label="Verse 127">127</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">هُمُ الْجِبَالُ فَسَلْ عَنْهُمْ مُصَادِمَهُمْ</span><span class="s2">مَاذَا رَأَى مِنْهُمُ فِي كُلِّ مُصْطَدَمِ</span></p>
+  <p class="en">They were mountains. Ask anyone who clashed with them what he saw of them in every clash.</p>
+</div><div class="bayt" id="v128">
+  <span class="num" aria-label="Verse 128">128</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَسَلْ حُنَيْناً وَسَلْ بَدْراً وَسَلْ أُحُداً</span><span class="s2">فُصُولَ حَتْفٍ لَهُمْ أَدْهَى مِنَ الْوَخَمِ</span></p>
+  <p class="en">Ask Ḥunayn, ask Badr, ask Uḥud: seasons of death for their enemies, deadlier than plague.</p>
+  <dl class="gl">
+    <div><dt>Ḥunayn, Badr, Uḥud</dt><dd>Three of the Prophet’s battles ﷺ: Badr (624 CE), Uḥud (625) and Ḥunayn (630).</dd></div>
+  </dl>
+</div><div class="bayt" id="v129">
+  <span class="num" aria-label="Verse 129">129</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">الْمُصْدِرِي الْبِيضِ حُمْراً بَعْدَ مَا وَرَدَتْ</span><span class="s2">مِنَ الْعِدَا كُلَّ مُسْوَدٍّ مِنَ اللِّمَمِ</span></p>
+  <p class="en">Their white swords came back red, after they had gone down among the black-haired heads of the enemy.</p>
+</div><div class="bayt" id="v130">
+  <span class="num" aria-label="Verse 130">130</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالْكَاتِبِينَ بِسُمْرِ الْخَطِّ مَا تَرَكَتْ</span><span class="s2">أَقْلَامُهُمْ حَرْفَ جِسْمٍ غَيْرَ مُنْعَجِمِ</span></p>
+  <p class="en">They wrote with dark spears of al-Khaṭṭ, and their &quot;pens&quot; left no &quot;letter&quot; of a body without its dot.</p>
+  <dl class="gl">
+    <div><dt>al-Khaṭṭ</dt><dd>A port on the eastern coast of Arabia, famous for its spears.</dd></div>
+    <div><dt>pens … letter … dot</dt><dd>The spears are pictured as pens, the enemies’ bodies as letters, and the wounds as the dots on Arabic letters.</dd></div>
+  </dl>
+</div><div class="bayt" id="v131">
+  <span class="num" aria-label="Verse 131">131</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">شَاكِي السِّلَاحِ لَهُمْ سِيمَا تُمَيِّزُهُمْ</span><span class="s2">وَالْوَرْدُ يَمْتَازُ بِالسِّيمَا عَنِ السَّلَمِ</span></p>
+  <p class="en">Fully armed, they carried a mark that set them apart, as the rose is set apart from the thorn tree by its mark.</p>
+  <dl class="gl">
+    <div><dt>a mark</dt><dd>Sīmā. The Qur’an says of the believers: “Their mark is on their faces from the trace of prostration” (al-Fatḥ 48:29).</dd></div>
+    <div><dt>the thorn tree</dt><dd>Salam, the thorny acacia: the same tree that gives Dhū Salam its name in verse 1.</dd></div>
+  </dl>
+</div><div class="bayt" id="v132">
+  <span class="num" aria-label="Verse 132">132</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">تُهْدِي إِلَيْكَ رِيَاحُ النَّصْرِ نَشْرَهُمُ</span><span class="s2">فَتَحْسَبُ الزَّهْرَ فِي الْأَكْمَامِ كُلَّ كَمِي</span></p>
+  <p class="en">The winds of victory carry their fragrance to you, so that you would take every armoured warrior for a flower in its bud.</p>
+  <dl class="gl">
+    <div><dt>a flower in its bud</dt><dd>A play on words: akmām means both the green casing of a flower bud and a sleeve, and kamī is a warrior closed up in armour.</dd></div>
+  </dl>
+</div><div class="bayt" id="v133">
+  <span class="num" aria-label="Verse 133">133</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَأَنَّهُمْ فِي ظُهُورِ الْخَيْلِ نَبْتُ رُباً</span><span class="s2">مِنْ شِدَّةِ الْحَزْمِ لَا مِنْ شَدَّةِ الْحُزُمِ</span></p>
+  <p class="en">On horseback they seemed rooted like plants on a hillside, held there by firm resolve, not by tight saddle straps.</p>
+  <dl class="gl">
+    <div><dt>resolve … saddle straps</dt><dd>A play on words: ḥazm (resolve) and ḥuzum (saddle straps).</dd></div>
+  </dl>
+</div><div class="bayt" id="v134">
+  <span class="num" aria-label="Verse 134">134</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">طَارَتْ قُلُوبُ الْعِدَا مِنْ بَأْسِهِمْ فَرَقاً</span><span class="s2">فَمَا تُفَرِّقُ بَيْنَ الْبَهْمِ وَالْبُهَمِ</span></p>
+  <p class="en">The enemies&#x27; hearts flew away in terror at their strength, until they could not tell a lamb from a warrior.</p>
+  <dl class="gl">
+    <div><dt>a lamb from a warrior</dt><dd>A play on words: bahm (lambs) and buham (brave warriors) differ only in their vowels.</dd></div>
+  </dl>
+</div><div class="bayt" id="v135">
+  <span class="num" aria-label="Verse 135">135</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَمَنْ تَكُنْ بِرَسُولِ اللهِ نُصْرَتُهُ</span><span class="s2">إِنْ تَلْقَهُ الْأُسْدُ فِي آجَامِهَا تَجِمِ</span></p>
+  <p class="en">Whoever has the Messenger of God as his help, even lions fall silent if they meet him in their dens.</p>
+</div><div class="bayt" id="v136">
+  <span class="num" aria-label="Verse 136">136</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَنْ تَرَى مِنْ وَلِيٍّ غَيْرَ مُنْتَصِرٍ</span><span class="s2">بِهِ وَلَا مِنْ عَدُوٍّ غَيْرَ مُنْقَصِمِ</span></p>
+  <p class="en">You will never see a friend of his who is not helped to victory through him, nor an enemy of his who is not broken.</p>
+</div><div class="bayt" id="v137">
+  <span class="num" aria-label="Verse 137">137</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَحَلَّ أُمَّتَهُ فِي حِرْزِ مِلَّتِهِ</span><span class="s2">كَاللَّيْثِ حَلَّ مَعَ الْأَشْبَالِ فِي أَجَمِ</span></p>
+  <p class="en">He settled his community inside the fortress of his faith, like a lion settling with its cubs in the thicket.</p>
+</div><div class="bayt" id="v138">
+  <span class="num" aria-label="Verse 138">138</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَمْ جَدَّلَتْ كَلِمَاتُ اللهِ مِنْ جَدِلٍ</span><span class="s2">فِيهِ وَكَمْ خَصَمَ الْبُرْهَانُ مِنْ خَصِمِ</span></p>
+  <p class="en">How often the words of God have thrown down those who argued about him, and how often the proof has defeated his opponents.</p>
+</div><div class="bayt" id="v139">
+  <span class="num" aria-label="Verse 139">139</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">كَفَاكَ بِالْعِلْمِ فِي الْأُمِّيِّ مُعْجِزَةً</span><span class="s2">فِي الْجَاهِلِيَّةِ وَالتَّأْدِيبِ فِي الْيُتُمِ</span></p>
+  <p class="en">It is miracle enough for you: such knowledge in a man who could not read, in an age of ignorance, and such refinement in an orphan.</p>
+  <dl class="gl">
+    <div><dt>a man who could not read</dt><dd>Al-ummī, the unlettered. The Prophet ﷺ never learned to read or write, yet brought the Qur’an.</dd></div>
+    <div><dt>an age of ignorance</dt><dd>Al-jāhiliyya, the name for Arabia before Islam.</dd></div>
+    <div><dt>an orphan</dt><dd>His father died before he was born, and his mother when he was six.</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch9" aria-labelledby="ch9h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 9 <span aria-hidden="true">·</span> verses 140 to 151</p>
+    <h2 id="ch9h"><span class="char" lang="ar" dir="rtl">فِي التَّوَسُّلِ بِالنَّبِيِّ ﷺ</span><span class="chen">Seeking his intercession ﷺ</span></h2>
+  </header>
+  <div class="bayt" id="v140">
+  <span class="num" aria-label="Verse 140">140</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">خَدَمْتُهُ بِمَدِيحٍ أَسْتَقِيلُ بِهِ</span><span class="s2">ذُنُوبَ عُمْرٍ مَضَى فِي الشِّعْرِ وَالْخِدَمِ</span></p>
+  <p class="en">I have served him with praise, hoping through it to be pardoned for the sins of a life spent on poetry and on serving others.</p>
+  <dl class="gl">
+    <div><dt>poetry and serving others</dt><dd>Before this poem, al-Būṣīrī wrote praise poems for rulers and worked in government service.</dd></div>
+  </dl>
+</div><div class="bayt" id="v141">
+  <span class="num" aria-label="Verse 141">141</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">إِذْ قَلَّدَانِيَ مَا تُخْشَى عَوَاقِبُهُ</span><span class="s2">كَأَنَّنِي بِهِمَا هَدْيٌ مِنَ النَّعَمِ</span></p>
+  <p class="en">For those two hung around my neck a burden whose outcome I fear, as though I were an animal garlanded for sacrifice.</p>
+  <dl class="gl">
+    <div><dt>garlanded for sacrifice</dt><dd>Hady, an animal led to Mecca for sacrifice with a garland hung around its neck. Poetry and service have hung their sins around his neck in the same way.</dd></div>
+  </dl>
+</div><div class="bayt" id="v142">
+  <span class="num" aria-label="Verse 142">142</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">أَطَعْتُ غَيَّ الصِّبَا فِي الْحَالَتَيْنِ وَمَا</span><span class="s2">حَصَلْتُ إِلَّا عَلَى الْآثَامِ وَالنَّدَمِ</span></p>
+  <p class="en">In both I followed the folly of youth, and gained nothing but sins and regret.</p>
+</div><div class="bayt" id="v143">
+  <span class="num" aria-label="Verse 143">143</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَيَا خَسَارَةَ نَفْسٍ فِي تِجَارَتِهَا</span><span class="s2">لَمْ تَشْتَرِ الدِّينَ بِالدُّنْيَا وَلَمْ تَسُمِ</span></p>
+  <p class="en">What a loss for a soul in its trading! It did not buy the next life with this world, and did not even ask the price.</p>
+</div><div class="bayt" id="v144">
+  <span class="num" aria-label="Verse 144">144</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَمَنْ يَبِعْ آجِلاً مِنْهُ بِعَاجِلِهِ</span><span class="s2">يَبِنْ لَهُ الْغَبْنُ فِي بَيْعٍ وَفِي سَلَمِ</span></p>
+  <p class="en">Whoever sells what is to come for what is at hand will see how badly he was cheated, whether he sold now or sold in advance.</p>
+  <dl class="gl">
+    <div><dt>sold in advance</dt><dd>Salam, a sale paid for now with the goods delivered later. Whether the deal is immediate or deferred, trading the next life for this one is a loss.</dd></div>
+  </dl>
+</div><div class="bayt" id="v145">
+  <span class="num" aria-label="Verse 145">145</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">إِنْ آتِ ذَنْباً فَمَا عَهْدِي بِمُنْتَقِضٍ</span><span class="s2">مِنَ النَّبِيِّ وَلَا حَبْلِي بِمُنْصَرِمِ</span></p>
+  <p class="en">If I commit a sin, my bond with the Prophet is not broken, and my rope to him is not cut.</p>
+</div><div class="bayt" id="v146">
+  <span class="num" aria-label="Verse 146">146</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَإِنَّ لِي ذِمَّةً مِنْهُ بِتَسْمِيَتِي</span><span class="s2">مُحَمَّداً وَهْوَ أَوْفَى الْخَلْقِ بِالذِّمَمِ</span></p>
+  <p class="en">For I hold a promise of protection from him, because I bear the name Muhammad, and he is the most faithful of all creation to his promises.</p>
+  <dl class="gl">
+    <div><dt>the name Muhammad</dt><dd>Al-Būṣīrī’s own name was Muḥammad.</dd></div>
+  </dl>
+</div><div class="bayt" id="v147">
+  <span class="num" aria-label="Verse 147">147</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">إِنْ لَمْ يَكُنْ فِي مَعَادِي آخِذاً بِيَدِي</span><span class="s2">فَضْلاً وَإِلَّا فَقُلْ يَا زَلَّةَ الْقَدَمِ</span></p>
+  <p class="en">If, on the Day of Return, he does not take me by the hand out of kindness, then say: &quot;What a fall!&quot;</p>
+  <dl class="gl">
+    <div><dt>the Day of Return</dt><dd>Al-ma‘ād, the Day of Resurrection.</dd></div>
+  </dl>
+</div><div class="bayt" id="v148">
+  <span class="num" aria-label="Verse 148">148</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">حَاشَاهُ أَنْ يُحْرَمَ الرَّاجِي مَكَارِمَهُ</span><span class="s2">أَوْ يَرْجِعَ الْجَارُ مِنْهُ غَيْرَ مُحْتَرَمِ</span></p>
+  <p class="en">Far be it from him that one who hopes for his generosity should be refused, or that one who seeks his protection should go away dishonoured.</p>
+</div><div class="bayt" id="v149">
+  <span class="num" aria-label="Verse 149">149</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَمُنْذُ أَلْزَمْتُ أَفْكَارِي مَدَائِحَهُ</span><span class="s2">وَجَدْتُهُ لِخَلَاصِي خَيْرَ مُلْتَزِمِ</span></p>
+  <p class="en">Ever since I bound my thoughts to praising him, I have found him the best guarantor of my rescue.</p>
+</div><div class="bayt" id="v150">
+  <span class="num" aria-label="Verse 150">150</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَنْ يَفُوتَ الْغِنَى مِنْهُ يَداً تَرِبَتْ</span><span class="s2">إِنَّ الْحَيَا يُنْبِتُ الْأَزْهَارَ فِي الْأَكَمِ</span></p>
+  <p class="en">His riches will not pass by an empty, dusty hand. Rain makes flowers grow even on stony hills.</p>
+</div><div class="bayt" id="v151">
+  <span class="num" aria-label="Verse 151">151</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَمْ أُرِدْ زَهْرَةَ الدُّنْيَا الَّتِي اقْتَطَفَتْ</span><span class="s2">يَدَا زُهَيْرٍ بِمَا أَثْنَى عَلَى هَرِمِ</span></p>
+  <p class="en">I do not want the flowers of this world, the kind that Zuhayr&#x27;s hands picked as payment for praising Harim.</p>
+  <dl class="gl">
+    <div><dt>Zuhayr … Harim</dt><dd>Zuhayr ibn Abī Sulmā, a famous poet before Islam, was richly rewarded by the chief Harim ibn Sinān for praising him. Al-Būṣīrī wants no worldly reward for his praise.</dd></div>
+  </dl>
+</div>
+</section>
+<section class="chapter" id="ch10" aria-labelledby="ch10h">
+  <header class="chhead">
+    <p class="chmeta">Chapter 10 <span aria-hidden="true">·</span> verses 152 to 160</p>
+    <h2 id="ch10h"><span class="char" lang="ar" dir="rtl">فِي الْمُنَاجَاةِ وَعَرْضِ الْحَاجَاتِ</span><span class="chen">Intimate prayer and petition</span></h2>
+  </header>
+  <div class="bayt" id="v152">
+  <span class="num" aria-label="Verse 152">152</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا أَكْرَمَ الْخَلْقِ مَا لِي مَنْ أَلُوذُ بِهِ</span><span class="s2">سِوَاكَ عِنْدَ حُلُولِ الْحَادِثِ الْعَمِمِ</span></p>
+  <p class="en">O most generous of creation, I have no one to turn to but you when the calamity that covers everyone arrives.</p>
+  <dl class="gl">
+    <div><dt>the calamity that covers everyone</dt><dd>The Day of Judgement.</dd></div>
+  </dl>
+</div><div class="bayt" id="v153">
+  <span class="num" aria-label="Verse 153">153</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَلَنْ يَضِيقَ رَسُولَ اللهِ جَاهُكَ بِي</span><span class="s2">إِذَا الْكَرِيمُ تَجَلَّى بِاسْمِ مُنْتَقِمِ</span></p>
+  <p class="en">O Messenger of God, your standing with God will not be too narrow for me, on the day the Generous One appears by His name &quot;the Avenger&quot;.</p>
+  <dl class="gl">
+    <div><dt>the Avenger</dt><dd>Al-Muntaqim, one of the names of God: the One who brings wrongdoers to account.</dd></div>
+  </dl>
+</div><div class="bayt" id="v154">
+  <span class="num" aria-label="Verse 154">154</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">فَإِنَّ مِنْ جُودِكَ الدُّنْيَا وَضَرَّتَهَا</span><span class="s2">وَمِنْ عُلُومِكَ عِلْمَ اللَّوْحِ وَالْقَلَمِ</span></p>
+  <p class="en">For this world and the next are part of your generosity, and the knowledge of the Tablet and the Pen is part of what you know.</p>
+  <dl class="gl">
+    <div><dt>the Tablet and the Pen</dt><dd>Al-Lawḥ al-Maḥfūẓ, the Preserved Tablet on which God’s decree is written, and the Pen that wrote it.</dd></div>
+  </dl>
+</div><div class="bayt" id="v155">
+  <span class="num" aria-label="Verse 155">155</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا نَفْسُ لَا تَقْنَطِي مِنْ زَلَّةٍ عَظُمَتْ</span><span class="s2">إِنَّ الْكَبَائِرَ فِي الْغُفْرَانِ كَاللَّمَمِ</span></p>
+  <p class="en">O my soul, do not despair because of a slip, however great. In the face of forgiveness, the gravest sins are like small ones.</p>
+  <dl class="gl">
+    <div><dt>the gravest sins … small ones</dt><dd>Kabā’ir (major sins) and lamam (small slips), words taken from the Qur’an (al-Najm 53:32).</dd></div>
+  </dl>
+</div><div class="bayt" id="v156">
+  <span class="num" aria-label="Verse 156">156</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">لَعَلَّ رَحْمَةَ رَبِّي حِينَ يَقْسِمُهَا</span><span class="s2">تَأْتِي عَلَى حَسَبِ الْعِصْيَانِ فِي الْقِسَمِ</span></p>
+  <p class="en">Perhaps my Lord&#x27;s mercy, when He shares it out, will come in portions that match the sins.</p>
+</div><div class="bayt" id="v157">
+  <span class="num" aria-label="Verse 157">157</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا رَبِّ وَاجْعَلْ رَجَائِي غَيْرَ مُنْعَكِسٍ</span><span class="s2">لَدَيْكَ وَاجْعَلْ حِسَابِي غَيْرَ مُنْخَرِمِ</span></p>
+  <p class="en">O my Lord, do not let my hope in You be turned back, and do not let my account fall short.</p>
+</div><div class="bayt" id="v158">
+  <span class="num" aria-label="Verse 158">158</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالْطُفْ بِعَبْدِكَ فِي الدَّارَيْنِ إِنَّ لَهُ</span><span class="s2">صَبْراً مَتَى تَدْعُهُ الْأَهْوَالُ يَنْهَزِمِ</span></p>
+  <p class="en">Be gentle with Your servant in both worlds, for his patience runs away whenever terrors call on it.</p>
+</div><div class="bayt" id="v159">
+  <span class="num" aria-label="Verse 159">159</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَائْذَنْ لِسُحْبِ صَلَاةٍ مِنْكَ دَائِمَةٍ</span><span class="s2">عَلَى النَّبِيِّ بِمُنْهَلٍّ وَمُنْسَجِمِ</span></p>
+  <p class="en">And let clouds of Your blessings rain without end upon the Prophet, pouring and flowing,</p>
+</div><div class="bayt" id="v160">
+  <span class="num" aria-label="Verse 160">160</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">مَا رَنَّحَتْ عَذَبَاتِ الْبَانِ رِيحُ صَباً</span><span class="s2">وَأَطْرَبَ الْعِيسَ حَادِي الْعِيسِ بِالنَّغَمِ</span></p>
+  <p class="en">for as long as the east wind sways the tips of the willow branches, and the camel driver delights his camels with his song.</p>
+  <dl class="gl">
+    <div><dt>the east wind</dt><dd>Ṣabā, the gentle east wind of Arabic poetry, which carries news and scent from the beloved.</dd></div>
+    <div><dt>the willow</dt><dd>Al-bān again, the slender tree of verse 5.</dd></div>
+    <div><dt>the camel driver … his song</dt><dd>Ḥudā’, the chant camel drivers sing to keep their camels moving on long journeys.</dd></div>
+  </dl>
+</div>
+</section>
+
+  <section class="closing" aria-labelledby="closeh">
+    <header class="chhead">
+      <p class="chmeta">Often recited at the close</p>
+      <h2 id="closeh"><span class="chen">Closing verses added in later tradition</span></h2>
+    </header>
+    <div class="bayt">
+  <span class="num" aria-hidden="true">+</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">ثُمَّ الرِّضَا عَنْ أَبِي بَكْرٍ وَعَنْ عُمَرٍ</span><span class="s2">وَعَنْ عَلِيٍّ وَعَنْ عُثْمَانَ ذِي الْكَرَمِ</span></p>
+  <p class="en">Then may God be pleased with Abu Bakr and ‘Umar, and with ‘Alī, and with ‘Uthmān the generous,</p>
+  <dl class="gl">
+    <div><dt>Abu Bakr, ‘Umar, ‘Alī, ‘Uthmān</dt><dd>The first four caliphs, who led the Muslims after the Prophet ﷺ.</dd></div>
+  </dl>
+</div><div class="bayt">
+  <span class="num" aria-hidden="true">+</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">وَالْآلِ وَالصَّحْبِ ثُمَّ التَّابِعِينَ فَهُمْ</span><span class="s2">أَهْلُ التُّقَى وَالنَّقَى وَالْحِلْمِ وَالْكَرَمِ</span></p>
+  <p class="en">and with the Prophet&#x27;s family and companions, and those who followed them, for they are people of piety, purity, gentleness and generosity.</p>
+  <dl class="gl">
+    <div><dt>family … companions … those who followed them</dt><dd>Al-āl, the Prophet’s family; al-ṣaḥb, his Companions; al-tābi‘ūn, the generation who learned from the Companions.</dd></div>
+  </dl>
+</div><div class="bayt">
+  <span class="num" aria-hidden="true">+</span>
+  <p class="ar" lang="ar" dir="rtl"><span class="s1">يَا رَبِّ بِالْمُصْطَفَى بَلِّغْ مَقَاصِدَنَا</span><span class="s2">وَاغْفِرْ لَنَا مَا مَضَى يَا وَاسِعَ الْكَرَمِ</span></p>
+  <p class="en">O Lord, for the sake of the Chosen One, bring us to what we hope for, and forgive us what has passed, O You whose generosity is vast.</p>
+  <dl class="gl">
+    <div><dt>the Chosen One</dt><dd>Al-Muṣṭafā, a title of the Prophet ﷺ.</dd></div>
+  </dl>
+</div>
+  </section>
+
+  <footer>
+    <p>Arabic text follows the common 160-verse arrangement. Printed editions differ in a handful of words and in how a few verses are numbered.</p>
+    <p>The English is a meaning-for-meaning translation written for this page, keeping each verse on its own line.</p>
+  </footer>
+</main>
+
+<div class="player" id="player">
+  <div class="player-in">
+    <input type="range" class="pseek" id="p-seek" min="0" max="1686" step="0.5" value="0" aria-label="Position in the recording">
+    <div class="pbtns">
+      <button type="button" id="p-prev" aria-label="Previous verse"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 5h2.5v14H6zM20 5v14L9.5 12z"/></svg></button>
+      <button type="button" id="p-play" class="pmain" aria-label="Play"><svg class="ico-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5v15l13-7.5z"/></svg><svg class="ico-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 4.5h4v15h-4zM13.5 4.5h4v15h-4z"/></svg></button>
+      <button type="button" id="p-next" aria-label="Next verse"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 5H18v14h-2.5zM4 5v14l10.5-7z"/></svg></button>
+    </div>
+    <div class="pinfo">
+      <p class="plabel" id="p-label">Ready to listen</p>
+      <p class="psub"><span class="ptime"><span id="p-cur">0:00</span> / <span id="p-dur">28:06</span></span><span id="p-sub"> · The opening verse, the refrain and verses 1 to 89</span></p>
+    </div>
+    <div class="pspeed" role="group" aria-label="Playback speed">
+      <button type="button" id="sp-down" aria-label="Slower">−</button>
+      <output id="sp-val" aria-live="polite">1×</output>
+      <button type="button" id="sp-up" aria-label="Faster">+</button>
+    </div>
+  </div>
+</div>
+<audio id="rec" src="burdah.m4a" preload="metadata"></audio>
+
+<script>
+(function(){
+  function wire(id, key, cls){
+    var box = document.getElementById(id);
+    function apply(){ document.body.classList.toggle(cls, !box.checked); }
+    try { if (localStorage.getItem(key) === '0') box.checked = false; } catch(e){}
+    apply();
+    box.addEventListener('change', function(){
+      apply();
+      try { localStorage.setItem(key, box.checked ? '1' : '0'); } catch(e){}
+    });
+  }
+  wire('show-en', 'burdah-en', 'ar-only');
+  wire('show-gl', 'burdah-gl', 'no-gl');
+  wire('follow', 'burdah-follow', 'no-follow');
+})();
+</script>
+<script>
+(function(){
+  // Start of each part of the recording, in seconds, measured against the audio:
+  // index 0 is the opening verse, then verse 1 to 89. The refrain sits between the opening verse and verse 1.
+  var TIMES = [0.0, 118.64, 131.22, 144.58, 156.39, 169.88, 182.59, 195.59, 206.93, 220.25, 232.61, 245.61, 258.48, 269.43, 283.05, 296.45, 308.24, 320.3, 332.58, 346.86, 359.58, 373.0, 385.96, 400.32, 428.13, 454.69, 485.63, 530.65, 556.72, 582.33, 594.81, 607.74, 620.76, 633.31, 645.2, 657.69, 669.63, 709.95, 752.19, 790.27, 825.38, 849.23, 893.8, 926.7, 939.2, 953.27, 965.53, 978.25, 991.55, 1005.25, 1018.1, 1030.33, 1043.19, 1056.04, 1068.35, 1082.28, 1094.9, 1106.82, 1119.19, 1132.14, 1144.75, 1157.29, 1170.61, 1183.46, 1193.9, 1209.16, 1221.97, 1234.78, 1247.02, 1262.2, 1275.75, 1289.1, 1303.94, 1333.92, 1353.16, 1379.38, 1403.32, 1423.0, 1445.12, 1480.74, 1495.26, 1513.82, 1540.31, 1563.43, 1580.84, 1622.35, 1634.8, 1647.43, 1660.33, 1673.28];
+  var REFRAIN = 56.39;
+  var CH_END = [12, 28, 58, 71, 87, 104];
+  var CH_NAME = ['Love and the pain of longing', 'A warning against the desires of the self', 'In praise of the Master of the Messengers ﷺ', 'His birth ﷺ', 'His miracles ﷺ', "The honour of the Qur'an"];
+
+  var segs = [{el: 'v0', t: TIMES[0], label: 'Opening verse', sub: 'Often recited at the opening'},
+              {el: 'refrain', t: REFRAIN, label: 'Refrain', sub: 'Added by later reciters'}];
+  for (var v = 1; v < TIMES.length; v++) {
+    var c = 0; while (v > CH_END[c]) c++;
+    segs.push({el: 'v' + v, t: TIMES[v], label: 'Verse ' + v + ' · Chapter ' + (c + 1), sub: CH_NAME[c], verse: v});
+  }
+  segs.forEach(function(s){ s.node = document.getElementById(s.el); });
+
+  var audio = document.getElementById('rec');
+  var player = document.getElementById('player');
+  var seek = document.getElementById('p-seek');
+  var playBtn = document.getElementById('p-play');
+  var label = document.getElementById('p-label');
+  var sub = document.getElementById('p-sub');
+  var cur = document.getElementById('p-cur');
+  var dur = document.getElementById('p-dur');
+  var follow = document.getElementById('follow');
+  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var now = -1, lastUserScroll = 0, programmatic = 0;
+
+  function fmt(s){ s = Math.max(0, Math.floor(s || 0)); return Math.floor(s / 60) + ':' + ('0' + s % 60).slice(-2); }
+  function words(s){ s = Math.floor(s); var m = Math.floor(s / 60), r = s % 60; return (m ? m + (m === 1 ? ' minute ' : ' minutes ') : '') + r + (r === 1 ? ' second' : ' seconds'); }
+  function indexAt(t){ var i = 0; while (i + 1 < segs.length && segs[i + 1].t <= t + 0.05) i++; return i; }
+  function total(){ return isFinite(audio.duration) && audio.duration > 0 ? audio.duration : 1686; }
+
+  function showPlayer(){
+    if (!player.hidden) return;
+    player.hidden = false;
+    document.body.classList.add('has-player');
+  }
+  function mark(i, scroll){
+    if (i === now) return;
+    if (now >= 0 && segs[now].node) segs[now].node.classList.remove('now');
+    now = i;
+    var s = segs[i];
+    if (s.node) s.node.classList.add('now');
+    var parts = s.label.split(' · ');
+    label.textContent = parts[0];
+    if (parts[1]) { var lc = document.createElement('span'); lc.className = 'lc'; lc.textContent = ' · ' + parts[1]; label.appendChild(lc); }
+    sub.textContent = ' · ' + s.sub;
+    if ('mediaSession' in navigator && window.MediaMetadata) {
+      try { navigator.mediaSession.metadata = new MediaMetadata({title: 'Qasida al-Burdah · ' + s.label.split(' · ')[0], artist: 'Imam al-Būṣīrī', album: 'Recited without music'}); } catch (e) {}
+    }
+    if (scroll && follow.checked && s.node && Date.now() - lastUserScroll > 6000) {
+      programmatic = Date.now();
+      s.node.scrollIntoView({block: 'center', behavior: reduce ? 'auto' : 'smooth'});
+    }
+  }
+  function update(scroll){
+    var t = audio.currentTime;
+    seek.max = total();
+    if (!seek.matches(':active')) seek.value = t;
+    cur.textContent = fmt(t);
+    dur.textContent = fmt(total());
+    var i = indexAt(t);
+    seek.setAttribute('aria-valuetext', words(t) + ', ' + segs[i].label);
+    mark(i, scroll);
+  }
+  function playFrom(t){
+    showPlayer();
+    audio.currentTime = t;
+    update(true);
+    var p = audio.play(); if (p && p.catch) p.catch(function(){});
+  }
+  function toggle(){
+    showPlayer();
+    if (audio.paused) { var p = audio.play(); if (p && p.catch) p.catch(function(){}); update(true); }
+    else audio.pause();
+  }
+  function step(d){
+    var i = indexAt(audio.currentTime);
+    if (d < 0 && audio.currentTime - segs[i].t > 2) return playFrom(segs[i].t);
+    var j = Math.min(segs.length - 1, Math.max(0, i + d));
+    playFrom(segs[j].t);
+  }
+
+
+  // Speed: 0.5x to 2x in quarter steps. The voice keeps its pitch, and the choice is remembered.
+  var RATES = [0.5, 0.75, 1, 1.25, 1.5, 1.75, 2];
+  var spDown = document.getElementById('sp-down'), spUp = document.getElementById('sp-up'), spVal = document.getElementById('sp-val');
+  var rate = 1;
+  try { var saved = parseFloat(localStorage.getItem('burdah-speed')); if (RATES.indexOf(saved) >= 0) rate = saved; } catch (e) {}
+  function applyRate(r, save){
+    rate = r;
+    audio.defaultPlaybackRate = r;
+    audio.playbackRate = r;
+    if ('preservesPitch' in audio) audio.preservesPitch = true;
+    if ('webkitPreservesPitch' in audio) audio.webkitPreservesPitch = true;
+    spVal.textContent = r + '×';
+    spDown.disabled = r <= RATES[0];
+    spUp.disabled = r >= RATES[RATES.length - 1];
+    if (save) { try { localStorage.setItem('burdah-speed', String(r)); } catch (e) {} }
+  }
+  spDown.addEventListener('click', function(){ applyRate(RATES[Math.max(0, RATES.indexOf(rate) - 1)], true); });
+  spUp.addEventListener('click', function(){ applyRate(RATES[Math.min(RATES.length - 1, RATES.indexOf(rate) + 1)], true); });
+  applyRate(rate, false);
+
+  document.getElementById('listen-play').addEventListener('click', toggle);
+  playBtn.addEventListener('click', toggle);
+  document.getElementById('p-prev').addEventListener('click', function(){ step(-1); });
+  document.getElementById('p-next').addEventListener('click', function(){ step(1); });
+  document.querySelectorAll('button.num[data-v]').forEach(function(b){
+    b.addEventListener('click', function(){ playFrom(TIMES[+b.dataset.v]); });
+  });
+  seek.addEventListener('input', function(){ audio.currentTime = +seek.value; update(true); });
+
+  audio.addEventListener('timeupdate', function(){ update(true); });
+  audio.addEventListener('loadedmetadata', function(){ seek.max = total(); dur.textContent = fmt(total()); audio.playbackRate = rate; });
+  audio.addEventListener('play', function(){ player.classList.add('playing'); playBtn.setAttribute('aria-label', 'Pause'); });
+  audio.addEventListener('pause', function(){ player.classList.remove('playing'); playBtn.setAttribute('aria-label', 'Play'); });
+  audio.addEventListener('error', function(){ showPlayer(); label.textContent = 'The recording did not load'; sub.textContent = ' · Reload the page to try again.'; });
+
+  // Reading ahead or back pauses the follow-along for a few seconds, so the page never pulls the reader away mid-line.
+  ['wheel', 'touchmove'].forEach(function(e){ window.addEventListener(e, function(){ lastUserScroll = Date.now(); }, {passive: true}); });
+  window.addEventListener('keydown', function(e){ if (/^(Page|Arrow(Up|Down)|Home|End| )/.test(e.key) && !/INPUT|BUTTON/.test(e.target.tagName)) lastUserScroll = Date.now(); });
+
+  if ('mediaSession' in navigator) {
+    var ms = navigator.mediaSession;
+    [['play', function(){ audio.play(); }], ['pause', function(){ audio.pause(); }],
+     ['previoustrack', function(){ step(-1); }], ['nexttrack', function(){ step(1); }],
+     ['seekto', function(d){ audio.currentTime = d.seekTime; update(true); }]].forEach(function(h){
+      try { ms.setActionHandler(h[0], h[1]); } catch (e) {}
+    });
+  }
+})();
+</script>
+</body>
+</html>
