@@ -1,0 +1,4684 @@
+[
+ {
+  "id": "CS10",
+  "type": "still",
+  "src": "assets/media/img/CS10.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147760,
+  "used_in": [
+   "act 1 opening 1-4 (start of CV12)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS11",
+  "type": "still",
+  "src": "assets/media/img/CS11.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149942,
+  "used_in": [
+   "act 2 opening 2-4 (start of CV22)"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS12",
+  "type": "still",
+  "src": "assets/media/img/CS12.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149678,
+  "used_in": [
+   "act 2 opening 2-6 (start of CV23)"
+  ],
+  "priority": 2,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS22",
+  "type": "still",
+  "src": "assets/media/img/CS22.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148292,
+  "used_in": [
+   "act 1 turning point (start of CV15)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS30",
+  "type": "still",
+  "src": "assets/media/img/CS30.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148706,
+  "used_in": [
+   "act 1 opening 1-8 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS31",
+  "type": "still",
+  "src": "assets/media/img/CS31.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145246,
+  "used_in": [
+   "act 2 opening 2-7 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CV10",
+  "type": "video",
+  "src": "assets/media/films/CV10.mp4",
+  "poster": "assets/media/films/CV10.jpg",
+  "duration_s": 9.042,
+  "bytes": 2215960,
+  "used_in": [
+   "act 1 opening 1-2"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV11",
+  "type": "video",
+  "src": "assets/media/films/CV11.mp4",
+  "poster": "assets/media/films/CV11.jpg",
+  "duration_s": 9.042,
+  "bytes": 1709640,
+  "used_in": [
+   "act 1 opening 1-3"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV12",
+  "type": "video",
+  "src": "assets/media/films/CV12.mp4",
+  "poster": "assets/media/films/CV12.jpg",
+  "duration_s": 8.042,
+  "bytes": 3221922,
+  "used_in": [
+   "act 1 opening 1-4"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV13",
+  "type": "video",
+  "src": "assets/media/films/CV13.mp4",
+  "poster": "assets/media/films/CV13.jpg",
+  "duration_s": 9.042,
+  "bytes": 2740456,
+  "used_in": [
+   "act 1 opening 1-5"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 722,
+  "asset": true
+ },
+ {
+  "id": "CV14",
+  "type": "video",
+  "src": "assets/media/films/CV14.mp4",
+  "poster": "assets/media/films/CV14.jpg",
+  "duration_s": 8.042,
+  "bytes": 1509358,
+  "used_in": [
+   "act 1 opening 1-6",
+   "cold open"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV15",
+  "type": "video",
+  "src": "assets/media/films/CV15.mp4",
+  "poster": "assets/media/films/CV15.jpg",
+  "duration_s": 8.042,
+  "bytes": 1213775,
+  "used_in": [
+   "act 1 turning point cut-in"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV20",
+  "type": "video",
+  "src": "assets/media/films/CV20.mp4",
+  "poster": "assets/media/films/CV20.jpg",
+  "duration_s": 9.042,
+  "bytes": 1924923,
+  "used_in": [
+   "act 2 opening 2-2",
+   "act 1 closer next time"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV21",
+  "type": "video",
+  "src": "assets/media/films/CV21.mp4",
+  "poster": "assets/media/films/CV21.jpg",
+  "duration_s": 9.042,
+  "bytes": 1004377,
+  "used_in": [
+   "act 2 opening 2-3"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV22",
+  "type": "video",
+  "src": "assets/media/films/CV22.mp4",
+  "poster": "assets/media/films/CV22.jpg",
+  "duration_s": 9.042,
+  "bytes": 2760369,
+  "used_in": [
+   "act 2 opening 2-4"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV23",
+  "type": "video",
+  "src": "assets/media/films/CV23.mp4",
+  "poster": "assets/media/films/CV23.jpg",
+  "duration_s": 9.042,
+  "bytes": 517394,
+  "used_in": [
+   "act 2 opening 2-6"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "FM-S01",
+  "type": "still",
+  "src": "assets/media/img/FM-S01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148926,
+  "used_in": [
+   "Animal card and portrait, Acts 1 to 4",
+   "sighting sticker 1"
+  ],
+  "priority": 1,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S02",
+  "type": "still",
+  "src": "assets/media/img/FM-S02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 163864,
+  "used_in": [
+   "Animal portrait after Act 4",
+   "sighting sticker 2"
+  ],
+  "priority": 1,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-V01",
+  "type": "video",
+  "src": "assets/media/films/FM-V01.mp4",
+  "poster": "assets/media/films/FM-V01.jpg",
+  "duration_s": 6.042,
+  "bytes": 1834826,
+  "used_in": [
+   "first Animal sighting",
+   "source of the honk effect"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-V04",
+  "type": "video",
+  "src": "assets/media/films/FM-V04.mp4",
+  "poster": "assets/media/films/FM-V04.jpg",
+  "duration_s": 6.042,
+  "bytes": 811663,
+  "used_in": [
+   "scene 2.2 co-pilot find"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "GM-CH-01",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149938,
+  "used_in": [
+   "Docket's card (likeness checkpoint)"
+  ],
+  "priority": 1,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-02",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145746,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-03",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146200,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-04",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147328,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-05",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-05.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147594,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-06",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-06.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149370,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-CH-07",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-07.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148798,
+  "used_in": [
+   "Docket reactions and Spot Docket overlays"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-V-02",
+  "type": "video",
+  "src": "assets/media/films/GM-V-02.mp4",
+  "poster": "assets/media/films/GM-V-02.jpg",
+  "duration_s": 6.042,
+  "bytes": 1606900,
+  "used_in": [
+   "first time family mode is switched on"
+  ],
+  "priority": 2,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "FM-S10",
+  "type": "still",
+  "src": "assets/media/img/FM-S10.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 156940,
+  "used_in": [
+   "journey strip, act stamp 1"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S11",
+  "type": "still",
+  "src": "assets/media/img/FM-S11.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 129186,
+  "used_in": [
+   "journey strip, act stamp 2"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S19",
+  "type": "still",
+  "src": "assets/media/img/FM-S19.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 144674,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S20",
+  "type": "still",
+  "src": "assets/media/img/FM-S20.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 139994,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S21",
+  "type": "still",
+  "src": "assets/media/img/FM-S21.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 144906,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S22",
+  "type": "still",
+  "src": "assets/media/img/FM-S22.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146440,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S23",
+  "type": "still",
+  "src": "assets/media/img/FM-S23.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147798,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S24",
+  "type": "still",
+  "src": "assets/media/img/FM-S24.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148180,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS01",
+  "type": "still",
+  "src": "assets/media/img/TS01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 75580,
+  "used_in": [
+   "world standee",
+   "staged shots"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS02",
+  "type": "still",
+  "src": "assets/media/img/TS02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 83726,
+  "used_in": [
+   "Freight FM marker",
+   "Interview Cafe door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS05",
+  "type": "still",
+  "src": "assets/media/img/TS05.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 87306,
+  "used_in": [
+   "Archive Hill",
+   "Archive Library door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS27",
+  "type": "still",
+  "src": "assets/media/img/TS27.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 129416,
+  "used_in": [
+   "3D sky dome 05:00 to 09:00"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 576,
+  "alpha": false
+ },
+ {
+  "id": "TS28",
+  "type": "still",
+  "src": "assets/media/img/TS28.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 133266,
+  "used_in": [
+   "3D sky dome 16:00 to 19:00"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 576,
+  "alpha": false
+ },
+ {
+  "id": "TS29",
+  "type": "still",
+  "src": "assets/media/img/TS29.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 133376,
+  "used_in": [
+   "3D sky dome 19:00 to 21:00"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 576,
+  "alpha": false
+ },
+ {
+  "id": "TS30",
+  "type": "still",
+  "src": "assets/media/img/TS30.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 101726,
+  "used_in": [
+   "3D sky dome 21:00 to 05:00"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 576,
+  "alpha": false
+ },
+ {
+  "id": "GM-MAP-01",
+  "type": "still",
+  "src": "assets/media/img/GM-MAP-01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 164626,
+  "used_in": [
+   "World Map",
+   "minimap style"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 717,
+  "alpha": false
+ },
+ {
+  "id": "GM-V-01",
+  "type": "video",
+  "src": "assets/media/films/GM-V-01.mp4",
+  "poster": "assets/media/films/GM-V-01.jpg",
+  "duration_s": 10.042,
+  "bytes": 1582411,
+  "used_in": [
+   "title screen loop"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "GM-STK-01",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 0,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-02",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 0,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-03",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 0,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-04",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 0,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-05",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 400,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-06",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 400,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-07",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 400,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-08",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 400,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-09",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 800,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-10",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 800,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-11",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 800,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-12",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 800,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-13",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 1200,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-14",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 1200,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-15",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 1200,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-16",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 1200,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-17",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 1600,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-18",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 1600,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-19",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 1600,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-20",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 1600,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-21",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 0,
+   "y": 2000,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-22",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 400,
+   "y": 2000,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-23",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 800,
+   "y": 2000,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "GM-STK-24",
+  "type": "still",
+  "src": "assets/media/img/GM-STK-sheet.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 591624,
+  "used_in": [
+   "co-pilot sticker book"
+  ],
+  "priority": 3,
+  "shared": true,
+  "sprite": {
+   "x": 1200,
+   "y": 2000,
+   "w": 400,
+   "h": 400,
+   "sheet_w": 1600,
+   "sheet_h": 2400
+  },
+  "w": 400,
+  "h": 400,
+  "alpha": false
+ },
+ {
+  "id": "FM-S04",
+  "type": "still",
+  "src": "assets/media/img/FM-S04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 151880,
+  "used_in": [
+   "Bedtime stop"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "FM-S05",
+  "type": "still",
+  "src": "assets/media/img/FM-S05.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148968,
+  "used_in": [
+   "Good morning"
+  ],
+  "priority": 3,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "FM-S06",
+  "type": "still",
+  "src": "assets/media/img/FM-S06.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149850,
+  "used_in": [
+   "the Parade opener"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 717,
+  "alpha": false
+ },
+ {
+  "id": "FM-V02",
+  "type": "video",
+  "src": "assets/media/films/FM-V02.mp4",
+  "poster": "assets/media/films/FM-V02.jpg",
+  "duration_s": 10.042,
+  "bytes": 3759974,
+  "used_in": [
+   "the Parade opener"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-S07",
+  "type": "still",
+  "src": "assets/media/img/FM-S07.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 161716,
+  "used_in": [
+   "first stunt jump"
+  ],
+  "priority": 3,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "FM-V03",
+  "type": "video",
+  "src": "assets/media/films/FM-V03.mp4",
+  "poster": "assets/media/films/FM-V03.jpg",
+  "duration_s": 6.042,
+  "bytes": 1400825,
+  "used_in": [
+   "first stunt jump"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-V06",
+  "type": "video",
+  "src": "assets/media/films/FM-V06.mp4",
+  "poster": "assets/media/films/FM-V06.jpg",
+  "duration_s": 5.042,
+  "bytes": 998214,
+  "used_in": [
+   "Vera's first name slam"
+  ],
+  "priority": 3,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "GM-V-04",
+  "type": "video",
+  "src": "assets/media/films/GM-V-04.mp4",
+  "poster": "assets/media/films/GM-V-04.jpg",
+  "duration_s": 6.042,
+  "bytes": 880806,
+  "used_in": [
+   "Second Edition opener",
+   "Good morning fallback"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LS07",
+  "type": "still",
+  "src": "assets/media/img/LS07.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147442,
+  "used_in": [
+   "Proven shelf",
+   "start of LV15"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "LV15",
+  "type": "video",
+  "src": "assets/media/films/LV15.mp4",
+  "poster": "assets/media/films/LV15.jpg",
+  "duration_s": 6.042,
+  "bytes": 675587,
+  "used_in": [
+   "an item becomes Proven"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV17",
+  "type": "explainer",
+  "src": "assets/media/films/LV17.mp4",
+  "poster": "assets/media/films/LV17.jpg",
+  "duration_s": 6.042,
+  "bytes": 1328304,
+  "used_in": [
+   "crossing a readiness band"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "TS12",
+  "type": "still",
+  "src": "assets/media/img/TS12.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 72458,
+  "used_in": [
+   "rehearsal markers",
+   "examiner corners",
+   "Digits' kiosk"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS13",
+  "type": "still",
+  "src": "assets/media/img/TS13.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 70316,
+  "used_in": [
+   "rehearsal markers",
+   "examiner corners",
+   "Digits' kiosk"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "RX-interview_cafe",
+  "type": "explainer",
+  "src": "assets/media/films/RX-interview_cafe.mp4",
+  "poster": "assets/media/films/RX-interview_cafe.jpg",
+  "duration_s": 6.042,
+  "bytes": 704592,
+  "used_in": [
+   "Locker room entry: interview_cafe",
+   "card:app-A/G"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-ethics_office",
+  "type": "explainer",
+  "src": "assets/media/films/RX-ethics_office.mp4",
+  "poster": "assets/media/films/RX-ethics_office.jpg",
+  "duration_s": 6.042,
+  "bytes": 487812,
+  "used_in": [
+   "Locker room entry: ethics_office",
+   "card:app-B/C"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-survey_square",
+  "type": "explainer",
+  "src": "assets/media/films/RX-survey_square.mp4",
+  "poster": "assets/media/films/RX-survey_square.jpg",
+  "duration_s": 6.042,
+  "bytes": 577788,
+  "used_in": [
+   "Locker room entry: survey_square",
+   "card:app-D/K"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-archive_library",
+  "type": "explainer",
+  "src": "assets/media/films/RX-archive_library.mp4",
+  "poster": "assets/media/films/RX-archive_library.jpg",
+  "duration_s": 6.042,
+  "bytes": 478356,
+  "used_in": [
+   "Locker room entry: archive_library",
+   "card:app-E/F"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CS13",
+  "type": "still",
+  "src": "assets/media/img/CS13.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148966,
+  "used_in": [
+   "act 3 opening 3-4 (start of CV32)"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS14",
+  "type": "still",
+  "src": "assets/media/img/CS14.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147728,
+  "used_in": [
+   "act 4 opening 4-3 (start of CV41)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS15",
+  "type": "still",
+  "src": "assets/media/img/CS15.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 163840,
+  "used_in": [
+   "act 4 opening 4-5 (start of CV42)"
+  ],
+  "priority": 2,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS16",
+  "type": "still",
+  "src": "assets/media/img/CS16.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149654,
+  "used_in": [
+   "act 4 opening 4-7 (start of CV43)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS32",
+  "type": "still",
+  "src": "assets/media/img/CS32.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147530,
+  "used_in": [
+   "act 3 opening 3-8 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 724,
+  "alpha": false
+ },
+ {
+  "id": "CS33",
+  "type": "still",
+  "src": "assets/media/img/CS33.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149350,
+  "used_in": [
+   "act 4 opening 4-8 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CV30",
+  "type": "video",
+  "src": "assets/media/films/CV30.mp4",
+  "poster": "assets/media/films/CV30.jpg",
+  "duration_s": 9.042,
+  "bytes": 1435917,
+  "used_in": [
+   "act 3 opening 3-2",
+   "act 2 closer next time"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV31",
+  "type": "video",
+  "src": "assets/media/films/CV31.mp4",
+  "poster": "assets/media/films/CV31.jpg",
+  "duration_s": 8.042,
+  "bytes": 1492712,
+  "used_in": [
+   "act 3 opening 3-3"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV32",
+  "type": "video",
+  "src": "assets/media/films/CV32.mp4",
+  "poster": "assets/media/films/CV32.jpg",
+  "duration_s": 9.042,
+  "bytes": 992420,
+  "used_in": [
+   "act 3 opening 3-4"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV40",
+  "type": "video",
+  "src": "assets/media/films/CV40.mp4",
+  "poster": "assets/media/films/CV40.jpg",
+  "duration_s": 9.042,
+  "bytes": 1527574,
+  "used_in": [
+   "act 4 opening 4-2",
+   "act 3 closer next time"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV41",
+  "type": "video",
+  "src": "assets/media/films/CV41.mp4",
+  "poster": "assets/media/films/CV41.jpg",
+  "duration_s": 8.042,
+  "bytes": 1370137,
+  "used_in": [
+   "act 4 opening 4-3"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV42",
+  "type": "video",
+  "src": "assets/media/films/CV42.mp4",
+  "poster": "assets/media/films/CV42.jpg",
+  "duration_s": 6.042,
+  "bytes": 399764,
+  "used_in": [
+   "act 4 opening 4-5"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV43",
+  "type": "video",
+  "src": "assets/media/films/CV43.mp4",
+  "poster": "assets/media/films/CV43.jpg",
+  "duration_s": 10.042,
+  "bytes": 1386345,
+  "used_in": [
+   "act 4 opening 4-7"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "LS01",
+  "type": "still",
+  "src": "assets/media/img/LS01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148334,
+  "used_in": [
+   "Methods Academy exterior",
+   "academy entrance",
+   "act 3 opening 3-9"
+  ],
+  "priority": 1,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "LS02",
+  "type": "still",
+  "src": "assets/media/img/LS02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147806,
+  "used_in": [
+   "Methods Academy lesson backdrop"
+  ],
+  "priority": 1,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "MX-search_string",
+  "type": "explainer",
+  "src": "assets/media/films/MX-search_string.mp4",
+  "poster": "assets/media/films/MX-search_string.jpg",
+  "duration_s": 6.042,
+  "bytes": 1813662,
+  "used_in": [
+   "Methods Academy lesson method:search_string"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-prisma",
+  "type": "explainer",
+  "src": "assets/media/films/MX-prisma.mp4",
+  "poster": "assets/media/films/MX-prisma.jpg",
+  "duration_s": 6.042,
+  "bytes": 1054016,
+  "used_in": [
+   "Methods Academy lesson method:prisma"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-stratified_reality",
+  "type": "explainer",
+  "src": "assets/media/films/MX-stratified_reality.mp4",
+  "poster": "assets/media/films/MX-stratified_reality.jpg",
+  "duration_s": 6.042,
+  "bytes": 671971,
+  "used_in": [
+   "Methods Academy lesson method:stratified_reality"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-retroduction",
+  "type": "explainer",
+  "src": "assets/media/films/MX-retroduction.mp4",
+  "poster": "assets/media/films/MX-retroduction.jpg",
+  "duration_s": 6.042,
+  "bytes": 913351,
+  "used_in": [
+   "Methods Academy lesson method:retroduction"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-triangulation",
+  "type": "explainer",
+  "src": "assets/media/films/MX-triangulation.mp4",
+  "poster": "assets/media/films/MX-triangulation.jpg",
+  "duration_s": 6.042,
+  "bytes": 681918,
+  "used_in": [
+   "Methods Academy lesson method:triangulation"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-staged_design",
+  "type": "explainer",
+  "src": "assets/media/films/MX-staged_design.mp4",
+  "poster": "assets/media/films/MX-staged_design.jpg",
+  "duration_s": 6.042,
+  "bytes": 1422076,
+  "used_in": [
+   "Methods Academy lesson method:staged_design"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-chain_referral",
+  "type": "explainer",
+  "src": "assets/media/films/MX-chain_referral.mp4",
+  "poster": "assets/media/films/MX-chain_referral.jpg",
+  "duration_s": 6.042,
+  "bytes": 517027,
+  "used_in": [
+   "Methods Academy lesson method:chain_referral"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-three_codings",
+  "type": "explainer",
+  "src": "assets/media/films/MX-three_codings.mp4",
+  "poster": "assets/media/films/MX-three_codings.jpg",
+  "duration_s": 6.042,
+  "bytes": 541540,
+  "used_in": [
+   "Methods Academy lesson method:three_codings"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-two_readings",
+  "type": "explainer",
+  "src": "assets/media/films/MX-two_readings.mp4",
+  "poster": "assets/media/films/MX-two_readings.jpg",
+  "duration_s": 6.042,
+  "bytes": 388189,
+  "used_in": [
+   "Methods Academy lesson method:two_readings"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-krippendorff_alpha",
+  "type": "explainer",
+  "src": "assets/media/films/MX-krippendorff_alpha.mp4",
+  "poster": "assets/media/films/MX-krippendorff_alpha.jpg",
+  "duration_s": 6.042,
+  "bytes": 509276,
+  "used_in": [
+   "Methods Academy lesson method:krippendorff_alpha"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-csqca",
+  "type": "explainer",
+  "src": "assets/media/films/MX-csqca.mp4",
+  "poster": "assets/media/films/MX-csqca.jpg",
+  "duration_s": 6.042,
+  "bytes": 894740,
+  "used_in": [
+   "Methods Academy lesson method:csqca"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-necessary_condition_bar",
+  "type": "explainer",
+  "src": "assets/media/films/MX-necessary_condition_bar.mp4",
+  "poster": "assets/media/films/MX-necessary_condition_bar.jpg",
+  "duration_s": 6.042,
+  "bytes": 541161,
+  "used_in": [
+   "Methods Academy lesson method:necessary_condition_bar"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-rule_1a",
+  "type": "explainer",
+  "src": "assets/media/films/MX-rule_1a.mp4",
+  "poster": "assets/media/films/MX-rule_1a.jpg",
+  "duration_s": 6.042,
+  "bytes": 493138,
+  "used_in": [
+   "Methods Academy lesson method:rule_1a"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-permutation_test",
+  "type": "explainer",
+  "src": "assets/media/films/MX-permutation_test.mp4",
+  "poster": "assets/media/films/MX-permutation_test.jpg",
+  "duration_s": 6.042,
+  "bytes": 522888,
+  "used_in": [
+   "Methods Academy lesson method:permutation_test"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "MX-scenario_model",
+  "type": "explainer",
+  "src": "assets/media/films/MX-scenario_model.mp4",
+  "poster": "assets/media/films/MX-scenario_model.jpg",
+  "duration_s": 6.042,
+  "bytes": 652364,
+  "used_in": [
+   "Methods Academy lesson method:scenario_model"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV09",
+  "type": "explainer",
+  "src": "assets/media/films/LV09.mp4",
+  "poster": "assets/media/films/LV09.jpg",
+  "duration_s": 6.042,
+  "bytes": 810864,
+  "used_in": [
+   "link 1 lights (end of scene 4.1)",
+   "chain HUD Claim tab"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV10",
+  "type": "explainer",
+  "src": "assets/media/films/LV10.mp4",
+  "poster": "assets/media/films/LV10.jpg",
+  "duration_s": 6.042,
+  "bytes": 865911,
+  "used_in": [
+   "link 2 lights (end of scene 4.2)"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV11",
+  "type": "explainer",
+  "src": "assets/media/films/LV11.mp4",
+  "poster": "assets/media/films/LV11.jpg",
+  "duration_s": 6.042,
+  "bytes": 884827,
+  "used_in": [
+   "link 3 lights (end of scene 4.3)",
+   "P3"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV12",
+  "type": "explainer",
+  "src": "assets/media/films/LV12.mp4",
+  "poster": "assets/media/films/LV12.jpg",
+  "duration_s": 6.042,
+  "bytes": 901807,
+  "used_in": [
+   "link 4 lights (end of scene 4.4)",
+   "P4"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-S12",
+  "type": "still",
+  "src": "assets/media/img/FM-S12.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 104636,
+  "used_in": [
+   "journey strip, act stamp 3"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S13",
+  "type": "still",
+  "src": "assets/media/img/FM-S13.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 111998,
+  "used_in": [
+   "journey strip, act stamp 4"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-V10",
+  "type": "video",
+  "src": "assets/media/films/FM-V10.mp4",
+  "poster": "assets/media/films/FM-V10.jpg",
+  "duration_s": 6.0,
+  "bytes": 1964601,
+  "used_in": [
+   "twins' first name slam"
+  ],
+  "priority": 3,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "FM-S25",
+  "type": "still",
+  "src": "assets/media/img/FM-S25.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 150000,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S26",
+  "type": "still",
+  "src": "assets/media/img/FM-S26.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147228,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S27",
+  "type": "still",
+  "src": "assets/media/img/FM-S27.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146868,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S28",
+  "type": "still",
+  "src": "assets/media/img/FM-S28.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 141564,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S29",
+  "type": "still",
+  "src": "assets/media/img/FM-S29.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148960,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S30",
+  "type": "still",
+  "src": "assets/media/img/FM-S30.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145436,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S31",
+  "type": "still",
+  "src": "assets/media/img/FM-S31.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145158,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S32",
+  "type": "still",
+  "src": "assets/media/img/FM-S32.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148088,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS03",
+  "type": "still",
+  "src": "assets/media/img/TS03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 75938,
+  "used_in": [
+   "Ethics Office door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS04",
+  "type": "still",
+  "src": "assets/media/img/TS04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 82322,
+  "used_in": [
+   "Survey Square",
+   "scene 5.4"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS06",
+  "type": "still",
+  "src": "assets/media/img/TS06.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 67968,
+  "used_in": [
+   "The Depot door",
+   "Witness Court"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS07",
+  "type": "still",
+  "src": "assets/media/img/TS07.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 70698,
+  "used_in": [
+   "Method Works",
+   "Methods Academy",
+   "Coders' Tower door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "CS17",
+  "type": "still",
+  "src": "assets/media/img/CS17.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147792,
+  "used_in": [
+   "act 5 turning point (start of CV53)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS23",
+  "type": "still",
+  "src": "assets/media/img/CS23.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145990,
+  "used_in": [
+   "act 6 turning point (start of CV62)"
+  ],
+  "priority": 1,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS34",
+  "type": "still",
+  "src": "assets/media/img/CS34.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149800,
+  "used_in": [
+   "act 5 opening 5-10 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 724,
+  "alpha": false
+ },
+ {
+  "id": "CS35",
+  "type": "still",
+  "src": "assets/media/img/CS35.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 144632,
+  "used_in": [
+   "act 6 opening 6-10 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CV50",
+  "type": "video",
+  "src": "assets/media/films/CV50.mp4",
+  "poster": "assets/media/films/CV50.jpg",
+  "duration_s": 6.917,
+  "bytes": 850473,
+  "used_in": [
+   "act 5 opening 5-2",
+   "act 4 closer next time"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV51",
+  "type": "video",
+  "src": "assets/media/films/CV51.mp4",
+  "poster": "assets/media/films/CV51.jpg",
+  "duration_s": 9.042,
+  "bytes": 1769717,
+  "used_in": [
+   "act 5 opening 5-4"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV52",
+  "type": "video",
+  "src": "assets/media/films/CV52.mp4",
+  "poster": "assets/media/films/CV52.jpg",
+  "duration_s": 9.042,
+  "bytes": 813927,
+  "used_in": [
+   "act 5 opening 5-6"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV53",
+  "type": "video",
+  "src": "assets/media/films/CV53.mp4",
+  "poster": "assets/media/films/CV53.jpg",
+  "duration_s": 9.042,
+  "bytes": 796253,
+  "used_in": [
+   "act 5 turning point cut-in"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV61",
+  "type": "video",
+  "src": "assets/media/films/CV61.mp4",
+  "poster": "assets/media/films/CV61.jpg",
+  "duration_s": 8.042,
+  "bytes": 1036091,
+  "used_in": [
+   "act 6 opening 6-7"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CV62",
+  "type": "video",
+  "src": "assets/media/films/CV62.mp4",
+  "poster": "assets/media/films/CV62.jpg",
+  "duration_s": 4.792,
+  "bytes": 422133,
+  "used_in": [
+   "act 6 turning point"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 724,
+  "asset": true
+ },
+ {
+  "id": "CV85",
+  "type": "video",
+  "src": "assets/media/films/CV85.mp4",
+  "poster": "assets/media/films/CV85.jpg",
+  "duration_s": 9.042,
+  "bytes": 1195596,
+  "used_in": [
+   "Evidence Locker first entry"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-S03",
+  "type": "still",
+  "src": "assets/media/img/FM-S03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 160826,
+  "used_in": [
+   "Animal portrait from scene 6.3",
+   "sighting sticker 3"
+  ],
+  "priority": 1,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S51",
+  "type": "still",
+  "src": "assets/media/img/FM-S51.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148536,
+  "used_in": [
+   "Dot patrol backdrop"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "FM-S08",
+  "type": "still",
+  "src": "assets/media/img/FM-S08.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149030,
+  "used_in": [
+   "Same Door Dash card"
+  ],
+  "priority": 3,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S09",
+  "type": "still",
+  "src": "assets/media/img/FM-S09.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146722,
+  "used_in": [
+   "Same Door Dash start"
+  ],
+  "priority": 3,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "FM-S14",
+  "type": "still",
+  "src": "assets/media/img/FM-S14.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 153804,
+  "used_in": [
+   "journey strip, act stamp 5"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S15",
+  "type": "still",
+  "src": "assets/media/img/FM-S15.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 76022,
+  "used_in": [
+   "journey strip, act stamp 6"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-V05",
+  "type": "video",
+  "src": "assets/media/films/FM-V05.mp4",
+  "poster": "assets/media/films/FM-V05.jpg",
+  "duration_s": 6.042,
+  "bytes": 820269,
+  "used_in": [
+   "Docket meets the Animal after Act 4"
+  ],
+  "priority": 3,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-V08",
+  "type": "video",
+  "src": "assets/media/films/FM-V08.mp4",
+  "poster": "assets/media/films/FM-V08.jpg",
+  "duration_s": 5.042,
+  "bytes": 464433,
+  "used_in": [
+   "Corra's first name slam"
+  ],
+  "priority": 3,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "FM-V09",
+  "type": "video",
+  "src": "assets/media/films/FM-V09.mp4",
+  "poster": "assets/media/films/FM-V09.jpg",
+  "duration_s": 5.042,
+  "bytes": 489402,
+  "used_in": [
+   "Tilly's first name slam"
+  ],
+  "priority": 3,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "GM-CH-08",
+  "type": "still",
+  "src": "assets/media/img/GM-CH-08.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 134412,
+  "used_in": [
+   "Spot check card"
+  ],
+  "priority": 1,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "GM-V-06",
+  "type": "video",
+  "src": "assets/media/films/GM-V-06.mp4",
+  "poster": "assets/media/films/GM-V-06.jpg",
+  "duration_s": 6.042,
+  "bytes": 1621728,
+  "used_in": [
+   "first spot check (replaces the police push on img-16)"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "GM-V-05",
+  "type": "video",
+  "src": "assets/media/films/GM-V-05.mp4",
+  "poster": "assets/media/films/GM-V-05.jpg",
+  "duration_s": 6.042,
+  "bytes": 2174327,
+  "used_in": [
+   "Gate Run finish"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV13",
+  "type": "explainer",
+  "src": "assets/media/films/LV13.mp4",
+  "poster": "assets/media/films/LV13.jpg",
+  "duration_s": 6.042,
+  "bytes": 893042,
+  "used_in": [
+   "The core (term card, scene 6.1)"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "LV14",
+  "type": "explainer",
+  "src": "assets/media/films/LV14.mp4",
+  "poster": "assets/media/films/LV14.jpg",
+  "duration_s": 6.042,
+  "bytes": 1183349,
+  "used_in": [
+   "Reciprocal hostage (term card, scene 4.3)",
+   "Tune-up E4 corrective"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "FM-S33",
+  "type": "still",
+  "src": "assets/media/img/FM-S33.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149172,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S34",
+  "type": "still",
+  "src": "assets/media/img/FM-S34.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148792,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S35",
+  "type": "still",
+  "src": "assets/media/img/FM-S35.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145118,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S36",
+  "type": "still",
+  "src": "assets/media/img/FM-S36.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 140026,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S37",
+  "type": "still",
+  "src": "assets/media/img/FM-S37.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147902,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S38",
+  "type": "still",
+  "src": "assets/media/img/FM-S38.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148532,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S39",
+  "type": "still",
+  "src": "assets/media/img/FM-S39.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 152882,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S40",
+  "type": "still",
+  "src": "assets/media/img/FM-S40.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 152470,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S41",
+  "type": "still",
+  "src": "assets/media/img/FM-S41.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 118786,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S42",
+  "type": "still",
+  "src": "assets/media/img/FM-S42.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 114870,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S43",
+  "type": "still",
+  "src": "assets/media/img/FM-S43.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 104546,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S44",
+  "type": "still",
+  "src": "assets/media/img/FM-S44.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 106446,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS08",
+  "type": "still",
+  "src": "assets/media/img/TS08.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 60310,
+  "used_in": [
+   "Ghent Gate"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS09",
+  "type": "still",
+  "src": "assets/media/img/TS09.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 55738,
+  "used_in": [
+   "Locker Market"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS10",
+  "type": "still",
+  "src": "assets/media/img/TS10.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 42660,
+  "used_in": [
+   "Council Office door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS11",
+  "type": "still",
+  "src": "assets/media/img/TS11.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 48026,
+  "used_in": [
+   "Claims Registry door"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS16",
+  "type": "still",
+  "src": "assets/media/img/TS16.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 39446,
+  "used_in": [
+   "Red Cell Square"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS17",
+  "type": "still",
+  "src": "assets/media/img/TS17.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 48398,
+  "used_in": [
+   "Ghent Gate",
+   "the clock tower"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TE01",
+  "type": "still",
+  "src": "assets/media/img/TE01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 92554,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE02",
+  "type": "still",
+  "src": "assets/media/img/TE02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 71242,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE03",
+  "type": "still",
+  "src": "assets/media/img/TE03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 27680,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE04",
+  "type": "still",
+  "src": "assets/media/img/TE04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 131696,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE05",
+  "type": "still",
+  "src": "assets/media/img/TE05.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 34950,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE06",
+  "type": "still",
+  "src": "assets/media/img/TE06.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 54366,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE07",
+  "type": "still",
+  "src": "assets/media/img/TE07.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 47748,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE08",
+  "type": "still",
+  "src": "assets/media/img/TE08.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 60400,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE09",
+  "type": "still",
+  "src": "assets/media/img/TE09.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 69256,
+  "used_in": [
+   "motion-comic stills"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE12",
+  "type": "still",
+  "src": "assets/media/img/TE12.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147534,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 679,
+  "alpha": false
+ },
+ {
+  "id": "TE13",
+  "type": "still",
+  "src": "assets/media/img/TE13.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147176,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 680,
+  "alpha": false
+ },
+ {
+  "id": "TE14",
+  "type": "still",
+  "src": "assets/media/img/TE14.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 145634,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 679,
+  "alpha": false
+ },
+ {
+  "id": "TE15",
+  "type": "still",
+  "src": "assets/media/img/TE15.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148566,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 679,
+  "alpha": false
+ },
+ {
+  "id": "TE16",
+  "type": "still",
+  "src": "assets/media/img/TE16.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 144354,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 679,
+  "alpha": false
+ },
+ {
+  "id": "TE17",
+  "type": "still",
+  "src": "assets/media/img/TE17.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146680,
+  "used_in": [
+   "pans in the Director"
+  ],
+  "priority": 3,
+  "w": 1600,
+  "h": 679,
+  "alpha": false
+ },
+ {
+  "id": "GM-ALB-01",
+  "type": "still",
+  "src": "assets/media/img/GM-ALB-01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 146856,
+  "used_in": [
+   "album card back"
+  ],
+  "priority": 2,
+  "w": 880,
+  "h": 1168,
+  "alpha": false
+ },
+ {
+  "id": "LS04",
+  "type": "still",
+  "src": "assets/media/img/LS04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 155740,
+  "used_in": [
+   "Tune-up Bay"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "LS05",
+  "type": "still",
+  "src": "assets/media/img/LS05.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 143452,
+  "used_in": [
+   "Shift planner backdrop"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "GM-V-03",
+  "type": "video",
+  "src": "assets/media/films/GM-V-03.mp4",
+  "poster": "assets/media/films/GM-V-03.jpg",
+  "duration_s": 8.042,
+  "bytes": 2033463,
+  "used_in": [
+   "end-of-session card backdrop"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "TS14",
+  "type": "still",
+  "src": "assets/media/img/TS14.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 70896,
+  "used_in": [
+   "rehearsal markers",
+   "examiner corners",
+   "Digits' kiosk"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS15",
+  "type": "still",
+  "src": "assets/media/img/TS15.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 55712,
+  "used_in": [
+   "rehearsal markers",
+   "examiner corners",
+   "Digits' kiosk"
+  ],
+  "priority": 2,
+  "w": 688,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "RX-depot",
+  "type": "explainer",
+  "src": "assets/media/films/RX-depot.mp4",
+  "poster": "assets/media/films/RX-depot.jpg",
+  "duration_s": 6.042,
+  "bytes": 493996,
+  "used_in": [
+   "Locker room entry: depot",
+   "card:app-H"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-coders_tower",
+  "type": "explainer",
+  "src": "assets/media/films/RX-coders_tower.mp4",
+  "poster": "assets/media/films/RX-coders_tower.jpg",
+  "duration_s": 6.042,
+  "bytes": 505557,
+  "used_in": [
+   "Locker room entry: coders_tower",
+   "card:app-I/L"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-ghent_gate_room",
+  "type": "explainer",
+  "src": "assets/media/films/RX-ghent_gate_room.mp4",
+  "poster": "assets/media/films/RX-ghent_gate_room.jpg",
+  "duration_s": 6.042,
+  "bytes": 785106,
+  "used_in": [
+   "Locker room entry: ghent_gate_room",
+   "card:app-J"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-locker_market_room",
+  "type": "explainer",
+  "src": "assets/media/films/RX-locker_market_room.mp4",
+  "poster": "assets/media/films/RX-locker_market_room.jpg",
+  "duration_s": 6.042,
+  "bytes": 790173,
+  "used_in": [
+   "Locker room entry: locker_market_room",
+   "card:app-M"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-council_office",
+  "type": "explainer",
+  "src": "assets/media/films/RX-council_office.mp4",
+  "poster": "assets/media/films/RX-council_office.jpg",
+  "duration_s": 6.042,
+  "bytes": 571859,
+  "used_in": [
+   "Locker room entry: council_office",
+   "card:app-N"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "RX-claims_registry",
+  "type": "explainer",
+  "src": "assets/media/films/RX-claims_registry.mp4",
+  "poster": "assets/media/films/RX-claims_registry.jpg",
+  "duration_s": 6.042,
+  "bytes": 531363,
+  "used_in": [
+   "Locker room entry: claims_registry",
+   "card:app-O"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 716,
+  "asset": true
+ },
+ {
+  "id": "CS01",
+  "type": "still",
+  "src": "assets/media/img/CS01.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148650,
+  "used_in": [
+   "start of CV01, CV03, CV93; end of CV04"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS02",
+  "type": "still",
+  "src": "assets/media/img/CS02.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148860,
+  "used_in": [
+   "start of CV02 (every closer)"
+  ],
+  "priority": 1,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS03",
+  "type": "still",
+  "src": "assets/media/img/CS03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147106,
+  "used_in": [
+   "start of CV04 (cold open)"
+  ],
+  "priority": 1,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS04",
+  "type": "still",
+  "src": "assets/media/img/CS04.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 152556,
+  "used_in": [
+   "Marigold's character card",
+   "reference for her shots (likeness checkpoint)"
+  ],
+  "priority": 1,
+  "w": 1200,
+  "h": 1200,
+  "alpha": false
+ },
+ {
+  "id": "CS18",
+  "type": "still",
+  "src": "assets/media/img/CS18.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148020,
+  "used_in": [
+   "start of CV71"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS19",
+  "type": "still",
+  "src": "assets/media/img/CS19.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148102,
+  "used_in": [
+   "start of CV80 (the Long Ride)"
+  ],
+  "priority": 1,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS20",
+  "type": "still",
+  "src": "assets/media/img/CS20.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149846,
+  "used_in": [
+   "start of CV90 (pass)"
+  ],
+  "priority": 1,
+  "w": 1600,
+  "h": 905,
+  "alpha": false
+ },
+ {
+  "id": "CS21",
+  "type": "still",
+  "src": "assets/media/img/CS21.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148966,
+  "used_in": [
+   "start of CV91 (pass)"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CS36",
+  "type": "still",
+  "src": "assets/media/img/CS36.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149240,
+  "used_in": [
+   "act 7 opening 7-8 (examiner cameo)"
+  ],
+  "priority": 2,
+  "w": 1440,
+  "h": 815,
+  "alpha": false
+ },
+ {
+  "id": "CV01",
+  "type": "video",
+  "src": "assets/media/films/CV01.mp4",
+  "poster": "assets/media/films/CV01.jpg",
+  "duration_s": 8.042,
+  "bytes": 1478064,
+  "used_in": [
+   "every act opening",
+   "Previously",
+   "Watch the story chapter breaks"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV02",
+  "type": "video",
+  "src": "assets/media/films/CV02.mp4",
+  "poster": "assets/media/films/CV02.jpg",
+  "duration_s": 5.042,
+  "bytes": 583662,
+  "used_in": [
+   "every closer K1"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV03",
+  "type": "video",
+  "src": "assets/media/films/CV03.mp4",
+  "poster": "assets/media/films/CV03.jpg",
+  "duration_s": 6.042,
+  "bytes": 547459,
+  "used_in": [
+   "every closer K2"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV04",
+  "type": "video",
+  "src": "assets/media/films/CV04.mp4",
+  "poster": "assets/media/films/CV04.jpg",
+  "duration_s": 8.042,
+  "bytes": 1982140,
+  "used_in": [
+   "cold open"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV70",
+  "type": "video",
+  "src": "assets/media/films/CV70.mp4",
+  "poster": "assets/media/films/CV70.jpg",
+  "duration_s": 9.042,
+  "bytes": 1209675,
+  "used_in": [
+   "act 7 opening 7-2",
+   "act 6 closer next time"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV71",
+  "type": "video",
+  "src": "assets/media/films/CV71.mp4",
+  "poster": "assets/media/films/CV71.jpg",
+  "duration_s": 9.042,
+  "bytes": 1187877,
+  "used_in": [
+   "act 7 opening 7-3"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV72",
+  "type": "video",
+  "src": "assets/media/films/CV72.mp4",
+  "poster": "assets/media/films/CV72.jpg",
+  "duration_s": 8.042,
+  "bytes": 1002773,
+  "used_in": [
+   "act 7 turning point cut-in"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV80",
+  "type": "video",
+  "src": "assets/media/films/CV80.mp4",
+  "poster": "assets/media/films/CV80.jpg",
+  "duration_s": 8.042,
+  "bytes": 1253448,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV81",
+  "type": "video",
+  "src": "assets/media/films/CV81.mp4",
+  "poster": "assets/media/films/CV81.jpg",
+  "duration_s": 9.042,
+  "bytes": 2047634,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV82",
+  "type": "video",
+  "src": "assets/media/films/CV82.mp4",
+  "poster": "assets/media/films/CV82.jpg",
+  "duration_s": 9.042,
+  "bytes": 1619722,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV83",
+  "type": "video",
+  "src": "assets/media/films/CV83.mp4",
+  "poster": "assets/media/films/CV83.jpg",
+  "duration_s": 9.042,
+  "bytes": 1237500,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV84",
+  "type": "video",
+  "src": "assets/media/films/CV84.mp4",
+  "poster": "assets/media/films/CV84.jpg",
+  "duration_s": 9.042,
+  "bytes": 1929134,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV90",
+  "type": "video",
+  "src": "assets/media/films/CV90.mp4",
+  "poster": "assets/media/films/CV90.jpg",
+  "duration_s": 8.042,
+  "bytes": 927781,
+  "used_in": [
+   "pass ending"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV91",
+  "type": "video",
+  "src": "assets/media/films/CV91.mp4",
+  "poster": "assets/media/films/CV91.jpg",
+  "duration_s": 9.042,
+  "bytes": 2337789,
+  "used_in": [
+   "pass ending"
+  ],
+  "priority": 2,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV92",
+  "type": "video",
+  "src": "assets/video/CV92.mp4",
+  "poster": "assets/media/films/CV92.jpg",
+  "duration_s": 9.042,
+  "bytes": 1694008,
+  "used_in": [
+   "pass ending (the chain in the sky)"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV93",
+  "type": "video",
+  "src": "assets/media/films/CV93.mp4",
+  "poster": "assets/media/films/CV93.jpg",
+  "duration_s": 8.042,
+  "bytes": 961422,
+  "used_in": [
+   "pass ending",
+   "major corrections (first 4 s)"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "CV95",
+  "type": "video",
+  "src": "assets/video/CV95.mp4",
+  "poster": "assets/media/img/CV95.jpg",
+  "duration_s": 8.042,
+  "bytes": 2727907,
+  "used_in": [
+   "Not awarded"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": false,
+  "note": "fixer d1: the trainers have plain panels (no maker mark); served as a file until it goes back to the asset store"
+ },
+ {
+  "id": "FM-S16",
+  "type": "still",
+  "src": "assets/media/img/FM-S16.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 115484,
+  "used_in": [
+   "journey strip and stamps"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S17",
+  "type": "still",
+  "src": "assets/media/img/FM-S17.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 101616,
+  "used_in": [
+   "journey strip and stamps"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S18",
+  "type": "still",
+  "src": "assets/media/img/FM-S18.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 104614,
+  "used_in": [
+   "journey strip and stamps"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-V07",
+  "type": "video",
+  "src": "assets/media/films/FM-V07.mp4",
+  "poster": "assets/media/films/FM-V07.jpg",
+  "duration_s": 5.042,
+  "bytes": 233777,
+  "used_in": [
+   "Digits' first name slam"
+  ],
+  "priority": 3,
+  "w": 960,
+  "h": 960,
+  "asset": true
+ },
+ {
+  "id": "LS03",
+  "type": "still",
+  "src": "assets/media/img/LS03.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148292,
+  "used_in": [
+   "the Waiting Room mock"
+  ],
+  "priority": 1,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "LS06",
+  "type": "still",
+  "src": "assets/media/img/LS06.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147818,
+  "used_in": [
+   "end-of-session card",
+   "start of LV16"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 717,
+  "alpha": false
+ },
+ {
+  "id": "LV16",
+  "type": "video",
+  "src": "assets/media/films/LV16.mp4",
+  "poster": "assets/media/films/LV16.jpg",
+  "duration_s": 6.042,
+  "bytes": 763691,
+  "used_in": [
+   "end-of-session card",
+   "Night Shift intro"
+  ],
+  "priority": 1,
+  "w": 1280,
+  "h": 720,
+  "asset": true
+ },
+ {
+  "id": "FM-S45",
+  "type": "still",
+  "src": "assets/media/img/FM-S45.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 157556,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S46",
+  "type": "still",
+  "src": "assets/media/img/FM-S46.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 156828,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S47",
+  "type": "still",
+  "src": "assets/media/img/FM-S47.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 127600,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S48",
+  "type": "still",
+  "src": "assets/media/img/FM-S48.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 119564,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S49",
+  "type": "still",
+  "src": "assets/media/img/FM-S49.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 155010,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "FM-S50",
+  "type": "still",
+  "src": "assets/media/img/FM-S50.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 157458,
+  "used_in": [
+   "dialogue reactions and verdicts"
+  ],
+  "priority": 2,
+  "w": 1024,
+  "h": 1024,
+  "alpha": false
+ },
+ {
+  "id": "TS18",
+  "type": "still",
+  "src": "assets/media/img/TS18.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147738,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS19",
+  "type": "still",
+  "src": "assets/media/img/TS19.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149284,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS20",
+  "type": "still",
+  "src": "assets/media/img/TS20.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148382,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS21",
+  "type": "still",
+  "src": "assets/media/img/TS21.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 147916,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS22",
+  "type": "still",
+  "src": "assets/media/img/TS22.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 154262,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS23",
+  "type": "still",
+  "src": "assets/media/img/TS23.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 149486,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS24",
+  "type": "still",
+  "src": "assets/media/img/TS24.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 143586,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS25",
+  "type": "still",
+  "src": "assets/media/img/TS25.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 158020,
+  "used_in": [
+   "Viva Hall live stage"
+  ],
+  "priority": 1,
+  "w": 880,
+  "h": 1168,
+  "alpha": true
+ },
+ {
+  "id": "TS26",
+  "type": "still",
+  "src": "assets/media/img/TS26.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 148550,
+  "used_in": [
+   "Viva Hall clean plate"
+  ],
+  "priority": 1,
+  "w": 1344,
+  "h": 752,
+  "alpha": false
+ },
+ {
+  "id": "TE10",
+  "type": "still",
+  "src": "assets/media/img/TE10.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 99584,
+  "used_in": [
+   "Viva Hall front layer"
+  ],
+  "priority": 1,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "TE11",
+  "type": "still",
+  "src": "assets/media/img/TE11.webp",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 96924,
+  "used_in": [
+   "Viva Hall fallback"
+  ],
+  "priority": 2,
+  "w": 1344,
+  "h": 752,
+  "alpha": true
+ },
+ {
+  "id": "CM-THEME",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-THEME_calm.mp3",
+  "poster": null,
+  "duration_s": 40.0,
+  "bytes": 1282386,
+  "used_in": [
+   "title",
+   "cold open",
+   "closers",
+   "Long Ride",
+   "wins"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-THEME_calm.mp3",
+    "duration_s": 40.0
+   },
+   "mission": {
+    "src": "assets/media/music/CM-THEME_mission.mp3",
+    "duration_s": 40.0
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-BOOK",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-BOOK_main.mp3",
+  "poster": null,
+  "duration_s": 2.652,
+  "bytes": 43511,
+  "used_in": [
+   "every CV01"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-BOOK_main.mp3",
+    "duration_s": 2.652
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D1",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D1_calm.mp3",
+  "poster": null,
+  "duration_s": 43.636,
+  "bytes": 1398578,
+  "used_in": [
+   "Act 1"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D1_calm.mp3",
+    "duration_s": 43.636
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D1_mission.mp3",
+    "duration_s": 43.636
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D2",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D2_calm.mp3",
+  "poster": null,
+  "duration_s": 40.0,
+  "bytes": 1282386,
+  "used_in": [
+   "Act 2"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D2_calm.mp3",
+    "duration_s": 40.0
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D2_mission.mp3",
+    "duration_s": 40.0
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D3",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D3_calm.mp3",
+  "poster": null,
+  "duration_s": 36.923,
+  "bytes": 1183748,
+  "used_in": [
+   "Act 3",
+   "Methods missions"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D3_calm.mp3",
+    "duration_s": 36.923
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D3_mission.mp3",
+    "duration_s": 36.923
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D4",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D4_calm.mp3",
+  "poster": null,
+  "duration_s": 41.739,
+  "bytes": 1337556,
+  "used_in": [
+   "Act 4"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D4_calm.mp3",
+    "duration_s": 41.739
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D4_mission.mp3",
+    "duration_s": 41.739
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D5",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D5_calm.mp3",
+  "poster": null,
+  "duration_s": 28.8,
+  "bytes": 923776,
+  "used_in": [
+   "Act 5"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D5_calm.mp3",
+    "duration_s": 28.8
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D5_mission.mp3",
+    "duration_s": 28.8
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D6",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D6_calm.mp3",
+  "poster": null,
+  "duration_s": 35.556,
+  "bytes": 1140280,
+  "used_in": [
+   "Act 6"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D6_calm.mp3",
+    "duration_s": 35.556
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D6_mission.mp3",
+    "duration_s": 35.556
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-D7",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-D7_calm.mp3",
+  "poster": null,
+  "duration_s": 43.636,
+  "bytes": 1398578,
+  "used_in": [
+   "Act 7"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-D7_calm.mp3",
+    "duration_s": 43.636
+   },
+   "mission": {
+    "src": "assets/media/music/CM-D7_mission.mp3",
+    "duration_s": 43.636
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-LOCKER",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-LOCKER_calm.mp3",
+  "poster": null,
+  "duration_s": 42.667,
+  "bytes": 1367650,
+  "used_in": [
+   "Evidence Locker"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-LOCKER_calm.mp3",
+    "duration_s": 42.667
+   },
+   "mission": {
+    "src": "assets/media/music/CM-LOCKER_mission.mp3",
+    "duration_s": 42.667
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-ACADEMY",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-ACADEMY_calm.mp3",
+  "poster": null,
+  "duration_s": 48.0,
+  "bytes": 1538176,
+  "used_in": [
+   "Methods Academy",
+   "Night Shift"
+  ],
+  "priority": 1,
+  "stems": {
+   "calm": {
+    "src": "assets/media/music/CM-ACADEMY_calm.mp3",
+    "duration_s": 48.0
+   },
+   "mission": {
+    "src": "assets/media/music/CM-ACADEMY_mission.mp3",
+    "duration_s": 48.0
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-WAIT",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-WAIT_main.mp3",
+  "poster": null,
+  "duration_s": 54.858,
+  "bytes": 879012,
+  "used_in": [
+   "Waiting Room mock"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-WAIT_main.mp3",
+    "duration_s": 54.858
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-ANIMAL",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-ANIMAL_big.mp3",
+  "poster": null,
+  "duration_s": 2.856,
+  "bytes": 92038,
+  "used_in": [
+   "every Animal appearance"
+  ],
+  "priority": 1,
+  "stems": {
+   "big": {
+    "src": "assets/media/music/CM-ANIMAL_big.mp3",
+    "duration_s": 2.768
+   },
+   "small": {
+    "src": "assets/media/music/CM-ANIMAL_small.mp3",
+    "duration_s": 2.856
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-EXAM",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-EXAM_main.mp3",
+  "poster": null,
+  "duration_s": 2.526,
+  "bytes": 41422,
+  "used_in": [
+   "examiner cameos and stings"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-EXAM_main.mp3",
+    "duration_s": 2.526
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-TP",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-TP_main.mp3",
+  "poster": null,
+  "duration_s": 4.362,
+  "bytes": 70679,
+  "used_in": [
+   "every turning point's reversal"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-TP_main.mp3",
+    "duration_s": 4.362
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-CHAIN",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-CHAIN_link1.mp3",
+  "poster": null,
+  "duration_s": 7.375,
+  "bytes": 404010,
+  "used_in": [
+   "chain pips",
+   "The chain",
+   "CV92"
+  ],
+  "priority": 1,
+  "stems": {
+   "link1": {
+    "src": "assets/media/music/CM-CHAIN_link1.mp3",
+    "duration_s": 3.486
+   },
+   "link2": {
+    "src": "assets/media/music/CM-CHAIN_link2.mp3",
+    "duration_s": 3.47
+   },
+   "link3": {
+    "src": "assets/media/music/CM-CHAIN_link3.mp3",
+    "duration_s": 3.384
+   },
+   "link4": {
+    "src": "assets/media/music/CM-CHAIN_link4.mp3",
+    "duration_s": 3.511
+   },
+   "link5": {
+    "src": "assets/media/music/CM-CHAIN_link5.mp3",
+    "duration_s": 3.619
+   },
+   "full": {
+    "src": "assets/media/music/CM-CHAIN_full.mp3",
+    "duration_s": 7.375
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-HALL",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-HALL_drone.mp3",
+  "poster": null,
+  "duration_s": 53.333,
+  "bytes": 2563056,
+  "used_in": [
+   "Viva Hall"
+  ],
+  "priority": 1,
+  "stems": {
+   "drone": {
+    "src": "assets/media/music/CM-HALL_drone.mp3",
+    "duration_s": 53.333
+   },
+   "pulse": {
+    "src": "assets/media/music/CM-HALL_pulse.mp3",
+    "duration_s": 53.333
+   },
+   "tension": {
+    "src": "assets/media/music/CM-HALL_tension.mp3",
+    "duration_s": 53.333
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-RIDE",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-RIDE_main.mp3",
+  "poster": null,
+  "duration_s": 83.077,
+  "bytes": 1330408,
+  "used_in": [
+   "the Long Ride"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-RIDE_main.mp3",
+    "duration_s": 83.077
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-RAIN",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-RAIN_main.mp3",
+  "poster": null,
+  "duration_s": 26.667,
+  "bytes": 427616,
+  "used_in": [
+   "Not awarded"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-RAIN_main.mp3",
+    "duration_s": 26.667
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-WIN",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-WIN_main.mp3",
+  "poster": null,
+  "duration_s": 32.0,
+  "bytes": 512879,
+  "used_in": [
+   "pass ending"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-WIN_main.mp3",
+    "duration_s": 32.0
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-CREDITS",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-CREDITS_main.mp3",
+  "poster": null,
+  "duration_s": 43.636,
+  "bytes": 699289,
+  "used_in": [
+   "the Parade (cast roll)"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-CREDITS_main.mp3",
+    "duration_s": 43.636
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-HOME",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-HOME_main.mp3",
+  "poster": null,
+  "duration_s": 13.787,
+  "bytes": 221562,
+  "used_in": [
+   "end-of-session card"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-HOME_main.mp3",
+    "duration_s": 13.787
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-LULLABY",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-LULLABY_main.mp3",
+  "poster": null,
+  "duration_s": 8.07,
+  "bytes": 130029,
+  "used_in": [
+   "Bedtime stop"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-LULLABY_main.mp3",
+    "duration_s": 8.07
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-SUNRISE",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-SUNRISE_main.mp3",
+  "poster": null,
+  "duration_s": 6.055,
+  "bytes": 97846,
+  "used_in": [
+   "Good morning"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-SUNRISE_main.mp3",
+    "duration_s": 6.055
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-CHASE",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-CHASE_main.mp3",
+  "poster": null,
+  "duration_s": 27.429,
+  "bytes": 439737,
+  "used_in": [
+   "Spot check chase"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-CHASE_main.mp3",
+    "duration_s": 27.429
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "CM-RACE",
+  "type": "audio_music",
+  "src": "assets/media/music/CM-RACE_main.mp3",
+  "poster": null,
+  "duration_s": 27.429,
+  "bytes": 439737,
+  "used_in": [
+   "Same Door Dash"
+  ],
+  "priority": 1,
+  "stems": {
+   "main": {
+    "src": "assets/media/music/CM-RACE_main.mp3",
+    "duration_s": 27.429
+   }
+  },
+  "cuesheet": "assets/media/music/CM-cuesheet.json"
+ },
+ {
+  "id": "VO-CAST",
+  "type": "audio_voice",
+  "src": "assets/media/cast/voice_index.json",
+  "poster": null,
+  "duration_s": 0,
+  "bytes": 0,
+  "used_in": [
+   "every voiced line: films, scenes, cards, quizzes, lessons, the Hall, menus, Freight FM"
+  ],
+  "priority": 1,
+  "index": "assets/media/cast/voice_index.json",
+  "keymap": "assets/media/cast/key_map.json",
+  "shared": true
+ }
+]

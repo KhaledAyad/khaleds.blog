@@ -1,0 +1,2691 @@
+{
+ "meta": {
+  "thesis": "Shared Space, Separate Freight (University of Wolverhampton)",
+  "built": "2026-11-02",
+  "source": "0. Thesis (final).docx (text) and 0. Thesis (final).pdf (pages, 292); extracted to src_thesis/",
+  "companion_to": "facts.json (the appendices)",
+  "conventions": [
+   "Pages are PDF pages of the thesis file; they equal the printed page numbers.",
+   "Every quoted text in \"thesis\" is word for word from the thesis; every key fact, turning point and glossary entry was checked against a verbatim passage of the docx and paged in the PDF by script (scripts/story/build.py).",
+   "Counts written 15/1/5/5 are transcripts supporting / contradicting / mixed / silent, of 26.",
+   "Participants appear by interview code only (A1-A13, B1-B13). Authors are named only as cited sources, never as characters.",
+   "Quiz options are shuffled with a fixed seed; answer_index points to the correct option."
+  ]
+ },
+ "thesis": {
+  "title": {
+   "text": "SHARED SPACE, SEPARATE FREIGHT: HORIZONTAL COLLABORATION AND COMPETITIVE ADVANTAGE IN EUROPEAN URBAN LAST-MILE LOGISTICS",
+   "section": "Title page",
+   "page": 1
+  },
+  "author_and_degree": {
+   "text": "KHALED AYAD BSc PGCE",
+   "degree": "A thesis submitted in partial fulfilment of the requirements of the University of Wolverhampton for the degree of Doctor of Philosophy",
+   "date": "October 2026",
+   "section": "Title page",
+   "page": 1
+  },
+  "one_sentence": {
+   "text": "Competition for the same customers, not a shortage of trust, is what stops last-mile carriers collaborating; where they cannot share the street, what they would share must be held by someone who does not want their customers, and a city can see that it stays that way.",
+   "section": "1.5 (tested clause by clause in 6.5)",
+   "note": "6.5: 'The sentence stands as a finding up to ‘the street’ and as a proposition after it, as 6.3 states.'",
+   "page": 23
+  },
+  "aim": {
+   "text": "This research focuses on the conditions under which horizontal collaboration succeeds in European urban last-mile logistics, why it so rarely does between competing carriers, and whether its aims can be achieved by other means.",
+   "section": "1.3",
+   "page": 20
+  },
+  "research_question": {
+   "text": "Under what conditions does horizontal collaboration in European urban last-mile logistics succeed, and what achieves its aims where it does not?",
+   "section": "1.3",
+   "page": 21
+  },
+  "objectives": [
+   {
+    "number": "1",
+    "text": "The research will identify the conditions under which last-mile operators agree to collaborate horizontally, and those under which they decline.",
+    "answered_in": "4.2",
+    "sub": [
+     {
+      "number": "1A",
+      "text": "It will assess how willingness varies with the size of the operator.",
+      "page": 20
+     },
+     {
+      "number": "1B",
+      "text": "It will assess how willingness varies with the extent to which the parties' markets overlap.",
+      "page": 20
+     },
+     {
+      "number": "1C",
+      "text": "It will compare these across the eleven countries studied, ten of them European.",
+      "page": 20
+     }
+    ],
+    "page": 20
+   },
+   {
+    "number": "2",
+    "text": "It will examine what is shared in the collaborations that operate, what is withheld, and the line between them.",
+    "answered_in": "4.3",
+    "sub": [
+     {
+      "number": "2A",
+      "text": "It will identify what is pooled.",
+      "page": 20
+     },
+     {
+      "number": "2B",
+      "text": "It will identify what is withheld.",
+      "page": 20
+     },
+     {
+      "number": "2C",
+      "text": "It will explain, from participants' accounts, where the line falls and why.",
+      "page": 20
+     }
+    ],
+    "page": 20
+   },
+   {
+    "number": "3",
+    "text": "It will explain what holds working collaborations together.",
+    "answered_in": "4.4",
+    "sub": [
+     {
+      "number": "3A",
+      "text": "It will assess the part played by trust between the parties.",
+      "page": 20
+     },
+     {
+      "number": "3B",
+      "text": "It will identify the arrangements supplied from outside the parties.",
+      "page": 20
+     },
+     {
+      "number": "3C",
+      "text": "It will evaluate how long each has lasted.",
+      "page": 20
+     }
+    ],
+    "page": 20
+   },
+   {
+    "number": "4",
+    "text": "It will establish where in the supply chain the power to reorganise last-mile flows sits.",
+    "answered_in": "4.5",
+    "sub": [
+     {
+      "number": "4A",
+      "text": "It will assess that power among carriers.",
+      "page": 21
+     },
+     {
+      "number": "4B",
+      "text": "It will assess it among shippers and receivers.",
+      "page": 21
+     },
+     {
+      "number": "4C",
+      "text": "It will assess it among public authorities.",
+      "page": 21
+     }
+    ],
+    "page": 21
+   },
+   {
+    "number": "5",
+    "text": "It will evaluate what achieves the aims attributed to collaboration where collaboration between competing carriers does not.",
+    "answered_in": "Chapter 5 and 6.3",
+    "sub": [
+     {
+      "number": "5A",
+      "text": "It will identify the aims attributed to collaboration, as stated by the field and by participants.",
+      "page": 21
+     },
+     {
+      "number": "5B",
+      "text": "It will evaluate whether partitioning the last mile in time, rather than pooling it, achieves them, in the operating instance of time-based allocation in the record.",
+      "page": 21
+     },
+     {
+      "number": "5C",
+      "text": "It will evaluate whether the holder of the shared point where rivals meet affects whether carriers share it, and assess the objections and the limits.",
+      "page": 21
+     }
+    ],
+    "page": 21
+   }
+  ],
+  "objectives_section": "1.3",
+  "objectives_note": {
+   "text": "Each objective has its section: the first is answered in 4.2, the second in 4.3, the third in 4.4, the fourth in 4.5 and the fifth in Chapter 5 and 6.3",
+   "section": "1.3",
+   "page": 21
+  },
+  "five_links": [
+   {
+    "link": 1,
+    "name": "Overlap",
+    "statement": "Where rivals' markets overlap, they refuse to pool what could expose their customers, unless a wall, a penalty or an owner with no stake in those customers outweighs that exposure; the carrier's size does not predict the refusal.",
+    "definition": "Overlap: whether two parties compete for the same customers in the same place (Gause; Hardin; Bengtsson and Kock).",
+    "tested_in": "4.2",
+    "count": "fifteen interviews for, one against, five mixed and five silent",
+    "page_statement": 24,
+    "page_definition": 78
+   },
+   {
+    "link": 2,
+    "name": "The boundary of sharing",
+    "statement": "Where collaboration between carriers does happen, what is shared is space, facilities, vehicles and infrastructure, what is withheld is customers and operating data, and the freight crosses the line only where a third party, a reciprocal contract or a reputation system secures what would otherwise be exposed, which is why the shared van of 1.2 so rarely arrived; where freight is pooled, as in the shipper-led schemes Chapter 2 reads, it is the owners of the freight who pooled it.",
+    "definition": "The boundary of sharing: the line between what is pooled and what is withheld, drawn where the customer relationship begins (Barney).",
+    "tested_in": "4.3",
+    "count": "sixteen interviews for, one against, six mixed and three silent",
+    "page_statement": 24,
+    "page_definition": 78
+   },
+   {
+    "link": 3,
+    "name": "The binder",
+    "statement": "What holds most of those arrangements together is not trust between the parties but something that binds them from outside: a neutral third party, a grant, a regulation, permit or mandate, a contract, a client's instruction, a prior vertical relationship, a reciprocal trade or a platform's reputation.",
+    "definition": "Binding: the arrangement supplied from outside the parties that holds a collaboration where trust between them cannot (Ostrom; Sternberg).",
+    "tested_in": "4.4",
+    "count": "twenty-four interviews for, none against, one mixed and one silent",
+    "page_statement": 24,
+    "page_definition": 78
+   },
+   {
+    "link": 4,
+    "name": "Power",
+    "statement": "The parties who can supply that binding sit mainly on the demand side and the public side: shippers, receivers and cities.",
+    "definition": "Power: the position in the chain that holds the capacity to reorganise last-mile flows, and so to supply binding, which is mainly the shipper's, the receiver's and the city's (Holguín-Veras; the trophic cascade).",
+    "tested_in": "4.5",
+    "count": "eighteen interviews for, none against, five mixed and three silent",
+    "page_statement": 24,
+    "page_definition": 78
+   },
+   {
+    "link": 5,
+    "name": "The holder",
+    "statement": "And so, the thesis proposes, the aims that collaboration is asked to deliver can be reached another way: the shared point passes to a holder that does not compete for the carriers' customers, an access rule by vehicle and hour that names no operator makes it worth doing, and the city checks, every time the holder changes hands, that it still does not compete, buying that neutrality on its own land and requiring conduct at the points it permits.",
+    "definition": "The holder: who controls the point where the parties' parcels, data or customers meet, and whether it sells delivery to those customers (Grossman and Hart; Chen), with time, the fifth link's first form, kept as the rule by vehicle and hour (a rule on which vehicles may enter at which hours, applying to every company alike).",
+    "tested_in": "6.3 (proposed, not found); evidence in 4.4 and 5.2",
+    "count": "Link 5, the holder, is different. The thesis proposes it rather than finding it (6.3), and three kinds of evidence bear on it.",
+    "page_statement": 24,
+    "page_definition": 78
+   }
+  ],
+  "five_links_section": "statement 1.5; definition 2.7; count 1.5",
+  "four_findings_intro": {
+   "text": "Chapter 4 answered the first half of the question with four findings.",
+   "section": "6.1",
+   "page": 222
+  },
+  "four_findings": [
+   {
+    "number": 1,
+    "name": "Overlap",
+    "as_named_in_6_1": "The first finding, that operators of every size decline where the other party competes for the same customers in the same place, unless a wall, a penalty or an owner with no stake in those customers outweighs that exposure, and agree where it does not",
+    "as_answered_in_chapter_4": "Objective 1 is answered with overlap: operators agree where they do not compete for the same customers in the same place; where rivals' markets overlap they refuse to pool what could expose their customers, unless a wall, a penalty or an owner with no stake in those customers outweighs that exposure (a wall being something that keeps the parties apart, and a penalty being a cost a party bears if it stays out); size does not predict the refusal, and the countries the set reached show the same pattern with a different instrument to hand.",
+    "section": "6.1; 4.2",
+    "page_6_1": 222,
+    "page_chapter_4": 146
+   },
+   {
+    "number": 2,
+    "name": "The boundary of sharing",
+    "as_named_in_6_1": "The second finding, that operating collaborations pool space, facilities, vehicles and infrastructure and withhold customers and operating data, with rivals' freight pooled in the urban last mile only where something outside them binds it (4.3)",
+    "as_answered_in_chapter_4": "Objective 2 is answered with the boundary the title names: what operating collaborations pool is space, facilities, vehicles and infrastructure, and what they withhold is customers and operating data, with rivals' freight pooled in the urban last mile only where something outside them binds it; the line runs where the customer relationship begins, and it moves only where a third party, a reciprocal contract or a reputation system secures what would otherwise be exposed.",
+    "section": "6.1; 4.3",
+    "page_6_1": 224,
+    "page_chapter_4": 155
+   },
+   {
+    "number": 3,
+    "name": "The binder",
+    "as_named_in_6_1": "The third finding, that ninety-five of the hundred and seventeen arrangements are bound from outside the parties and only six by their own trust",
+    "as_answered_in_chapter_4": "Objective 3 is answered with a substitution: trust between the parties is not what binds most of the collaborations in the set; ninety-five of the 117 rows of Appendix H are bound from outside them, by a neutral third party, a grant, a regulation, permit or mandate, a contract, a client's instruction, a prior vertical relationship, a reciprocal trade or a platform's reputation, and the ones that lasted are the ones whose binder did not need renewing;",
+    "section": "6.1; 4.4",
+    "page_6_1": 226,
+    "page_chapter_4": 174
+   },
+   {
+    "number": 4,
+    "name": "Power",
+    "as_named_in_6_1": "The fourth finding, that the power to reorganise last-mile flows sits mainly with shippers, receivers and cities and not with carriers",
+    "as_answered_in_chapter_4": "Objective 4 is answered with the demand side and the public side: the power to reorganise last-mile flows sits mainly with shippers, receivers and cities, who set the terms, the windows and the hours (Figure 4.8), and not with carriers, who are price-takers choosing a moment inside what others have set and who reorganise only inside their own networks or, as principals, their subcontractors';",
+    "section": "6.1; 4.5",
+    "page_6_1": 229,
+    "page_chapter_4": 182
+   }
+  ],
+  "propositions_intro": {
+   "text": "Because the design was theory-building, the contribution is offered as propositions rather than as tested hypotheses, each a single statement relating two variables, under the conditions it names, that others may test in their own context; each is claimed for the mechanism it names, not for a population (7.4).",
+   "section": "7.2",
+   "page": 258
+  },
+  "propositions": [
+   {
+    "id": "P1",
+    "name": "Overlap",
+    "text": "Unless a wall, a penalty or an owner with no stake outweighs the exposure, the willingness of two last-mile operators to collaborate falls as the overlap of their customer markets rises.",
+    "rests_on": "the first finding (4.2)",
+    "falsified_by": "a sample of operators with no wall, penalty or neutral holder between them in which willingness does not fall with overlap at some size band, or in which size sorts willingness where overlap does not",
+    "page": 258
+   },
+   {
+    "id": "P2",
+    "name": "The boundary",
+    "text": "The more a shared resource constitutes a party's customer relationship, the less likely it is to be pooled.",
+    "rests_on": "the second finding (4.3)",
+    "falsified_by": "a working arrangement between rivals in the urban last mile that pools freight, customers or operating data with nothing binding it",
+    "page": 258
+   },
+   {
+    "id": "P3",
+    "name": "The binder",
+    "text": "A horizontal collaboration lasts as long as the external arrangement that binds it.",
+    "rests_on": "the third finding (4.4)",
+    "falsified_by": "an arrangement that outlived its binder on the parties' trust alone, or that dissolved while its binder stood and its parties still gained",
+    "page": 258
+   },
+   {
+    "id": "P4",
+    "name": "Power",
+    "text": "An instrument aimed at the party that places the order or writes the permit changes last-mile flows more than the same instrument aimed at the party that carries the goods.",
+    "rests_on": "the fourth finding (4.5)",
+    "falsified_by": "an instrument aimed at carriers, a price or a rule, that moved flows more than the same instrument aimed at receivers or cities",
+    "page": 258
+   },
+   {
+    "id": "P5",
+    "name": "The holder",
+    "text": "At equal access, a carrier's use of a shared point falls as the holder's market commonality with that carrier rises.",
+    "rests_on": "the fifth link (4.4, 5.2)",
+    "falsified_by": "no difference in carriers' use by holder at equal access, or no change in carriers' partner lists after a sale to a rival",
+    "page": 258
+   }
+  ],
+  "propositions_section": "7.2; Table 7.1"
+ },
+ "acts": [
+  {
+   "act": 1,
+   "chapter": 1,
+   "title": "Chapter 1  Introduction: the map and the missing half",
+   "story_beats": [
+    "Every field draws its own map, and the map shows where it never went. The thesis defines horizontal collaboration widely, as two or more organisations at the same point in the supply chain (carriers with carriers, shippers with shippers, or one public body with another), and then asks one question of the field: where are the shippers? (1.1)",
+    "The shippers are there, if you look: a French press distributor that designed its own sharing scheme in 2011, a 2013 framework that listed a distribution company as a possible leader and tested none, Greek suppliers and retailers in 2025. But the two newest reviews of the field have no category for who begins a collaboration, and the collaborations that reported results were all convened by a city, a ministry, a business district or a funded project, never by the carriers. (1.1)",
+    "The flood arrives. Parcel volumes have grown while the workforce has barely grown; where cities have counted, freight is a tenth to a fifth of the traffic and does more than its share of the harm, and in Britain one parcel in eight already ends at a locker or a shop. (1.2)",
+    "Governments ask for collaboration in the same word, and cities regulate the vans directly instead. The old remedy, the consolidation centre with competitors' parcels on one van, has been tried for fifty years and has mostly died; the survivors were driven by a single commercial enterprise, not a committee of equals. (1.2)",
+    "The quest is set: one aim, five objectives with their sub-objectives, and a single research question that the last chapter must close; and six boundaries (Europe, urban, the last mile, horizontal, the period, and the arrangement as the unit of analysis). (1.3, 1.4)",
+    "The one sentence is spoken, and taken apart into five links: overlap, the boundary of sharing, the binder, power and the holder. Each link carries a count, given before the argument begins. (1.5)",
+    "The confession: the thesis was not designed to reach the conclusions it reaches. The fieldwork was built on four pillars and on the author's own 2022 idea of the big fierce animal; the data replaced both. (1.6)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch1-01",
+     "fact": "The two most recent systematic reviews of the field sort it by infrastructure, technology, sustainability and cold chain, and neither has a category for who begins a collaboration.",
+     "figure": "194 papers in one review, 133 in the other",
+     "section": "1.1",
+     "page": 12
+    },
+    {
+     "id": "ch1-02",
+     "fact": "The review that sorted the field's evidence by method found that almost all its studies were models.",
+     "figure": "77 of 89 studies were models; only 8 were fieldwork (Aloui et al., 2021)",
+     "section": "1.1",
+     "page": 13
+    },
+    {
+     "id": "ch1-03",
+     "fact": "Across the 2023 review and its 2026 update, no single case shows carriers beginning a collaboration among themselves and reporting a measured result from it.",
+     "figure": "49 studies (2023) and 241 papers (2026 update)",
+     "section": "1.1",
+     "page": 13
+    },
+    {
+     "id": "ch1-04",
+     "fact": "German carriers' parcel, express and courier shipments grew between 2019 and 2024, by the trade body's own count.",
+     "figure": "3.65 billion in 2019; 4.29 billion in 2024 (BPEX, 2025)",
+     "section": "1.2",
+     "page": 14
+    },
+    {
+     "id": "ch1-05",
+     "fact": "The European Union's postal and courier workforce barely grew in a decade.",
+     "figure": "1.45 million employed in 2024 against 1.40 million a decade earlier (Eurostat, 2025)",
+     "section": "1.2",
+     "page": 15
+    },
+    {
+     "id": "ch1-06",
+     "fact": "Freight's harm runs ahead of its share of traffic: in Bordeaux, freight's share of vehicle-kilometres produced a larger share of the carbon dioxide.",
+     "figure": "14 per cent of kilometres produced 21 per cent of the carbon dioxide",
+     "section": "1.2",
+     "page": 15
+    },
+    {
+     "id": "ch1-07",
+     "fact": "In Britain in 2024-25, a share of parcels went to a locker or a shop rather than a door: one parcel in eight already ends at a point, the kind of shared point the thesis returns to.",
+     "figure": "12 per cent (one parcel in eight) (Ofcom, 2025)",
+     "section": "1.2; Figure 1.2",
+     "page": 16
+    },
+    {
+     "id": "ch1-08",
+     "fact": "Europe's cities had low-emission and zero-emission zones by October 2021, but few had a logistics plan or collected logistics data.",
+     "figure": "328 low-emission zones and 36 zero-emission zones; 13 per cent had a logistics plan; 29 per cent collected any logistics data",
+     "section": "1.2",
+     "page": 17
+    },
+    {
+     "id": "ch1-09",
+     "fact": "A scoping study for the British government counted consolidation schemes with a usable record by 2005; few had ever operated and fewer had been evaluated in any quantified way.",
+     "figure": "67 schemes; 28 had ever operated; 17 evaluated in any quantified way (Browne et al., 2005)",
+     "section": "1.2",
+     "page": 18
+    },
+    {
+     "id": "ch1-10",
+     "fact": "Padua's Cityporto, a surviving consolidation centre, opened in 2004, has needed no public money since 2007 and grew its deliveries.",
+     "figure": "44,000 deliveries a year in 2005 to 100,000 in 2015",
+     "section": "1.2",
+     "page": 19
+    },
+    {
+     "id": "ch1-11",
+     "fact": "The interviews span eleven countries, ten of them European; the eleventh, India, is a comparator. The interviews were held between July and September 2024 and the survey ran from February 2024 to April 2025.",
+     "figure": "26 interviews, 30 people, 11 countries (10 European)",
+     "section": "1.4",
+     "page": 22
+    },
+    {
+     "id": "ch1-12",
+     "fact": "Each link is tested in a chapter and carries a count of the twenty-six interviews (for, against, mixed, silent).",
+     "figure": "Link 1: 15/1/5/5; Link 2: 16/1/6/3; Link 3: 24/0/1/1; Link 4: 18/0/5/3",
+     "section": "1.5",
+     "page": 25
+    },
+    {
+     "id": "ch1-13",
+     "fact": "Of the 117 accounts of arrangements, most were held together by something outside the parties; few by the parties' own trust, one of which has dissolved.",
+     "figure": "95 of 117 bound from outside; 6 by the parties' own trust; 10 with no binder; 6 with none stated",
+     "section": "1.5",
+     "page": 25
+    },
+    {
+     "id": "ch1-14",
+     "fact": "Across the open locker networks, those held by a firm that sells no delivery reach on average about twice the share of a country's main carriers that rival-held ones do.",
+     "figure": "46.0 per cent against 21.3 per cent (p = .008); 25 open networks, 26 ownership periods",
+     "section": "1.5",
+     "page": 26
+    }
+   ],
+   "turning_point": {
+    "summary": "The thesis was not designed to reach the conclusions it reaches. The 2024 fieldwork was built on four pillars (trust, efficiency, innovation, sustainability) and on the author's 2022 image of the big fierce animal, the large carrier that stands alone because of its size. The data corrected both: what keeps a large carrier alone is not its size but overlap.",
+    "quote": "What keeps a large carrier alone is not its size but overlap: at home it competes with everyone for the same customers (4.2, 6.4). The four pillars and that first idea both gave way to the chain set out in 1.5.",
+    "section": "1.6",
+    "page": 29
+   },
+   "examiner_questions": [
+    {
+     "question": "Your definition of horizontal collaboration includes shippers and public bodies. Why so wide?",
+     "model_answer": "Because it's the field's own definition, taken at its word. Gonzalez-Feliu and colleagues defined the horizontal case as collaboration among stakeholders of the same type and level, 'users, transport providers or shippers'. The field defined it widely and then studied carriers. I keep the definition and ask what changes when you count who begins a collaboration (1.1, 2.3).",
+     "section": "1.1; 2.3"
+    },
+    {
+     "question": "What is the gap, in one sentence?",
+     "model_answer": "The shipper side of horizontal collaboration has been documented but is under-examined as a category, and the literature reviewed doesn't set the two sides beside each other. The two 2026 reviews, of 194 and 133 papers, have no category for who begins a collaboration, so the gap doesn't rest on my own 2023 review (1.1, 1.6).",
+     "section": "1.1; 1.6"
+    },
+    {
+     "question": "Why Europe, when one of your interviews is in India?",
+     "model_answer": "The boundary is Europe because the regulatory layer the fifth link turns on (public land, postal law, the Services Directive, the permits that govern parcel points) is European in its density, and because the field's own cases are. The Indian interview is a comparator: it stands in every count of twenty-six, but it's drawn on only where the text says so (1.4).",
+     "section": "1.4"
+    },
+    {
+     "question": "You worked on GREEN-LOG. Isn't that a conflict of interest?",
+     "model_answer": "I declare it in 1.6 and 3.7. In 2023 I spent six months on its task of spatio-temporal demand prediction, work package 2, task 2.2. No finding draws on that work or on anything I saw inside the project; the Athens figures are cited from its published evaluation. I use one fact about its data, only as a limit: the demand data record the day of each order, not its hour, which is why the count of handovers that would test the fifth link is left to 7.5.",
+     "section": "1.6; 3.7"
+    },
+    {
+     "question": "What's your unit of analysis, and why not the firm?",
+     "model_answer": "The collaborative arrangement: each observed or attempted collaboration, described by whether the parties' markets overlapped, what was shared and what bound it. A finding about willingness concerns a pair of markets, and a finding about binding concerns an arrangement; neither is a property of a firm (1.4).",
+     "section": "1.4"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch1-q1",
+     "q": "What question does 1.1 put to the field's map?",
+     "options": [
+      "Where are the carriers?",
+      "Where are the shippers?",
+      "Where are the lockers?",
+      "Where are the cities?"
+     ],
+     "answer_index": 1,
+     "explanation": "The field's definition admits shippers, but its literature studied carriers. 'The field's literature, under a definition as wide as that one, studied carriers. Where, then, are the shippers?'",
+     "section": "1.1"
+    },
+    {
+     "id": "ch1-q2",
+     "q": "Of the 89 studies Aloui and colleagues (2021) reviewed, how many were models?",
+     "options": [
+      "49",
+      "62",
+      "8",
+      "77"
+     ],
+     "answer_index": 3,
+     "explanation": "Seventy-seven were models and only eight were fieldwork. 49 is the 2023 review's included set; 62 per cent is the share of a round Allen's vans spent parked (2.1).",
+     "section": "1.1; 2.1"
+    },
+    {
+     "id": "ch1-q3",
+     "q": "In Britain in 2024-25, what share of parcels went to a locker or a shop rather than a door?",
+     "options": [
+      "63 per cent",
+      "12 per cent",
+      "34 per cent",
+      "21 per cent"
+     ],
+     "answer_index": 1,
+     "explanation": "Twelve per cent, one parcel in eight. 63 per cent was next-day delivery's share and 34 per cent slower services' share; 21 per cent is Bordeaux's share of carbon dioxide.",
+     "section": "1.2"
+    },
+    {
+     "id": "ch1-q4",
+     "q": "In the 2005 scoping study, how many of the 67 consolidation schemes with a usable record had ever operated?",
+     "options": [
+      "17",
+      "114",
+      "5",
+      "28"
+     ],
+     "answer_index": 3,
+     "explanation": "Twenty-eight had ever operated, and only seventeen had been evaluated in any quantified way. 114 is Allen and colleagues' 2012 count; about five is what Germany's two hundred schemes were down to.",
+     "section": "1.2"
+    },
+    {
+     "id": "ch1-q5",
+     "q": "What does sub-objective 1B assess?",
+     "options": [
+      "How willingness varies with the extent to which the parties' markets overlap",
+      "What is pooled",
+      "The part played by trust between the parties",
+      "How willingness varies with the size of the operator"
+     ],
+     "answer_index": 0,
+     "explanation": "1A is size, 1B is overlap, 1C compares across the eleven countries. Trust is 3A; what is pooled is 2A.",
+     "section": "1.3"
+    },
+    {
+     "id": "ch1-q6",
+     "q": "How many accounts of arrangements did the thesis code (Appendix H)?",
+     "options": [
+      "26",
+      "49",
+      "117",
+      "241"
+     ],
+     "answer_index": 2,
+     "explanation": "The hundred and seventeen accounts of arrangements. 241 is the update's papers, 49 the 2023 review's studies, 26 the interviews.",
+     "section": "1.5; 1.1"
+    },
+    {
+     "id": "ch1-q7",
+     "q": "What was the author's 2022 idea that the data corrected?",
+     "options": [
+      "The red cell: carriers carry for the whole body",
+      "The handicap: branded vans as a costly signal",
+      "The big fierce animal: the large carrier stands alone because of its size",
+      "The trophic cascade: power sits with receivers"
+     ],
+     "answer_index": 2,
+     "explanation": "The data corrected it: what keeps a large carrier alone is not its size but overlap. The red cell is a later design guide, used in 6.3.",
+     "section": "1.6"
+    },
+    {
+     "id": "ch1-q8",
+     "q": "How many times were the transcripts coded?",
+     "options": [
+      "Once, then checked",
+      "Two",
+      "Three",
+      "Four"
+     ],
+     "answer_index": 2,
+     "explanation": "First under the guide's four headings, second against the working claim, third against the five-concept codebook, each third-coding half coded a second time as a check.",
+     "section": "1.6; 3.4"
+    }
+   ]
+  },
+  {
+   "act": 2,
+   "chapter": 2,
+   "title": "Chapter 2  Literature: where the field went and where it did not",
+   "story_beats": [
+    "The 2023 review is replayed as it ran: one search string, six databases, 860 records screened down to forty-nine studies. What they described was a set of strategies for 'a small group of parcel carriers'. That was not what the string had asked for; it was what the string could see. (2.1)",
+    "Read closely, the forty-nine are mostly models and reviews, and in at least thirty-two of them no one begins the collaboration at all. The models reward exactly what the firms refuse: the field's mathematics needs overlap, and the field's carriers will not have it. (2.1)",
+    "The string is tested against twelve papers in the field's own citation trail and returns none of them. Corrected strings in 2026 reach 241 papers; only thirteen have a shipper or receiver beginning the collaboration, and none reports a measured result from a collaboration the carriers began among themselves. (2.2)",
+    "The definitional blind spot: the field's definition always admitted shippers, but its models made carriers the decision units and the shipper a demand point, not an actor; the typologies sort by what is shared and who takes part, never by whether the parties compete. (2.3)",
+    "Why collaborations fail, as the field explains it: long catalogues of barriers, trust built in stages, fair division by the Shapley value. Every account assumes a party to run the arithmetic. Overlap runs through the evidence like a watermark, and no one has held the page to the light. (2.4)",
+    "Time and the shared point: instruments work when they reach the party that decides, and 'a truck driver always follows what the parcels' receiver wants'; windows that apply to everyone are what cities hold; the rules that call a parcel point neutral ask who may use it, while carriers ask who holds it, and none looks again when its holder changes. (2.5)",
+    "Eight bodies of theory are each given one job, and the four pillars of 2024 give way to the five concepts of the framework: overlap, the boundary of sharing, binding, power and the holder. (2.6, 2.7)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch2-01",
+     "fact": "The 2023 review put one search string to six databases in September 2022; five stages of screening reduced the records to forty-nine studies.",
+     "figure": "860 → 596 → 263 → 238 → 72 → 49",
+     "section": "2.1; Table 3.3 (3.2)",
+     "page": 31
+    },
+    {
+     "id": "ch2-02",
+     "fact": "The forty-nine studies by type: reviews, conceptual frameworks, models and simulations, empirical studies and reports.",
+     "figure": "12 reviews, 8 frameworks, 16 models, 10 empirical studies, 3 reports",
+     "section": "2.1; Table 2.1",
+     "page": 32
+    },
+    {
+     "id": "ch2-03",
+     "fact": "In at least thirty-two of the forty-nine no one begins the collaboration; counted by initiator, twenty-three cards name no one and only one, the 1996 paper, codes a shipper.",
+     "figure": "at least 32 of 49 observe no real arrangement; 23 none named, 9 carrier, 8 city or public body, 4 platform, 1 shipper, 4 mixed",
+     "section": "2.1; Table 2.1",
+     "page": 33
+    },
+    {
+     "id": "ch2-04",
+     "fact": "The only measured rounds in the forty-nine: Allen and colleagues tracked London parcel vans that had never collaborated.",
+     "figure": "parked for 62 per cent of a round lasting seven hours and a quarter (Allen et al., 2018)",
+     "section": "2.1",
+     "page": 33
+    },
+    {
+     "id": "ch2-05",
+     "fact": "Twelve papers sit inside the field's own citation trail on horizontal collaboration; run again in OpenAlex, the 2022 string returns none of them.",
+     "figure": "12 papers; 0 returned",
+     "section": "2.2",
+     "page": 35
+    },
+    {
+     "id": "ch2-06",
+     "fact": "The 2026 update ran six strings in OpenAlex's title-and-abstract field and retained 241 papers; nine were among the forty-nine.",
+     "figure": "1,535 records → 1,023 of eligible type → 254 relevant → 241 papers (242 records)",
+     "section": "2.2; Table 3.3 (3.2)",
+     "page": 38
+    },
+    {
+     "id": "ch2-07",
+     "fact": "Of the other 231 papers, the 2022 string returns only thirty-nine; so, with at most eight exceptions, the 2023 review did not weigh these papers and reject them: its string could not find them.",
+     "figure": "39 of 231 returned; 192 outside its terms; at most 8 exceptions",
+     "section": "2.2",
+     "page": 39
+    },
+    {
+     "id": "ch2-08",
+     "fact": "Who begins the collaboration in the 241: most name no initiator; among those that do, shippers or receivers are the fewest.",
+     "figure": "128 (53 per cent) name none; of 113 naming one: public bodies 45, carriers 29, platforms 20, shippers or receivers 13, mixed 6",
+     "section": "2.2",
+     "page": 42
+    },
+    {
+     "id": "ch2-09",
+     "fact": "The models put the prize exactly where the interviews put the refusal: Berger and Bierwirth's network profit for three carriers rises with the overlap of their areas.",
+     "figure": "about 19 per cent adjacent, 67 overlapping, 155 identical",
+     "section": "2.2",
+     "page": 45
+    },
+    {
+     "id": "ch2-10",
+     "fact": "Of three consolidation centres van Duin and colleagues compared, the city-begun one lived on a subsidy; the landlord's made a profit; the retailers' broke even once a two-year grant ended. The carriers took part in none.",
+     "figure": "a 45 per cent subsidy (van Duin et al., 2016)",
+     "section": "2.3",
+     "page": 50
+    },
+    {
+     "id": "ch2-11",
+     "fact": "The field's position at its strongest: Cruijssen, Cools and Dullaert's survey of Flemish providers, in which most respondents did not want an independent third party to coordinate.",
+     "figure": "1,537 providers, 154 replied; 50 of 67 did not want an independent third party",
+     "section": "2.4",
+     "page": 54
+    },
+    {
+     "id": "ch2-12",
+     "fact": "Holguín-Veras showed the receiver decides: who set delivery times, and how few carriers could pass a toll on.",
+     "figure": "receiver 40 per cent, jointly 38, carrier 22; only 9 per cent of carriers could pass a toll on",
+     "section": "2.5",
+     "page": 60
+    },
+    {
+     "id": "ch2-13",
+     "fact": "The rules that certify a shared parcel point as neutral define it by who may use it, not by who holds it; and holders change: an Austrian network held by firms that sell no delivery was bought by Deutsche Post.",
+     "figure": "myflexbox, bought on 1 October 2026",
+     "section": "2.5",
+     "page": 63
+    },
+    {
+     "id": "ch2-14",
+     "fact": "The thesis extends the coalition models' stability condition: rivals pool only when the saving plus the penalty for staying out covers the exposure of customers, brand or data plus the cost of the wall that stops it.",
+     "figure": "S + P ≥ L + W",
+     "section": "2.6",
+     "page": 70
+    }
+   ],
+   "turning_point": {
+    "summary": "The overlap paradox. The field's models find the gain from collaboration is largest where carriers share customers, and the one paper that watched real carriers found they would not do it except in the most remote rural places. The field's mathematics needs overlap, and the field's carriers will not have it.",
+    "quote": "That is the tension the rest of this chapter follows: the field's mathematics needs overlap, and the field's carriers will not have it.",
+    "section": "2.1",
+    "page": 33
+   },
+   "examiner_questions": [
+    {
+     "question": "Your own 2023 review missed the collaboration literature. Doesn't that undermine it?",
+     "model_answer": "It shows what the string could see. Twelve papers sit in the field's own citation trail on horizontal collaboration, and run again in OpenAlex the 2022 string returns none of them. I kept the forty-nine and the criteria that chose them, and treated the blind spot as the starting point. The corrected strings of 2026 found 241 papers, and with at most eight exceptions the 2023 review didn't weigh those papers and reject them; its string couldn't find them (2.1, 2.2).",
+     "section": "2.1; 2.2"
+    },
+    {
+     "question": "Can the forty-nine and the 241 really be compared?",
+     "model_answer": "Only in kind, and only up to the title-and-abstract stage. The forty-nine were included after a full reading; the 241 were retained after title-and-abstract screening and the citation rule, and 170 of them were read in full. Wherever the two figures stand together, the text says which kind each is (2.2, 3.2).",
+     "section": "2.2; 3.2"
+    },
+    {
+     "question": "State the trust position you depart from at its strongest.",
+     "model_answer": "Trust is built in stages, governed by relationship as much as by contract, and contracts can generate the conflict they were meant to settle: that's Pomponi and colleagues, Wallenburg and Raue, and Schmoltzi and Wallenburg. I accept all of that and ask what the arrangements in my record actually ran on. Of the 117 accounts, ninety-five were bound from outside the parties and six by their own trust (2.4, 4.4).",
+     "section": "2.4"
+    },
+    {
+     "question": "Eight bodies of theory. Isn't that a patchwork?",
+     "model_answer": "Each is asked to do one job, and none is asked to do another's. Gause and Hardin carry overlap, Barney the boundary, Ostrom, Williamson and agency theory the binder, the trophic cascade and Holguín-Veras power, and the economics of control the holder. Table 2.2 sets each link's theories beside the finding it explains, and I carry every source's limits rather than trimming them (2.6).",
+     "section": "2.6; Table 2.2"
+    },
+    {
+     "question": "Your count of power in the update assumes your own claim, doesn't it?",
+     "model_answer": "Yes, and I say so. On power the cards name who a paper treats as deciding and don't state a stance, so naming shippers, receivers, cities or a neutral orchestrator counted as support. Thirty-eight of the 241 verdicts on power rest on that rule, so the count can't test the claim; it shows only whom the field assumes decides. The claim is tested in 4.5 (2.2).",
+     "section": "2.2"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch2-q1",
+     "q": "How many records did the 2023 review start from?",
+     "options": [
+      "238",
+      "1,535",
+      "596",
+      "860"
+     ],
+     "answer_index": 3,
+     "explanation": "860 records went through five stages to forty-nine studies. 1,535 is the 2026 update's starting count; 596 and 238 are stages of the 2023 screen.",
+     "section": "2.1"
+    },
+    {
+     "id": "ch2-q2",
+     "q": "Run again in OpenAlex, how many of the twelve papers in the field's citation trail does the 2022 string return?",
+     "options": [
+      "One",
+      "None",
+      "Nine",
+      "All twelve"
+     ],
+     "answer_index": 1,
+     "explanation": "None. The 2023 review held one of them, Pomponi and colleagues (2013), because it was added by hand.",
+     "section": "2.2"
+    },
+    {
+     "id": "ch2-q3",
+     "q": "How many papers did the 2026 update retain?",
+     "options": [
+      "241",
+      "231",
+      "254",
+      "1,023"
+     ],
+     "answer_index": 0,
+     "explanation": "241 papers (242 records, one article under two DOIs). 254 were relevant on title and abstract, 1,023 of eligible type; 231 is the 241 less the nine among the forty-nine and the one set aside at the 2023 full-text stage.",
+     "section": "2.2"
+    },
+    {
+     "id": "ch2-q4",
+     "q": "In how many of the 241 papers does a shipper or receiver begin the collaboration?",
+     "options": [
+      "29",
+      "20",
+      "13",
+      "45"
+     ],
+     "answer_index": 2,
+     "explanation": "Thirteen. Public bodies begin forty-five, carriers twenty-nine, platforms twenty.",
+     "section": "2.2"
+    },
+    {
+     "id": "ch2-q5",
+     "q": "Which theory explains the boundary of sharing?",
+     "options": [
+      "Paine's trophic cascade",
+      "Gause and Hardin's competitive exclusion",
+      "Barney's resource-based view",
+      "Ostrom's design principles"
+     ],
+     "answer_index": 2,
+     "explanation": "What is pooled is neither rare nor hard to copy; what is withheld is both. Gause and Hardin carry overlap, Ostrom the binder, the trophic cascade power.",
+     "section": "2.6"
+    },
+    {
+     "id": "ch2-q6",
+     "q": "In the condition S + P ≥ L + W, what is W?",
+     "options": [
+      "The weight of trust between the parties",
+      "The width of the delivery window",
+      "The cost of the wall that stops the exposure",
+      "The wage bill of the shared operation"
+     ],
+     "answer_index": 2,
+     "explanation": "S is the saving, P the penalty for staying out, L the exposure of customers, brand or data, W the cost of the wall.",
+     "section": "2.6"
+    },
+    {
+     "id": "ch2-q7",
+     "q": "In Holguín-Veras's data, who set delivery times in forty per cent of cases?",
+     "options": [
+      "The carrier",
+      "The city",
+      "Both jointly",
+      "The receiver"
+     ],
+     "answer_index": 3,
+     "explanation": "Receiver forty per cent, jointly thirty-eight, carrier twenty-two.",
+     "section": "2.5"
+    },
+    {
+     "id": "ch2-q8",
+     "q": "How does the thesis use the image of the red blood cell?",
+     "options": [
+      "As one of the eight bodies of theory",
+      "As a finding of the interviews",
+      "As evidence for the holder",
+      "As a labelled design guide, not as theory"
+     ],
+     "answer_index": 3,
+     "explanation": "'One image from the author's notes of 2022-23 is used here as a labelled design guide, not as theory.'",
+     "section": "2.6"
+    },
+    {
+     "id": "ch2-q9",
+     "q": "How do the parcel-point rules the thesis reviewed define a neutral point?",
+     "options": [
+      "By whether it is on public land",
+      "By how many lockers it has",
+      "By who holds it",
+      "By who may use it"
+     ],
+     "answer_index": 3,
+     "explanation": "They define it by access, who may use it, not by who holds it, and in the rules reviewed none looks again when control changes.",
+     "section": "2.5"
+    }
+   ]
+  },
+  {
+   "act": 3,
+   "chapter": 3,
+   "title": "Chapter 3  Methodology",
+   "story_beats": [
+    "The question is put in the order Trafford and Leshem recommend: a critical realist paradigm, a retroductive approach (from the regularity to the mechanism that would produce it), and a design in four stages, each stage's evidence feeding the next. (3.1)",
+    "The review and its update are run side by side: four databases in 2022, one open index, OpenAlex, in 2026, so that anyone can run the search again. The 2023 full-text stage is re-run paper by paper. (3.2)",
+    "Thirty people in twenty-six interviews across eleven countries, chosen for the question and not for the industry: those who convene, fund, regulate, study and broker collaborations, not carriers alone. The guide asked about trust because the field did. (3.3)",
+    "The transcripts are coded three times, each coding testing the one before. The working claim of 2026 is put to the data, and two of its clauses fall. A five-concept codebook is rewritten from what survived, and every transcript is read twice against it. (3.4)",
+    "For the fifth link, the 117 arrangements are coded twice again for who holds the shared point and compared by crisp-set qualitative comparative analysis; Ghent's documents, the rules that call a point neutral and forty-three locker networks are read; a scenario costs the rule for one notional council area. (3.4, 3.5)",
+    "A survey on the four pillars runs alongside the interviews and is read for scale only; it tests no link. (3.6)",
+    "The design audits itself: four quality tests, six objects of reflexivity, the limits stated, and five changes recorded, none of them a change of question. (3.7, 3.8)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch3-01",
+     "fact": "Who was heard: thirty people in twenty-six interviews, by kind of party.",
+     "figure": "8 public bodies, 6 academia, 4 consultancies, 4 carriers, and 1 each for a pooling platform, an environmental coalition, a European association of cities and a manufacturing site host",
+     "section": "3.1, Table 3.1; 3.3",
+     "page": 84
+    },
+    {
+     "id": "ch3-02",
+     "fact": "The instrument the School's ethics committee approved on 22 February 2024 asked fourteen questions under seven headings; a working script of twenty-three prompts in ten stages sat beside it.",
+     "figure": "14 questions, 7 headings; 23 prompts, 10 stages",
+     "section": "3.3",
+     "page": 95
+    },
+    {
+     "id": "ch3-03",
+     "fact": "The interviews were held online between July and September 2024, all conducted by the author in English.",
+     "figure": "8 to 74 minutes; 20 hours 5 minutes in all; median 43 minutes; 146,778 words of speech",
+     "section": "3.3",
+     "page": 96
+    },
+    {
+     "id": "ch3-04",
+     "fact": "Over the twenty-six transcripts, the two readings of the third coding gave the same stance on most concepts.",
+     "figure": "112 of 130 stances (86 per cent); A half 53 of 65, B half 59 of 65",
+     "section": "3.4; Table 3.6",
+     "page": 103
+    },
+    {
+     "id": "ch3-05",
+     "fact": "The second coding did not sustain two clauses of the working claim, brand and size, and produced two regularities the claim had not named, overlap and the boundary of sharing.",
+     "figure": "2 clauses fell; 2 regularities appeared",
+     "section": "3.4",
+     "page": 102
+    },
+    {
+     "id": "ch3-06",
+     "fact": "Brand, raised by the interviewer, was declined every time, and is counted as declined, not as absent.",
+     "figure": "raised in 5 interviews, declined in all 5",
+     "section": "3.4; 3.7",
+     "page": 103
+    },
+    {
+     "id": "ch3-07",
+     "fact": "The 117 rows of Appendix H: one row per description of an arrangement, so a count of rows is a count of accounts, not of arrangements.",
+     "figure": "A half 56 rows, B half 61 rows = 117",
+     "section": "3.4",
+     "page": 104
+    },
+    {
+     "id": "ch3-08",
+     "fact": "The binder of each row was assigned once and carries no agreement figure; the initiator was re-checked in both passes of October 2026.",
+     "figure": "initiator read the same in 98 of 117 rows (alpha .80)",
+     "section": "3.4; 3.7",
+     "page": 104
+    },
+    {
+     "id": "ch3-09",
+     "fact": "Agreement on the version 3 codes of the 117 arrangements (Krippendorff's alpha; .800 is the bar for firm conclusions).",
+     "figure": "holder's class .88; rivalry among co-users .85; holder sells delivery .87; neutral holder .84",
+     "section": "3.4",
+     "page": 106
+    },
+    {
+     "id": "ch3-10",
+     "fact": "In the crisp-set qualitative comparative analysis, a combination is taken as sufficient at a consistency of 0.8 and a condition as necessary at 0.9.",
+     "figure": "sufficient 0.8 (re-run at 0.75 and 0.9); necessary 0.9 (present in at least nine in ten running rows)",
+     "section": "3.4",
+     "page": 106
+    },
+    {
+     "id": "ch3-11",
+     "fact": "Two Ghent documents were read, both in Dutch: the draft circulation plan for the inner city and the Plan stedelijke logistiek.",
+     "figure": "Ontwerp Circulatieplan Binnenstad Gent, 24 October 2016, 158 pages; Plan stedelijke logistiek, autumn 2023, 36 pages",
+     "section": "3.5",
+     "page": 109
+    },
+    {
+     "id": "ch3-12",
+     "fact": "The locker networks: each owner coded twice, independently, as neutral or by the kind of rival that holds the network.",
+     "figure": "43 networks in 16 countries; 47 ownership periods; 210 rows of evidence; alpha .87 on class, .81 on neutral against rival-held",
+     "section": "3.5",
+     "page": 111
+    },
+    {
+     "id": "ch3-13",
+     "fact": "The scenario costs the rule for one notional council area, as a scenario and not a forecast, counting only the increment over redirection that already happens.",
+     "figure": "50,000 households; time at £7.08 an hour; car emissions at 0.167 kg CO2e a kilometre",
+     "section": "3.5",
+     "page": 111
+    },
+    {
+     "id": "ch3-14",
+     "fact": "The survey form recorded 132 responses between 22 February 2024 and 30 April 2025; six said No to consent and seven answered nothing more.",
+     "figure": "132 responses; 119 usable",
+     "section": "3.6",
+     "page": 116
+    }
+   ],
+   "turning_point": {
+    "summary": "The working claim of 2026 is put to the transcripts and two of its clauses fall: brand and size. In their place appear two regularities nobody had named, overlap and the boundary of sharing, and the codebook is rewritten from what survived.",
+    "quote": "That second coding did not sustain two of the claim's clauses, brand and size, and produced two regularities the claim had not named, overlap and the boundary of sharing; the codebook of Table 3.5 was rewritten from its results.",
+    "section": "3.4",
+    "page": 102
+   },
+   "examiner_questions": [
+    {
+     "question": "Why critical realism and not interpretivism or positivism?",
+     "model_answer": "A positivist design would have needed a full list of operators to draw a sample from and a tested way to measure willingness to collaborate, and the field has neither. An interpretivist design wouldn't let me hold that the markets, the customers and the binders exist however well or badly a participant describes them. And what I wanted was a mechanism I could test against the cases that should break it, which is retroduction. The cost is that a mechanism named from twenty-six accounts is a proposition: what it generalises to is the mechanism, which may work elsewhere, not a population (3.1, 3.7).",
+     "section": "3.1; Table 3.2"
+    },
+    {
+     "question": "Only four of your twenty-six interviews speak for carriers. Isn't that thin for a thesis about carriers?",
+     "model_answer": "It is the one kind of party I call thin, and I say so in 3.7. The design chose the mix for the question: if the question is who begins a collaboration and what binds it, the people who convene, fund, regulate, study and broker collaborations had to be in the room. They've watched carrier behaviour at first hand, for years, from across the table, and the third coding required the evidence against as deliberately as the evidence for (3.3, 3.7).",
+     "section": "3.3; 3.7"
+    },
+    {
+     "question": "You interviewed, coded first and wrote the claim. How do you guard against your own expectations?",
+     "model_answer": "That exposure is the one no procedure removes, and I name it. The answer is the two later codings, made from the transcripts without the first coding's notes; the halves coded separately; the evidence against required as deliberately as the evidence for; and every transcript read a second time, blind to the first. That gave 112 of 130 stances read the same way. Brand, which I raised myself in five interviews, is counted as declined in all five (3.4, 3.7).",
+     "section": "3.4; 3.7"
+    },
+    {
+     "question": "Why raw agreement for the transcripts and Krippendorff's alpha for the arrangements?",
+     "model_answer": "With four stances, thirteen transcripts to a half and a fifth concept, time, on which most transcripts are silent, a coefficient would say less than the list of the eighteen differences, which Table 3.6 gives. For the 117 arrangements the unit is the arrangement, the codes are nominal and there are 117 cases, so alpha is the right measure, against Krippendorff's bars of .800 and .667 (3.4).",
+     "section": "3.4"
+    },
+    {
+     "question": "Your survey asks about the four pillars, not your links. Why include it?",
+     "model_answer": "For scale, and only for scale. It opened on the day of approval, before the interviews produced the links, so it asks what the guide asked. It describes and doesn't explain: no test of significance, nothing inferred to a population. It tests no link; it sets what organisations say about trust beside what they say they use (3.6, 3.8).",
+     "section": "3.6; 3.8"
+    },
+    {
+     "question": "What changed during the research, and was the question changed to fit the answer?",
+     "model_answer": "Five things changed, and none was a change of question. Four were changes of instrument: the pillars became five-link coding, the survey ran alongside rather than after, the review was re-run with corrected strings, and the 2023 full-text stage was re-run. The fifth changed the proposed answer: the fifth link moved from hours allocated between operators to the holder of the shared point, beside an access rule by vehicle and hour, because the first answer didn't survive the tests (3.8).",
+     "section": "3.8; Table 3.8"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch3-q1",
+     "q": "What mode of inference does the thesis use?",
+     "options": [
+      "Abduction from a single case",
+      "Deduction",
+      "Retroduction",
+      "Induction"
+     ],
+     "answer_index": 2,
+     "explanation": "From a pattern that recurs across cases to the mechanism that would produce it, tested against the cases that should break it. Deduction is the positivist mode and induction the interpretivist one in Table 3.2.",
+     "section": "3.1; Table 3.2"
+    },
+    {
+     "id": "ch3-q2",
+     "q": "What was the median length of the interviews?",
+     "options": [
+      "45 minutes",
+      "43 minutes",
+      "60 minutes",
+      "38 minutes"
+     ],
+     "answer_index": 1,
+     "explanation": "A median of forty-three; the guide had allowed for forty-five to sixty.",
+     "section": "3.3"
+    },
+    {
+     "id": "ch3-q3",
+     "q": "How many of the 130 stances did the two readings of the third coding agree on?",
+     "options": [
+      "117",
+      "112",
+      "98",
+      "59"
+     ],
+     "answer_index": 1,
+     "explanation": "112 of 130, eighty-six per cent. 98 of 117 is the initiator re-check; 59 of 65 is the B half alone.",
+     "section": "3.4"
+    },
+    {
+     "id": "ch3-q4",
+     "q": "Which two clauses of the working claim did the second coding not sustain?",
+     "options": [
+      "Brand and size",
+      "Overlap and the boundary of sharing",
+      "Power and time",
+      "Trust and efficiency"
+     ],
+     "answer_index": 0,
+     "explanation": "Brand and size fell; overlap and the boundary of sharing were the two regularities that appeared.",
+     "section": "3.4"
+    },
+    {
+     "id": "ch3-q5",
+     "q": "At what consistency is a condition reported as necessary in the qualitative comparative analysis?",
+     "options": [
+      "0.9",
+      "0.8",
+      ".667",
+      "0.75"
+     ],
+     "answer_index": 0,
+     "explanation": "Necessary at 0.9; a combination is sufficient at 0.8, re-run at 0.75 and 0.9. .667 is Krippendorff's bar for tentative conclusions on the coding agreement.",
+     "section": "3.4"
+    },
+    {
+     "id": "ch3-q6",
+     "q": "How many locker networks did the systematised review find?",
+     "options": [
+      "26 in 10 countries",
+      "25 in 11 countries",
+      "47 in 16 countries",
+      "43 in 16 countries"
+     ],
+     "answer_index": 3,
+     "explanation": "Forty-three networks in sixteen countries, forty-seven ownership periods; twenty-five are open to other carriers, twenty-six periods enter the test.",
+     "section": "3.5"
+    },
+    {
+     "id": "ch3-q7",
+     "q": "How many usable survey responses were there?",
+     "options": [
+      "119",
+      "109",
+      "126",
+      "132"
+     ],
+     "answer_index": 0,
+     "explanation": "132 responses; six said No to consent and seven answered nothing more, leaving 119. 126 said Yes to consent; 109 answered the question on present collaboration.",
+     "section": "3.6"
+    },
+    {
+     "id": "ch3-q8",
+     "q": "Which of the five changes in Table 3.8 was a change of the proposed answer rather than of instrument?",
+     "options": [
+      "The four-pillar guide becoming five-link coding",
+      "The survey run alongside the interviews",
+      "The review re-run with corrected strings",
+      "The fifth link re-specified as the holder of the shared point"
+     ],
+     "answer_index": 3,
+     "explanation": "The first four were changes of instrument; the fifth changed the proposed answer, because the first answer did not survive the tests put to it.",
+     "section": "3.8"
+    }
+   ]
+  },
+  {
+   "act": 4,
+   "chapter": 4,
+   "title": "Chapter 4  Findings I: the twenty-six",
+   "story_beats": [
+    "The witnesses are called: twenty-six interviews, thirty people, every count a count of transcripts, and 117 accounts of arrangements counted by row. The interviewer's own prompts are kept apart from what the participants said. (4.1)",
+    "The big fierce animal is put on trial and falls. In ten mirror pairs the same firm, or the same kind of firm, says yes and no in the same breath; what differs is whether the two parties want the same customers in the same place. The smallest operator refuses its rival at home and collaborates out of town; the largest swaps parcels across a border and refuses at home. Size does not sort willingness. (4.2)",
+    "The refusal is decided above the room: local managers who can see the saving agree, and a head office that holds the market vetoes. (4.2)",
+    "Shared space, separate freight. What operating collaborations pool is space, facilities, vehicles and infrastructure; what they withhold is customers and operating data. In the urban last mile rivals' freight crosses the line only where something outside them binds it. (4.3)",
+    "Trust is asked about first and the participants answer about something else. Ninety-five of the 117 arrangements are bound from outside the parties; six rest on their own trust. The arrangements asked to hold themselves did not hold; what a grant binds, it binds for its own length; the long-lived ones are held by a binder that does not need renewing. Where trust is named, it is trust placed in a trustee. (4.4)",
+    "The 117 are coded again for who holds the shared point. The holder reaches the bar for a necessary condition only under a coding rule added after the results were seen, so the interviews support the holder only under that rule. (4.4)",
+    "Power sits with shippers, receivers and cities; carriers are price-takers choosing a moment inside what others have set. A minority theme, the visibility veto, is reported apart: declined whenever the interviewer raised it, raised unprompted by eight, and never measured. (4.5, 4.6, 4.7)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch4-01",
+     "fact": "Ten mirror pairs: the same firm, or the same kind of firm, gives both answers, and what differs is whether the parties compete for the same customers. A small cargo-bike operator refuses a better-funded rival in its own city and pilots with a smaller operator in another town.",
+     "figure": "10 mirror pairs (Table 4.2); 'It's not their city. There's no market competition' (B9)",
+     "section": "4.2; Table 4.2",
+     "page": 131
+    },
+    {
+     "id": "ch4-02",
+     "fact": "Overlap as the condition of refusal, counted across the twenty-six transcripts (supporting, contradicting, mixed, silent).",
+     "figure": "third coding 15/1/5/5; second reading 12/0/7/7",
+     "section": "4.2; Table 4.9",
+     "page": 146
+    },
+    {
+     "id": "ch4-03",
+     "fact": "The refusal is decided higher in the firm than the vehicle: three participants in three countries located the veto in a head office that was not in the room.",
+     "figure": "3 participants, 3 countries (A12, A10, A6), and a fourth account from inside a large carrier (B5)",
+     "section": "4.2",
+     "page": 138
+    },
+    {
+     "id": "ch4-04",
+     "fact": "A scholar of the field described what works: platforms that share only the space and do not mix the freight. That sentence is the regularity the thesis is named for.",
+     "figure": "'They share only the space … they don't mix their [freight]' (A7)",
+     "section": "4.3; Figure 4.3",
+     "page": 147
+    },
+    {
+     "id": "ch4-05",
+     "fact": "The boundary of sharing, counted across the twenty-six transcripts (supporting, contradicting, mixed, silent).",
+     "figure": "third coding 16/1/6/3; second reading 21/0/2/3",
+     "section": "4.3; Table 4.9",
+     "page": 152
+    },
+    {
+     "id": "ch4-06",
+     "fact": "Data crosses the line only through a third party; freight itself is pooled in ten rows, and in nine of them a binder stands between the parties (in the tenth the participant named none).",
+     "figure": "data through a third party in 7 rows; freight pooled in 10 rows, 9 with a binder",
+     "section": "4.3",
+     "page": 150
+    },
+    {
+     "id": "ch4-07",
+     "fact": "What bound the 117 rows of Appendix H: ninety-five by something outside the parties, by class of binder.",
+     "figure": "neutral third party 35, grant 21, regulation/permit/mandate 17, contract 12, client's instruction 5, prior vertical relationship 3, reciprocal trade 1, platform's reputation 1 (= 95); personal tie or peer trust 6; nothing 10; not stated 6",
+     "section": "4.7; 4.4",
+     "page": 186
+    },
+    {
+     "id": "ch4-08",
+     "fact": "Where trust stood alone it produced a covenant of forty companies whose one action point on data yielded none.",
+     "figure": "40 companies; no data after four years (B13)",
+     "section": "4.4; Table 4.7",
+     "page": 157
+    },
+    {
+     "id": "ch4-09",
+     "fact": "Of the twenty-three failed, unrealised and partly failed arrangements, eight had been asked to hold themselves, four ended with their grant and three failed on cost recovery.",
+     "figure": "23 (Table 4.6): 8 asked to hold themselves; 4 ended with their grant; 3 on cost recovery",
+     "section": "4.4; Table 4.6",
+     "page": 174
+    },
+    {
+     "id": "ch4-10",
+     "fact": "Two multinational producers who are direct rivals pooled their distribution for six years under a trustee, one multilateral contract, a gain-share and a planning cell removed from both boards. What the parties called trust was placed in the trustee: they never learned how much more efficient the other was.",
+     "figure": "six years; 'they never knew this gap' (A4)",
+     "section": "4.4; 4.2",
+     "page": 165
+    },
+    {
+     "id": "ch4-11",
+     "fact": "Coded for the holder, a wall, a penalty or thin flows reach six of the ten running rows with a holder code; with a no-stake holder added, nine of ten, which meets the 0.9 bar. Without rule 1a the count is six of seven, with or without the holder, below the bar.",
+     "figure": "9 of 10 with rule 1a; 6 of 7 without",
+     "section": "4.4",
+     "page": 173
+    },
+    {
+     "id": "ch4-12",
+     "fact": "The binder is not the holder: of the thirty-six rows whose first binder is a neutral third party, the shared point is held by a no-stake third party in only six.",
+     "figure": "36 rows (35 in Table H.3): holder no-stake third party 6, helper 6, public body 9, rival party 2; no shared point 9; unclear 4",
+     "section": "4.4",
+     "page": 174
+    },
+    {
+     "id": "ch4-13",
+     "fact": "Power: none of the twenty-six contradicted the reading that carriers do not decide how last-mile flows run. Counted by who began the 117 arrangements, cities and public bodies lead and carriers come third.",
+     "figure": "18/0/5/3 (second reading 16/0/8/2); initiators: city or public body 42, platform or broker 20, carrier 19, shipper or receiver 15, academic project 14, city with a project 1, not placed 6",
+     "section": "4.5; Table 4.8",
+     "page": 179
+    },
+    {
+     "id": "ch4-14",
+     "fact": "The visibility veto: the brand hypothesis was put by the interviewer in five interviews and declined in all five; raised unprompted in eight, three of them first-hand; and none who described it had seen it tested.",
+     "figure": "put in 5, declined in 5; raised unprompted in 8; 3 first-hand",
+     "section": "4.6",
+     "page": 182
+    }
+   ],
+   "turning_point": {
+    "summary": "Overlap, not size. The author carried the big fierce animal into the interviews: the large carrier alone because it is large, the small ones sharing because they have nothing to defend. The twenty-six did not sustain it. The smallest operator refused its rival at home and the largest swapped parcels across a border; willing and unwilling firms appear at every size.",
+    "quote": "Counted across both halves, size does not sort willingness.",
+    "section": "4.2",
+    "page": 135
+   },
+   "examiner_questions": [
+    {
+     "question": "Isn't overlap just size in disguise? Large carriers overlap with everyone.",
+     "model_answer": "The mirror pairs hold the firm constant. The same small cargo-bike operator refuses a rival at home and pilots with a non-rival in another town; the same national postal operator refuses consolidation at home and swaps parcels with a global express carrier across the border. Read down either half of Table 4.3, there are willing and unwilling firms at every size. I record where size sits beside overlap: in the first pair the partner's size differs as well, and the postal operator's refusal was coded as size as well as overlap (4.2).",
+     "section": "4.2; Tables 4.2, 4.3"
+    },
+    {
+     "question": "Tell me about the one transcript that contradicts overlap.",
+     "model_answer": "It's A2, the retired modeller. Two rival manufacturers back-hauled for each other because their distribution directors played golf together and trusted each other. I record it as the contradiction it is, but it's shippers' freight, 'not specifically urban', upstream of the last mile, and it sat inside a trade body (4.2).",
+     "section": "4.2"
+    },
+    {
+     "question": "Two direct rivals pooled distribution for six years. Doesn't that refute your first link?",
+     "model_answer": "No: it's the condition working. Overlap didn't prevent the arrangement, but it ran on a trustee, a single multilateral contract, a gain-share and a planning cell removed from both boards. The parties 'never knew this gap', how much more efficient the other was, because the trustee held it from them. That's an owner with no stake outweighing the exposure (4.2, 4.4, 6.1).",
+     "section": "4.2; 4.4"
+    },
+    {
+     "question": "Your participants talk about trust constantly. How can you say trust doesn't bind?",
+     "model_answer": "They named it as a wish at the start, as something that grew after an arrangement had run for years, and as trust placed in a trustee. Only one named it as what held an arrangement together. Counted by row, ninety-five of the 117 are bound from outside the parties and six rest on their own trust, four on trust alone and two on a personal tie. The covenant of forty firms that ran on trust produced no data in four years (4.4).",
+     "section": "4.4"
+    },
+    {
+     "question": "Your holder result depends on a coding rule you added after seeing the results. Isn't that circular?",
+     "model_answer": "It would be if I hid it, and I don't. Rule 1a codes a trustee that runs a scheme as its holder and the operator it hires as a helper. With it, a wall, a penalty, thin flows or a no-stake holder are present in nine of ten running rows, which meets the bar; without it, six of seven, which doesn't. I report both, and I say the interviews support the holder only under that rule. That's one reason the holder is proposed, not found (4.4, 3.7).",
+     "section": "4.4; 3.7"
+    },
+    {
+     "question": "You raised brand yourself. Why does the visibility finding survive at all?",
+     "model_answer": "When I put it, in five interviews, it was declined in all five, and I count that as declined. It survives as a minority finding because eight participants raised it unprompted, three from first-hand experience, one through a head office's instruction to keep its logos visible. None of them had seen it measured, so I state it as a testable claim and leave the measurement to 7.5 (4.6).",
+     "section": "4.6"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch4-q1",
+     "q": "Which phrase, from a participant's description of what works, names the thesis?",
+     "options": [
+      "Shared data, separate brands",
+      "Shared hours, separate streets",
+      "Shared space, separate freight",
+      "Shared vans, shared customers"
+     ],
+     "answer_index": 2,
+     "explanation": "A7: platforms where 'They share only the space … they don't mix their [freight]'. The thesis calls this the regularity it is named for.",
+     "section": "4.3"
+    },
+    {
+     "id": "ch4-q2",
+     "q": "How many mirror pairs does Table 4.2 set out?",
+     "options": [
+      "23",
+      "26",
+      "5",
+      "10"
+     ],
+     "answer_index": 3,
+     "explanation": "Ten pairs, each a yes and a no from the same firm or kind of firm. 26 is the interviews; 23 is the failed and unrealised arrangements.",
+     "section": "4.2"
+    },
+    {
+     "id": "ch4-q3",
+     "q": "In the third coding, how many of the 26 transcripts support overlap as the condition of refusal?",
+     "options": [
+      "15",
+      "16",
+      "24",
+      "12"
+     ],
+     "answer_index": 0,
+     "explanation": "Fifteen for, one against, five mixed, five silent. Twelve is the second reading; sixteen is the boundary; twenty-four the binder.",
+     "section": "4.2; Table 4.9"
+    },
+    {
+     "id": "ch4-q4",
+     "q": "What is the largest class of binder across the 117 rows?",
+     "options": [
+      "A contract",
+      "A grant",
+      "A neutral third party",
+      "A regulation, permit or mandate"
+     ],
+     "answer_index": 2,
+     "explanation": "Neutral third party 35, grant 21, regulation, permit or mandate 17, contract 12.",
+     "section": "4.4; 4.7"
+    },
+    {
+     "id": "ch4-q5",
+     "q": "How many of the 117 rows rested on the parties' own trust, counting personal ties?",
+     "options": [
+      "10",
+      "22",
+      "4",
+      "6"
+     ],
+     "answer_index": 3,
+     "explanation": "Six: four on trust alone and two on a personal tie. Ten ran on nothing; twenty-two is the 117 less the ninety-five bound from outside.",
+     "section": "4.4"
+    },
+    {
+     "id": "ch4-q6",
+     "q": "What had the covenant of forty companies produced on data sharing after four years?",
+     "options": [
+      "A shared data space",
+      "No data",
+      "Monthly anonymised flows",
+      "Data from the largest carrier only"
+     ],
+     "answer_index": 1,
+     "explanation": "'there's no data being shared at the moment because … there is not enough trust' (B13).",
+     "section": "4.4"
+    },
+    {
+     "id": "ch4-q7",
+     "q": "Who began the most of the 117 arrangements?",
+     "options": [
+      "A carrier",
+      "A city or public body",
+      "A shipper or receiver",
+      "A platform or broker"
+     ],
+     "answer_index": 1,
+     "explanation": "City or public body 42, platform or broker 20, carrier 19, shipper or receiver 15.",
+     "section": "4.5; Table 4.8"
+    },
+    {
+     "id": "ch4-q8",
+     "q": "What does rule 1a do?",
+     "options": [
+      "Codes a trustee that runs a scheme as its holder, and the operator it hires as a helper",
+      "Removes the rural row from the test",
+      "Codes a trustee as a wall between the parties",
+      "Codes every public body as never neutral"
+     ],
+     "answer_index": 0,
+     "explanation": "It was added after the results were seen, and every result is reported with and without it. Recoding public bodies as never neutral is a robustness check, not rule 1a.",
+     "section": "4.4; 3.7"
+    },
+    {
+     "id": "ch4-q9",
+     "q": "How did the interviews answer the brand hypothesis when the interviewer put it?",
+     "options": [
+      "Accepted in all eight",
+      "Declined in all five interviews",
+      "Accepted in three of five",
+      "Not put to anyone"
+     ],
+     "answer_index": 1,
+     "explanation": "Put in five, declined in five; raised unprompted in eight, three of them first-hand.",
+     "section": "4.6"
+    },
+    {
+     "id": "ch4-q10",
+     "q": "According to the trustee (A4), what margins do city carriers run on?",
+     "options": [
+      "Between nine and thirty per cent",
+      "About nine per cent",
+      "Between minus two and plus two per cent",
+      "Between six and twenty-five per cent"
+     ],
+     "answer_index": 2,
+     "explanation": "'between minus two and plus 2%' (A4). Six to twenty-five per cent is Fernández's modelled saving; 9 to 30 per cent Vanovermeire and Sörensen's.",
+     "section": "4.5; 2.1; 2.2"
+    }
+   ]
+  },
+  {
+   "act": 5,
+   "chapter": 5,
+   "title": "Chapter 5  Findings II: time, Ghent, the locker networks and the survey",
+   "story_beats": [
+    "The second half of the question is opened: what achieves collaboration's aims where collaboration between rivals does not? The aims are named: the saving, fewer and fuller vans, lower emissions, and a city easier to live in. (5.1)",
+    "Time arrives unprompted in seven interviews: a city's closed hours that 'already create a kind of consolidation', a trustee's gain-share paid in cut-off times, bookable bays, green-credit slots. Above them all stands the receiver's clock: an order with a ten-minute tolerance removes the scope for collaboration before any carrier is asked. (5.1)",
+    "Ghent, the one city that writes hours into the permit itself, category by category and in law. Twenty-six permit categories become fourteen; only loading and unloading is windowed; one class, sustainable urban distribution, holds every hour and the camera-controlled cuts for six years. (5.2)",
+    "The reversal in the city's own model: delivery traffic leaves the closed hours, but 'the traffic attributable to suppliers remains the same size' in the open ones. Neither plan counts deliveries by window, and in 2023 the city announces the end of the privilege: cargo bikes always admitted, other motorised vehicles only outside the closed hours. (5.2)",
+    "The rules and the locker networks: every rule found defines a neutral point by who may use it, and none looks again when control changes. Across twenty-six ownership periods, neutral-held networks reach on average 46.0 per cent of a country's main carriers and rival-held ones 21.3 per cent. Three sales of networks follow, and no rule looked again. (5.2)",
+    "The survey speaks for scale: respondents rate trust highly, but when asked how they keep it they name contracts, third-party coordination and public authority support beside joint planning; cost leads the goals, and competitive advantage, the word in the thesis's title, is named by only fourteen per cent. (5.3)",
+    "The verdict on objective 5: partitioned between operators, time is not shown to achieve the aims; set by vehicle and hour, naming no operator, it survives as the push. The substitute is a shared point held by a party with no stake in the carriers' customers. Nine objections are lined up for Chapter 6. (5.4)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch5-01",
+     "fact": "Sub-objective 5A: the record gives four aims attributed to collaboration, and each instrument in Chapter 5 is read against them.",
+     "figure": "the saving; fewer and fuller vans; lower emissions; a city easier to live in",
+     "section": "5.1",
+     "page": 188
+    },
+    {
+     "id": "ch5-02",
+     "fact": "Time was raised unprompted: in the third coding seven of the twenty-six transcripts speak to it, none against.",
+     "figure": "5 support, 0 contradict, 2 mixed, 19 silent (second reading 6/0/1/19)",
+     "section": "5.1; Table 5.10",
+     "page": 191
+    },
+    {
+     "id": "ch5-03",
+     "fact": "Ghent's draft circulation plan of 24 October 2016 took effect on 3 April 2017. It abolished the free window and made a permit necessary at every hour, enforced by cameras and a fine.",
+     "figure": "27 number-plate cameras; a fine of 55 euros",
+     "section": "5.2",
+     "page": 195
+    },
+    {
+     "id": "ch5-04",
+     "fact": "The 2016 plan replaced the overlapping permit categories with fewer and gave all but one access around the clock. Only loading and unloading is windowed.",
+     "figure": "26 categories → 14; 13 around the clock; 'Laden en lossen' 18:00–11:00 in the four central areas, 05:00–19:00 around the Overpoortstraat",
+     "section": "5.2; Table 5.2",
+     "page": 195
+    },
+    {
+     "id": "ch5-05",
+     "fact": "'Duurzame stadsdistributie', sustainable urban distribution, was the one delivery category with access at every hour, in every car-free area and through the three camera-controlled cuts. It was held for six years, and by 2023 it was conditional on membership, pilot projects and principles that included data sharing.",
+     "figure": "from April 2017 until at least autumn 2023",
+     "section": "5.2",
+     "page": 205
+    },
+    {
+     "id": "ch5-06",
+     "fact": "The city's own 2016 model expected delivery traffic to leave the closed hours, and expected no fall in the suppliers' traffic in the open window.",
+     "figure": "11:00–18:00: at most one third remains (half where public transport runs); 18:00–11:00: 40 and 31 per cent less, 'The traffic attributable to suppliers remains the same size in this time window' (Stad Gent, 2016, p. 112)",
+     "section": "5.2; Table 5.4",
+     "page": 200
+    },
+    {
+     "id": "ch5-07",
+     "fact": "In 2023 Ghent announced the end of the privilege for a few partners in favour of a general rule by vehicle and hour.",
+     "figure": "'cargo bikes always admitted, other motorised vehicles only outside the closed hours' (Stad Gent, 2023, p. 24)",
+     "section": "5.2",
+     "page": 197
+    },
+    {
+     "id": "ch5-08",
+     "fact": "The locker test: across the open networks, neutral-held ones reach on average about twice the share of a country's main carriers that rival-held ones do. The permutation test, which counts each ownership period once, is the result the thesis rests on.",
+     "figure": "26 ownership periods (12 neutral, 14 rival); 46.0 against 21.3 per cent (p = .008)",
+     "section": "5.2",
+     "page": 206
+    },
+    {
+     "id": "ch5-09",
+     "fact": "By owner class the share of main carriers falls in an order consistent with a gradient of market commonality, though the classes are too small to test it.",
+     "figure": "neutral 46, retailers with own delivery 42, carriers' subsidiaries 29, carrier-owned 17, postal operators 15, the one joint network 0 (per cent)",
+     "section": "5.2; Figure 5.3",
+     "page": 206
+    },
+    {
+     "id": "ch5-10",
+     "fact": "Holding the carrier fixed: the same-carrier check gives the direction and does not prove it.",
+     "figure": "by group 7 against 2, 10 equal (p = .18); by national name 10 against 2, 9 equal (p = .039)",
+     "section": "5.2",
+     "page": 207
+    },
+    {
+     "id": "ch5-11",
+     "fact": "Three changes of holder bear on the re-check: GLS ended its cooperation after Austrian Post took over a telecoms operator's parcel stations; De Buren passed to DHL Group; myflexbox was sold to Deutsche Post, the baseline for reading the network again.",
+     "figure": "by February 2024; May 2025; 1 October 2026",
+     "section": "5.2; Figure 5.4",
+     "page": 208
+    },
+    {
+     "id": "ch5-12",
+     "fact": "Survey: a third of those who answered collaborate horizontally now, and the share rises with company size; the survey cannot tell whether size or overlap stands behind it.",
+     "figure": "36 of 109 (33 per cent); large 14 of 30 (47), medium 13 of 34 (38), small 9 of 45 (20)",
+     "section": "5.3; Table 5.6",
+     "page": 210
+    },
+    {
+     "id": "ch5-13",
+     "fact": "Survey: trust is rated highly, while the means named for keeping it include devices that do not rest on goodwill.",
+     "figure": "89 of 119 rate trust 4 or 5 (75 per cent), none 1 or 2; of 45: joint planning 37, formal contracts 22, third-party coordination 13, public authority support 5",
+     "section": "5.3; Table 5.7; Figure 5.5",
+     "page": 212
+    },
+    {
+     "id": "ch5-14",
+     "fact": "Survey: cost leads the goals; competitive advantage, the term the registration and the thesis's title carry, is named least.",
+     "figure": "cost reduction 103 of 107 (96 per cent); competitive advantage 15 (14 per cent)",
+     "section": "5.3; Table 5.6",
+     "page": 211
+    }
+   ],
+   "turning_point": {
+    "summary": "The first picture of the fifth link, hours allocated by a city to named companies, meets the one city that allocates hours in law, and the city's own model undoes it: delivery traffic leaves the closed hours, but the suppliers' traffic in the open window does not fall. Time survives only as a rule by vehicle and hour that names no operator, and Ghent itself announces the end of its one privilege for a class of operator.",
+    "quote": "'The traffic attributable to suppliers remains the same size in this time window' (p. 112).",
+    "section": "5.2",
+    "page": 200
+   },
+   "examiner_questions": [
+    {
+     "question": "Why Ghent? One city is thin evidence for a rule.",
+     "model_answer": "Ghent is the one European city brought to my notice whose access regime writes hours into the permit itself, category by category, in law. I read its two plans as a document analysis, not a case study: as the regime's own statement of what it allocates and what it expected. So it gives the rule by vehicle and hour its instrument, its conditions and its costs, and not its proof. Neither plan counts deliveries by window, and I say so (3.5, 5.2).",
+     "section": "3.5; 5.2"
+    },
+    {
+     "question": "The locker difference could be price, size or quality. How do you know it's the holder?",
+     "model_answer": "I don't claim cause. The networks weren't matched on price, size or terms, because the data don't hold them. What the test shows is a difference by owner class at one time, 46.0 against 21.3 per cent, p = .008, consistent with the gradient and not a test of it. Holding the carrier fixed, the direction holds, 7 groups against 2 with 10 equal, but that doesn't reach significance. Cause is left to reading the networks again after each change of holder, and the myflexbox sale of 1 October 2026 is the baseline (5.2, 7.5).",
+     "section": "5.2; 7.4"
+    },
+    {
+     "question": "Your survey respondents rate trust very highly. Doesn't that contradict your binder finding?",
+     "model_answer": "It records what people say matters, not what binds. Eighty-nine of 119 rate trust at 4 or 5. But among the 45 who said how they build and keep it, formal contracts, third-party coordination and public authority support are named beside joint planning. What binds is shown by the 117 arrangements, ninety-five bound from outside. The survey sits beside that count without measuring it, and it tests no link (5.3).",
+     "section": "5.3"
+    },
+    {
+     "question": "In the survey larger companies collaborate more. Doesn't that cut against your finding that size does not predict the refusal?",
+     "model_answer": "It measures something different: whether a company collaborates at all, with anyone, anywhere. Link 1 is about with whom and where. The survey never asked about overlap, so it can't separate size from overlap. One reading consistent with 4.2 is that a large company has more places where its partners aren't its rivals, like the large carrier that refuses at home and collaborates abroad, but the survey can't test that (5.3, 6.4).",
+     "section": "5.3"
+    },
+    {
+     "question": "If allocating time failed, why does time survive at all?",
+     "model_answer": "What failed was time partitioned between operators: it isn't shown to reach the aims, and the one city that allocates hours expected no fall in suppliers' traffic in the open window. What survives is a rule by vehicle and hour that names no operator. It's the push, the penalty for staying out, that makes the shared point worth using, and its limit is the receiver's opening hours. Ghent itself is moving from who delivers to what delivers (5.2, 5.4).",
+     "section": "5.4"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch5-q1",
+     "q": "When did Ghent's circulation plan take effect?",
+     "options": [
+      "24 October 2016",
+      "1 January 2020",
+      "Autumn 2023",
+      "3 April 2017"
+     ],
+     "answer_index": 3,
+     "explanation": "The draft is dated 24 October 2016 and took effect on 3 April 2017. The low-emission zone dates from 1 January 2020; the urban logistics plan from autumn 2023.",
+     "section": "5.2"
+    },
+    {
+     "id": "ch5-q2",
+     "q": "How many permit categories did the 2016 plan replace, and with how many?",
+     "options": [
+      "26 with 14",
+      "26 with 13",
+      "27 with 14",
+      "14 with 13"
+     ],
+     "answer_index": 0,
+     "explanation": "Twenty-six overlapping categories became fourteen, thirteen of them with access around the clock. Twenty-seven is the number of cameras.",
+     "section": "5.2"
+    },
+    {
+     "id": "ch5-q3",
+     "q": "Which single permit category is windowed in Ghent's 2016 regime?",
+     "options": [
+      "Loading and unloading",
+      "Delivery of a medical nature",
+      "Supplier established in a pedestrian zone",
+      "Sustainable urban distribution"
+     ],
+     "answer_index": 0,
+     "explanation": "'Laden en lossen': 18:00 to 11:00 in the four central areas and 05:00 to 19:00 around the Overpoortstraat. The others have 24 hours.",
+     "section": "5.2; Table 5.2"
+    },
+    {
+     "id": "ch5-q4",
+     "q": "What did Ghent's own 2016 model expect of the suppliers' traffic in the 18:00 to 11:00 window?",
+     "options": [
+      "It doubles",
+      "It remains the same size",
+      "It falls by 40 per cent",
+      "It falls by a third"
+     ],
+     "answer_index": 1,
+     "explanation": "'The traffic attributable to suppliers remains the same size in this time window' (Stad Gent, 2016, p. 112). The 40 and 31 per cent falls are for the traffic overall.",
+     "section": "5.2"
+    },
+    {
+     "id": "ch5-q5",
+     "q": "Which permit category could pass the three camera-controlled cuts at every hour?",
+     "options": [
+      "Loading and unloading",
+      "Utility services",
+      "Sustainable urban distribution",
+      "Resident"
+     ],
+     "answer_index": 2,
+     "explanation": "'Duurzame stadsdistributie' alone among the delivery categories had every hour, every car-free area and the cuts (Table 5.2).",
+     "section": "5.2"
+    },
+    {
+     "id": "ch5-q6",
+     "q": "On average, what share of a country's main carriers deliver into a locker network held by a firm that sells no delivery?",
+     "options": [
+      "46.0 per cent",
+      "21.3 per cent",
+      "42 per cent",
+      "29 per cent"
+     ],
+     "answer_index": 0,
+     "explanation": "46.0 against 21.3 per cent for rival-held networks (p = .008). 42 is retailers with their own delivery; 29 carriers' subsidiaries.",
+     "section": "5.2"
+    },
+    {
+     "id": "ch5-q7",
+     "q": "How many of the 119 survey respondents rated trust at 4 or 5?",
+     "options": [
+      "36",
+      "68",
+      "45",
+      "89"
+     ],
+     "answer_index": 3,
+     "explanation": "89 (75 per cent): 68 chose 5 and 21 chose 4. 36 collaborate now; 45 answered the mechanisms item.",
+     "section": "5.3"
+    },
+    {
+     "id": "ch5-q8",
+     "q": "Which goal of collaboration did the fewest survey respondents name?",
+     "options": [
+      "Sustainability",
+      "Innovation",
+      "Competitive advantage",
+      "Improved efficiency"
+     ],
+     "answer_index": 2,
+     "explanation": "15 of 107 (14 per cent), against cost reduction 103, efficiency 84, sustainability 77, innovation 37.",
+     "section": "5.3"
+    },
+    {
+     "id": "ch5-q9",
+     "q": "Which challenge did the most survey respondents name?",
+     "options": [
+      "Integrating operations and systems",
+      "Regulatory or legal obstacles",
+      "Finding trustworthy partners",
+      "Sharing profits and costs fairly"
+     ],
+     "answer_index": 1,
+     "explanation": "64 of 93 (69 per cent), ahead of trustworthy partners, 50. Among those who collaborate now, trustworthy partners comes first.",
+     "section": "5.3"
+    },
+    {
+     "id": "ch5-q10",
+     "q": "How many objections to the fifth link does 5.4 line up for Chapter 6 to answer?",
+     "options": [
+      "Three",
+      "Four",
+      "Nine",
+      "Five"
+     ],
+     "answer_index": 2,
+     "explanation": "Nine, from the law that binds a council's choice of holder to who gains; Chapter 6 answers them in that order.",
+     "section": "5.4"
+    }
+   ]
+  },
+  {
+   "act": 6,
+   "chapter": 6,
+   "title": "Chapter 6  Discussion: the answer to the question",
+   "story_beats": [
+    "The four findings are set against the field. Overlap is what the modellers had in their equations and never set beside willingness; read through Gause and Hardin, the refusal is the expected outcome, not a failure of goodwill. The field's own models carry the finding: a coalition of rivals has a stable split of its gain only if what pooling saves beats what each loses in customers. (6.1)",
+    "The boundary of sharing is the edge of the only thing carriers cannot buy back: vans, drivers and space can be rented; the customer relationship cannot. (6.1)",
+    "The binder: trust in the record is trust in a trustee. Williamson's hostages are held here by a third party, agency theory's missing principal is supplied from outside, and five of Ostrom's design principles are met from outside the parties. A facilitator convenes; a binder enforces. (6.1)",
+    "Power sits where the order and the permit are written, which is why a remedy addressed to the carrier has so rarely worked. The four pillars are read for what each became: trust supplied from outside, efficiency the driver that moved almost no one, innovation a facilitator, sustainability a by-product. (6.1, 6.2)",
+    "The answer to the second half of the question: the red-cell rule. A shared parcel point held by a party with no stake in the carriers' customers, looked at again whenever control changes, beside an access rule by vehicle and hour that names no operator. The condition S + P ≥ L + W explains the overlap paradox, and the holder gives it a mirror image. (6.3)",
+    "The rule is built: a scope, two tiers, four questions, test parcels, the dot, thirty days to explain, separation within six months; the law shapes it, and nine objections are met one by one. The first picture of the fifth link, hours for named companies, is taken apart and survives only as the penalty. (6.3)",
+    "The big fierce animal is sharpened, not discarded: what makes it fierce is its territory, not its size. The one sentence is tested clause by clause and stands as a finding up to 'the street' and as a proposition after it. (6.4, 6.5)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch6-01",
+     "fact": "The condition is the first finding written as an inequality, extending Yang, Dai and Ma's (2020) core condition from revenue lost to brand switching to every kind of exposure. Walls cut L, grants raise S and permits add P.",
+     "figure": "S + P ≥ L + W",
+     "section": "6.3; 2.6",
+     "page": 235
+    },
+    {
+     "id": "ch6-02",
+     "fact": "The overlap paradox: the pairs with most to save are the ones who refuse, because where S peaks, L peaks with it. Models put network profit rising as three carriers' areas move from adjacent to identical, against realistic pools' savings.",
+     "figure": "about 19, 67 and 155 per cent (Berger and Bierwirth, 2010); realistic pools 9 to 30 per cent (Vanovermeire and Sörensen, 2014)",
+     "section": "6.3; Figure 6.3",
+     "page": 235
+    },
+    {
+     "id": "ch6-03",
+     "fact": "The red-cell rule: a shared parcel point should be held by a party with no stake in the customers of the carriers it serves, and looked at again whenever control of it changes, beside an access rule by vehicle and hour that names no operator. It is named after the cell that gives up its nucleus before it carries for the whole body.",
+     "figure": "two checkpoints: at award, and on every change of control",
+     "section": "6.3; 2.6; Figure 6.4",
+     "page": 234
+    },
+    {
+     "id": "ch6-04",
+     "fact": "The exposure at a shared point has two parts: the display (the brand visibility a carrier gives up whoever holds the point) and what the freight reveals, which grows with how far the holder sells the same service to the same customers and can see, keep or steer what passes.",
+     "figure": "a receiver costs a carrier only the display; a rival costs it nearly everything the freight reveals",
+     "section": "6.3",
+     "page": 237
+    },
+    {
+     "id": "ch6-05",
+     "fact": "Every point is asked the same four questions.",
+     "figure": "who stands behind it; whether it, or anyone behind it, sells delivery to the served carriers' customers; whether it can see, keep or steer what passes; whether it takes every carrier's parcel for every resident",
+     "section": "6.3",
+     "page": 239
+    },
+    {
+     "id": "ch6-06",
+     "fact": "The rule's scope and two tiers: on the council's own land neutrality is bought as a service and sites are awarded by rank, neutral points first and open ones second; at points the council merely permits, it sets conditions of conduct and offers a neutral label. Private house-door boxes are out; rural areas are left to further research.",
+     "figure": "shared parcel points within about a five-minute walk",
+     "section": "6.3",
+     "page": 239
+    },
+    {
+     "id": "ch6-07",
+     "fact": "A sign of a stake is called the dot. It leads to written notice with the evidence and time to explain; then, on council land, an order to separate the point and, failing that, the site passes to the next-ranked holder, with appeal. The point stays in service throughout.",
+     "figure": "30 days to explain; separation within six months",
+     "section": "6.3",
+     "page": 239
+    },
+    {
+     "id": "ch6-08",
+     "fact": "Pull completes the instrument: siting near residents and a checkout default to the nearest neutral point, with opt-out.",
+     "figure": "within about 500 metres; locker share rises from 11 to 53 per cent as distance falls from 2.5 to 0.5 km (Molin, Kosicki and van Duin, 2022)",
+     "section": "6.3; Figure 6.5",
+     "page": 240
+    },
+    {
+     "id": "ch6-09",
+     "fact": "The law shapes the rule: a holder condition would restrict shareholding and combined activities under the Services Directive, so the rule keeps ownership out of every permit condition and buys neutrality as a service on council land, through a services concession in the EU or a lease in England.",
+     "figure": "Directive 2006/123/EC Arts 15(2)(c), 25(1); Case C-209/18; Directive 2014/23/EU; lease of seven years or less (Local Government Act 1972, s. 123) under the general power (Localism Act 2011, s. 1)",
+     "section": "6.3",
+     "page": 241
+    },
+    {
+     "id": "ch6-10",
+     "fact": "A check costs a council a modest sum a point a year, paid by an audit charge on its leases.",
+     "figure": "about £400 to £1,500 a point a year",
+     "section": "6.3; Table 6.1",
+     "page": 242
+    },
+    {
+     "id": "ch6-11",
+     "fact": "The scenario for one council area of 50,000 households, central case: depot trips and residents' hours saved, carriers' redelivery saving, the cost of checking, and the net value. Eight of the thirteen inputs are assumptions.",
+     "figure": "33,600 depot trips; 28,000 hours (9,100 by households without a car) worth about £198,000; carriers save about £106,000; checking 60 points at £700 costs £42,000; net about £262,000. Low case: −£12,000. Worst case: £150,000 a year down",
+     "section": "6.3; Appendix N",
+     "page": 243
+    },
+    {
+     "id": "ch6-12",
+     "fact": "Ostrom's design principles read against the binder classes: five of the eight are met, but from outside the parties (defined boundary, monitoring, graduated sanction, recognised right to organise, nested enterprise).",
+     "figure": "5 of 8 principles, supplied from outside",
+     "section": "6.1",
+     "page": 228
+    },
+    {
+     "id": "ch6-13",
+     "fact": "Hours allocated to named companies were taken apart: a rule that must know who is acting costs more to watch than one that bars an act whoever does it, and so much parcel delivery is subcontracted that the company on the permit is often not the company in the street.",
+     "figure": "84 to 93 per cent of parcel delivery subcontracted in France; Ostrom (1990, p. 204)",
+     "section": "6.3; 1.2",
+     "page": 244
+    },
+    {
+     "id": "ch6-14",
+     "fact": "The one sentence, tested clause by clause, stands as a finding up to 'the street' and as a proposition after it; no city has yet done what its last clause says.",
+     "figure": "a finding up to 'the street'; a proposition after it",
+     "section": "6.5; Figure 6.7",
+     "page": 248
+    }
+   ],
+   "turning_point": {
+    "summary": "The overlap paradox meets its mirror. Where saving and exposure peak together, rivals refuse; but if the point they meet at is held by a party with no stake in their customers, the exposure shrinks to the display alone, and the pairing hardest to make becomes the easiest. That is the red-cell rule: judge a shared point by who holds it, and look again whenever it changes hands.",
+    "quote": "In the paradox zone, where saving and exposure peak together, a point held by a party with no stake keeps the exposure at the display alone, so that the pairing hardest to make between carriers becomes the easiest.",
+    "section": "6.3",
+    "page": 238
+   },
+   "examiner_questions": [
+    {
+     "question": "Isn't the red-cell rule just the neutral fourth party the field has always reached for?",
+     "model_answer": "That's objection two, and the answer is that the council designs no bundler and names no operator. Neutrality rests on the holder's position in the market, what it sells and to whom, and a contract can record that position but not create it. The trustee-run network ran with a trustee that sold nothing to the parties' customers, not on a promise that it wouldn't. What carriers must trust is a fact the council can check, and checks again when it changes (6.3).",
+     "section": "6.3; Table 6.1"
+    },
+    {
+     "question": "Is the rule lawful?",
+     "model_answer": "It's shaped by the law. A condition that no carrier may own a point would restrict shareholding under Article 15 of the Services Directive, and a ban on also selling delivery would restrict combined activities under Article 25; Austria lost Case C-209/18 on those grounds. So ownership stays out of every permit condition. On its own land the council buys neutrality as a service, through a services concession in the EU or a lease of seven years or less in England, with a change-of-control clause. At points it permits, it sets conduct and a label only. What no court has ruled on is whether the contract's control terms count as requirements under Articles 15 and 25; that's the open legal question, named in 7.5.",
+     "section": "6.3"
+    },
+    {
+     "question": "'Open is not neutral' looks too strong. PostNL's opened lockers did get a carrier.",
+     "model_answer": "As a flat claim it is too strong, and I say so. No carrier had taken up PostNL's opened lockers by November 2023, but GLS announced in January 2024 that it would begin that March. So the rule claims a gradient, not an all-or-nothing difference: a carrier's use of a point falls as the holder's market commonality with that carrier rises (6.3).",
+     "section": "6.3"
+    },
+    {
+     "question": "What does your rule actually deliver?",
+     "model_answer": "It compels nothing. It removes one barrier, the exposure a holder brings, and promises none of the nine to thirty per cent that realistic pools save. It's expected to reach a city easier to live in through the access rule; it bears on fewer and fuller vans only where carriers deliver into the point; and it names the measure, freight vehicles and dwell per street-hour, rather than claiming the result. The scenario's central case nets about £262,000 a year for 50,000 households, but the low case loses £12,000 and the worst case £150,000, and eight of the thirteen inputs are assumptions (6.3).",
+     "section": "6.3; Appendix N"
+    },
+    {
+     "question": "Why drop your original idea of giving hours to named companies?",
+     "model_answer": "Because it didn't survive the tests. A rule that must know who is acting costs more to watch than one that bars an act whoever does it, as Ostrom says. Between 84 and 93 per cent of parcel delivery in France is subcontracted, so the company on the permit is often not the company in the street. Uniform windows leave rivals in the same hours. And the one city that allocates hours in law expected no fall in suppliers' traffic in the open window. What survives is the access rule by vehicle and hour, as the penalty P (6.3).",
+     "section": "6.3"
+    },
+    {
+     "question": "A red blood cell? Isn't biology just decoration here?",
+     "model_answer": "It's a labelled design guide, not evidence, and I use it the way Cornelissen says a metaphor should be used: as a source of concepts whose fit is argued, with every empirical claim carried by the interviews, the networks and the rules. It gives the rule its two checkpoints, at award and on every change of control. I carry its limits too: birds' red cells keep their nucleus, and the spleen holds no hearing (2.6, 6.3).",
+     "section": "2.6; 6.3"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch6-q1",
+     "q": "What is the red-cell rule named after?",
+     "options": [
+      "The cell that gives up its nucleus before it carries for the whole body",
+      "The legume host that sanctions nodules that fix too little nitrogen",
+      "The peacock's tail in Zahavi's handicap",
+      "The trophic cascade in a food web"
+     ],
+     "answer_index": 0,
+     "explanation": "A mammalian red cell loses its nucleus as it matures; whatever holds a point for every carrier must have no nucleus of its own. The legume host, the handicap and the trophic cascade are other images in 2.6.",
+     "section": "6.3; 2.6"
+    },
+    {
+     "id": "ch6-q2",
+     "q": "In the condition S + P ≥ L + W, what do permits do?",
+     "options": [
+      "Raise S",
+      "Cut W",
+      "Add P",
+      "Cut L"
+     ],
+     "answer_index": 2,
+     "explanation": "Walls cut L, grants raise S and permits add P, the penalty for staying out.",
+     "section": "6.3; 2.6"
+    },
+    {
+     "id": "ch6-q3",
+     "q": "Which holder costs a carrier only the display?",
+     "options": [
+      "A receiver",
+      "A postal operator",
+      "A rival carrier",
+      "A carrier's subsidiary"
+     ],
+     "answer_index": 0,
+     "explanation": "A receiver sells no delivery, so it costs a carrier only the visibility of its own brand; a rival costs it nearly everything the freight reveals.",
+     "section": "6.3"
+    },
+    {
+     "id": "ch6-q4",
+     "q": "Which of these is NOT one of the rule's four questions?",
+     "options": [
+      "Who stands behind it",
+      "Whether it can see, keep or steer what passes",
+      "Whether it is open to at least three logistics firms",
+      "Whether it takes every carrier's parcel for every resident"
+     ],
+     "answer_index": 2,
+     "explanation": "'At least three logistics firms' is Munich's funding rule, which defines neutrality by access, the very approach the red-cell rule moves beyond.",
+     "section": "6.3; 2.5"
+    },
+    {
+     "id": "ch6-q5",
+     "q": "What is 'the dot'?",
+     "options": [
+      "A sign of a stake in the carriers' customers",
+      "A council test parcel",
+      "A pick-up point on the map",
+      "A neutral label on a permitted point"
+     ],
+     "answer_index": 0,
+     "explanation": "Named after the inclusion the spleen removes from a red cell. It triggers written notice and thirty days to explain.",
+     "section": "6.3"
+    },
+    {
+     "id": "ch6-q6",
+     "q": "What does a council award first when it ranks sites on its own land?",
+     "options": [
+      "The cheapest bid",
+      "Neutral points",
+      "Carrier-owned points",
+      "Open points"
+     ],
+     "answer_index": 1,
+     "explanation": "Sites are awarded by rank, neutral points first and open ones second.",
+     "section": "6.3; 7.3"
+    },
+    {
+     "id": "ch6-q7",
+     "q": "About how much does a holder check cost a council per point per year?",
+     "options": [
+      "£42,000",
+      "£12,000",
+      "£7.08",
+      "£400 to £1,500"
+     ],
+     "answer_index": 3,
+     "explanation": "About £400 to £1,500 a point a year. £7.08 is the hourly value of non-work time; £42,000 the central-case cost of checking 60 points; £12,000 the low case's cost of checking 30 points at £400.",
+     "section": "6.3"
+    },
+    {
+     "id": "ch6-q8",
+     "q": "In the scenario's central case, what is the net value a year?",
+     "options": [
+      "About £106,000",
+      "About £262,000",
+      "About −£150,000",
+      "About £198,000"
+     ],
+     "answer_index": 1,
+     "explanation": "£198,000 of residents' time plus £106,000 carriers' saving less £42,000 checking. −£150,000 is the worst case.",
+     "section": "6.3"
+    },
+    {
+     "id": "ch6-q9",
+     "q": "According to 6.4, what makes the big fierce animal fierce?",
+     "options": [
+      "Its territory, not its size",
+      "Its size, not its territory",
+      "Its brand, not its fleet",
+      "Its margin, not its volume"
+     ],
+     "answer_index": 0,
+     "explanation": "'What makes the animal fierce is its territory and not its size.' At home every door the large carrier serves is also a rival's door.",
+     "section": "6.4"
+    },
+    {
+     "id": "ch6-q10",
+     "q": "How does the one sentence stand after 6.5's test?",
+     "options": [
+      "As a proposition throughout",
+      "As a finding up to 'the street' and as a proposition after it",
+      "As refuted in its first clause",
+      "As a finding throughout"
+     ],
+     "answer_index": 1,
+     "explanation": "The first clauses rest on the findings; the holder and the city clauses are proposed, and no city has yet done what the last clause says.",
+     "section": "6.5"
+    }
+   ]
+  },
+  {
+   "act": 7,
+   "chapter": 7,
+   "title": "Chapter 7  Conclusions and contribution",
+   "story_beats": [
+    "The journey is recalled: a map with a blank on it, a review that shared the blind spot, a design in four stages, and one question. (7.1)",
+    "The question is answered in its own words. Collaboration succeeds under two conditions: the parties are not rivals for the customers at the doors they would serve together (or a wall, a penalty or an owner with no stake outweighs the exposure), and the arrangement is held by something that does not rest on their goodwill. It so rarely succeeds between rivals because they fail the first, have no principal to supply the second, and do not hold the power. (7.1)",
+    "The second half of the answer is spoken with care: time partitioned between operators is not shown to reach the aims; a holder with no stake, an access rule by vehicle and hour and a city that re-checks can. That last answer is a proposition, not yet tested in a running scheme. (7.1)",
+    "The contribution is named in four forms, and five propositions are left for others to test, each with what would falsify it. (7.2)",
+    "Advice is given to every player: cities, carriers, shippers and receivers, funders, and the trustees, platforms and locker firms who hold the points. (7.3)",
+    "The limits are confessed and seven further studies are named, from measuring the branded van to testing the propositions in a market the thesis did not sample. (7.4, 7.5)",
+    "Epilogue at the door: the author came believing the last mile was a problem of trust between firms, and leaves knowing it is a problem of who wants the same door, and of who can bind the people who do. (7.6, Postscript)"
+   ],
+   "key_facts": [
+    {
+     "id": "ch7-01",
+     "fact": "Horizontal collaboration in European urban last-mile logistics succeeds under two conditions: the parties are not rivals for the customers at the doors they would serve together or, where they are, a wall, a penalty or an owner with no stake outweighs the exposure; and the arrangement is held by something that does not rest on the parties' goodwill.",
+     "figure": "2 conditions",
+     "section": "7.1",
+     "page": 250
+    },
+    {
+     "id": "ch7-02",
+     "fact": "It so rarely succeeds between competing carriers because carriers who serve the same doors fail the first condition, seldom supply each other with the second, being peers with no principal between them, and do not hold the power to reorganise their flows.",
+     "figure": "peers with no principal (no party in charge to watch them and impose penalties)",
+     "section": "7.1",
+     "page": 251
+    },
+    {
+     "id": "ch7-03",
+     "fact": "The answer to the second half of the question is a proposition, examined against the 117 arrangements, the locker networks and the rules, and not yet tested in a running scheme.",
+     "figure": "proposed, not found",
+     "section": "7.1",
+     "page": 251
+    },
+    {
+     "id": "ch7-04",
+     "fact": "Three conceptual conclusions, a fourth that follows and a fifth offered: willingness is a property of a pair of markets, not of a firm; what a collaboration can pool is bounded by the customer relationship; durability is a property of the binder, not of the parties; the parties who can bind are those who hold the order and the permit; and the shared point should be held by a party with no stake and re-checked whenever it changes hands.",
+     "figure": "three conclusions, a fourth that follows and a fifth offered",
+     "section": "7.1",
+     "page": 254
+    },
+    {
+     "id": "ch7-05",
+     "fact": "Of the 241 papers of the 2026 update: nine had been among the forty-nine, a tenth had been set aside at the 2023 final stage, thirteen named a shipper or receiver as initiator, eleven measured a running collaboration, and none reported a measured result from a collaboration carriers had begun among themselves.",
+     "figure": "9; 1; 13; 11 (7 with an operating figure); 0",
+     "section": "7.1",
+     "page": 253
+    },
+    {
+     "id": "ch7-06",
+     "fact": "Who begins a collaboration bears on what it can be: of the arrangements carriers began, few were between rivals and fewer operate.",
+     "figure": "of 19 begun by carriers, 5 between rivals; 2 operate (the container lines' consortia at sea and two bike couriers' joint bid), a third only on a participant's inference",
+     "section": "7.2; 4.5",
+     "page": 255
+    },
+    {
+     "id": "ch7-07",
+     "fact": "The contribution takes four forms.",
+     "figure": "a new understanding of an existing issue; a combination of concepts from four literatures; the extension of others' work at three named points; a new issue for investigation",
+     "section": "7.2",
+     "page": 256
+    },
+    {
+     "id": "ch7-08",
+     "fact": "The three named extensions of others' work.",
+     "figure": "Sternberg et al. (2022): the facilitator who convenes against the binder who enforces; Holguín-Veras (2008): from the off-hours to the whole of the receiver's clock; van Duin et al. (2016): who begins, counted across the 241 (113 name one, 13 a shipper or receiver)",
+     "section": "7.2",
+     "page": 257
+    },
+    {
+     "id": "ch7-09",
+     "fact": "Three papers are planned from the thesis.",
+     "figure": "the review's blind spot and the corrected search (Chapter 2); the four findings of the interviews (Chapter 4); the red-cell rule with its evidence and objections (Chapters 5 and 6)",
+     "section": "7.2",
+     "page": 257
+    },
+    {
+     "id": "ch7-10",
+     "fact": "Five propositions are offered, each relating two variables, claimed for the mechanism and not for a population, each with its falsifier (Table 7.1).",
+     "figure": "P1 to P5",
+     "section": "7.2; Table 7.1",
+     "page": 258
+    },
+    {
+     "id": "ch7-11",
+     "fact": "For funders: a grant is a binder and its end is the end of what it bound, so a grant should be written with the binder that will replace it.",
+     "figure": "'They work … until the public sector takes the funding out' (B4)",
+     "section": "7.3",
+     "page": 261
+    },
+    {
+     "id": "ch7-12",
+     "fact": "The limits that bear most: few carrier voices; the demand side heard largely through those who work with it, with no residents, shopkeepers or employed drivers interviewed; silence counts that may be too high; and Ghent read in its documents, not its operators.",
+     "figure": "3 of 30 voices carriers', a fourth an adviser to one",
+     "section": "7.4",
+     "page": 262
+    },
+    {
+     "id": "ch7-13",
+     "fact": "Seven further studies follow, from measuring the physical signal to testing the propositions as hypotheses in a deductive design in a market the thesis did not sample; the fifth link adds studies of its own, beginning with reading the locker networks again after the myflexbox sale.",
+     "figure": "7 studies",
+     "section": "7.5",
+     "page": 264
+    },
+    {
+     "id": "ch7-14",
+     "fact": "The author's hardest decision: the claim that carriers refuse because the branded van is a signal was found in a minority of accounts, mostly second-hand and never measured, and was let go as the headline and kept as a finding.",
+     "figure": "'the hardest decision in the thesis and the best one'",
+     "section": "Postscript",
+     "page": 268
+    }
+   ],
+   "turning_point": {
+    "summary": "The last reversal is the author's own. He came to the last mile with the field's map, four pillars and a belief that the problem was trust between firms; he leaves with a problem of territory and binding.",
+    "quote": "I came to the last mile believing it was a problem of trust between firms, and I leave it knowing it is a problem of who wants the same door, and of who can bind the people who do.",
+    "section": "Postscript",
+    "page": 269
+   },
+   "examiner_questions": [
+    {
+     "question": "What is your original contribution to knowledge?",
+     "model_answer": "It takes four forms. A new understanding of an existing issue: carriers' refusal explained by overlap and binding, not trust. A combination of concepts from four literatures in one framework, each with its limit stated. Extensions of others' work at three named points: Sternberg's commons reading, by the line between a facilitator who convenes and a binder who enforces; Holguín-Veras's conditions, to the whole of the receiver's clock; and van Duin's initiators, counted across the 241 papers. And a new issue for investigation: the rules certify shared points by who may use them, carriers judge them by who holds them, and no rule found looks again when holders change (7.2).",
+     "section": "7.2"
+    },
+    {
+     "question": "How would someone falsify P3?",
+     "model_answer": "P3 says a horizontal collaboration lasts as long as the external arrangement that binds it. It would be falsified by an arrangement that outlived its binder on the parties' trust alone, or that dissolved while its binder stood and its parties still gained. Of the arrangements whose length Table 4.7 records, none outlived its binder, and the one ending at interview while its binder stood was ending at a shipper's instruction, which is itself a binder (7.1, Table 7.1).",
+     "section": "7.1; 7.2; Table 7.1"
+    },
+    {
+     "question": "How far do your findings generalise?",
+     "model_answer": "To the mechanism, not to a population. That's the generalisation critical realism allows. The propositions rest on the cases they were drawn from and are offered for others to test. The seventh study in 7.5 does exactly that: a deductive design in a market I didn't sample, with the operator pair as the unit and each proposition set against its falsifier (7.4, 7.5).",
+     "section": "7.4; 7.5"
+    },
+    {
+     "question": "What should a city do differently on the strength of your thesis?",
+     "model_answer": "Stop asking carriers to collaborate with nothing to bind them, and judge shared points by who holds them: register each holder and look again on every change of control and at renewal, post the council's own parcels through each point, award council sites neutral first and open second, and site them within a five-minute walk, worst-served streets first. Write the rule by vehicle and hour the same for every operator in a class. And publish the record by window and class that Ghent promised in 2016 and didn't report (7.3).",
+     "section": "7.3"
+    },
+    {
+     "question": "What would you do differently?",
+     "model_answer": "Two things. I'd write the interview guide after a first reading of the field's definitions rather than its findings, so it asked about overlap and time directly, though a guide that had asked would probably have found less than I was told. And I'd have kept the counting discipline from the first day, so that the coding rule for the trustee schemes was written before the holder results were seen, not after (Postscript).",
+     "section": "Postscript"
+    },
+    {
+     "question": "What's the biggest limitation?",
+     "model_answer": "Three of the thirty voices are carriers' and a fourth is an adviser to one, so much of what I say about carriers comes from people who convene, fund, regulate, study and broker them, though they've watched carriers for years and the coding required the evidence against. The demand side was also heard largely second-hand: no residents, shopkeepers or employed drivers. And Ghent was read in its documents, not its operators (7.4).",
+     "section": "7.4"
+    }
+   ],
+   "quiz": [
+    {
+     "id": "ch7-q1",
+     "q": "According to the first conceptual conclusion, willingness to collaborate is a property of what?",
+     "options": [
+      "A firm's brand",
+      "A country's regulation",
+      "A firm's size",
+      "A pair of markets, not a firm"
+     ],
+     "answer_index": 3,
+     "explanation": "The same operator can be willing in one town and unwilling in the next.",
+     "section": "7.1"
+    },
+    {
+     "id": "ch7-q2",
+     "q": "According to the third conceptual conclusion, durability is a property of what?",
+     "options": [
+      "The size of the saving",
+      "The number of partners",
+      "The parties' trust",
+      "The binder, not the parties"
+     ],
+     "answer_index": 3,
+     "explanation": "'The question to ask of any arrangement is what binds it and not whether its members trust one another.'",
+     "section": "7.1"
+    },
+    {
+     "id": "ch7-q3",
+     "q": "Which proposition reads: 'A horizontal collaboration lasts as long as the external arrangement that binds it'?",
+     "options": [
+      "P3",
+      "P2",
+      "P4",
+      "P1"
+     ],
+     "answer_index": 0,
+     "explanation": "P1 is overlap, P2 the boundary, P3 the binder, P4 power, P5 the holder.",
+     "section": "7.2"
+    },
+    {
+     "id": "ch7-q4",
+     "q": "What are P5's two variables?",
+     "options": [
+      "The holder's market commonality with a carrier, and that carrier's use of the point",
+      "The width of the window, and the volume delivered",
+      "The size of the carrier, and its willingness",
+      "The trust between carriers, and their saving"
+     ],
+     "answer_index": 0,
+     "explanation": "'At equal access, a carrier's use of a shared point falls as the holder's market commonality with that carrier rises.'",
+     "section": "7.2; 6.3"
+    },
+    {
+     "id": "ch7-q5",
+     "q": "Of the 19 arrangements carriers began, how many were between rivals?",
+     "options": [
+      "Thirteen",
+      "Five",
+      "Two",
+      "Nineteen"
+     ],
+     "answer_index": 1,
+     "explanation": "Five between rivals, of which two operate: the container consortia at sea and two bike couriers' joint bid.",
+     "section": "7.2; 4.5"
+    },
+    {
+     "id": "ch7-q6",
+     "q": "What does 7.3 tell funders?",
+     "options": [
+      "Write a grant with the binder that will replace it",
+      "Fund trust-building workshops",
+      "Fund only carrier-led pilots",
+      "Stop funding consolidation centres"
+     ],
+     "answer_index": 0,
+     "explanation": "A grant is a binder, and its end is the end of what it bound.",
+     "section": "7.3"
+    },
+    {
+     "id": "ch7-q7",
+     "q": "How many further studies does 7.5 set out before the fifth link's own?",
+     "options": [
+      "Seven",
+      "Three",
+      "Five",
+      "Nine"
+     ],
+     "answer_index": 0,
+     "explanation": "Seven, from measuring the physical signal to testing the propositions deductively; nine is the number of objections in 6.3.",
+     "section": "7.5"
+    },
+    {
+     "id": "ch7-q8",
+     "q": "Which of these is NOT one of the four forms of contribution in 7.2?",
+     "options": [
+      "A tested causal model of carrier behaviour",
+      "A new issue for investigation",
+      "The extension of others' work at three named points",
+      "A new understanding of an existing issue"
+     ],
+     "answer_index": 0,
+     "explanation": "The design was theory-building: the contribution is offered as propositions, not tested hypotheses. The fourth form is the combination of concepts from four literatures.",
+     "section": "7.2"
+    },
+    {
+     "id": "ch7-q9",
+     "q": "What does the Postscript call 'the hardest decision in the thesis and the best one'?",
+     "options": [
+      "Adding the survey",
+      "Dropping hours allocated to named companies",
+      "Letting the branded-van signal go as the headline and keeping it as a finding",
+      "Re-running the 2023 review"
+     ],
+     "answer_index": 2,
+     "explanation": "Two independent readings found the claim in a minority of accounts, mostly second-hand and never measured.",
+     "section": "Postscript"
+    }
+   ]
+  }
+ ],
+ "people_and_places": {
+  "rules_for_the_playwright": [
+   "Every character is fictional and stands for a kind of party in the thesis. No participant is named or described beyond the generic role the thesis itself gives (Table 3.4); interview codes (A1-A13, B1-B13) are the only identifiers.",
+   "Authors appear only as cited sources (for example, as Ostrom (1990) shows), never as characters.",
+   "Real firms named in the thesis (for example in the locker-network sales) appear only as facts in key_facts, never as characters."
+  ],
+  "actors": [
+   {
+    "kind": "Last-mile carrier (large)",
+    "role": "A multinational express or national parcel carrier: has the volume, data and network to need no partner, refuses to pool with rivals at home where it overlaps with everyone, and will swap parcels with a rival across a border where nothing overlaps.",
+    "section": "4.2; 6.4",
+    "heard_in": "A6, B5 (carriers); described by others, e.g. B2, B13, A10"
+   },
+   {
+    "kind": "Last-mile carrier (small)",
+    "role": "A small cargo-bike operator: refuses a better-funded rival in its own city for fear of being taken over, and pilots a collaboration with a smaller operator in another town: 'It's not their city. There's no market competition.'",
+    "section": "4.2",
+    "heard_in": "B9 (adviser to a cargo-bike operator)"
+   },
+   {
+    "kind": "Owner-operator courier",
+    "role": "A same-day courier who hands jobs to strangers on a load-sharing platform every day, bound by the platform's reviews, insurance and a rule against poaching; a price-taker on margin.",
+    "section": "4.4; 4.5",
+    "heard_in": "B8"
+   },
+   {
+    "kind": "Head office",
+    "role": "The level of a large firm that holds the market and was not in the room: local managers who can see the saving agree, and the head office vetoes, once by ordering that its logos be seen in the city and not shared on one vehicle.",
+    "section": "4.2; 6.1",
+    "heard_in": "A6, A10, A12; B5"
+   },
+   {
+    "kind": "Shipper",
+    "role": "The firm that owns and sends goods, such as a manufacturer or retailer that hires a carrier to deliver them; arranges the transport, dictates the terms and the tariff, and 'calls the shots'.",
+    "section": "1.1; 4.5",
+    "heard_in": "described by B1, B9, A10, A4"
+   },
+   {
+    "kind": "Receiver",
+    "role": "The party that places the order and sets the window: an order for 11 o'clock on Wednesday with ten minutes' tolerance has already removed the scope for collaboration. A receiver can hold a shared point itself, at the cost to a carrier of the display alone.",
+    "section": "4.5; 5.1; 6.3",
+    "heard_in": "described by B1, B13"
+   },
+   {
+    "kind": "City officer",
+    "role": "Holds the permit and the closed hours: 'we are in control of the permits'; wants the windows tighter; cannot get rival companies into the city's hub.",
+    "section": "4.4; 4.5; 5.1",
+    "heard_in": "B12, B13"
+   },
+   {
+    "kind": "Municipal convenor",
+    "role": "A municipality that calls itself neutral, 'we don't have business goal in this at all', and whose declaration of about sixty companies produced dialogue and no arrangement.",
+    "section": "4.4; 4.5",
+    "heard_in": "A12"
+   },
+   {
+    "kind": "Neutral trustee",
+    "role": "A firm that designs collaborations for others and holds each party's data and volumes from the others; keeps itself out of any operating role; ran the six-year pooling of two rivals' distribution, in which the parties 'never knew this gap'.",
+    "section": "4.2; 4.4",
+    "heard_in": "A4 (two staff)"
+   },
+   {
+    "kind": "Shipper-side pooling platform",
+    "role": "Aggregates shippers' loads under a trustee 'not showing the individual members'; knows that the receiver's order timing defeats collaboration before a carrier is asked.",
+    "section": "4.3; 5.1",
+    "heard_in": "B1"
+   },
+   {
+    "kind": "Funder",
+    "role": "Supplies the grant, the one binder whose end the participants could date: what a grant binds, it binds for its own length.",
+    "section": "4.4; 7.3",
+    "heard_in": "described by A3, B4, B6"
+   },
+   {
+    "kind": "Consultant",
+    "role": "Watches carrier behaviour from across the table: one opens with 'forget it' and holds that only shippers force change; another selects networks that do not overlap so a trial can run.",
+    "section": "3.3; 4.2; 4.5",
+    "heard_in": "A4, A10, A11, A13"
+   },
+   {
+    "kind": "Academic",
+    "role": "Studies collaborations: one describes the platforms that share only the space and do not mix the freight, the regularity the thesis is named for; another says 'I don't believe in the goodwill'.",
+    "section": "3.3; 4.3; 4.4",
+    "heard_in": "A2, A5, A7, B3, B4, B7"
+   },
+   {
+    "kind": "Holder",
+    "role": "Whoever controls the point where the parties' parcels, data or customers meet. Classes: receiver, no-stake third party, helper, public body, rival party or joint holder. The red-cell rule asks whether it sells delivery to the carriers' customers.",
+    "section": "2.7; 3.4; 6.3",
+    "heard_in": "coded in the 117 arrangements"
+   },
+   {
+    "kind": "Helper",
+    "role": "An operator hired to work for a holder; under rule 1a, the operator a trustee hires.",
+    "section": "2.7; 3.4; 3.7",
+    "heard_in": "coded in the 117 arrangements"
+   },
+   {
+    "kind": "Rival holder",
+    "role": "A carrier, a carrier's subsidiary, a postal operator, a retailer with its own delivery or several carriers jointly holding a locker network; rival-held open networks reach on average 21.3 per cent of a country's main carriers.",
+    "section": "5.2",
+    "heard_in": "the locker networks (Appendix M)"
+   },
+   {
+    "kind": "The council (in the red-cell rule)",
+    "role": "Allocates and names no operator: buys neutrality as a service on its own land, ranks sites neutral first and open second, posts its own test parcels through each point, and looks again on every change of control; at points it only permits, it sets conduct and a neutral label.",
+    "section": "6.3; 7.3",
+    "heard_in": "the thesis's proposal"
+   },
+   {
+    "kind": "Residents the rule is for",
+    "role": "Households without a car, disabled and older residents, children and the air, and residents at large, each with the measure that shows whether the rule works for them.",
+    "section": "6.3",
+    "heard_in": "the scenario (Appendix N)"
+   }
+  ],
+  "places": [
+   {
+    "place": "The shared parcel point",
+    "role": "A locker or staffed shop point where rivals' parcels meet; the object of the red-cell rule, because a locker on the round adds no handling stage.",
+    "section": "6.3"
+   },
+   {
+    "place": "The locker networks",
+    "role": "Forty-three networks in sixteen countries, forty-seven ownership periods; neutral-held open networks reach on average 46.0 per cent of a country's main carriers, rival-held 21.3 per cent.",
+    "section": "3.5; 5.2"
+   },
+   {
+    "place": "Ghent's car-free centre",
+    "role": "The one city whose access regime writes hours into the permit itself: four central car-free areas and the Overpoortstraat area, three camera-controlled cuts, twenty-seven number-plate cameras, fourteen permit categories, and loading and unloading allowed from 18:00 to 11:00 in the four central areas.",
+    "section": "5.2; Table 5.2"
+   },
+   {
+    "place": "Ghent's distribution platform and its association",
+    "role": "The class 'sustainable urban distribution' held every hour and the cuts for six years; the association, with the city inside it, is coded a joint holder; the city is taking the permit policy back.",
+    "section": "5.2"
+   },
+   {
+    "place": "The consolidation centre",
+    "role": "The field's fifty-year-old remedy, competitors' parcels on one van from the edge of the city; mostly refused by the operators it was designed for.",
+    "section": "1.2; 6.1"
+   },
+   {
+    "place": "The shared hub that shares only the space",
+    "role": "One building and its dock shared, each carrier's freight, vans and people kept apart: shared space, separate freight.",
+    "section": "4.3; Figure 4.3"
+   },
+   {
+    "place": "The capital with three hubs",
+    "role": "Where the same carriers keep 'three different hubs, one for each carrier' and no motivation to share.",
+    "section": "4.2"
+   },
+   {
+    "place": "The far north",
+    "role": "Where, on a consultant's inference, two trucks to a community of five is waste and the same carriers collaborate: low density, thin flows.",
+    "section": "4.2; 4.4"
+   },
+   {
+    "place": "The border",
+    "role": "Where a national postal operator and a global express carrier each deliver the other's parcels, a reciprocal trade at matched price: the freight crosses where the customers do not overlap.",
+    "section": "4.3; 4.4"
+   },
+   {
+    "place": "The city hub",
+    "role": "A city's hub that shops pay extra to use 'out of a sustainability conviction', where it is 'very hard to get companies ready' to work with competitors.",
+    "section": "4.4"
+   },
+   {
+    "place": "Council land",
+    "role": "Where the council can buy neutrality as a service and award sites by rank.",
+    "section": "6.3"
+   }
+  ]
+ },
+ "glossary": [
+  {
+   "term": "Horizontal collaboration",
+   "meaning": "An arrangement between two or more organisations at the same point in the supply chain (carriers with carriers, shippers with shippers, or one public body with another) to gain together what none could gain alone, and to be more competitive for having done so.",
+   "section": "1.1",
+   "page": 12
+  },
+  {
+   "term": "Shipper",
+   "meaning": "The firm that owns and sends goods, such as a manufacturer or retailer that hires a carrier to deliver them.",
+   "section": "1.1",
+   "page": 12
+  },
+  {
+   "term": "The gap",
+   "meaning": "The shipper side of horizontal collaboration documented but under-examined as a category, and not set beside the carrier side.",
+   "section": "1.1; 7.1",
+   "page": 13
+  },
+  {
+   "term": "The chain",
+   "meaning": "The five linked concepts: overlap, the boundary of sharing, the binder, power and the holder.",
+   "section": "3.7; 1.5",
+   "page": 119
+  },
+  {
+   "term": "Link 1: Overlap",
+   "meaning": "Whether two parties compete for the same customers in the same place.",
+   "section": "2.7",
+   "page": 78
+  },
+  {
+   "term": "Link 2: The boundary of sharing",
+   "meaning": "The line between what is pooled and what is withheld, drawn where the customer relationship begins.",
+   "section": "2.7",
+   "page": 78
+  },
+  {
+   "term": "Link 3: Binding",
+   "meaning": "The arrangement supplied from outside the parties that holds a collaboration where trust between them cannot.",
+   "section": "2.7",
+   "page": 78
+  },
+  {
+   "term": "Binder",
+   "meaning": "Whatever holds an arrangement together once it is formed and does not depend on the goodwill of the parties.",
+   "section": "3.4",
+   "page": 101
+  },
+  {
+   "term": "Link 4: Power",
+   "meaning": "The position in the chain that holds the capacity to reorganise last-mile flows, and so to supply binding: mainly the shipper's, the receiver's and the city's.",
+   "section": "2.7",
+   "page": 78
+  },
+  {
+   "term": "Link 5: The holder",
+   "meaning": "Who controls the point where the parties' parcels, data or customers meet, and whether it sells delivery to those customers.",
+   "section": "2.7",
+   "page": 78
+  },
+  {
+   "term": "Holder classes",
+   "meaning": "Receiver, no-stake third party, helper, public body, rival party or joint holder.",
+   "section": "2.7; 3.4",
+   "page": 79
+  },
+  {
+   "term": "Helper",
+   "meaning": "An operator hired to work for a holder.",
+   "section": "2.7; 3.4",
+   "page": 79
+  },
+  {
+   "term": "Wall",
+   "meaning": "Something that keeps the parties apart.",
+   "section": "4.2",
+   "page": 146
+  },
+  {
+   "term": "Penalty",
+   "meaning": "A cost a party bears if it stays out.",
+   "section": "4.2",
+   "page": 146
+  },
+  {
+   "term": "Thin flows",
+   "meaning": "A low volume of freight between the parties.",
+   "section": "4.4; 3.7",
+   "page": 172
+  },
+  {
+   "term": "Reciprocal hostage",
+   "meaning": "An arrangement in which each party holds something of the other's (its parcels, its volumes or its access to a market) that it would forfeit by defecting; Williamson's term.",
+   "section": "3.4; 2.6",
+   "page": 101
+  },
+  {
+   "term": "Gain-share",
+   "meaning": "A contract that divides the saving a collaboration produces by a formula agreed in advance.",
+   "section": "3.4",
+   "page": 101
+  },
+  {
+   "term": "The condition (S + P ≥ L + W)",
+   "meaning": "Rivals pool only when the saving (S) plus any penalty for staying out (P) covers the exposure of their customers, brand or data (L) plus the cost of the wall that stops it (W): the first finding written as an inequality.",
+   "section": "6.3; 2.6",
+   "page": 235
+  },
+  {
+   "term": "The overlap paradox",
+   "meaning": "The pairs with most to save are the ones who refuse, because where the saving peaks, the exposure peaks with it.",
+   "section": "6.3",
+   "page": 235
+  },
+  {
+   "term": "The holder principle",
+   "meaning": "That the holder decides how much of a carrier's exposure is at stake.",
+   "section": "4.2; 6.1",
+   "page": 139
+  },
+  {
+   "term": "The display",
+   "meaning": "The visibility of its own brand that a carrier gives up at a shared point, whoever holds it.",
+   "section": "6.3; 7.3",
+   "page": 237
+  },
+  {
+   "term": "Exposure term",
+   "meaning": "The measure of what a holder can expose.",
+   "section": "7.2",
+   "page": 257
+  },
+  {
+   "term": "The red-cell rule",
+   "meaning": "A shared parcel point should be held by a party with no stake in the customers of the carriers it serves, and looked at again whenever control of it changes, beside an access rule by vehicle and hour that names no operator.",
+   "section": "6.3",
+   "page": 233
+  },
+  {
+   "term": "Access rule by vehicle and hour (rule by vehicle and hour)",
+   "meaning": "A rule on which vehicles may enter at which hours, applying to every company alike; it names no operator, and survives as the penalty P.",
+   "section": "2.7; 6.3",
+   "page": 79
+  },
+  {
+   "term": "The dot",
+   "meaning": "A sign of a stake, named after the inclusion the spleen removes from a red cell.",
+   "section": "6.3",
+   "page": 239
+  },
+  {
+   "term": "Separated second version",
+   "meaning": "A separate arm of the carrier run by different people.",
+   "section": "6.3",
+   "page": 239
+  },
+  {
+   "term": "Neutral point and open point",
+   "meaning": "A neutral point is held by a party with no stake; an open point is open to any carrier. Council sites are awarded neutral first and open second.",
+   "section": "7.3; 6.3",
+   "page": 260
+  },
+  {
+   "term": "Neutral orchestrator",
+   "meaning": "A party that sells neither delivery nor the parties' kind of goods to their customers, the neutral holder of 6.3.",
+   "section": "2.2",
+   "page": 47
+  },
+  {
+   "term": "Rule 1a",
+   "meaning": "The codebook rule for the trustee schemes: it codes a trustee that runs a scheme as its holder and the operator it hires as a helper. Added after the results were seen; every result is reported with and without it.",
+   "section": "3.7; 4.4; 7.4",
+   "page": 123
+  },
+  {
+   "term": "Drift by sale",
+   "meaning": "A neutral point passing by sale to a holder with a stake.",
+   "section": "3.7; 6.3",
+   "page": 123
+  },
+  {
+   "term": "The receiver's clock",
+   "meaning": "The hours when receivers will take goods in; the limit on any rule by hour.",
+   "section": "5.1; 7.2",
+   "page": 189
+  },
+  {
+   "term": "The visibility veto",
+   "meaning": "A firm refusing to collaborate because its branded vans would no longer be seen.",
+   "section": "2.4; 4.6",
+   "page": 56
+  },
+  {
+   "term": "Mirror pairs",
+   "meaning": "The cases in which the same firm, or the same kind of firm, said yes and no in the same breath, one answer for each side of the line.",
+   "section": "4.2; Table 4.2",
+   "page": 131
+  },
+  {
+   "term": "The substitution",
+   "meaning": "The finding that something outside the parties, and not their trust, binds most of the collaborations in the set.",
+   "section": "4.4",
+   "page": 171
+  },
+  {
+   "term": "The four pillars",
+   "meaning": "Trust, efficiency, innovation and sustainability: the framework the 2024 fieldwork was designed under, which the data replaced.",
+   "section": "1.6; 2.7; 6.2",
+   "page": 29
+  },
+  {
+   "term": "The big fierce animal",
+   "meaning": "The author's 2022 image, used in his own way and not Colinvaux's: the large carrier stands alone because it takes everything within reach, while small operators share. The data corrected it to overlap; 6.4 keeps it as an image of territory.",
+   "section": "1.6; 6.4",
+   "page": 29
+  },
+  {
+   "term": "The working claim of 2026",
+   "meaning": "That the last mile is a brand asset, that size sorts willingness, that working arrangements run on substitutes for trust, that the power sits with shippers and cities and that time can do what pooling was asked to. The second coding tested it; brand and size fell.",
+   "section": "3.4",
+   "page": 101
+  },
+  {
+   "term": "Stance",
+   "meaning": "Whether a paper or transcript supports a link, contradicts it, is mixed or is silent.",
+   "section": "2.2; 3.1",
+   "page": 47
+  },
+  {
+   "term": "Replication",
+   "meaning": "One of two separately run pairs of coding passes; a result must hold in both.",
+   "section": "4.4",
+   "page": 172
+  },
+  {
+   "term": "Running rows",
+   "meaning": "Arrangements running at interview.",
+   "section": "5.4; 6.3",
+   "page": 219
+  },
+  {
+   "term": "Rivals not far from the customer",
+   "meaning": "Rivals working at the last leg, at the door or at no stage named.",
+   "section": "7.1; 4.4",
+   "page": 253
+  },
+  {
+   "term": "Necessary condition (in the comparative analysis)",
+   "meaning": "Present in at least nine in ten running rows (a consistency of 0.9).",
+   "section": "3.4; 4.4",
+   "page": 106
+  },
+  {
+   "term": "The core",
+   "meaning": "A split of the gain that no group would gain by leaving; for rivals it is empty wherever overlap costs them more in customers than pooling saves.",
+   "section": "2.6; 6.1",
+   "page": 76
+  },
+  {
+   "term": "Market commonality and resource similarity",
+   "meaning": "Chen's (1996) two kinds of overlap: how far two firms serve the same customers, and how far they use the same means.",
+   "section": "2.6; 1.6",
+   "page": 72
+  },
+  {
+   "term": "Principal (and its absence among peers)",
+   "meaning": "A party in charge to watch the others and impose penalties; rivals of equal standing have none unless someone from outside takes that role.",
+   "section": "7.1; 2.6",
+   "page": 251
+  },
+  {
+   "term": "Trophic cascade",
+   "meaning": "The ecologists' name for a change at one level of a food web that reorganises the levels beneath it; here the receiver, not the carrier, is the level whose change reorganises the rest.",
+   "section": "2.6; 6.1",
+   "page": 66
+  },
+  {
+   "term": "The shared van",
+   "meaning": "Competitors' parcels on one van from a consolidation centre: the field's remedy, which so rarely arrived.",
+   "section": "6.1; 1.2",
+   "page": 222
+  },
+  {
+   "term": "Bundler",
+   "meaning": "An operator that bundles goods flows; the council in the red-cell rule designs none.",
+   "section": "6.3",
+   "page": 241
+  },
+  {
+   "term": "Push and pull",
+   "meaning": "The push is the access rule by vehicle and hour; the pull is a shared point held by a party with no stake, sited near residents with a checkout default.",
+   "section": "5.4; 6.3; Figure 6.5",
+   "page": 219
+  },
+  {
+   "term": "Closed hours",
+   "meaning": "In Ghent, the hours when the loading-and-unloading category may not enter.",
+   "section": "7.1; 5.2",
+   "page": 253
+  },
+  {
+   "term": "Card",
+   "meaning": "The author's reading note on each paper of the review.",
+   "section": "7.4",
+   "page": 262
+  }
+ ]
+}

@@ -1,0 +1,592 @@
+/* Freight City Viva v3: design system additions. Tokens extend v2's :root; components below are built only from them.
+   Layout idea: the city fills the screen; every sheet is a shipping label rising over it. */
+:root {
+  --scrim: rgba(10, 7, 16, .72);
+  --amber: #ffb000;
+  --label: #fffaf0;
+  --band: var(--tangerine);
+  --seal: #c79a1d;
+  --r: 12px;
+}
+body.highContrast { --muted: #e6dcf2; --paper: #ffffff; }
+body.highContrast .card, body.highContrast .talk { border-width: 5px; }
+
+/* HUD right column: readiness ring, save tick, round minimap */
+#hudRight { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; pointer-events: none; padding-right: env(safe-area-inset-right); }
+.hudTop { justify-content: flex-end; pointer-events: auto; }
+#minimap { width: 150px !important; height: 150px !important; border-radius: 50% !important; }
+.ready { --p: 0; width: 46px; height: 46px; border-radius: 50%; border: 3px solid var(--ink); padding: 0; display: grid; place-items: center; pointer-events: auto;
+  background: conic-gradient(var(--gold) calc(var(--p) * 1%), rgba(21,16,31,.88) 0); box-shadow: 0 3px 0 #000; }
+.ready b { width: 32px; height: 32px; border-radius: 50%; background: var(--ink); color: var(--gold); display: grid; place-items: center; font-family: var(--display); font-size: 16px; font-weight: 400; }
+.saveTick { display: inline-flex; align-items: center; gap: 6px; pointer-events: auto; border-radius: 999px; padding: 6px 12px; font-size: 13px; font-weight: 700; border: 2px solid rgba(255,243,224,.3); background: rgba(21,16,31,.88); min-height: 36px; }
+.saveTick i { width: 18px; height: 18px; border: 3px double currentColor; border-radius: 4px; transform: rotate(-8deg); display: inline-block; }
+.saveTick.verified { color: var(--good); } .saveTick.saving { color: var(--amber); } .saveTick.failed { color: var(--bad); border-color: var(--bad); }
+.saveTick.device { color: var(--gold); }
+.saveTick.stampIt i { animation: stampIt .4s cubic-bezier(.2,1.8,.4,1); }
+@keyframes stampIt { 0% { transform: scale(2) rotate(-24deg); opacity: 0; } 100% { transform: scale(1) rotate(-8deg); opacity: 1; } }
+
+/* Title */
+.titleFamily { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; align-items: center; font-weight: 700; text-shadow: 0 2px 0 #000; }
+.titleBtns details.more { display: inline-block; } .titleBtns details.more summary { cursor: pointer; padding: 10px; font-weight: 700; }
+
+/* Undo bar and achievement toast */
+#undoBar { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 70px); transform: translateX(-50%); z-index: 96; background: var(--ink); color: var(--paper); border: 3px solid var(--gold); border-radius: 10px; padding: 8px 10px 8px 16px; display: flex; gap: 12px; align-items: center; box-shadow: 0 6px 0 #000; max-width: 94vw; }
+#undoBar .btn { font-size: 17px; padding: 6px 14px; }
+/* ND5: the bar is as wide as its words need (up to the screen less a gutter), not half the screen from left: 50%; on a
+   phone it says the short form in two lines at most and its button never shrinks */
+#undoBar { width: max-content; max-width: min(94vw, 640px); box-sizing: border-box; }
+#undoBar .uShort { display: none; }
+#undoBar .btn { flex: none; }
+@media (max-width: 520px) { #undoBar { max-width: calc(100vw - 24px); font-size: 15px; line-height: 1.25; padding: 6px 8px 6px 12px; gap: 10px; } #undoBar .uFull { display: none; } #undoBar .uShort { display: inline; } #undoBar .btn { font-size: 15px; padding: 5px 12px; } }
+#achToast { position: fixed; right: calc(env(safe-area-inset-right) + 12px); bottom: calc(env(safe-area-inset-bottom) + 12px); z-index: 97; background: var(--label); color: var(--ink); border: 3px solid var(--ink); border-left: 10px solid var(--seal); border-radius: 10px; padding: 8px 14px; box-shadow: 5px 5px 0 var(--magenta); max-width: 340px; }
+#achToast b { font-family: var(--display); font-weight: 400; letter-spacing: .05em; font-size: 20px; display: block; }
+
+/* Fact card as a shipping label: district band, FROM chip, figure in display type, held-by-author sticker, postmark pips */
+.card { position: relative; background: var(--label); border-top: 10px solid var(--band); }
+.card .pips5 { position: absolute; top: 8px; right: 10px; display: flex; gap: 3px; }
+.pips5 i { width: 12px; height: 12px; border: 2px solid var(--ink); border-radius: 50%; background: transparent; }
+.pips5 i.on { background: var(--ink); }
+.stagePip { display: inline-grid; place-items: center; width: 18px; height: 18px; font-size: 12px; line-height: 1; vertical-align: middle; margin-left: 4px; color: var(--ink); }
+.held { transform: rotate(-2deg); }
+
+/* Equal options: identical size, colour, motion */
+.opts.equal .opt { min-height: 64px; align-items: center; }
+.verdictStamp { font-family: var(--display); font-size: 30px; letter-spacing: .06em; border: 4px double currentColor; border-radius: 8px; padding: 2px 12px; display: inline-block; transform: rotate(-5deg); }
+.verdictStamp.r { color: #0f7a43; } .verdictStamp.w { color: #8a3b00; }
+body:not(.reduceMotion) .verdictStamp { animation: stampIt .35s cubic-bezier(.2,1.8,.4,1); }
+
+/* Mini-game layer */
+#mech { position: fixed; inset: 0; z-index: 45; background: rgba(10,7,16,.78); display: grid; place-items: center; padding: 12px; }
+#mechBox { width: min(1000px, 100%); max-height: 100%; overflow: auto; background: var(--paper); color: var(--ink); border: 4px solid var(--ink); border-radius: 16px; box-shadow: 0 10px 0 rgba(0,0,0,.6); padding: 14px; display: grid; gap: 12px; }
+.mgHead { display: flex; gap: 10px; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.mgHead h2 { margin: 0; font-family: var(--display); font-weight: 400; font-size: clamp(24px, 3.4vw, 36px); letter-spacing: .04em; }
+.mgStage { position: relative; min-height: 200px; border: 3px solid var(--ink); border-radius: 12px; background: #1d1729; overflow: hidden; color: var(--paper); }
+.mgStage svg { display: block; width: 100%; height: auto; position: relative; }
+.mgStage.hasBg::before { content: ''; position: absolute; inset: 0; background-image: var(--mgbg); background-size: cover; background-position: center; opacity: .6; }
+.mgStage.slowmo::before { filter: saturate(.4) brightness(.8); transition: filter .4s; }
+.mgStage.slowmo svg { transform: scale(1.03); transition: transform .4s; }
+.mgStage .fogGo { animation: mgFog 1.3s ease-out forwards; }
+.mgStage .fogSway { animation: mgSway 6s ease-in-out infinite alternate; }
+.mgStage .ringGo { animation: mgRing 1s ease-out forwards; transform-box: fill-box; transform-origin: center; }
+.mgStage .bookGo { animation: mgBook .75s cubic-bezier(.3,1.4,.5,1) both; }
+.mgStage .bollardGo { animation: mgSink .9s ease-in .25s forwards; }
+.mgStage .lampGo { animation: mgPop .6s ease-out both; transform-box: fill-box; transform-origin: center; }
+.mgStage .parcelGo { animation: mgSlideL .8s cubic-bezier(.3,1.2,.5,1) both; }
+.mgStage .parcelGoR { animation: mgSlideR .8s cubic-bezier(.3,1.2,.5,1) both; }
+@keyframes mgFog { to { opacity: 0; transform: translateY(-50px); } }
+@keyframes mgSway { from { transform: translateX(-8px); } to { transform: translateX(8px); } }
+@keyframes mgRing { from { transform: scale(.4); opacity: 1; } to { transform: scale(4); opacity: 0; } }
+@keyframes mgBook { from { transform: translateY(-200px) rotate(-10deg); opacity: .2; } 70% { transform: translateY(6px); opacity: 1; } to { transform: none; } }
+@keyframes mgSink { to { transform: translateY(26px); opacity: .15; } }
+@keyframes mgPop { 0% { transform: scale(.4); } 60% { transform: scale(1.35); } 100% { transform: scale(1); } }
+@keyframes mgSlideL { from { transform: translate(-60px, -170px) rotate(-25deg); opacity: 0; } to { transform: none; opacity: 1; } }
+@keyframes mgSlideR { from { transform: translate(60px, -170px) rotate(25deg); opacity: 0; } to { transform: none; opacity: 1; } }
+body.reduceMotion .mgStage *, body.reduceMotion .mgStage svg { animation: none !important; transition: none !important; }
+body.reduceMotion .mgStage .fogGo { opacity: 0; }
+.wrStage { position: relative; aspect-ratio: 16 / 6; background-size: cover; background-position: center 30%; }
+.wrStage .wrPup { position: absolute; bottom: 14%; height: 82%; transition: filter .3s; }
+.wrStage .wrPup.l { left: 14%; } .wrStage .wrPup.r { right: 14%; }
+.wrStage .wrPup.dim { filter: brightness(.55); }
+.wrStage .wrTable { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; }
+.wrStage .wrHearts { position: absolute; left: 50%; bottom: 4px; transform: translateX(-50%); width: min(260px, 40%); height: auto; }
+.mgBar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.mgBar .grow { flex: 1; }
+.slam { animation: slamIn .6s cubic-bezier(.2,1.5,.4,1); }
+@keyframes slamIn { 0% { transform: scale(2.2); opacity: 0; } 100% { transform: scale(1); opacity: 1; } }
+.shakeSoft { animation: shakeSoft .18s linear 1; }
+@keyframes shakeSoft { 25% { transform: translateX(-6px); } 75% { transform: translateX(6px); } }
+.punch { animation: punch .25s ease-out; } @keyframes punch { 50% { transform: scale(1.04); } }
+body.reduceMotion .shakeSoft, body.reduceMotion .punch, body.reduceMotion .slam { animation: none !important; }
+.particle { position: fixed; width: 10px; height: 8px; background: #c9a46a; border: 2px solid var(--ink); border-radius: 2px; pointer-events: none; z-index: 99; }
+.resultCard { display: grid; gap: 10px; justify-items: center; text-align: center; }
+.resultCard .stamp { font-size: 26px; padding: 4px 14px; }
+.starsRow { font-size: 34px; letter-spacing: 4px; color: #5b4f6b; } .starsRow .on { color: var(--seal); }
+.delivered { font-family: var(--display); font-size: clamp(40px, 7vw, 72px); color: var(--tangerine); -webkit-text-stroke: 2px #000; letter-spacing: .04em; margin: 0; }
+.assist { display: flex; gap: 6px; flex-wrap: wrap; justify-content: center; }
+.chute { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.chute .bin { border: 3px dashed var(--teal); border-radius: 12px; min-height: 90px; padding: 8px; display: grid; place-items: center; font-family: var(--display); font-size: 22px; background: rgba(25,194,176,.08); color: var(--ink); }
+.dropCard { background: #fff; border: 3px solid var(--ink); border-radius: 10px; padding: 12px; font-weight: 700; font-size: 18px; color: var(--ink); }
+.orderList { display: grid; gap: 6px; } .orderList button { text-align: left; }
+.lamps { display: flex; gap: 6px; flex-wrap: wrap; } .lamps i { width: 22px; height: 22px; border-radius: 50%; border: 3px solid var(--ink); background: #3a2f4d; } .lamps i.on { background: var(--gold); box-shadow: 0 0 10px var(--gold); }
+.switch { min-width: 140px; min-height: 56px; border: 3px solid var(--ink); border-radius: 10px; background: #fff; font-weight: 700; } .switch[aria-pressed="true"] { background: var(--gold); }
+.dial { width: 74px; height: 74px; border-radius: 50%; border: 4px solid var(--ink); background: #fff; display: grid; place-items: center; font-weight: 700; font-size: 13px; position: relative; } .dial.tint { background: #ffe9cc; } .dial.turned { background: var(--gold); }
+.gantry { display: flex; gap: 8px; align-items: center; } .gantry i { flex: 1; height: 16px; border-radius: 4px; background: #3a2f4d; } .gantry i.on { background: var(--good); } .gantry i.miss { background: var(--amber); }
+
+/* World Map */
+#worldmap { position: fixed; inset: 0; z-index: 83; background: #f3e6cf; color: var(--ink); display: grid; grid-template-rows: auto 1fr auto; }
+.wmTop { padding: calc(env(safe-area-inset-top) + 10px) 14px 8px; border-bottom: 4px solid var(--ink); background: var(--teal); display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
+.wmTop h2 { margin: 0; font-family: var(--display); font-weight: 400; font-size: 30px; letter-spacing: .05em; }
+.wmStats { font-weight: 700; font-size: 14px; }
+#wmBody { position: relative; overflow: auto; }
+#wmCanvas { position: absolute; left: 0; top: 0; }
+#wmNodes { position: relative; }
+.wmNode { position: absolute; transform: translate(-50%, -50%); min-width: 44px; min-height: 44px; border-radius: 50%; border: 3px solid var(--ink); background: #d7cbe0; font-family: var(--display); font-size: 15px; display: grid; place-items: center; padding: 0 6px; box-shadow: 0 3px 0 #000; }
+.wmNode.done { background: #bff0d4; } .wmNode.open { background: #fffaf0; } .wmNode.next { background: var(--gold); } .wmNode.locked { background: #b9afc4; color: #5b4f6b; border-style: dashed; } .wmNode.new3 { background: #ffd0e6; }
+body:not(.reduceMotion) .wmNode.next { animation: wmPulse 1.6s ease-in-out infinite; }
+@keyframes wmPulse { 50% { box-shadow: 0 0 0 8px rgba(255,209,102,.45), 0 3px 0 #000; } }
+.wmNode.sel { outline: 4px solid var(--magenta); outline-offset: 3px; }
+.wmNode small { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); white-space: nowrap; font-family: var(--body); font-size: 11px; font-weight: 700; background: rgba(255,250,240,.9); padding: 0 4px; border-radius: 4px; margin-top: 3px; }
+.wmLabel { position: absolute; transform: translate(-50%, -50%); font-family: var(--display); font-size: clamp(13px, 1.3vw, 20px); letter-spacing: .04em; color: var(--ink); background: rgba(255,250,240,.85); padding: 2px 10px; border-radius: 8px; border: 2px solid var(--ink); white-space: nowrap; pointer-events: none; }
+#wmPanel { border-top: 4px solid var(--ink); background: var(--label); padding: 10px 14px calc(env(safe-area-inset-bottom) + 10px); display: grid; gap: 8px; min-height: 92px; }
+#wmPanel .wmBtns { display: flex; gap: 8px; flex-wrap: wrap; }
+.holdBtn { position: relative; overflow: hidden; touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; } .holdBtn .fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: rgba(255,61,139,.35); pointer-events: none; }
+#wmNodes.list { position: static; display: grid; gap: 8px; padding: 12px; }
+#wmNodes.list .wmNode { position: static; transform: none; border-radius: 10px; justify-content: start; text-align: left; font-family: var(--body); font-weight: 700; padding: 8px 12px; display: flex; gap: 8px; }
+#wmNodes.list .wmNode small { position: static; transform: none; background: none; margin: 0; }
+#wmNodes.list .wmLabel { position: static; transform: none; display: block; justify-self: start; }
+
+/* Cutscene v3: captions on a scrim, speaker colour and shape, word highlight, Docket peeks */
+#cutSub { background: var(--scrim) !important; }
+#cutSub .spk { display: inline-block; font-family: var(--display); letter-spacing: .06em; font-size: .8em; margin-right: 6px; }
+#cutSub .w.on { color: var(--gold); }
+body.capLarge #cutSub { font-size: 40px; }
+#cutChevron { position: absolute; right: calc(20px + env(safe-area-inset-right)); bottom: calc(9vh + 20px); z-index: 6; font-family: var(--display); font-size: 26px; color: var(--gold); background: var(--scrim); padding: 4px 14px; border-radius: 999px; }
+#cutDocket { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+#cutDocket button { position: absolute; width: 64px; height: 64px; border: 0; padding: 0; background: transparent; pointer-events: auto; }
+/* Explainer: the diagram sits between the top controls and the caption; its controls sit in the top bar, never on the caption. */
+.mdStage { position: absolute; inset: 0; z-index: 2; display: grid; place-items: start center; background: #15101f; padding-top: calc(9vh + 64px); }
+.mdStage svg { width: min(96vw, calc((100vh - 18vh - 230px) * 1.778)); height: auto; max-height: calc(100vh - 18vh - 230px); }
+.mdCtl { position: absolute; z-index: 5; left: calc(14px + env(safe-area-inset-left)); top: calc(9vh + 12px); display: flex; gap: 8px; align-items: center; background: var(--scrim); padding: 6px 10px; border-radius: 999px; }
+.mdCtl input[type=range] { width: min(240px, 22vw); }
+@media (max-width: 760px) { .mdCtl { top: calc(9vh + 60px); left: 50%; transform: translateX(-50%); } .mdCtl input[type=range] { width: 30vw; } .mdStage { padding-top: calc(9vh + 112px); } .mdStage svg { max-height: calc(100vh - 18vh - 280px); } }
+
+/* Co-pilot dock and Docket */
+#dock { position: fixed; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 10px); transform: translateX(-50%); z-index: 26; display: flex; gap: 8px; background: rgba(21,16,31,.88); border: 3px solid var(--gold); border-radius: 18px; padding: 6px; }
+#dock button { min-width: 64px; min-height: 64px; border-radius: 14px; border: 3px solid var(--ink); font-family: var(--display); font-size: 16px; letter-spacing: .04em; display: grid; place-items: center; gap: 2px; }
+#dock button kbd { font-family: var(--body); font-size: 11px; opacity: .7; }
+#dock.asleep button { opacity: .35; pointer-events: none; }
+#dock .honk { background: var(--gold); } #dock .confetti { background: var(--magenta); } #dock .lights { background: var(--teal); } #dock .paint { background: var(--tangerine); }
+#docket { position: fixed; z-index: 27; width: 84px; height: 84px; right: calc(env(safe-area-inset-right) + 170px); top: calc(env(safe-area-inset-top) + 8px); background: center/contain no-repeat; pointer-events: none; }
+body:not(.reduceMotion) #docket.wag { animation: wag .5s ease-in-out 2; }
+@keyframes wag { 25% { transform: rotate(-8deg); } 75% { transform: rotate(8deg); } }
+.journey { display: flex; gap: 4px; align-items: center; justify-content: center; flex-wrap: wrap; }
+.journey i { width: 34px; height: 34px; border-radius: 50%; border: 3px solid var(--ink); background: #d7cbe0 center/cover; } .journey i.done { background-color: var(--gold); } .journey i.here { outline: 3px solid var(--magenta); }
+.faces { display: flex; gap: 10px; justify-content: center; } .faces .btn { min-width: 140px; min-height: 64px; font-size: 22px; }
+body.family .opt, body.family .btn { min-height: 52px; }
+
+/* Album, passport, achievements, end card */
+.albumGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.aCard { border: 3px solid var(--ink); border-radius: 10px; padding: 8px; min-height: 96px; font-size: 13px; line-height: 1.3; background: #fff; color: var(--ink); text-align: left; display: grid; gap: 4px; align-content: start; }
+.aCard.sealed { background: #3a2f4d; color: #8a7f99; border-style: dashed; } .aCard.met { background: #fffaf2; border-style: dotted; }
+.aCard.learnt { background: #fff; border-top: 8px solid var(--band); } .aCard.mastered { background: linear-gradient(135deg, #fff6d0, #ffffff 40%, #ffe9a8); border-top: 8px solid var(--seal); }
+.aCard.cracked { box-shadow: inset -14px -14px 0 -8px #c01818; }
+.aCard b { font-family: var(--display); font-weight: 400; font-size: 17px; letter-spacing: .02em; }
+.endCard { display: grid; gap: 10px; } .endCard h3 { margin: 4px 0 0; font-family: var(--display); font-weight: 400; letter-spacing: .05em; font-size: 22px; color: var(--magenta); }
+.doors { display: flex; gap: 4px; } .doors i { width: 22px; height: 34px; border: 3px solid var(--ink); border-radius: 4px 4px 0 0; background: #d7cbe0; } .doors i.open { background: var(--good); }
+.planner { display: flex; gap: 8px; flex-wrap: wrap; } .planner .btn[aria-pressed="true"] { background: var(--gold); color: var(--ink); }
+.ticket { display: flex; gap: 10px; align-items: center; background: #fff; border: 3px solid var(--ink); border-radius: 10px; padding: 8px 10px; }
+.ticket b { font-family: var(--display); font-weight: 400; font-size: 22px; min-width: 28px; }
+.ticket .grow { flex: 1; }
+.countdown { font-weight: 700; } .countdown .btn { margin-left: 8px; }
+@media (max-width: 640px) { #minimap { width: 96px !important; height: 96px !important; } #docket { right: 110px; width: 60px; height: 60px; } #dock button { min-width: 54px; min-height: 54px; } }
+@media (prefers-reduced-motion: reduce) { .wmNode.next, .saveTick.stampIt i, .verdictStamp { animation: none !important; } }
+
+/* v3 fixer round 1 */
+[hidden] { display: none !important; }
+#tabCover { position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; background: rgba(10,7,16,.9); padding: 16px; }
+#tabCover .btn { width: 100%; }
+.saveTick.notWriter { color: var(--bad); border-color: var(--bad); }
+body.kidDrive #btnNotebook, body.kidDrive #btnChapter, body.kidDrive #minimap, body.kidDrive #chain, body.kidDrive #ready, body.kidDrive #saveTick { opacity: .35; pointer-events: none; }
+#undoBar.kidBar { bottom: calc(env(safe-area-inset-bottom) + 100px); }
+/* answer reveals: only the title is a heading; figures stay inline and bold */
+.answer b:not(.aTitle) { display: inline; font-family: inherit; font-weight: 700; letter-spacing: 0; color: inherit; font-size: inherit; }
+.ticks .tick { font-family: var(--body); font-size: 15px; text-transform: none; }
+/* family mode boss staging and co-pilot layer */
+#viva.famBoss .hearts.glass .h { color: #a8dcff; text-shadow: 0 0 8px rgba(255,255,255,.8), 0 2px 0 #000; }
+#viva.famBoss .hearts.glass .h.gone { color: #4a5a6a; opacity: .45; text-shadow: none; }
+.streakLamps { display: inline-flex; gap: 4px; margin-left: 12px; vertical-align: middle; } .streakLamps i { width: 16px; height: 16px; }
+.pile { display: inline-grid; place-items: center; margin-left: 12px; min-width: 34px; height: 30px; padding: 0 6px; font-family: var(--display); font-size: 18px; color: var(--ink); background: var(--label); border: 3px solid var(--ink); border-radius: 4px; box-shadow: 3px 3px 0 #c9a46a, 6px 6px 0 #a88850; vertical-align: middle; }
+body.family #dock { z-index: 46; }
+body.family #docket { z-index: 76; }
+body.family #ticker { bottom: calc(env(safe-area-inset-bottom) + 100px); }
+#toast { z-index: 89 !important; }
+.jobPrompt { position: fixed; left: 50%; top: 38%; transform: translate(-50%, -50%); z-index: 98; background: var(--gold); color: var(--ink); border: 4px solid var(--ink); border-radius: 16px; padding: 14px 22px; font-family: var(--display); font-size: clamp(26px, 4vw, 40px); letter-spacing: .04em; box-shadow: 0 8px 0 #000; text-align: center; }
+#dock button.lit { outline: 5px solid var(--gold); outline-offset: 2px; }
+body:not(.reduceMotion) #dock button.lit { animation: wmPulse 1s ease-in-out infinite; }
+@media (min-width: 700px) { #wmNodes.list { grid-template-columns: 1fr 1fr; } #wmNodes.list .wmLabel { grid-column: 1 / -1; } }
+#wmNodes.list .wmNode { min-height: 48px; }
+.wmLegend { font-size: 13px; font-weight: 700; padding: 4px 14px; background: var(--label); border-top: 2px solid var(--ink); }
+
+.posterNow { z-index: 0; }
+#sheetBox { min-height: min(640px, 100%); } #sheetBox .talk { margin-top: auto; }
+
+/* D1-m5: the co-pilot tray hides over cards, so family mode no longer keeps 104 px empty under them */
+/* Phone films: cards start below Back, Pause and Skip and take at most half the height; closer cards sit centred and larger */
+@media (max-width: 700px) {
+  #cutCard { top: calc(9vh + 64px); max-height: 50vh; overflow: auto; }
+  #cutCard .card { max-height: 48vh; }
+}
+#cutCard.closerCard { top: 50%; transform: translate(-50%, -50%); width: min(820px, 92vw); font-size: 1.15em; }
+#raceRival { position: fixed; z-index: 30; top: calc(env(safe-area-inset-top) + 70px); right: 14px; width: 150px; background: rgba(21,16,31,.88); border: 3px solid var(--gold); border-radius: 12px; padding: 6px; }
+#raceRival img { width: 100%; border-radius: 8px; display: block; }
+#raceRival .bar { height: 10px; background: #3a2f4d; border-radius: 6px; margin-top: 6px; overflow: hidden; } #raceRival .bar i { display: block; height: 100%; width: 0; background: #7a5cff; }
+/* Dot patrol: the stage has its own fixed height and the cards sit beside it (wide screens) or in a strip under it, so a
+   card can never cover a kiosk (QA round 3) */
+.dpWrap { display: grid; gap: 10px; grid-template-columns: 1fr; }
+@media (min-width: 1000px) { .dpWrap { grid-template-columns: minmax(0, 1fr) 320px; align-items: start; } .dpCards { max-height: min(52vh, 520px); overflow: auto; } }
+@media (max-width: 999px) { .dpCards { max-height: 22vh; overflow: auto; } }
+.dpStage { position: relative; height: min(52vh, 520px); width: 100%; flex: none; background: #1d1729 center/cover; border: 3px solid var(--ink); border-radius: 12px; overflow: hidden; }
+.dpIcons { display: flex; gap: 10px; justify-content: center; min-height: 44px; }
+.dpIcons svg { width: 40px; height: 40px; opacity: .25; transition: opacity .25s, transform .25s; }
+.dpIcons svg.on { opacity: 1; transform: scale(1.12); }
+.dpKiosk { position: absolute; width: 12%; height: 22%; border: 3px solid var(--ink); border-radius: 8px; background: rgba(230,51,42,.55); transition: background .4s; }
+.dpKiosk.grey { background: rgba(185,179,194,.92); }
+.dpKiosk.grey::after { content: ''; position: absolute; left: 50%; top: 50%; width: 10px; height: 10px; margin: -5px; border-radius: 50%; background: #15101f; }
+.dpCards { display: grid; gap: 8px; }
+.hollowPip .card { outline: 3px dashed var(--muted); outline-offset: 2px; }
+.tile { align-content: start; } .tile .k { align-self: start; }
+
+/* round 3: while a dialog is open the Undo bar moves to the top, so it never sits over the dialog's last button */
+.modalBox .holdBtn { position: relative; overflow: hidden; }
+.modalBox .holdBtn .fill { position: absolute; left: 0; top: 0; bottom: 0; width: 0; background: rgba(255,209,102,.45); pointer-events: none; }
+.tightList { margin: 4px 0 8px 20px; padding: 0; line-height: 1.4; }
+/* round 3: an act's title card sits in the lower third, off the faces in the shot; a character-card still keeps the face in frame */
+#cutTitle:has(h1) { top: 62%; }
+/* FD4-03: a film held upright (a phone) puts its big title above the picture's centre, clear of the subtitle panel */
+#cut.portrait #cutTitle:has(h1) { top: 34%; }
+#cutMedia .frameImg.faceTop { object-position: 50% 15%; transform-origin: 50% 20%; }
+
+/* round 3, phones: the title's VIVA has its own line with room above the tagline */
+@media (max-width: 640px) { .logo { font-size: 52px; line-height: .95; -webkit-text-stroke: 3px #000; } .logo span { margin-top: 6px; font-size: .9em; } .tagline { margin-top: 16px !important; } }
+
+/* ---------- round 4 (integrator 2): Khaled's items 65 to 69 and the open fixes ---------- */
+/* 3: a toast sits above every dialog (90), under the flash (95), the Undo bar (96) and the fade (98) */
+#toast { z-index: 93 !important; }
+body:has(#modal:not(.hidden)) #toast { top: calc(env(safe-area-inset-top) + 58px) !important; }
+#toast.act { pointer-events: auto; display: flex; gap: 10px; align-items: center; justify-content: center; }
+#toast .tAct { pointer-events: auto; background: var(--gold); color: var(--ink); border: 2px solid var(--ink); border-radius: 6px; padding: 4px 10px; font-weight: 700; }
+/* 68a / 68i: the city shows the objective and one next action; the chain, readiness and badges live in the menu */
+#hud #chain, #hud #ready, #hud #badges { display: none !important; }
+.nextAct { pointer-events: auto; align-self: flex-start; display: flex; flex-direction: column; align-items: flex-start; background: var(--gold); color: var(--ink); border: 3px solid var(--ink); border-radius: 10px; padding: 7px 14px; box-shadow: 0 3px 0 #000; font-family: var(--display); font-size: 20px; letter-spacing: .04em; line-height: 1.1; min-height: 44px; }
+.nextAct small { font-family: var(--body); font-size: 13px; font-weight: 700; letter-spacing: 0; }
+.nextAct.hidden { display: none; }
+/* 10: mistakes are amber lamps, never stars; hidden until one is lit */
+.lamps { pointer-events: auto; display: inline-flex; gap: 4px; align-items: center; background: rgba(21,16,31,.85); border: 2px solid rgba(255,176,0,.6); border-radius: 999px; padding: 5px 10px; min-height: 36px; }
+.lamps.none { display: none; }
+.lamp { width: 14px; height: 14px; border-radius: 50%; background: #3a2f4d; border: 2px solid #15101f; display: inline-block; }
+.lamp.on { background: #ffb000; box-shadow: 0 0 8px #ffb000; } .lamp.half { background: linear-gradient(90deg, #ffb000 50%, #3a2f4d 50%); }
+/* 1 / 66e: the bag */
+.bagBtn { pointer-events: auto; position: relative; display: inline-flex; align-items: center; gap: 4px; background: rgba(21,16,31,.88); border: 2px solid #c9a46a; border-radius: 999px; padding: 4px 10px 4px 6px; min-height: 40px; min-width: 52px; }
+.bagBtn b { font-size: 15px; color: #fff3e0; }
+.bagBtn.bump { animation: bagBump .5s cubic-bezier(.2,1.8,.4,1); }
+@keyframes bagBump { 40% { transform: scale(1.3); } }
+.flyBox { position: fixed; z-index: 97; width: 34px; height: 34px; pointer-events: none; background: #c9a46a; border: 3px solid #15101f; border-radius: 4px; transition: left .7s cubic-bezier(.5,0,.4,1), top .7s cubic-bezier(.5,0,.4,1), transform .7s, opacity .7s; }
+.flyChip { position: fixed; z-index: 97; pointer-events: none; background: var(--paper); color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 4px 10px; font-size: 13px; font-weight: 700; transition: left .8s cubic-bezier(.5,0,.4,1), top .8s cubic-bezier(.5,0,.4,1), opacity .8s; }
+body.reduceMotion .flyBox, body.reduceMotion .flyChip { transition: opacity .3s; }
+.bagList .bagRow { border: 2px solid var(--ink); border-radius: 10px; padding: 8px 10px; margin: 8px 0; background: #fffaf0; color: var(--ink); }
+.bagList .bagRow .where { font-weight: 700; margin: 4px 0; }
+.bagList .bagRow .btn { margin: 4px 6px 0 0; }
+.homeChoices { display: grid; gap: 8px; margin: 10px 0; }
+.homeChoices .opt.right { outline: 3px solid var(--good); }
+.homeHint { margin-top: 6px; font-weight: 700; }
+/* 65c: the arrow at the edge of the screen */
+#objArrow { position: fixed; z-index: 24; left: 0; top: 0; pointer-events: none; display: flex; flex-direction: column; align-items: center; gap: 2px; transform: translate(-50%, -50%); }
+/* QAD4-01: an arrow with a shaft (it points right before it is turned), never a near-equilateral triangle that reads
+   backwards at a slant; the label sits on the side away from the tip (extras.js sets the flex direction) */
+#objArrow i { display: block; width: 44px; height: 22px; filter: drop-shadow(0 0 2px #000) drop-shadow(0 2px 0 #000); }
+#objArrow i svg { display: block; width: 100%; height: 100%; }
+#objArrow span { background: rgba(21,16,31,.9); color: #fff3e0; border: 2px solid var(--gold); border-radius: 6px; padding: 2px 8px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+body.letterbox #objArrow { display: none; }
+.topBtn { font-size: 15px !important; padding: 4px 10px !important; }
+.topBtn[aria-pressed="true"] { background: var(--gold); }
+/* 26: the first controls hint stays until the bike first moves */
+#hint1 { position: fixed; z-index: 25; left: 50%; bottom: calc(env(safe-area-inset-bottom) + 24px); transform: translateX(-50%); background: rgba(21,16,31,.92); border: 2px solid var(--gold); border-radius: 10px; padding: 10px 16px; font-size: 17px; font-weight: 700; max-width: 92vw; text-align: center; pointer-events: none; transition: opacity .6s; }
+body.letterbox #hint1 { display: none; }
+/* 67: the co-pilot buttons live in a small tray in the bottom-right corner, only in family mode, never over a card, film or menu */
+#dock { left: auto !important; right: calc(env(safe-area-inset-right) + 10px) !important; transform: none !important; flex-direction: column; align-items: flex-end; padding: 4px; border-width: 2px; }
+#dock .trayHead { display: flex; align-items: center; gap: 6px; }
+#dock .trayTitle { font-size: 12px; font-weight: 700; color: var(--gold); max-width: 150px; line-height: 1.2; }
+#dock .trayBtns { display: grid; grid-template-columns: repeat(2, auto); gap: 6px; }
+#dock[aria-expanded="false"] .trayBtns, #dock[aria-expanded="false"] .trayTitle { display: none; }
+#dock .paw { min-width: 48px !important; min-height: 48px !important; border-radius: 50% !important; background: var(--gold); font-size: 22px !important; }
+#dock kbd { display: none; }
+#dock button:hover kbd, #dock button:focus-visible kbd { display: block; }
+body.letterbox #dock { display: none !important; }
+body:not(.family) #dock { display: none !important; }
+/* 13: the think ring in the Hall */
+.thinkWrap { display: flex; align-items: center; gap: 12px; }
+.thinkRing { --p: 0; width: 46px; height: 46px; border-radius: 50%; flex: none; background: conic-gradient(var(--gold) calc(var(--p) * 1%), rgba(255,243,224,.18) 0); display: grid; place-items: center; }
+.thinkRing b { width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: var(--paper); display: grid; place-items: center; font-size: 15px; }
+.thinkTxt { font-weight: 700; }
+/* 41 / 17: new dots and the Notebook counter */
+.newDot { position: relative; }
+.newDot::after { content: ''; position: absolute; top: -4px; right: -4px; width: 12px; height: 12px; border-radius: 50%; background: var(--magenta); border: 2px solid var(--ink); }
+/* 54: a small waveform beside the speaker while a voice plays */
+.wave { display: inline-flex; gap: 2px; align-items: flex-end; height: 14px; margin-left: 8px; vertical-align: middle; }
+.wave i { width: 3px; background: currentColor; height: 4px; border-radius: 2px; }
+body:not(.reduceMotion) .wave.on i { animation: waveBar .7s ease-in-out infinite; }
+.wave.on i:nth-child(2) { animation-delay: .15s; } .wave.on i:nth-child(3) { animation-delay: .3s; } .wave.on i:nth-child(4) { animation-delay: .45s; }
+@keyframes waveBar { 50% { height: 14px; } }
+.line .w.on { color: var(--gold); }
+/* 5: the scene so far */
+.soFar { max-height: 50vh; overflow: auto; border: 2px solid var(--ink); border-radius: 10px; padding: 8px 10px; background: #fffaf0; color: var(--ink); margin: 6px 0; font-size: 15px; }
+.soFar p { margin: 4px 0; }
+.sheetTools { display: flex; gap: 6px; align-items: center; }
+/* 29: the ticker can be tapped */
+#ticker { pointer-events: auto !important; cursor: pointer; }
+/* 62: the radio dial */
+#fmDial { position: fixed; z-index: 92; left: 50%; top: 40%; transform: translate(-50%, -50%); width: 180px; height: 180px; border-radius: 50%; background: radial-gradient(circle, #2b1d3f 55%, #15101f 56%); border: 5px solid var(--teal); display: grid; place-items: center; text-align: center; color: var(--paper); font-weight: 700; pointer-events: none; }
+#fmDial i { position: absolute; left: 50%; top: 10px; width: 4px; height: 70px; background: var(--gold); transform-origin: 50% 80px; }
+/* 19: exhibit tiles keep their size; Read opens the full card in place */
+.exRead { margin-top: 6px; }
+.tile .exFull { font-size: 14px; max-height: 40vh; overflow: auto; }
+/* 21: the verdict stamp after a say-aloud */
+.sayStamp { display: inline-block; font-family: var(--display); font-size: 30px; letter-spacing: .05em; padding: 2px 14px; border: 4px solid currentColor; border-radius: 8px; transform: rotate(-6deg); margin: 6px 0; }
+.sayStamp.nailed { color: var(--good); } .sayStamp.partly { color: var(--amber); } .sayStamp.missed { color: var(--bad); }
+/* 44: personal best chip */
+.pbChip { display: inline-block; background: var(--gold); color: var(--ink); border: 2px solid var(--ink); border-radius: 999px; padding: 2px 10px; font-weight: 700; font-size: 14px; }
+/* 50: the bookmark ribbon on the Map */
+.ribbon { position: absolute; transform: translate(-50%, -190%); background: var(--magenta); color: #fff; border: 2px solid var(--ink); border-radius: 6px; padding: 2px 8px; font-size: 12px; font-weight: 700; white-space: nowrap; pointer-events: none; z-index: 3; }
+/* 56: the save chip */
+.saveChip { position: fixed; z-index: 94; right: calc(env(safe-area-inset-right) + 12px); top: calc(env(safe-area-inset-top) + 64px); background: rgba(21,16,31,.95); border: 2px solid var(--good); border-radius: 10px; padding: 10px 12px; font-size: 14px; max-width: min(320px, 92vw); }
+.saveChip ul { margin: 6px 0; padding-left: 18px; }
+.cardTools { float: right; display: flex; gap: 4px; margin: -4px -4px 4px 8px; }
+.cardTools button { width: 34px; height: 34px; border-radius: 50%; border: 2px solid currentColor; background: transparent; color: inherit; display: inline-grid; place-items: center; padding: 0; cursor: pointer; opacity: .8; }
+.cardTools button[aria-pressed="true"] { background: var(--gold); color: var(--ink); opacity: 1; }
+.card .readMe { float: none; margin: 0; }
+mark { background: #ffd166; color: #15101f; padding: 0 2px; border-radius: 3px; }
+.menuJourney { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 6px 0; }
+.menuJourney .pip { width: 34px; height: 34px; border-radius: 50%; border: 2px solid var(--ink); background: #cfc3b1; font-weight: 700; }
+.menuJourney .pip.lit { background: var(--gold); } .menuJourney .pip.hollow { background: #fff; border-style: dashed; }
+
+.kbPick { outline: 4px solid var(--gold) !important; outline-offset: 2px; }
+#cut.paused #cutCtl { opacity: 1 !important; }
+#cut.paused #cutPause { background: var(--gold); color: var(--ink); }
+#cut.paused::after { content: 'Paused'; position: absolute; left: 50%; top: 14%; transform: translateX(-50%); font-family: var(--display); font-size: 34px; letter-spacing: .06em; color: var(--paper); text-shadow: 0 3px 0 #000; pointer-events: none; }
+.hubList.thumbs .hubItem { display: flex; gap: 10px; align-items: center; text-align: left; }
+.thumb { width: 72px; height: 44px; flex: none; border-radius: 6px; border: 2px solid var(--ink); background: #2b1d3f center/cover; }
+.wmIc { vertical-align: middle; }
+.wmNode .wmIc { width: 16px; height: 16px; }
+.wmBtns.wmRestart { margin-top: 10px; padding-top: 8px; border-top: 2px dashed rgba(21,16,31,.35); }
+.btn.quiet { background: #fffaf0 !important; color: var(--ink) !important; border: 2px dashed var(--ink) !important; box-shadow: none !important; font-family: var(--body) !important; font-weight: 700; font-size: 14px !important; letter-spacing: 0 !important; }
+.tile.flyBack { animation: flyBack .42s ease-in; }
+@keyframes flyBack { 40% { transform: translateY(-14px) rotate(-3deg); } 100% { transform: none; } }
+.tileWrap { position: relative; display: flex; flex-direction: column; gap: 4px; }
+.tileWrap .exFull { position: absolute; left: 0; right: 0; top: 100%; z-index: 6; background: var(--paper); color: var(--ink); border: 3px solid var(--ink); border-radius: 10px; padding: 6px; box-shadow: 0 8px 20px rgba(0,0,0,.45); }
+.stampStack { display: grid; gap: 8px; margin: 8px 0; }
+/* ND3: the stamp has its own strip above the card, so it never sits on the card's words at any size */
+.dCard { position: relative; padding-top: 30px; }
+.dStamp { position: absolute; right: 12px; top: 2px; z-index: 2; transform: rotate(-8deg); font-family: var(--display); font-size: 22px; letter-spacing: .06em; color: var(--good); border: 3px solid var(--good); border-radius: 6px; padding: 0 8px; background: rgba(255,250,240,.85); }
+body:not(.reduceMotion) .dStamp:not([hidden]) { animation: stampIt .35s cubic-bezier(.2,1.8,.4,1); }
+.moreRow { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 10px; }
+.setTabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.nbChips { display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 10px; }
+.askTick { margin: 8px 0; }
+.talk.histView { opacity: .92; }
+.histNav .hint { font-weight: 700; }
+#objective .objective, .objective { pointer-events: none; }
+/* small buttons inside dialogs keep their own width (the Journey row, More, the bag, Save > More) */
+.modalBox .menuJourney .btn, .modalBox .moreRow .btn, .modalBox .bagRow .btn, .modalBox .hubItem .btn, .modalBox .setTabs .btn, .modalBox .askTick .btn { width: auto; }
+.modalBox .moreRow .btn { flex: 1 1 140px; }
+.modalBox .chip { background: #fffaf0; color: var(--ink); border-color: var(--ink); }
+.menuJourney .pip { color: var(--ink); }
+.menuJourney .btn.small { font-size: 15px; padding: 4px 12px; }
+/* phones: the sheet header wraps (its buttons never run off the edge); Docket sits bottom-left, clear of the sound buttons and titles */
+.sheetTop { flex-wrap: wrap; }
+.sheetTools { flex-wrap: wrap; justify-content: flex-end; margin-left: auto; }
+@media (max-width: 640px) {
+  #docket { top: auto !important; bottom: calc(env(safe-area-inset-bottom) + 10px); left: calc(env(safe-area-inset-left) + 10px); right: auto !important; }
+  .sheetTools .leave { padding: 5px 10px; font-size: 13px; }
+}
+/* wider screens: the left HUD column stops short of the sound buttons at the top centre */
+@media (min-width: 701px) { #hudLeft { max-width: min(520px, calc(50vw - 64px)); } }
+/* ---------- simplicity round (integrator 3, 8 Nov 2026) ---------- */
+/* SD-21: key letters only where there is a keyboard */
+body.touchUI .kbOnly { display: none !important; }
+#vivaQuit[hidden], .leave[hidden], #sheetLeave.hidden { display: none !important; }
+/* SD-38: More on the title is a real button */
+.titleBtns details.more summary { display: inline-block; background: rgba(21,16,31,.88); color: var(--paper); border: 2px solid rgba(255,243,224,.6); border-radius: 999px; padding: 8px 16px; font-weight: 700; }
+.titleBtns details.more[open] summary { background: var(--gold); color: var(--ink); }
+/* SD-23: the goal line on a mini-game's task screen */
+.mgGoal { margin: 4px 0 8px; padding: 8px 12px; background: var(--gold); color: var(--ink); border: 2px solid var(--ink); border-radius: 10px; font-weight: 700; font-size: 16px; }
+/* SD-39: Carry on is the big button; playing again and practice are small links */
+.resLinks { text-align: center; margin: 8px 0 0; font-size: 15px; }
+.linkBtn { background: none; border: 0; padding: 6px 4px; color: inherit; text-decoration: underline; font: inherit; font-weight: 700; cursor: pointer; opacity: .9; }
+/* SD-14: the Academy hub */
+.acNext { display: block; width: 100%; margin: 8px 0 12px; text-align: left; font-size: 22px; }
+.acGroup { margin: 6px 0; border: 2px solid rgba(21,16,31,.25); border-radius: 10px; background: rgba(255,250,240,.6); }
+.acGroup > summary { cursor: pointer; padding: 10px 12px; font-weight: 700; font-size: 17px; }
+.acGroup > summary small { font-weight: 400; opacity: .8; margin-left: 6px; }
+.acGroup .hubList { padding: 0 8px 8px; }
+/* SD-36: sticker slots */
+.stkGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+.stk { border: 2px dashed rgba(21,16,31,.45); border-radius: 10px; padding: 8px; display: grid; gap: 4px; font-size: 14px; }
+.stk.got { border-style: solid; background: #fffaf0; }
+.stk i { display: grid; place-items: center; height: 64px; border-radius: 8px; background: #efe6d6; font-style: normal; font-size: 28px; font-weight: 700; color: rgba(21,16,31,.4); }
+.stk small { opacity: .85; }
+/* SD-32 and SD-17: rows of small page chips */
+.alPages, .nbChips > div { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; margin: 0 0 8px; }
+.nbChips { display: block; }
+.alPages .chip, .nbChips .chip { cursor: pointer; font-weight: 700; min-height: 34px; }
+.nbChips .chip { background: #fffaf0; color: var(--ink); border-color: var(--ink); }
+.nbRowLab { font-weight: 700; margin-right: 4px; font-size: 14px; }
+/* SD-30: each scale letter carries its word */
+.scale .term { display: inline-grid; justify-items: center; line-height: 1; }
+.scale .term small { font-family: var(--body); font-size: 12px; font-weight: 700; letter-spacing: 0; margin-top: 2px; }
+/* SD-16: the claim stays pinned at the top while the exhibits are read; headlines in plain sentence case */
+.claimPin { position: sticky; top: 0; z-index: 4; background: var(--paper); padding: 4px 0 6px; box-shadow: 0 6px 8px -6px rgba(0,0,0,.35); }
+.tile.exTile b { font-family: var(--body); font-weight: 800; font-size: 16px; letter-spacing: 0; text-transform: none; }
+/* SD-10: the Carry on card */
+.carryOn { font-size: 20px; font-weight: 700; }
+.carryOn small { font-weight: 400; }
+/* SD-22: the mic is a small round button */
+.micBtn { width: 40px; height: 40px; border-radius: 50%; padding: 0 !important; display: inline-grid; place-items: center; }
+.mjLab { font-weight: 700; }
+/* SD-22: on a phone the say-aloud's Done sits at the bottom of the card, always in view */
+@media (max-width: 700px) {
+  .talk .fb > .actions { position: sticky; bottom: 0; z-index: 3; background: var(--paper); padding: 8px 0 calc(env(safe-area-inset-bottom) + 6px); box-shadow: 0 -6px 10px -6px rgba(0,0,0,.35); }
+}
+/* SD-12: in Settings each control sits right after its label (no wide gap); sliders take the room that is left */
+.setGrid .set { justify-content: flex-start; gap: 14px; }
+.setGrid .set > span:first-child, .setGrid .set > label:first-child { flex: 0 1 auto; }
+.setGrid .set input[type=range] { flex: 1 1 140px; max-width: 260px; }
+.claimPin + .tiles { grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr)); }
+.tileWrap .exRead { font-size: 14px; padding: 4px 10px; align-self: flex-start; width: auto; }
+/* SD-20: on a phone the film hint sits in the bottom band, never under Back and Pause, and fact cards start below the
+   controls (ds.css loads before the page's own styles, so these selectors carry the extra #cut) */
+@media (max-width: 700px) {
+  #cut #cutTap { top: auto; bottom: calc(env(safe-area-inset-bottom) + 10px); left: 50%; transform: translateX(-50%); width: auto; max-width: 92vw; text-align: center; }
+  #cut #cutCard:not(.closerCard) { top: max(calc(9vh + 64px), 142px); }
+}
+/* simplicity round: nothing covers anything. On a phone a toast in the city sits below the top bar's buttons; the
+   radio caption steps up above the first-time hint while that hint shows. */
+@media (max-width: 700px) { body:not(.letterbox) #toast { top: calc(env(safe-area-inset-top) + 236px); } }
+body:has(#hint1:not(.hidden)) #radioChip { bottom: calc(env(safe-area-inset-bottom) + 132px); }
+/* the sheet's title never runs under the sound buttons, however long the card */
+#sheet { padding-top: calc(env(safe-area-inset-top) + 52px); }
+/* SD-34: on a phone the examiners' row is slimmer, and a fade with "More answers below" shows while there is more */
+@media (max-width: 560px) {
+  #viva .panelists { gap: 6px; }
+  #viva .panelist { padding: 4px 6px; gap: 6px; }
+  #viva .panelist .por { width: 34px; height: 34px; border-width: 2px; box-shadow: 2px 2px 0 var(--magenta); }
+  #viva .panelist b { font-size: 14px; }
+}
+#viva .moreBelow { position: fixed; left: 0; right: 0; bottom: 0; z-index: 3; height: 64px; display: flex; align-items: flex-end; justify-content: center; padding-bottom: calc(env(safe-area-inset-bottom) + 8px); background: linear-gradient(rgba(18,12,28,0), rgba(18,12,28,.95)); color: var(--paper); font-weight: 700; font-size: 14px; pointer-events: none; }
+#viva .moreBelow[hidden] { display: none; }
+/* round 7: the end of the Hall's page (its Next button) scrolls clear of the "More answers below" fade: a 64 px spacer
+   after the card (a flex scroller's own bottom padding does not scroll) and 80 px of scroll padding for scrollIntoView */
+#viva .vivaStage { scroll-padding-bottom: 80px; }
+#viva .vivaInner::after { content: ''; display: block; height: 64px; }
+/* SD-13: on the Map a toast sits over the header strip, never over the list it is about */
+body:has(#worldmap:not(.hidden)) #toast { top: calc(env(safe-area-inset-top) + 58px) !important; }
+/* SD-20: at every size a film's fact card starts below Back, Pause, Next and Skip (the iPad's card corner met them) */
+#cut #cutCard:not(.closerCard) { top: max(13vh, calc(9vh + 62px)); }
+/* the title's logo never sits under the sound buttons (a phone held sideways) */
+body #title { padding-top: calc(env(safe-area-inset-top) + 54px); }
+/* ---------------- fixer round 1 (8 Nov 2026) ---------------- */
+/* D1-m6: Docket never sits over a card, a mini-game or a dialog, at any width */
+body.letterbox #docket { display: none !important; }
+/* D1-m1: the tray labels are dark on their colours (Honk was 1.3:1) */
+#dock .trayBtns button { color: var(--ink); }
+/* D1-M4, D1-m8: Kid drive's Give it back sits in the HUD under "Co-pilot driving" */
+#kidBar { pointer-events: auto; align-self: flex-start; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 6px; background: rgba(21,16,31,.88); border: 2px solid var(--gold); border-radius: 10px; padding: 5px 8px; }
+#kidBar span { font-size: 13px; font-weight: 700; color: var(--paper); }
+#kidBar .btn { font-size: 16px; padding: 6px 14px; min-height: 44px; }
+/* D1-m2: the race card is compact on a phone held sideways (its place is set beside the HUD when the race starts) */
+@media (max-height: 500px) { #raceRival { width: 120px; } #raceRival img { display: none; } #dock .trayBtns button { min-width: 48px; min-height: 48px; } }
+/* D1-M3: the title can always scroll, and on a phone held sideways Start or Continue comes straight after the name */
+#title { display: flex; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+#title .titleBox { margin: auto; }
+@media (max-height: 500px) {
+  #title .titleBox { gap: 8px; padding: 6px 16px 12px; }
+  #title .logo { font-size: clamp(34px, 11vh, 58px); -webkit-text-stroke-width: 3px; }
+  #title .tagline { display: none; }
+  #title .logo { order: 0; } #title #titleLine { order: 1; } #title #titleBtns { order: 2; } #title #titleFamily { order: 3; } #title #titleStatus { order: 4; } #title #titleHelp { order: 5; }
+}
+/* D1-m7: on a phone held sideways, dialogs and cards scroll below the two sound buttons */
+@media (max-height: 500px) { .modal { padding-top: 56px !important; } .modal .modalBox { max-height: calc(100vh - 76px) !important; } #sheet { padding-top: calc(env(safe-area-inset-top) + 54px); } }
+/* D1-m12: Dot patrol on a phone held sideways: the newest card shows beside the kiosks */
+@media (max-height: 500px) { .dpWrap { grid-template-columns: minmax(0, 1fr) 240px; align-items: start; } .dpStage { height: 62vh; } .dpCards { max-height: 62vh; overflow: auto; } }
+/* D1-m13: while a card or a mini-game is open a toast sits in the top band beside the sound buttons, never on the card */
+body:has(#sheet:not(.hidden)) #toast, body:has(#mech:not(.hidden)) #toast, body:has(#modal:not(.hidden)) #toast { top: calc(env(safe-area-inset-top) + 4px) !important; left: auto !important; right: calc(50% + 54px) !important; transform: none !important; max-width: min(460px, calc(50vw - 62px)) !important; min-height: 44px; padding: 4px 12px !important; font-size: 14px; line-height: 1.2; display: flex; align-items: center; box-sizing: border-box; }
+body:has(#sheet:not(.hidden)) #toast.hidden, body:has(#mech:not(.hidden)) #toast.hidden { display: none; }
+@media (max-width: 560px) { body:has(#sheet:not(.hidden)) #toast, body:has(#mech:not(.hidden)) #toast, body:has(#modal:not(.hidden)) #toast { font-size: 12px; padding: 3px 8px !important; flex-wrap: wrap; gap: 4px; } body:has(#sheet:not(.hidden)) #toast .tAct, body:has(#mech:not(.hidden)) #toast .tAct { padding: 2px 8px; } }
+/* QAD-M8: on a phone the explainer's picture is small, so each beat's words and figures show as large text beneath it */
+.mdBeat { display: none; }
+@media (max-width: 700px) {
+  .mdBeat { display: block; width: min(94vw, 560px); margin: 10px auto 0; background: #fff3e0; color: #15101f; border: 3px solid #15101f; border-radius: 10px; padding: 8px 12px; box-shadow: 3px 3px 0 var(--magenta); }
+  .mdBeat .mdLab { font-size: 16px; font-weight: 700; line-height: 1.3; }
+  .mdBeat .mdFig { font-family: var(--display); font-size: 22px; letter-spacing: .02em; margin-top: 4px; line-height: 1.2; }
+  .mdBeat .mdFig:empty { display: none; }
+  .mdBeat .mdFig small { font-family: var(--body); font-size: 13px; font-weight: 700; letter-spacing: 0; }
+}
+/* AUD-11: who is reading, when the voice is not the person shown */
+.readBy { position: absolute; top: -30px; right: 12px; z-index: 3; background: #ffd166; color: #15101f; border: 2px solid #15101f; border-radius: 999px; padding: 2px 10px; font-size: 13px; font-weight: 700; pointer-events: none; }
+.readBy[hidden] { display: none; }
+/* QAD-m8: below 700 px the Map is always the list, so its view switch is not offered */
+@media (max-width: 699px) { #wmList { display: none !important; } }
+/* QAD-m3: More as a few tiles */
+.moreTiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px; margin: 6px 0; }
+.modalBox .moreTile { width: auto; display: grid; gap: 2px; text-align: left; padding: 10px 12px; min-height: 64px; }
+.moreTile small { font-family: var(--body); font-size: 12px; font-weight: 700; opacity: .75; letter-spacing: 0; text-transform: none; }
+.moreTiles[hidden], .moreGroup[hidden] { display: none; }
+/* QAD-m4: a tall dialog keeps its buttons (the safe one among them) in view at the bottom; the body scrolls above */
+.modalBox .modalFoot { display: grid; gap: 8px; }
+.modalBox .modalFoot.n1, .modalBox .modalFoot.n2, .modalBox .modalFoot.n3 { position: sticky; bottom: -16px; margin: 0 -16px -16px; padding: 10px 16px 16px; background: var(--paper); display: grid; gap: 8px; border-top: 2px solid rgba(21,16,31,.12); z-index: 2; }
+/* QAD-m11: on a phone the balance and its four terms shrink to fit the width (W, the wall, is never cut off) */
+.scale { max-width: 100%; }
+@media (max-width: 560px) {
+  .scale .beam { gap: 6px; padding: 8px 8px; max-width: 100%; box-sizing: border-box; }
+  .scale .pan { font-size: 18px; gap: 3px; }
+  .scale .term { min-width: 40px; min-height: 44px; font-size: 20px; padding: 2px 4px; }
+  .scale .term small { font-size: 10px; }
+}
+/* QAD-m14: on a phone the say-aloud tick list keeps room under it for the Done bar */
+@media (max-width: 700px) { .ticks { padding-bottom: 76px; } }
+@media (max-height: 500px) { .modalBox .modalFoot.n3 { position: static; margin: 0; padding: 0; border-top: 0; } }
+/* D1-m7: on a phone held sideways a card's reading area ends below the two sound buttons, even when it scrolls */
+@media (max-height: 500px) { #sheet .talk { max-height: calc(100vh - 150px); max-height: calc(100dvh - 150px); } }
+/* AUDR2-03: the Read by tag also sits on the Hall's card */
+.vivaCard { position: relative; }
+.vivaCard .readBy { top: -16px; }
+/* AUDR2-11: the Notebook card being read aloud */
+.nbItem.nbReading { outline: 4px solid #ffd166; outline-offset: 2px; border-radius: 10px; }
+/* m6: a timed game's picture is smaller on a phone or a short screen, so the four answers fit; a fade says when more is below */
+@media (max-width: 700px), (max-height: 700px) { #mech.mgTimed .mgStage { min-height: 0; } #mech.mgTimed .mgStage svg { max-height: 120px; } }
+#mech .moreBelow { position: fixed; left: 0; right: 0; bottom: 0; z-index: 46; height: 56px; display: flex; align-items: flex-end; justify-content: center; padding-bottom: calc(env(safe-area-inset-bottom) + 8px); background: linear-gradient(rgba(18,12,28,0), rgba(18,12,28,.9)); color: var(--paper); font-weight: 700; pointer-events: none; }
+#mech .moreBelow[hidden] { display: none; }
+/* QAD2-m2: on a phone held sideways the co-pilot tray is one row of four buttons with no title, narrow and low */
+@media (max-height: 430px) {
+  body.family #dock { flex-direction: row-reverse; align-items: center; gap: 6px; }
+  #dock .trayTitle { display: none !important; }
+  #dock .trayBtns { grid-template-columns: repeat(4, auto); }
+  #dock .trayBtns button { min-width: 48px !important; min-height: 48px !important; padding: 2px 6px; }
+}
+/* QAD2-m3: on a phone held sideways the objective line wraps before the centred sound buttons */
+@media (max-height: 500px) and (orientation: landscape) { #objective { max-width: calc(50vw - 60px); } #objText { white-space: normal; overflow-wrap: anywhere; } }
+/* QAD2-m4: Dot patrol on a short screen: the picture gives up about 56 px so the three find icons sit inside the box */
+@media (max-height: 500px) { .dpStage { height: calc(62vh - 56px) !important; } .dpIcons { min-height: 34px; gap: 8px; } .dpIcons svg { width: 32px; height: 32px; } }
+/* m7: folded lists (planner lengths, story chapters) */
+.plannerMore, .pickChapter { margin-top: 8px; }
+.plannerMore summary, .pickChapter summary { cursor: pointer; font-weight: 700; padding: 10px 0; }
+.plannerMore .btn { margin: 4px 6px 4px 0; }
+/* QAD3-m3: while a card or a mini-game is open the Undo bar sits in the top strip, right of the sound buttons, so it never
+   covers a line; on a narrow screen only its Undo button shows there (the words are on the button's label).
+   AUDR4-05: a dialog (the Menu, any question box) puts it in the same place, never under the centred sound buttons. */
+body:has(#sheet:not(.hidden)) #undoBar, body:has(#mech:not(.hidden)) #undoBar, body:has(#modal:not(.hidden)) #undoBar { top: calc(env(safe-area-inset-top) + 4px); bottom: auto; left: calc(50% + 54px); right: auto; transform: none; max-width: calc(50vw - 62px); min-height: 44px; padding: 3px 6px 3px 10px; gap: 8px; font-size: 14px; line-height: 1.2; box-sizing: border-box; box-shadow: none; }
+body:has(#sheet:not(.hidden)) #undoBar .btn, body:has(#mech:not(.hidden)) #undoBar .btn, body:has(#modal:not(.hidden)) #undoBar .btn { font-size: 15px; padding: 4px 10px; flex: none; }
+@media (max-width: 760px) { body:has(#sheet:not(.hidden)) #undoBar > span, body:has(#mech:not(.hidden)) #undoBar > span, body:has(#modal:not(.hidden)) #undoBar > span { display: none; } body:has(#sheet:not(.hidden)) #undoBar, body:has(#mech:not(.hidden)) #undoBar, body:has(#modal:not(.hidden)) #undoBar { padding: 3px 4px; } }
+/* AUDR4-06: while the Undo bar holds that strip, the sound tip sits just under it, never on the Undo words or button */
+body:has(#undoBar:not(.hidden)):has(#sheet:not(.hidden)) #sysTip, body:has(#undoBar:not(.hidden)):has(#mech:not(.hidden)) #sysTip, body:has(#undoBar:not(.hidden)):has(#modal:not(.hidden)) #sysTip { top: calc(env(safe-area-inset-top) + 54px); }
+/* QAD3-m6: the "listen for the number" toast is never squeezed into the top strip: centred, up to 420 px, buttons wrap */
+#toast.listen, body:has(#sheet:not(.hidden)) #toast.listen, body:has(#mech:not(.hidden)) #toast.listen, body:has(#modal:not(.hidden)) #toast.listen { top: calc(env(safe-area-inset-top) + 56px) !important; left: 50% !important; right: auto !important; transform: translateX(-50%) !important; width: min(420px, 92vw) !important; max-width: 92vw !important; display: block !important; padding: 8px 12px !important; font-size: 16px; box-sizing: border-box; }
+#toast.listen .faces { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-top: 6px; }
+#toast.listen .faces .btn { flex: 1 1 140px; min-height: 44px; }
+/* QAD3-m8: on a phone held sideways a city toast sits at the bottom left, clear of the HUD column, the Map button and the
+   tray; in the Hall a toast takes the same top strip as over a card (never over the examiners' names) */
+@media (max-height: 500px) and (orientation: landscape) {
+  body:not(:has(#sheet:not(.hidden))):not(:has(#mech:not(.hidden))):not(:has(#modal:not(.hidden))):not(:has(#worldmap:not(.hidden))):not(:has(#viva:not(.hidden))) #toast:not(.listen) { top: auto !important; bottom: calc(env(safe-area-inset-bottom) + 12px) !important; left: calc(env(safe-area-inset-left) + 12px) !important; right: auto !important; transform: none !important; max-width: min(480px, calc(100vw - 360px)) !important; text-align: left; font-size: 14px; padding: 6px 12px !important; }
+}
+body:has(#viva:not(.hidden)) #toast:not(.listen) { top: calc(env(safe-area-inset-top) + 4px) !important; left: auto !important; right: calc(50% + 54px) !important; transform: none !important; max-width: min(460px, calc(50vw - 62px)) !important; min-height: 44px; padding: 4px 12px !important; font-size: 14px; line-height: 1.2; display: flex; align-items: center; box-sizing: border-box; }
+@media (max-width: 560px) { body:has(#viva:not(.hidden)) #toast:not(.listen) { font-size: 12px; padding: 3px 8px !important; } }
+/* QAD3-m9: on a phone held sideways the co-pilot's job prompt sits low, over the picture, not over the mission's heading */
+@media (max-height: 500px) { .jobPrompt { top: auto; bottom: calc(env(safe-area-inset-bottom) + 12px); transform: translateX(-50%); font-size: clamp(18px, 3.2vw, 28px); padding: 8px 16px; border-width: 3px; } }
+/* QAD3-m5: the parcel card's Put it in my bag stays at the bottom of the card while a long hint scrolls */
+.talk.parcelCard .actions { position: sticky; bottom: 0; background: var(--paper); padding: 8px 0; z-index: 2; box-shadow: 0 -8px 8px -6px rgba(0,0,0,.18); }
+
+/* QAD4-11a: the film's control hint sits on a dark pill like the caption bar, readable over a bright sky */
+#cutTap { background: rgba(21,16,31,.86); color: #fff3e0; border-radius: 999px; padding: 4px 12px; opacity: 1 !important; font-weight: 600; text-shadow: none; box-sizing: border-box; }
+#cutTap[hidden], #cutTap:empty { display: none; }
+/* QAR10-04: family mode, a bike ridden in by keys stands at the box; this prompt over the box delivers on a tap or click */
+.tapDeliver { position: fixed; z-index: 40; font-size: 18px; padding: 10px 18px; }
+.tapDeliver.hidden { display: none; }

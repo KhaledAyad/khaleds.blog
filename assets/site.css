@@ -104,6 +104,8 @@ a{color:inherit}
 .cover .pill{position:absolute;left:14px;bottom:12px;display:inline-flex;align-items:center;gap:7px;padding:5px 11px;border-radius:999px;
   background:rgba(9,20,48,.62);border:1px solid rgba(216,180,106,.45);color:#EEF0F4;font-size:.78rem;letter-spacing:.03em;backdrop-filter:blur(4px)}
 .cover .pill svg{width:12px;height:12px;color:#D8B46A}
+.cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .35s}
+.card:hover .cover img{transform:scale(1.04)}
 .card-body{display:grid;gap:6px;padding:18px 20px 20px}
 .eyebrow{margin:0;font-size:.74rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
 .card h2{margin:0;font:600 1.32rem/1.3 var(--en);text-wrap:balance}
@@ -129,4 +131,4 @@ footer{padding-block:56px 40px;color:var(--soft);font-size:.86rem;text-align:cen
   .hits a{grid-template-columns:1fr}
   .hit-n{grid-row:auto;justify-self:start}
 }
-@media (prefers-reduced-motion:reduce){ .card,.card .callig,.hits a{transition:none} .card:hover{transform:none} }
+@media (prefers-reduced-motion:reduce){ .card,.card .callig,.cover img,.hits a{transition:none} .card:hover,.card:hover .cover img{transform:none} }

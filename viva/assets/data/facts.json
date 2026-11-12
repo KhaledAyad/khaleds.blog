@@ -1,0 +1,2922 @@
+{
+ "meta": {
+  "thesis": "Shared Space, Separate Freight (University of Wolverhampton)",
+  "built": "2026-11-02",
+  "sources": [
+   "0. Appendices A-O (final).docx and .pdf (727 pages)",
+   "0. Thesis (final).docx and .pdf"
+  ],
+  "conventions": [
+   "Pages are PDF pages of the appendices file; they equal the printed page numbers.",
+   "A location without a prefix is in the appendices; 'Thesis' or a bare chapter section number (for example 3.3) points to the thesis body.",
+   "'(counted)' or '(compared)' in a location means the figure was computed from the table named there, not printed as a single number.",
+   "Participants appear by interview code only (A1-A13, B1-B13).",
+   "Quiz options are shuffled with a fixed seed; answer_index points to the correct option."
+  ]
+ },
+ "appendices": [
+  {
+   "letter": "A",
+   "title": "Interview guide and working script",
+   "pages": {
+    "start": 2,
+    "end": 7
+   },
+   "what_it_is": "The questions Khaled took into every interview: the short guide the ethics committee approved, and the longer working script he kept beside it.",
+   "why_it_exists": "Backs 3.3, which says the instrument approved on 22 February 2024 asked fourteen questions under seven headings and that a twenty-three-prompt script in ten stages sat beside it; and 2.7, which says the guide was built on the four pillars (trust, efficiency, innovation, sustainability) and produced the twenty-six conversations of Chapter 4.",
+   "key_facts": [
+    {
+     "fact": "The approved guide asks fourteen questions under seven headings, two to each heading.",
+     "figure": "14 questions, 7 headings",
+     "location": "A.1 (counted); stated in 3.3"
+    },
+    {
+     "fact": "Four of the seven headings are the pillars of the registration.",
+     "figure": "'Trust and Partnership', 'Operational Efficiency', 'Innovation in Collaboration', 'Sustainability Outcomes'",
+     "location": "A.1"
+    },
+    {
+     "fact": "The other three headings frame the conversation.",
+     "figure": "'Background and Experience with HC', 'Challenges and Solutions', 'Future Perspectives'",
+     "location": "A.1"
+    },
+    {
+     "fact": "The working script has twenty-three numbered questions in ten stages, from Introduction to Closing.",
+     "figure": "23 questions, 10 stages",
+     "location": "A.2 (counted); stated in 3.3"
+    },
+    {
+     "fact": "Stage 9 of the script asks for further contacts (Questions 22 and 23), which is the chain referral described in 3.3.",
+     "figure": "Question 22: 'Do you know anyone else who might have valuable insights on this topic'",
+     "location": "A.2, stage 9"
+    },
+    {
+     "fact": "The introduction script tells the participant the interview will last about 45 to 60 minutes.",
+     "figure": "45-60 minutes",
+     "location": "A.2, Introduction Script"
+    },
+    {
+     "fact": "The introduction script frames the research around competitive advantage through the four pillars.",
+     "figure": "'through trust, efficiency, innovation, and sustainability'",
+     "location": "A.2, Introduction Script"
+    },
+    {
+     "fact": "The script defines horizontal collaboration as businesses at the same level of the supply chain working together.",
+     "figure": "'businesses at the same level in the supply chain working together to achieve common goals'",
+     "location": "A.2, Technical Insights, 1"
+    },
+    {
+     "fact": "Question 14 of the script asks directly about trust, which is why the thesis says the guide asked about trust because the field did.",
+     "figure": "'How important are trust and transparency among collaborating organizations'",
+     "location": "A.2, stage 6; 3.3"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Your guide was built on four pillars that your findings overturned. Didn't the guide steer your participants?",
+     "model_answer": "The guide asked about trust because the field did; that's where I started, and I quote the headings word for word in 3.3 as evidence of it. But I didn't analyse the data under those headings. The later codings were made against the working claim and then the five-concept codebook, and each had to record the evidence against as well as for. Where I raised a theme myself, like brand, I counted it as declined, not as support: I raised brand in five interviews and it was declined in all five."
+    },
+    {
+     "question": "Why did you use two instruments, a guide and a script?",
+     "model_answer": "The fourteen-question guide is the one the ethics committee approved. The twenty-three-prompt script sat beside it so the conversation could follow the participant rather than the headings. That's the semi-structured form Brinkmann and Kvale describe: the themes are fixed, and the order and follow-up are left to the conversation (3.3)."
+    },
+    {
+     "question": "You planned 45 to 60 minutes, but many interviews were shorter. Does that weaken the data?",
+     "model_answer": "They ran from eight minutes to seventy-four, with a median of forty-three, and sixteen of the twenty-six ran forty minutes or more. Fourteen closed sooner than planned, most because the person had said what they came to say. The shortest, A5, is eight minutes of prepared answers, and the coding files flag it, so no finding rests on it."
+    },
+    {
+     "question": "How did you find your participants?",
+     "model_answer": "Purposively, for the kinds of party the question needed, through the projects and publications in which they'd done the work. Then by referral: the script's ninth stage asks who else I should hear. I started chains from each of the three kinds of party, in eleven countries, to limit the bias that referrals run along one person's network (3.3)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many questions did the interview guide approved by the ethics committee ask?",
+     "options": [
+      "13",
+      "26",
+      "23",
+      "14"
+     ],
+     "answer_index": 3,
+     "explanation": "Fourteen questions under seven headings. 23 is the working script, 13 is the draft survey, 26 is the number of interviews.",
+     "location": "A.1; 3.3"
+    },
+    {
+     "q": "How many stages did the working script have?",
+     "options": [
+      "5",
+      "4",
+      "7",
+      "10"
+     ],
+     "answer_index": 3,
+     "explanation": "Ten stages, from Introduction to Closing. Seven is the number of headings in the guide, five the sections of the survey, four the pillars.",
+     "location": "A.2"
+    },
+    {
+     "q": "Which of these is NOT one of the four pillar headings in the guide?",
+     "options": [
+      "Competitive Overlap",
+      "Operational Efficiency",
+      "Sustainability Outcomes",
+      "Trust and Partnership"
+     ],
+     "answer_index": 0,
+     "explanation": "The pillars are Trust and Partnership, Operational Efficiency, Innovation in Collaboration and Sustainability Outcomes. Overlap is a finding of the later coding, not a heading.",
+     "location": "A.1"
+    },
+    {
+     "q": "How long did the introduction script tell participants the interview would last?",
+     "options": [
+      "About 60-90 minutes",
+      "About 45-60 minutes",
+      "About 10-15 minutes",
+      "About 30-45 minutes"
+     ],
+     "answer_index": 1,
+     "explanation": "45 to 60 minutes. 10 to 15 minutes is what the draft survey said it would take.",
+     "location": "A.2, Introduction Script; C.4"
+    },
+    {
+     "q": "Which stage of the working script asks the participant to suggest further interviewees?",
+     "options": [
+      "Stage 9, Networking and Additional Contacts",
+      "Stage 2, Understanding the Participant's Role",
+      "Stage 5, Challenges and Barriers",
+      "Stage 10, Closing"
+     ],
+     "answer_index": 0,
+     "explanation": "Stage 9 holds Questions 22 and 23, the chain referral of 3.3.",
+     "location": "A.2, stage 9"
+    },
+    {
+     "q": "On what date was the interview guide approved?",
+     "options": [
+      "19 February 2024",
+      "16 September 2026",
+      "22 February 2024",
+      "1 September 2022"
+     ],
+     "answer_index": 2,
+     "explanation": "22 February 2024. 19 February 2024 is the date of the draft survey, 1 September 2022 the 2023 review's search, 16 September 2026 the update's search.",
+     "location": "3.3; C.3"
+    }
+   ]
+  },
+  {
+   "letter": "B",
+   "title": "Participant information sheet and consent form",
+   "pages": {
+    "start": 8,
+    "end": 16
+   },
+   "what_it_is": "The information sheet every interviewee was sent and the consent form they were asked to sign, reproduced exactly as approved, with a note on the three people who consented out loud instead.",
+   "why_it_exists": "Backs 3.3, which says every participant received the sheet and the form approved with the guide, that twenty-seven of the thirty signed and three consented verbally on the recording; and 3.6, whose survey consent item asked respondents to confirm they had read this sheet.",
+   "key_facts": [
+    {
+     "fact": "Twenty-seven of the thirty participants returned the consent form signed.",
+     "figure": "Twenty-seven of the thirty",
+     "location": "B.3"
+    },
+    {
+     "fact": "Three consented verbally on the recording: A5, the second participant in A9, and B8, whose consent came at the close of the call rather than the start.",
+     "figure": "A5, A9 (second participant), B8",
+     "location": "B.3"
+    },
+    {
+     "fact": "The sheet says the interview would take place at least 24 hours after the sheet and consent form were emailed.",
+     "figure": "at least 24 hours",
+     "location": "B.1, 'What would I be asked to do if I took part?'"
+    },
+    {
+     "fact": "The sheet gives the intended length of the interview.",
+     "figure": "45 -60 minutes",
+     "location": "B.1"
+    },
+    {
+     "fact": "Data were to be stored on university storage for up to five years after publication.",
+     "figure": "up to 5 years",
+     "location": "B.1"
+    },
+    {
+     "fact": "The legal basis given for collecting the data.",
+     "figure": "'a public interest task' and 'a process necessary for research purposes'",
+     "location": "B.1, 'Under what legal basis'"
+    },
+    {
+     "fact": "The consent form has seven numbered items for the participant to initial.",
+     "figure": "7 items",
+     "location": "B.2 (counted)"
+    },
+    {
+     "fact": "Template leftovers are kept as approved and disclosed: a sentence about 'occupational health and safety incidents in the construction industry', 'herself' for the investigator, 'Date xx/xx/2024', item 6's pointer to detail the sheet lacks, and an opt-out the form does not contain.",
+     "figure": "five disclosed slips",
+     "location": "B.3"
+    },
+    {
+     "fact": "The signed forms and the recordings are held by the author and not reproduced, because they carry names.",
+     "figure": "held by the author",
+     "location": "B.3"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Three of your participants didn't sign the form. Is their consent valid?",
+     "model_answer": "Yes. Every participant was sent the sheet and the form. Twenty-seven of the thirty signed. Three, A5, the second person in A9 and B8, gave consent verbally and it's on the recording; B8's came at the end of the call, and B8 had been sent the sheet, which says the interview would be recorded and that recording could be declined. The ESRC holds that verbal consent can be ethically preferable in some contexts and should be audio-recorded where possible, and all three are. I disclose it in B.3 and 3.3."
+    },
+    {
+     "question": "Your information sheet mentions the construction industry and calls you 'herself'. Was this really the sheet you used?",
+     "model_answer": "Yes. It's reproduced exactly as approved and as participants received it, slips included. The construction sentence is left over from the University template and describes neither this research nor any use of its data. I point out every one of those slips myself in B.3 rather than tidy them away."
+    },
+    {
+     "question": "Item 6 of the consent form says the circumstances for breaking confidentiality are explained in the sheet. Where?",
+     "model_answer": "They aren't, and I say so in B.3. The form is reproduced as it was approved. In the thesis no participant and no employer is named, organisations are described by type, and participants appear only as codes (3.3)."
+    },
+    {
+     "question": "How did you protect your participants' identities?",
+     "model_answer": "Everyone is a code, A1 to A13 and B1 to B13. Organisations are described by type, roles that would narrow to one person are widened, and the eleven countries are given as a set, never against a code. A city or scheme is named only where it's public record and more than one person could have described it (3.3; G.1)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many participants returned the consent form signed?",
+     "options": [
+      "30",
+      "26",
+      "24",
+      "27"
+     ],
+     "answer_index": 3,
+     "explanation": "27 of 30 signed. 30 is the number of participants, 26 the number of interviews, 24 the number recorded with video.",
+     "location": "B.3; G.1"
+    },
+    {
+     "q": "Which participants gave their consent verbally on the recording?",
+     "options": [
+      "A4, B7 and B8",
+      "A1, A9 and B13",
+      "A5, A9 and B10",
+      "A5, the second participant in A9, and B8"
+     ],
+     "answer_index": 3,
+     "explanation": "A5, the second participant in A9, and B8.",
+     "location": "B.3"
+    },
+    {
+     "q": "When was B8's verbal consent given?",
+     "options": [
+      "At the start of the call",
+      "At the close of the call",
+      "In writing before the call",
+      "By email afterwards"
+     ],
+     "answer_index": 1,
+     "explanation": "At the close of the call rather than at its start; B8 had been sent the information sheet.",
+     "location": "B.3; 3.3"
+    },
+    {
+     "q": "For how long did the sheet say data would be stored?",
+     "options": [
+      "Up to 2 years",
+      "Up to 5 years after publication",
+      "10 years",
+      "Until the viva"
+     ],
+     "answer_index": 1,
+     "explanation": "Up to five years after publication, as per university policy.",
+     "location": "B.1"
+    },
+    {
+     "q": "How many numbered items does the consent form carry?",
+     "options": [
+      "13",
+      "7",
+      "14",
+      "5"
+     ],
+     "answer_index": 1,
+     "explanation": "Seven items. 14 is the number of guide questions, 13 the number of draft survey questions.",
+     "location": "B.2"
+    },
+    {
+     "q": "Which template leftover does B.3 disclose?",
+     "options": [
+      "A sentence about occupational health and safety incidents in the construction industry",
+      "A sentence about clinical trials",
+      "A sentence about interviewing children",
+      "A sentence offering payment"
+     ],
+     "answer_index": 0,
+     "explanation": "The future-research sentence keeps the University template's wording about the construction industry; B.3 says it describes neither this research nor any use of its data.",
+     "location": "B.3"
+    },
+    {
+     "q": "Which guidance does the thesis cite to support the three verbal consents?",
+     "options": [
+      "Krippendorff (2004)",
+      "The Highways Act 1980",
+      "PRISMA 2020",
+      "The Economic and Social Research Council's guidance on audio-recorded verbal consent"
+     ],
+     "answer_index": 3,
+     "explanation": "3.3 cites the ESRC: verbal consent may be ethically preferable in some contexts and should be audio-recorded where possible.",
+     "location": "3.3; B.3"
+    }
+   ]
+  },
+  {
+   "letter": "C",
+   "title": "Ethics approval record",
+   "pages": {
+    "start": 17,
+    "end": 36
+   },
+   "what_it_is": "The ethics application Khaled sent to the University, the record of its approval on 22 February 2024, and the draft survey he sent with it.",
+   "why_it_exists": "Backs 3.3 (approval as Category A on 22 February 2024, on condition that the supervisors approved the final questions), 3.6 (the survey ran under that approval; the application planned correlation and regression; the draft of 19 February 2024 is C.4) and 3.8, change 2 (the survey ran beside the interviews, not after them as the application planned).",
+   "key_facts": [
+    {
+     "fact": "The application was submitted and approved on the same day, as Category A.",
+     "figure": "22 February 2024",
+     "location": "C.3"
+    },
+    {
+     "fact": "It was approved by the Chair of the School of Architecture and the Built Environment's ethics committee; the record is the Chair's comment in the University's virtual learning environment, with the name redacted.",
+     "figure": "Chair's comment, name redacted",
+     "location": "C.2; C.3"
+    },
+    {
+     "fact": "Approval carried one condition, which was met: the final questions had to be approved by the supervisory team before primary data collection.",
+     "figure": "condition: supervisors approve final questions",
+     "location": "C.3"
+    },
+    {
+     "fact": "The project title on the application differs from the thesis title.",
+     "figure": "'Strategic Collaborative Dynamics in Urban Logistics: A Competitive Advantage Perspective'",
+     "location": "C.1, item 4"
+    },
+    {
+     "fact": "The application planned a mixed-methods design: a systematic review, interviews, case studies and surveys.",
+     "figure": "'combining a systematic literature review, qualitative interviews, and case studies, with quantitative surveys'",
+     "location": "C.1, item 6"
+    },
+    {
+     "fact": "The application planned to build the survey on the findings of the qualitative phase and to analyse it by correlation and regression.",
+     "figure": "'descriptive statistics, correlation analysis, and regression modelling'",
+     "location": "C.1, item 6, Data Analysis"
+    },
+    {
+     "fact": "The application planned to validate the framework through expert panels drawn from earlier participants.",
+     "figure": "'validated through expert panels'",
+     "location": "C.1, item 6"
+    },
+    {
+     "fact": "The draft survey is dated 19 February 2024, has thirteen questions in five sections and says it takes 10 to 15 minutes.",
+     "figure": "19 February 2024; 13 questions; 10-15 minutes",
+     "location": "C.4"
+    },
+    {
+     "fact": "The draft told companies that do not collaborate to skip past the questions for collaborators.",
+     "figure": "'No (If no, please skip to question 8)'",
+     "location": "C.4, question 4"
+    },
+    {
+     "fact": "The draft's longest duration was 'More than 3 years'; the final form recorded 'More than 5 years'.",
+     "figure": "More than 3 years",
+     "location": "C.4, question 5; 3.6"
+    },
+    {
+     "fact": "The form defines Category A.",
+     "figure": "'No significant hazards to researcher, participants or animals.'",
+     "location": "C.1, item 12"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Your application promised correlation and regression on the survey. Why didn't you run them?",
+     "model_answer": "Because the sample selected itself through my networks, and a self-selected sample supports no estimate beyond itself, as Fowler says. So I read the survey descriptively, for scale, in counts and cross-tabulations, and run no test of significance. The plan is reproduced in C.1 so anyone can see what was promised, and the change is recorded in 3.6 and in Table 3.8 as change 2."
+    },
+    {
+     "question": "The application said the survey would follow the interviews, but it opened the day you were approved. Why?",
+     "model_answer": "That's right, and it's the second change in Table 3.8. The form opened on 22 February 2024 on the draft's questions as my supervisors approved them, and it ran until 30 April 2025, beside the interviews. So it asks about the four pillars, not the five links, and no link of the chain rests on it."
+    },
+    {
+     "question": "Approval came the same day you submitted. Was the review adequate?",
+     "model_answer": "It went through the Faculty's postgraduate research ethics process and was approved as Category A by the Chair of the School's ethics committee, with a condition that my supervisors approve the final questions before data collection, which was done. The record is the Chair's comment in the University's virtual learning environment, reproduced in C.2 with the Chair's name redacted (C.3)."
+    },
+    {
+     "question": "Your application mentioned case studies and validation by expert panels. Where are they?",
+     "model_answer": "The thesis reports neither. Ghent is read as a document analysis, not a case study in Yin's sense, which would have needed the operators and the permit register as well as the plans (3.5). And the framework is offered as propositions, each of two variables, for others to test, rather than validated by a panel (3.1). Table 3.8 records five changes of instrument and answer; these two planned elements weren't carried through, and I'd say so plainly."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "On what date was the ethics application approved?",
+     "options": [
+      "1 September 2022",
+      "22 February 2024",
+      "19 February 2024",
+      "30 April 2025"
+     ],
+     "answer_index": 1,
+     "explanation": "Submitted and approved on 22 February 2024. 19 February 2024 is the draft survey; 30 April 2025 the last survey response.",
+     "location": "C.3"
+    },
+    {
+     "q": "In which category was the study approved?",
+     "options": [
+      "Category B",
+      "Category A",
+      "Category 0",
+      "Not categorised"
+     ],
+     "answer_index": 1,
+     "explanation": "Category A: no significant hazards to researcher, participants or animals.",
+     "location": "C.3; C.1, item 12"
+    },
+    {
+     "q": "What condition came with the approval?",
+     "options": [
+      "The survey had to be piloted first",
+      "A Dutch speaker had to check the translations",
+      "The supervisory team had to approve the final questions before data collection",
+      "Participants had to be paid"
+     ],
+     "answer_index": 2,
+     "explanation": "The final questions had to be approved by the supervisory team before primary data collection began, which was done.",
+     "location": "C.3"
+    },
+    {
+     "q": "What analysis did the application plan for the survey?",
+     "options": [
+      "Descriptive statistics, correlation analysis and regression modelling",
+      "Crisp-set qualitative comparative analysis",
+      "Fisher's exact and permutation tests",
+      "Krippendorff's alpha only"
+     ],
+     "answer_index": 0,
+     "explanation": "Correlation and regression were planned; neither was run because the sample selected itself (3.6, 3.8).",
+     "location": "C.1, item 6"
+    },
+    {
+     "q": "What date does the draft survey carry?",
+     "options": [
+      "24 October 2016",
+      "19 February 2024",
+      "27 January 2023",
+      "22 February 2024"
+     ],
+     "answer_index": 1,
+     "explanation": "19 February 2024. 24 October 2016 is Ghent's draft circulation plan; 27 January 2023 the EndNote export of the 2023 review.",
+     "location": "C.4"
+    },
+    {
+     "q": "What was the longest duration option in the draft survey?",
+     "options": [
+      "More than 3 years",
+      "More than 10 years",
+      "1-3 years",
+      "More than 5 years"
+     ],
+     "answer_index": 0,
+     "explanation": "The draft offered 'More than 3 years'; the final form recorded 'More than 5 years', with nothing between three and five years.",
+     "location": "C.4, question 5; 3.6"
+    },
+    {
+     "q": "What was the project title on the ethics application?",
+     "options": [
+      "Horizontal Collaboration in Urban Logistics",
+      "Strategic Collaborative Dynamics in Urban Logistics: A Competitive Advantage Perspective",
+      "Shared Space, Separate Freight",
+      "A Framework for Horizontal Collaboration in Urban Last-Mile Logistics: Enhancing Competitive Advantage through Sustainability"
+     ],
+     "answer_index": 1,
+     "explanation": "'Shared Space, Separate Freight' is the thesis title; 'A Framework for Horizontal Collaboration...' is the title on the information sheet; 'Horizontal Collaboration in Urban Logistics' is the survey's Google Form title.",
+     "location": "C.1, item 4; B.1; D.1"
+    }
+   ]
+  },
+  {
+   "letter": "D",
+   "title": "The survey instrument",
+   "pages": {
+    "start": 37,
+    "end": 38
+   },
+   "what_it_is": "The questionnaire exactly as respondents saw it on the Google Form, item by item, with the answer options as recorded.",
+   "why_it_exists": "Backs 3.6, whose Table 3.7 gives each item in the words respondents saw and points to Appendix D for the questionnaire in full, and 3.8, change 2 (the survey ran on the four pillars beside the interviews).",
+   "key_facts": [
+    {
+     "fact": "The questionnaire was a Google Form that received responses from 22 February 2024 to 30 April 2025.",
+     "figure": "'Horizontal Collaboration in Urban Logistics'",
+     "location": "D.1"
+    },
+    {
+     "fact": "It opens with a consent item about the information sheet.",
+     "figure": "D0.1 I have read and understood the Participant Information Sheet. Yes / No.",
+     "location": "D.1"
+    },
+    {
+     "fact": "Items run from D0.1 to D6.1 under the draft's five section headings, numbered as Appendix K uses them.",
+     "figure": "D0.1 to D6.1",
+     "location": "D.1"
+    },
+    {
+     "fact": "The duration item, as recorded, jumps from 1-3 years to more than five, with nothing between three and five years.",
+     "figure": "Less than 1 year / 1-3 years / More than 5 years",
+     "location": "D.1, D2.2; 3.6"
+    },
+    {
+     "fact": "The three 1-to-5 scales run in different directions: success (1 very successful), trust (1 not important, 5 extremely important), likelihood (1 very likely).",
+     "figure": "D2.4, D3.1, D5.1",
+     "location": "D.1"
+    },
+    {
+     "fact": "Third-party coordination and public authority support were added to the trust mechanisms after the draft.",
+     "figure": "Third-party coordination / Public authority support",
+     "location": "D.1, D3.2; 3.6"
+    },
+    {
+     "fact": "Shippers or receivers and public authorities were recorded under 'Other' in the service item.",
+     "figure": "Other: Shipper / receiver (manufacturer, retailer, e-commerce) / Other: Public authority",
+     "location": "D.1, D1.2"
+    },
+    {
+     "fact": "The optional email item was not read in the analysis and appears nowhere in the thesis.",
+     "figure": "D6.1",
+     "location": "D.1"
+    },
+    {
+     "fact": "Closed answers are given as recorded, so an option no respondent chose would not appear; such lists are marked 'as recorded'.",
+     "figure": "'as recorded'",
+     "location": "D.1, introduction"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Your three scales run in different directions. Didn't that confuse respondents?",
+     "model_answer": "They do run differently, and I say so in 3.6: success runs from 1, very successful, to 5, very unsuccessful; trust from 1, not important, to 5, extremely important; likelihood from 1, very likely, to 5, very unlikely. I can't know whether anyone misread them, because the survey wasn't piloted. Every table that reports them states the direction, and I use the survey only for scale."
+    },
+    {
+     "question": "Why does the duration question jump from one-to-three years to more than five?",
+     "model_answer": "That's how the form recorded it. The draft offered 'More than 3 years'; the final form records 'More than 5 years', and nothing between three and five appears. A pilot might have caught it. Only one respondent chose 'More than 5 years', and I list this among the survey's limits in 3.6."
+    },
+    {
+     "question": "Did the survey ask about overlap or time windows, the things your thesis is about?",
+     "model_answer": "No. Its questions were fixed on the four pillars before the five links emerged, so it asks nothing about overlap between the parties' markets, what is pooled and withheld, who can change how deliveries run, or hours set by a city. That's why it tests no link: it describes, it doesn't explain (3.6)."
+    },
+    {
+     "question": "Why are some answer lists marked 'as recorded'?",
+     "model_answer": "Because the lists come from the responses, an option nobody chose wouldn't appear. Where the draft offered an option the record doesn't hold, I mark the list 'as recorded' so the reader isn't misled (D.1)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "On what platform was the survey run?",
+     "options": [
+      "SurveyMonkey",
+      "A Google Form",
+      "Qualtrics",
+      "Microsoft Forms"
+     ],
+     "answer_index": 1,
+     "explanation": "A Google Form titled 'Horizontal Collaboration in Urban Logistics'.",
+     "location": "D.1; 3.6"
+    },
+    {
+     "q": "What was the first item of the questionnaire?",
+     "options": [
+      "Whether the company collaborates now",
+      "A consent item about the Participant Information Sheet",
+      "An email address",
+      "Company size"
+     ],
+     "answer_index": 1,
+     "explanation": "D0.1, 'I have read and understood the Participant Information Sheet', added before the draft's thirteen questions.",
+     "location": "D.1; 3.6"
+    },
+    {
+     "q": "On the trust item (D3.1), what does a 5 mean?",
+     "options": [
+      "Extremely important",
+      "Very unsuccessful",
+      "Not important",
+      "Very unlikely"
+     ],
+     "answer_index": 0,
+     "explanation": "Trust runs from 1, not important, to 5, extremely important. 'Very unlikely' is 5 on D5.1 and 'very unsuccessful' 5 on D2.4.",
+     "location": "D.1"
+    },
+    {
+     "q": "On the success item (D2.4), what does a 1 mean?",
+     "options": [
+      "Very unsuccessful",
+      "Not important",
+      "Very successful",
+      "Very likely"
+     ],
+     "answer_index": 2,
+     "explanation": "Success runs from 1, very successful, to 5, very unsuccessful.",
+     "location": "D.1"
+    },
+    {
+     "q": "What was the longest duration option recorded in the final form?",
+     "options": [
+      "More than 3 years",
+      "More than 10 years",
+      "3-5 years",
+      "More than 5 years"
+     ],
+     "answer_index": 3,
+     "explanation": "'More than 5 years'; the draft had offered 'More than 3 years'.",
+     "location": "D.1, D2.2"
+    },
+    {
+     "q": "What happened to the answers to the optional email item (D6.1)?",
+     "options": [
+      "They were used to place respondents by country",
+      "They were coded into six themes",
+      "They were not read in the analysis and appear nowhere in the thesis",
+      "They were used to recruit interviewees"
+     ],
+     "answer_index": 2,
+     "explanation": "D6.1 answers were not read; the six themes belong to the open question D5.2.",
+     "location": "D.1; 3.6"
+    }
+   ]
+  },
+  {
+   "letter": "E",
+   "title": "The systematic review: strings as run and as corrected, criteria, counts, exclusion reasons, the update synthesis and the carrier-begun papers",
+   "pages": {
+    "start": 39,
+    "end": 111
+   },
+   "what_it_is": "The full paper trail of both literature searches: the 2022-23 review that kept 49 studies, the 2026 update with new search strings that kept 241 papers, the gaps in the old record, and the 2026 re-check of the old full-text stage.",
+   "why_it_exists": "Backs 2.1 (860 records to 49 studies; what the 49 are), 2.2 (1,535 records to 241 papers; thirteen shipper- or receiver-begun papers; the counts on each link), 3.2 (Table 3.3 and the re-run of the 2023 full-text stage, 29 of 31 exclusions upheld, alpha .91), 3.7 (dependability; silence counts are upper bounds), 3.8 (changes 3 and 4) and 7.4 (limits).",
+   "key_facts": [
+    {
+     "fact": "The 2022 string went to six databases on 1 September 2022; after duplicates only four had contributed: ScienceDirect, Scopus, Web of Science and TRID.",
+     "figure": "1st of September 2022",
+     "location": "E.2.3"
+    },
+    {
+     "fact": "The 860 records are 662 plus the 198 published before 2018, a total that counts the eight hand-added papers twice.",
+     "figure": "662 + 198 pre-2018 = 860",
+     "location": "E.2.4, Stage 1"
+    },
+    {
+     "fact": "The 2023 flow, as the files support it.",
+     "figure": "860 → 596 → 263 → 238 → 72 → 49",
+     "location": "E.2.4, 'Full flow, as the files support it'"
+    },
+    {
+     "fact": "Journal refining removed 25 articles from fourteen journals, thirteen of them with a written reason.",
+     "figure": "25 removed, 14 journals named, 13 of them with a written reason",
+     "location": "E.2.4, Stage 4"
+    },
+    {
+     "fact": "Reading the 238 judged 72 relevant and removed 166; cell H45 records 72 divided by 662.",
+     "figure": "0.10876132930513595",
+     "location": "E.2.4, Stage 5"
+    },
+    {
+     "fact": "Eight pre-2018 papers were added by hand; seven are among the 49, and the eighth, Kanter (1994), is not.",
+     "figure": "8 records; Seven of them are among the 49",
+     "location": "E.2.5"
+    },
+    {
+     "fact": "The closest surviving list to the 72 is the EndNote export of 27 January 2023: 79 records, the 49 plus 30 others.",
+     "figure": "79 records",
+     "location": "E.2.7"
+    },
+    {
+     "fact": "The 2026 re-run of the full-text stage assessed 31 papers twice: 29 exclusions stand (25 off-topic, 3 outside urban last mile, 1 on publication type) and 2 papers meet the criteria; subject agreement 30 of 31.",
+     "figure": "α = .91",
+     "location": "E.2.10"
+    },
+    {
+     "fact": "The update's six strings, run on OpenAlex on 16 September 2026, returned 1,535 unique records; 1,023 were of an eligible type; 254 were relevant on title and abstract (208 at first pass plus 46 of 150 doubtful); the thirty-citation rule left 242 records, which are 241 papers.",
+     "figure": "1,535 → 1,023 → 254 → 242 → 241",
+     "location": "E.1 and 'Title-and-abstract screen of the update'"
+    },
+    {
+     "fact": "The 241 by type: models or simulations 124 (51%), empirical 56, reviews 28, conceptual 23, reports 9, and one whose type could not be established.",
+     "figure": "124 (51%)",
+     "location": "E.3.1.2"
+    },
+    {
+     "fact": "128 of the 241 (53%) name no initiator; where one is named, public bodies begin 45, carriers 29, platforms 20 and shippers or receivers 13.",
+     "figure": "128 of 241 cards, 53%",
+     "location": "E.3.1.5"
+    },
+    {
+     "fact": "Only ten of the 241 are already in the 2023 review, an overlap of 4%; nine of them are among the 49.",
+     "figure": "Ten of 241; The overlap is 4%",
+     "location": "E.3.1.7"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Your record doesn't list the 72 papers or say why 23 were dropped. How can we trust the 49?",
+     "model_answer": "The 2023 record does have gaps, and I set them out myself in E.2.9. The screening log gives 72 as a count and nothing else. The manuscript I submitted to MDPI Future Transportation in March 2023 gives the same counts and four topic labels for what was dropped, crowd-shipping, travelling salesman problems, bicycle deliveries and public transport sharing, but no list of the 72 and no reason per paper. So in 2026 I re-ran that stage: every paper that could have been among the 23, the 30 in the January 2023 EndNote export that aren't in the 49, plus Kanter, coded twice against the 2023 criteria. Twenty-nine exclusions stand, two papers meet the criteria, and neither is a kind the 49 lack. Agreement on subject was 30 of 31, alpha .91 (E.2.10)."
+    },
+    {
+     "question": "Why do you report 860 records when the stages start from 662?",
+     "model_answer": "860 is the 662 records plus the 198 published before 2018. The eight pre-2018 papers I added by hand sit in both, under 'Extra' in the 662 and in the pre-2018 column, so 860 counts them twice. I keep 860 because it's the figure the 2023 manuscript reports, and I explain the double count in E.2.4, in 2.1 and in Table 3.3."
+    },
+    {
+     "question": "Why did you switch from four databases to OpenAlex for the update?",
+     "model_answer": "Reproducibility. The criterion I couldn't do without was that a reader can run the search again. A public index through a public interface allows that for anyone; four databases behind institutional logins allow it only for subscribers. On Culbert and colleagues' comparison OpenAlex's coverage is comparable to Web of Science and Scopus, though it carries fewer abstracts, so every doubtful record got a second pass with its abstract fetched (3.2)."
+    },
+    {
+     "question": "Can you really compare 241 papers with 49 studies?",
+     "model_answer": "Only with care, and I say which kind each is every time they stand together. The 49 were included after full-text reading; the 241 were kept after title-and-abstract screening and the thirty-citation rule, and 170 of them were then read in full. So it's a looser set beside a stricter one (2.2, 3.2)."
+    },
+    {
+     "question": "Your counts on 'where the power sits' look circular.",
+     "model_answer": "They are, in part, and I say so. Thirty-eight of the 241 verdicts on power were assigned by a rule that counts shippers, receivers, cities or a neutral orchestrator as support and carriers as against, which is the thesis's own claim. So that count only shows whom the field assumes decides. Whether power really sits there is tested in 4.5, with the interviews and who began the 117 arrangements (2.2; E.3.2.1)."
+    },
+    {
+     "question": "Why did the 2022 string miss the horizontal-collaboration literature?",
+     "model_answer": "Because it requires 'last mile'. A paper that says 'horizontal collaboration' but not 'last mile' is invisible to it. Run again in OpenAlex it returns none of the twelve papers in Appendix F, and only 39 of the 231 update papers that weren't in the 2023 review; 192 fall outside its terms altogether (2.2)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many studies did the 2023 review include?",
+     "options": [
+      "72",
+      "49",
+      "238",
+      "241"
+     ],
+     "answer_index": 1,
+     "explanation": "49. 72 were judged relevant on reading, 238 passed journal refining, 241 is the 2026 update.",
+     "location": "E.2.4; E.2.6"
+    },
+    {
+     "q": "How many records did the 2023 review report at the start?",
+     "options": [
+      "860",
+      "1,535",
+      "596",
+      "662"
+     ],
+     "answer_index": 0,
+     "explanation": "860, which counts the eight hand-added papers twice. 662 is the 2018-22 total with the eight, 596 the number downloaded, 1,535 the update's records.",
+     "location": "E.2.4, Stage 1"
+    },
+    {
+     "q": "How many papers were judged relevant on reading the 238 (Stage 5)?",
+     "options": [
+      "49",
+      "79",
+      "72",
+      "263"
+     ],
+     "answer_index": 2,
+     "explanation": "72. 79 is the EndNote export, 49 the final set, 263 the count after title and abstract.",
+     "location": "E.2.4, Stage 5"
+    },
+    {
+     "q": "How many papers make up the 2026 update set?",
+     "options": [
+      "242",
+      "241",
+      "231",
+      "254"
+     ],
+     "answer_index": 1,
+     "explanation": "241 papers: 242 records with one article under two DOIs; 254 were relevant before the citation rule; 231 are the ones not from the 2023 review.",
+     "location": "E.1; E.3"
+    },
+    {
+     "q": "In the 2026 re-run of the 2023 full-text stage, how many exclusions stood?",
+     "options": [
+      "29 of 31",
+      "30 of 31",
+      "25 of 31",
+      "23 of 72"
+     ],
+     "answer_index": 0,
+     "explanation": "29 stand and 2 meet the criteria. 30 of 31 is the agreement on subject; 25 is the number excluded as off-topic.",
+     "location": "E.2.10"
+    },
+    {
+     "q": "How many of the 241 update papers name a shipper or receiver as the one who began the collaboration?",
+     "options": [
+      "13",
+      "128",
+      "29",
+      "45"
+     ],
+     "answer_index": 0,
+     "explanation": "13. Carriers begin 29, public bodies 45, and 128 name no initiator.",
+     "location": "E.3.1.5; E.3.3.1"
+    },
+    {
+     "q": "At journal refining, how many journals were named and how many carried a written reason?",
+     "options": [
+      "14 journals, 13 with a reason",
+      "25 journals, 14 with a reason",
+      "14 journals, all with a reason",
+      "13 journals, 12 with a reason"
+     ],
+     "answer_index": 0,
+     "explanation": "Fourteen journals, thirteen with a written reason; the fourteenth's reason cell is empty. 25 is the number of articles removed.",
+     "location": "E.2.4, Stage 4"
+    },
+    {
+     "q": "How many rows does the surviving Stage 4 database hold, against the log's 238?",
+     "options": [
+      "237",
+      "79",
+      "238",
+      "72"
+     ],
+     "answer_index": 0,
+     "explanation": "237: one record is missing and the file does not show which.",
+     "location": "E.2.7; E.2.9"
+    }
+   ]
+  },
+  {
+   "letter": "F",
+   "title": "The twelve horizontal-collaboration papers the 2022 string excluded",
+   "pages": {
+    "start": 112,
+    "end": 113
+   },
+   "what_it_is": "Full references for twelve well-known papers on horizontal collaboration that the 2022 search string could not find, used to show what the original review missed.",
+   "why_it_exists": "Backs 2.2: run again in OpenAlex, the 2022 string returns none of the twelve; the 2023 review held one, Pomponi and colleagues (2013), added by hand; the other eleven are read alongside the update and show three old instruments a last-mile string missed: cost allocation, the trustee device and the typologies.",
+   "key_facts": [
+    {
+     "fact": "Appendix F gives eleven full references; the twelfth, Pomponi et al. (2013), is among the 49 and carded among the 241.",
+     "figure": "The twelfth, Pomponi et al. (2013)",
+     "location": "F, closing note; E.2.8"
+    },
+    {
+     "fact": "The other eleven were not screened in 2023.",
+     "figure": "the other eleven were not screened in 2023",
+     "location": "E.2.8"
+    },
+    {
+     "fact": "Eight of the twelve carry the words horizontal collaboration in their titles.",
+     "figure": "Eight of the twelve",
+     "location": "E.2.8"
+    },
+    {
+     "fact": "Of the 49 included papers, only one has 'horizontal' in its title.",
+     "figure": "only one has \"horizontal\" in its title",
+     "location": "E.2.8"
+    },
+    {
+     "fact": "Run again in OpenAlex, the 2022 string returns none of the twelve.",
+     "figure": "returns none of them",
+     "location": "Thesis 2.2"
+    },
+    {
+     "fact": "Three come from outside freight: video games, dairy farming and a growers' cooperative; the case that the 2022 string missed the collaboration literature rests on the other nine.",
+     "figure": "Le Roy et al. (2022); Martinelli et al. (2022); Rolfe et al. (2022)",
+     "location": "F; Thesis 2.2"
+    },
+    {
+     "fact": "Full texts of several were already in the author's files, in a folder of 58 papers.",
+     "figure": "a folder of 58 papers",
+     "location": "E.2.8"
+    },
+    {
+     "fact": "Frisk and colleagues found a saving of 8.9 per cent against each company planning alone, and up to 14% against transport actually run.",
+     "figure": "8.9 per cent; 'up to 14%'",
+     "location": "Thesis 2.2"
+    },
+    {
+     "fact": "In Eirinakis and colleagues' load exchange, the share of loads matched rose from 9.7 per cent of 318 to 21.4 per cent of 373.",
+     "figure": "9.7 per cent of 318 to 21.4 per cent of 373",
+     "location": "Thesis 2.2"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "How did you choose these twelve? Isn't that cherry-picking?",
+     "model_answer": "They're the papers inside the field's own citation trail on horizontal collaboration, named in the evidence I assembled for the research gap on 15 September 2026. They're not offered as a sample; they're a test of the 2022 string's reach, and run again in OpenAlex it finds none of them. The update itself was then run systematically, with six strings (E.2.8; 2.2)."
+    },
+    {
+     "question": "Three of them aren't about freight. Why include them?",
+     "model_answer": "Each names horizontal collaboration, coordination or coopetition in its title, but none is about freight, so a last-mile string couldn't be expected to find them. The case that the 2022 string missed the collaboration literature rests on the other nine. I read the three because each tests, outside freight, a condition the freight papers raise (2.2)."
+    },
+    {
+     "question": "If Pomponi was already in the 49, wasn't this literature covered?",
+     "model_answer": "Pomponi was added by hand in 2023 for the quality of its review; the string didn't find it. The other eleven weren't screened at all, and only one of the 49 has 'horizontal' in its title (E.2.5, E.2.8)."
+    },
+    {
+     "question": "What did these papers add to your argument?",
+     "model_answer": "Three of the field's oldest instruments: cost allocation, the trustee device and the typologies. Frisk's authors call for an independent organisation to run the bartering; in Basso's account the three-company trial worked while a third party with no interest in any of the companies was involved, and ended when none could be found (2.2)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many of the twelve papers were NOT already in the 2023 review?",
+     "options": [
+      "12",
+      "3",
+      "9",
+      "11"
+     ],
+     "answer_index": 3,
+     "explanation": "Eleven. The twelfth, Pomponi et al. (2013), is among the 49. Nine is the number that are about freight; three come from outside it.",
+     "location": "E.2.8; F"
+    },
+    {
+     "q": "Which of the twelve was already among the 49?",
+     "options": [
+      "Martin et al. (2018)",
+      "Pomponi et al. (2013)",
+      "Basso et al. (2019)",
+      "Frisk et al. (2006)"
+     ],
+     "answer_index": 1,
+     "explanation": "Pomponi et al. (2013), reference [31], added by hand in 2023.",
+     "location": "F; E.2.8"
+    },
+    {
+     "q": "Run again in OpenAlex, how many of the twelve does the 2022 string return?",
+     "options": [
+      "One",
+      "All twelve",
+      "Nine",
+      "None"
+     ],
+     "answer_index": 3,
+     "explanation": "None of them.",
+     "location": "Thesis 2.2"
+    },
+    {
+     "q": "How many of the twelve carry 'horizontal collaboration' in their titles?",
+     "options": [
+      "12",
+      "8",
+      "1",
+      "3"
+     ],
+     "answer_index": 1,
+     "explanation": "Eight. One is the number of the 49 with 'horizontal' in the title.",
+     "location": "E.2.8"
+    },
+    {
+     "q": "Which of these is NOT one of the three papers from outside freight?",
+     "options": [
+      "Saenz, Gupta and Makowski (2017)",
+      "Rolfe et al. (2022)",
+      "Le Roy, Robert and Hamouti (2022)",
+      "Martinelli et al. (2022)"
+     ],
+     "answer_index": 0,
+     "explanation": "Saenz and colleagues wrote on freight shippers in a practitioner magazine; the other three are video games, dairy farming and a growers' cooperative.",
+     "location": "F; Thesis 2.2"
+    },
+    {
+     "q": "In Eirinakis and colleagues' study, the share of loads matched rose from 9.7 per cent to what?",
+     "options": [
+      "14 per cent",
+      "8.9 per cent",
+      "60 per cent",
+      "21.4 per cent"
+     ],
+     "answer_index": 3,
+     "explanation": "21.4 per cent of 373. Sixty per cent is the share of matches made by the two firms that had worked together before; 8.9 and 14 per cent are Frisk's savings.",
+     "location": "Thesis 2.2"
+    }
+   ]
+  },
+  {
+   "letter": "G",
+   "title": "The participant table",
+   "pages": {
+    "start": 114,
+    "end": 116
+   },
+   "what_it_is": "A table of all 26 interviews: who took part (by type and code only), how long each lasted, how it was recorded and how consent was given.",
+   "why_it_exists": "Backs 3.3, whose Table 3.4 is the short form and points to Appendix G for the full table: twenty-six interviews, thirty people, eleven countries, twenty hours and five minutes, 146,778 words.",
+   "key_facts": [
+    {
+     "fact": "Twenty-six interviews with thirty participants.",
+     "figure": "twenty-six interviews with thirty participants",
+     "location": "G.1, Totals"
+    },
+    {
+     "fact": "Twenty hours and five minutes of recording; median 42:40; shortest 7:57 (A5); longest 1:13:45 (B1).",
+     "figure": "median 42:40, shortest 7:57 (A5), longest 1:13:45 (B1)",
+     "location": "G.1, Totals"
+    },
+    {
+     "fact": "Twenty-four recorded with video and two as audio, A3 and B8.",
+     "figure": "twenty-four recorded with video and two as audio",
+     "location": "G.1, Totals and table"
+    },
+    {
+     "fact": "Twenty-seven consents signed and three given verbally on the recording.",
+     "figure": "twenty-seven consents signed and three given verbally",
+     "location": "G.1, Totals"
+    },
+    {
+     "fact": "The transcripts hold 146,778 words of speech, appended summaries excluded.",
+     "figure": "146,778",
+     "location": "G.1, Totals"
+    },
+    {
+     "fact": "Countries are given only as a set: Belgium, Estonia, France, Germany, Greece, India, Italy, Norway, Spain, Sweden and the United Kingdom; two interviews spoke Europe-wide.",
+     "figure": "eleven countries; two spoke Europe-wide",
+     "location": "G.1, introduction"
+    },
+    {
+     "fact": "Twenty-three interviews were with one person, two with a pair (A4, A9) and one with three people from one European project (B7).",
+     "figure": "A4: 2, A9: 2, B7: 3",
+     "location": "G.1, Participants column (counted); 3.3"
+    },
+    {
+     "fact": "Sixteen of the twenty-six ran forty minutes or more.",
+     "figure": "16 of 26",
+     "location": "G.1, Length column (counted); stated in 3.3"
+    },
+    {
+     "fact": "By party: eight public bodies, six academia, four consultancies, four carriers, and one each platform, coalition, city network and site host.",
+     "figure": "8 / 6 / 4 / 4 / 1 / 1 / 1 / 1",
+     "location": "G.1, Party column (counted); 3.1, Table 3.1"
+    },
+    {
+     "fact": "Each length is the recording's length, confirmed against the last timestamp in the transcript.",
+     "figure": "confirmed against the last timestamp",
+     "location": "G.1, introduction"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Only four carrier voices. Isn't your account of carriers second-hand?",
+     "model_answer": "Partly, and I say so in 3.7. Four of the twenty-six speak for a carrier, three from inside one and one as adviser to a cargo-bike operator. The rest are people who convene, fund, regulate, study or broker collaboration, and have negotiated with carriers for years. Saturation was reached by kind of party, not by count, which is why carriers are the one kind I call thin."
+    },
+    {
+     "question": "Why don't you give a country against each code?",
+     "model_answer": "Because a country plus a role could identify someone. I give the eleven countries as a set, describe organisations by type, and widen any role that would narrow to one person (3.3; G.1)."
+    },
+    {
+     "question": "A5 lasted under eight minutes. Why keep it?",
+     "model_answer": "Every transcript stands in every count of twenty-six, so dropping it would be a choice made after the fact. It's flagged as thin: eight minutes of prepared answers, and its 'successes' are conference proposals. No finding rests on it (4.1; Appendix I, file 1 cautions)."
+    },
+    {
+     "question": "How do you know the lengths are accurate?",
+     "model_answer": "Each is the recording's length, confirmed against the last timestamp in its transcript (G.1)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How much recording do the twenty-six interviews add up to?",
+     "options": [
+      "24 hours 5 minutes",
+      "14 hours 40 minutes",
+      "20 hours 5 minutes",
+      "26 hours"
+     ],
+     "answer_index": 2,
+     "explanation": "Twenty hours and five minutes.",
+     "location": "G.1, Totals; 3.3"
+    },
+    {
+     "q": "What is the median interview length?",
+     "options": [
+      "55:26",
+      "42:40",
+      "37:51",
+      "45:00"
+     ],
+     "answer_index": 1,
+     "explanation": "42:40 (3.3 rounds it to forty-three minutes). 37:51 is A6 and 55:26 is A9.",
+     "location": "G.1, Totals"
+    },
+    {
+     "q": "Which was the longest interview?",
+     "options": [
+      "B1, 1:13:45",
+      "A4, 1:04:23",
+      "A2, 1:00:23",
+      "B9, 1:09:39"
+     ],
+     "answer_index": 0,
+     "explanation": "B1 at 1:13:45; B9 is second.",
+     "location": "G.1"
+    },
+    {
+     "q": "How many words of speech do the transcripts hold?",
+     "options": [
+      "146,778",
+      "147,678",
+      "164,778",
+      "126,778"
+     ],
+     "answer_index": 0,
+     "explanation": "146,778 words, appended summaries excluded.",
+     "location": "G.1, Totals; 3.3"
+    },
+    {
+     "q": "How many interviews were recorded as audio only?",
+     "options": [
+      "3",
+      "2",
+      "4",
+      "0"
+     ],
+     "answer_index": 1,
+     "explanation": "Two, A3 and B8. Three is the number of verbal consents.",
+     "location": "G.1"
+    },
+    {
+     "q": "How many interviews involved more than one participant?",
+     "options": [
+      "1",
+      "3",
+      "4",
+      "2"
+     ],
+     "answer_index": 1,
+     "explanation": "Three: A4 and A9 (pairs) and B7 (three people).",
+     "location": "G.1; 3.3"
+    },
+    {
+     "q": "How many interviews ran forty minutes or more?",
+     "options": [
+      "16",
+      "14",
+      "26",
+      "13"
+     ],
+     "answer_index": 0,
+     "explanation": "Sixteen. Fourteen is the number that 3.3 says closed sooner than the planned 45 minutes.",
+     "location": "G.1 (counted); 3.3"
+    }
+   ]
+  },
+  {
+   "letter": "H",
+   "title": "The arrangements tables",
+   "pages": {
+    "start": 117,
+    "end": 188
+   },
+   "what_it_is": "A row-by-row ledger of every collaboration the interviewees described, 117 rows: who was involved, whether they competed, what they pooled and kept back, what held it together, who started it and what became of it.",
+   "why_it_exists": "The evidence base for Chapter 4: 3.1 and 3.4 (the arrangement as unit of analysis), 4.1 (117 rows), 4.3 (Table 4.5, what was pooled and withheld), 4.4 (95 of 117 bound from outside the parties; Table 4.6, the twenty-three failures), 4.5 (42 begun by a city or public body, 19 by a carrier), 4.7, 5.3, 6.1, 7.2 and 7.5; also 1.5 (the two peer-trust exceptions, rows 4 and 42 of H.1).",
+   "key_facts": [
+    {
+     "fact": "117 rows: 56 from the A half (Table H.1) and 61 from the B half (Table H.2).",
+     "figure": "Table H.2 has 61 rows; Table H.1 has 56 rows",
+     "location": "Note after Table H.2 ('Row counts')"
+    },
+    {
+     "fact": "The unit is the description, not the scheme: a scheme described by two people is two rows, so the A half's 56 rows hold 51 to 52 unique schemes.",
+     "figure": "51 to 52 unique schemes",
+     "location": "Note after Table H.2"
+    },
+    {
+     "fact": "The A half's first listing held 39 accounts of 37 arrangements; H.1 adds 17 rows that listing left out, proposals and second descriptions among them.",
+     "figure": "39 participant accounts of 37 distinct arrangements; The 17 further rows",
+     "location": "Note after Table H.2"
+    },
+    {
+     "fact": "Primary binder per row: neutral third party 35, grant 21, regulation or permit 17, contract 12, client mandate 5, prior vertical relationship 3, reciprocal trade 1, platform reputation 1: 95 bound from outside the parties.",
+     "figure": "35 + 21 + 17 + 12 + 5 + 3 + 1 + 1 = 95",
+     "location": "Table H.3, 'Combined from rows (117)' column (summed); stated in 4.4 and 4.7"
+    },
+    {
+     "fact": "Six rows rest on the parties' own trust: four on peer trust alone (H.1 rows 42 and 52; H.2 rows 33 and 56) and two on a personal tie (H.1 rows 4 and 41); ten have no external binder; six binders were not stated.",
+     "figure": "4 / 2 / 10 / 6",
+     "location": "Table H.3"
+    },
+    {
+     "fact": "Of the ten rows with no external binding agent, five failed outright.",
+     "figure": "five failed outright",
+     "location": "Table H.3, note on 'The arrangements with no external binding agent'"
+    },
+    {
+     "fact": "Who began each row: city or public body 42, platform or broker 20, carrier 19, shipper or receiver 15, academic project 14, city with a project 1, could not be placed 6.",
+     "figure": "42 / 20 / 19 / 15 / 14 / 1 / 6",
+     "location": "Tables H.1 and H.2, 'Initiated by' column (counted); stated in 4.5"
+    },
+    {
+     "fact": "Status at interview: 64 operating, 18 proposals, 17 ended, 15 pilots, 3 unclear.",
+     "figure": "64 / 18 / 17 / 15 / 3",
+     "location": "Tables H.1 and H.2, 'Status at interview' column (counted)"
+    },
+    {
+     "fact": "Of the 35 rows bound by a neutral third party, 19 were operating, 10 were proposals, 2 pilots, 2 ended and 2 could not be placed.",
+     "figure": "19 / 10 / 2 / 2 / 2",
+     "location": "Tables H.1 and H.2 (counted); stated in 4.4"
+    },
+    {
+     "fact": "Table H.4 gives 23 failed and unrealised arrangements in the participants' own words, with timestamps.",
+     "figure": "23 items",
+     "location": "Table H.4"
+    },
+    {
+     "fact": "Coding B's first binder tally summed to 58 of 61 with double counting; it was rewritten on 16 September 2026 as a one-to-one assignment summing to 61.",
+     "figure": "58 of 61",
+     "location": "Note on rows that could not be fully filled, 'Coding B's tally'"
+    },
+    {
+     "fact": "A city's covenant of 40 companies promised data sharing; four years later the city officer still had no data.",
+     "figure": "\"four years later, I still don't have data\"",
+     "location": "Table H.2, row 59 (B13); Table H.4, item 23"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "You have 117 rows, but how many actual schemes?",
+     "model_answer": "Fewer, and I say so. The unit is the description, so a scheme two people described is two rows, cross-referenced. The A half's 56 rows hold 51 to 52 unique schemes. A count of rows is a count of accounts of arrangements, and where the text needs the number of schemes it says so (3.1; note after Table H.2)."
+    },
+    {
+     "question": "Your 95 of 117 rests on a binder you assigned once. Where's the reliability figure?",
+     "model_answer": "That's a real limit and I state it in 3.4 and 3.7. The binder and the initiator were assigned once, by hand, when I built the appendix, so the binder carries no agreement figure. The initiator was re-checked in both coding passes of October 2026 and read the same way in 98 of 117 rows, alpha .80. And the rule for what counts as a binder is written down and applied to both halves (note on 'peer trust alone')."
+    },
+    {
+     "question": "Four rows run on peer trust alone. Don't they contradict you?",
+     "model_answer": "They're the cases the claim has to answer, and I list each with what became of it: a rural case that's only the participant's inference (H.1, 42); a dairy and a vegetable supplier who don't compete (H.1, 52); four friends' cargo-bike cooperative that dissolved (H.2, 33); and two bike couriers' joint bid, which is the one case that worked between rivals at the door (H.2, 56)."
+    },
+    {
+     "question": "Why should we believe failures that are only reported in interviews?",
+     "model_answer": "They're accounts, not measured deliveries, and I treat them as that. But every failure in Table H.4 is in the participant's own words with its timestamp, so it can be checked against the transcript. And the pattern is stark: five of the ten rows with no outside binder failed outright."
+    },
+    {
+     "question": "What exactly do you mean by 'bound by'?",
+     "model_answer": "Whatever holds an arrangement together once it's formed and doesn't depend on the parties' goodwill. A platform that only made the introduction, or a procurement rule that only triggered it, isn't counted as a binder. That's why H.1 row 52 and H.2 row 56 stand as peer trust alone (note under Table H.3)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many arrangement rows does Appendix H hold in total?",
+     "options": [
+      "61",
+      "56",
+      "117",
+      "100"
+     ],
+     "answer_index": 2,
+     "explanation": "117 rows: 56 in H.1 and 61 in H.2. 100 is the number of items the two halves first listed.",
+     "location": "Note after Table H.2; 4.1"
+    },
+    {
+     "q": "How many of the 117 were bound by something outside the parties?",
+     "options": [
+      "95",
+      "112",
+      "101",
+      "35"
+     ],
+     "answer_index": 0,
+     "explanation": "95. 35 is the neutral-third-party class alone; 112 is the reading agreement of Appendix I.",
+     "location": "Table H.3; 4.4"
+    },
+    {
+     "q": "Which is the largest class of binder?",
+     "options": [
+      "Contract, 12 rows",
+      "Grant, 21 rows",
+      "Neutral third party, 35 rows",
+      "Regulation or permit, 17 rows"
+     ],
+     "answer_index": 2,
+     "explanation": "The neutral third party: trustee, public body, association, convenor or platform.",
+     "location": "Table H.3"
+    },
+    {
+     "q": "How many rows were begun by a city or public body?",
+     "options": [
+      "42",
+      "15",
+      "20",
+      "19"
+     ],
+     "answer_index": 0,
+     "explanation": "42. Carriers began 19, platforms or brokers 20, shippers or receivers 15.",
+     "location": "Tables H.1-H.2 (counted); 4.5"
+    },
+    {
+     "q": "How many rows rest on peer trust alone?",
+     "options": [
+      "10",
+      "4",
+      "6",
+      "2"
+     ],
+     "answer_index": 1,
+     "explanation": "Four. Two more rest on a personal tie (six on the parties' own trust in all); ten have no external binder.",
+     "location": "Table H.3"
+    },
+    {
+     "q": "How many failed and unrealised arrangements does Table H.4 list?",
+     "options": [
+      "10",
+      "6",
+      "17",
+      "23"
+     ],
+     "answer_index": 3,
+     "explanation": "23. Seventeen rows were recorded as ended at interview.",
+     "location": "Table H.4"
+    },
+    {
+     "q": "How many unique schemes do the A half's 56 rows hold?",
+     "options": [
+      "39",
+      "37",
+      "56",
+      "51 to 52"
+     ],
+     "answer_index": 3,
+     "explanation": "51 to 52 once repeated descriptions are merged. 39 accounts of 37 arrangements was coding A's first listing.",
+     "location": "Note after Table H.2"
+    },
+    {
+     "q": "Of the ten rows with no external binding agent, how many failed outright?",
+     "options": [
+      "10",
+      "6",
+      "3",
+      "5"
+     ],
+     "answer_index": 3,
+     "explanation": "Five. Three in six is coding B's figure for its own half.",
+     "location": "Table H.3, note"
+    }
+   ]
+  },
+  {
+   "letter": "I",
+   "title": "The coding files and their cautions",
+   "pages": {
+    "start": 189,
+    "end": 460
+   },
+   "what_it_is": "The six coding files: every transcript read against Khaled's early 'brand' claim, then against the five-concept codebook, then read a second time to measure agreement, each with the evidence for and against.",
+   "why_it_exists": "Backs 3.3 and 3.4 (three codings; agreement of 112 of 130 stances), 3.7 (credibility and the coding cautions), 4.1 (quality flags, Table 4.1), 4.7 (Table 4.9 counts), 5.1 and 5.4 (time, Table 5.10).",
+   "key_facts": [
+    {
+     "fact": "Six files: files 1 and 2 code the two halves against the working claim of 2026; files 3 and 4 against the codebook of Table 3.5; files 5 and 6 are the second readings from which agreement is computed.",
+     "figure": "six coding files",
+     "location": "Appendix I, introduction"
+    },
+    {
+     "fact": "The working claim tested: carriers refuse because the last mile is a brand asset, and small operators collaborate freely while large branded ones refuse.",
+     "figure": "\"Small operators with no brand to protect collaborate freely; large ones with brands refuse.\"",
+     "location": "File 1, 'The claim under test'"
+    },
+    {
+     "fact": "File 1's verdict: the size clause is falsified as written and the brand clause is a minority, unmeasured finding.",
+     "figure": "FALSIFIED as written; PARTIALLY SUPPORTED, MINORITY, AND UNMEASURED",
+     "location": "File 1, (vi) Verdict"
+    },
+    {
+     "fact": "Barriers reported in the B half, by frequency: operating data as a competitive asset 8 of 13, market overlap 6, cost with no business model after subsidy 6, service control and liability 4; visibility three times.",
+     "figure": "(8 of 13)",
+     "location": "File 2, closing summary"
+    },
+    {
+     "fact": "Peer trust alone carried 2 of 39 described arrangements in the A half and 2 of 61 cases in the B half.",
+     "figure": "two of thirty-nine; two of sixty-one",
+     "location": "File 1, (vi); File 2, 'The six cases with no external binding agent'"
+    },
+    {
+     "fact": "Third coding over all 26, first reading (supports / contradicts / mixed / silent): overlap 15/1/5/5; boundary 16/1/6/3; what binds 24/0/1/1; power 18/0/5/3; time 5/0/2/19. The second reading gives overlap 12/0/7/7, boundary 21/0/2/3, what binds 25/0/1/0, power 16/0/8/2, time 6/0/1/19.",
+     "figure": "power 18 / 0 / 5 / 3",
+     "location": "Files 3 and 4 (first reading) and files 5 and 6 (second reading), section 3 count tables (summed); Table 4.9; power stated in 1.5 and 4.5"
+    },
+    {
+     "fact": "Agreement between first and second readings: 53 of 65 stances on A1-A13, 59 of 65 on B1-B13, 112 of 130 overall (86 per cent).",
+     "figure": "112 of 130",
+     "location": "Files 3 to 6, section 2 summary tables (compared); stated in 3.4, Table 3.6"
+    },
+    {
+     "fact": "The eighteen differences fall on twelve transcripts; B8 and B10 carry five of them, and five of the A half's twelve fall on the boundary concept.",
+     "figure": "eighteen differences; twelve transcripts",
+     "location": "Files 3 to 6 (compared); 3.4"
+    },
+    {
+     "fact": "Brand was put by the interviewer in five interviews and declined in all five, and raised unprompted by participants in eight.",
+     "figure": "put by the interviewer in five interviews and declined in all five, raised unprompted by participants in eight",
+     "location": "File 2, note under the brand-mode table"
+    },
+    {
+     "fact": "File 1's methodological cautions: the brand frame was introduced by the interviewer; positions were relayed between interviews; A9 is substantially incomplete; A5's 'successes' are proposals; A6's case was not yet running.",
+     "figure": "seven numbered cautions",
+     "location": "File 1, 'Methodological cautions'"
+    },
+    {
+     "fact": "The keyword sweep for brand words was corrected: 'livery' matched inside 'delivery', giving more than sixty false hits.",
+     "figure": "more than sixty false hits",
+     "location": "File 2, 'Method note on the keyword sweep'"
+    },
+    {
+     "fact": "B10 and B11 lie outside urban last-mile logistics; excluding them leaves eleven transcripts in the B half.",
+     "figure": "B10 highway heavy-vehicle access; B11 energy and regeneration",
+     "location": "File 5, note under the count table; File 4 count table note"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "You interviewed, coded first and wrote the claim. Isn't the analysis just you agreeing with yourself?",
+     "model_answer": "That's the exposure no procedure removes, and I name it in 3.7. What I did about it: the second and third codings were made from the transcripts alone, without the notes of the first; each had to record the evidence against as well as for; each half was read a second time without sight of its first codes; and the second coding threw out two of my own clauses, brand and size."
+    },
+    {
+     "question": "Why report raw agreement rather than kappa?",
+     "model_answer": "With four possible stances, thirteen transcripts a half and a fifth concept where silence dominates, a coefficient would say less than the list of the eighteen differences itself. So I give 112 of 130, 86 per cent, and every difference by concept and transcript in Table 3.6. For the 117 arrangements, where the unit and the numbers suit it, I use Krippendorff's alpha."
+    },
+    {
+     "question": "Did you plant the brand idea in your participants' heads?",
+     "model_answer": "I raised it in five interviews and it was declined in all five; participants raised it unprompted in eight. I count the five as declined, not as support, and the coding files list separately every theme I introduced or relayed, so none of it is counted as the participant's view."
+    },
+    {
+     "question": "Some transcripts are poor. Which ones, and what did you do?",
+     "model_answer": "A9 is substantially incomplete and its answers were typed in afterwards, so I read it as low confidence throughout. A5 is eight minutes of prepared answers. B8 has phone audio and limited English. B10 and B11 turned out to lie outside the domain: they stay in every count of twenty-six, both codings mark them silent on most concepts, and no finding rests on them alone (3.7; 4.1)."
+    },
+    {
+     "question": "What did the second coding actually change?",
+     "model_answer": "It didn't sustain two clauses of my working claim, brand and size, and it found two regularities the claim hadn't named: overlap and the boundary of sharing. The codebook of Table 3.5 was rewritten from those results, and the third coding was made against it (3.4)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many coding files does Appendix I hold?",
+     "options": [
+      "6",
+      "3",
+      "2",
+      "5"
+     ],
+     "answer_index": 0,
+     "explanation": "Six: two halves of the second coding, two of the third, and two second readings.",
+     "location": "Appendix I, introduction"
+    },
+    {
+     "q": "What was the overall agreement between the first and second readings?",
+     "options": [
+      "98 of 117 (84%)",
+      "112 of 130 (86%)",
+      "59 of 65 (91%)",
+      "30 of 31 (97%)"
+     ],
+     "answer_index": 1,
+     "explanation": "112 of 130. 59 of 65 is the B half alone; 98 of 117 is the initiator re-check of Appendix L; 30 of 31 the re-run of the review.",
+     "location": "Files 3-6; 3.4"
+    },
+    {
+     "q": "What was the agreement on the A half (A1-A13)?",
+     "options": [
+      "12 of 65",
+      "59 of 65",
+      "112 of 130",
+      "53 of 65"
+     ],
+     "answer_index": 3,
+     "explanation": "53 of 65; the A half differed on twelve stances.",
+     "location": "Files 3 and 6; Table 3.6"
+    },
+    {
+     "q": "In how many interviews did the interviewer raise brand, and how often was it declined?",
+     "options": [
+      "Five, declined in three",
+      "Five, declined in all five",
+      "Eight, declined in all eight",
+      "Three, declined in two"
+     ],
+     "answer_index": 1,
+     "explanation": "Five, declined in all five. Eight is the number of interviews where participants raised it unprompted; three is the A half alone.",
+     "location": "File 2; 3.4"
+    },
+    {
+     "q": "In the first reading of the third coding, how many of the 26 transcripts support concept 3, 'what binds'?",
+     "options": [
+      "24",
+      "12",
+      "26",
+      "18"
+     ],
+     "answer_index": 0,
+     "explanation": "24: twelve in each half (the second reading gives 25). 18 is the count supporting concept 4, power.",
+     "location": "Files 3 and 4, count tables"
+    },
+    {
+     "q": "Which clause of the working claim did file 1 find 'FALSIFIED as written'?",
+     "options": [
+      "Small operators collaborate freely; large branded ones refuse",
+      "Carriers refuse",
+      "Time can do what pooling was asked to do",
+      "Power sits with shippers and cities"
+     ],
+     "answer_index": 0,
+     "explanation": "The size clause. 'Carriers refuse' was strongly supported.",
+     "location": "File 1, (vi) Verdict"
+    },
+    {
+     "q": "Which barrier did B-half participants report most often?",
+     "options": [
+      "Operating data as a competitive asset (8 of 13)",
+      "Market overlap (6 of 13)",
+      "Service control (4 of 13)",
+      "Brand visibility"
+     ],
+     "answer_index": 0,
+     "explanation": "Operating data, 8 of 13. Visibility appears only three times.",
+     "location": "File 2, closing summary"
+    },
+    {
+     "q": "Which two transcripts lie outside the domain?",
+     "options": [
+      "B10 and B11",
+      "A5 and A9",
+      "B8 and B13",
+      "A1 and B1"
+     ],
+     "answer_index": 0,
+     "explanation": "B10 (heavy-vehicle access on interurban roads) and B11 (energy infrastructure). A5 and A9 are thin, not out of domain.",
+     "location": "Files 4 and 5; 3.7"
+    }
+   ]
+  },
+  {
+   "letter": "J",
+   "title": "Ghent 2016 and 2023: extracts in Dutch with English renderings",
+   "pages": {
+    "start": 461,
+    "end": 573
+   },
+   "what_it_is": "The Dutch passages from Ghent's two city plans that the thesis relies on, each set beside Khaled's English rendering, with answers to eight questions about how Ghent's delivery permits and hours work.",
+   "why_it_exists": "Backs 3.5 (the document analysis, Scott's four tests, and how the renderings were checked), 5.2 (Ghent's regime and the rule by vehicle and hour; Figures 5.1 and 5.2), 3.8 change 5 (the city expected no fall in suppliers' traffic in the open hours) and 7.4 (the limit that no Dutch speaker checked the renderings).",
+   "key_facts": [
+    {
+     "fact": "94 extracts, numbered J-01 to J-94.",
+     "figure": "J-01 to J-94",
+     "location": "J.1"
+    },
+    {
+     "fact": "Document 1 is the draft circulation plan of 24 October 2016, 158 PDF pages, for introduction on 3 April 2017; chapter 7 sets the access regime.",
+     "figure": "24 October 2016, 158 PDF pages",
+     "location": "J (a)"
+    },
+    {
+     "fact": "Document 2 is the urban logistics plan of autumn 2023, 36 pages: a policy plan, not a regulation.",
+     "figure": "36 landscape pages",
+     "location": "J (a)"
+    },
+    {
+     "fact": "The 2016 plan replaced 26 overlapping permit categories with fourteen; thirteen get 24/24 access and only loading and unloading is windowed.",
+     "figure": "replaces 26 overlapping categories with fourteen",
+     "location": "J (b), Q2"
+    },
+    {
+     "fact": "Loading and unloading is allowed 18:00 to 11:00 in the four central areas (05:00 to 19:00 in the Overpoortstraat area); the closed period is 11:00 to 18:00.",
+     "figure": "18:00 to 11:00",
+     "location": "J (b), Q1"
+    },
+    {
+     "fact": "Enforcement is by 27 ANPR cameras and a €55 administrative fine; the permit is free.",
+     "figure": "27 ANPR cameras and a municipal administrative fine of €55",
+     "location": "J (b), Q3"
+    },
+    {
+     "fact": "The city's own model expected delivery traffic in the open window to stay the same size.",
+     "figure": "\"Het verkeer dat aan de leveranciers is toe te schrijven blijft in dit tijdvenster even groot\"",
+     "location": "J (b), Q5; Table C (2016 plan, p. 112, section 7.11)"
+    },
+    {
+     "fact": "For 11:00 to 18:00 the city expected at most a third of traffic to remain in streets without public transport, and half in streets with it.",
+     "figure": "at most 33%; −50%",
+     "location": "J (d), Table C"
+    },
+    {
+     "fact": "After the 2016 dialogue the closed period for deliveries was cut from 11:00-19:00 to 11:00-18:00.",
+     "figure": "cut from 11:00-19:00 to 11:00-18:00",
+     "location": "J (b), Q6"
+    },
+    {
+     "fact": "The word 'venstertijd' means the open delivery window in 2016 but the closed period in 2023; the hours are the same and only the label flips.",
+     "figure": "venstertijd",
+     "location": "J.1, 'A note on terminology'"
+    },
+    {
+     "fact": "In the 2016 plan the printed page number is one lower than the PDF page, because the cover is page 0; the thesis cites printed pages.",
+     "figure": "one lower than the PDF page number",
+     "location": "J.1, 'Page conventions'"
+    },
+    {
+     "fact": "Neither document describes delivery operators as competitors of one another.",
+     "figure": "Neither document describes delivery operators as competitors",
+     "location": "J (b), Q7"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "You don't speak Dutch. How can we trust your renderings?",
+     "model_answer": "Each rendering was made for this thesis and checked against the Dutch original, against a second translation made independently of the first, and against a dictionary. No Dutch speaker checked them, and I carry that as a limit in 7.4. That's exactly why every extract sits in Dutch beside the English in Appendix J: the reader, not me, has the last word on each."
+    },
+    {
+     "question": "Why Ghent?",
+     "model_answer": "It's the one European city brought to my notice whose access regime writes hours into the permit itself, category by category and in law. So it was the natural test of the fifth link as it was then framed: time allocated by a city (3.5, 5.2)."
+    },
+    {
+     "question": "What did the Ghent documents show you?",
+     "model_answer": "That the city's own model expected delivery traffic in the open window to stay the same size (2016 plan, p. 112). The windows take deliveries out of the closed hours; they don't make suppliers share. That, with Ostrom's point that a rule which must know who is acting costs more to watch, is why I re-specified the fifth link from hours allocated to operators to the holder of the shared point, keeping the rule by vehicle and hour as the penalty (3.8, change 5)."
+    },
+    {
+     "question": "Is this a case study of Ghent?",
+     "model_answer": "No, a document analysis. A case study in Yin's sense would have needed the operators and the permit register as well as the plans. I read the documents as the regime's own statement of what it allocates and expected, which is what a test of a design proposition needs; what the regime does on the street is the next study's question (3.5, 3.7)."
+    },
+    {
+     "question": "Did Ghent measure the effect afterwards?",
+     "model_answer": "Not in these documents. The 2016 plan promised an evaluation of the categories after one year and a counts report in early 2018, and the 2023 plan reports none of those results (J (e))."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many extracts does Appendix J give?",
+     "options": [
+      "94",
+      "36",
+      "14",
+      "158"
+     ],
+     "answer_index": 0,
+     "explanation": "94 extracts, J-01 to J-94. 158 and 36 are the page counts of the two plans; 14 is the number of permit categories.",
+     "location": "J.1"
+    },
+    {
+     "q": "What is the date of Ghent's draft circulation plan?",
+     "options": [
+      "22 February 2016",
+      "24 October 2016",
+      "3 April 2017",
+      "Autumn 2023"
+     ],
+     "answer_index": 1,
+     "explanation": "24 October 2016. It was introduced on 3 April 2017; the council approved the earlier plan on 22 February 2016; autumn 2023 is the logistics plan.",
+     "location": "J (a)"
+    },
+    {
+     "q": "How many permit categories did the 2016 plan create?",
+     "options": [
+      "13, replacing 26",
+      "26, replacing 14",
+      "14, replacing 26",
+      "8, replacing 14"
+     ],
+     "answer_index": 2,
+     "explanation": "Fourteen, replacing 26 overlapping ones. Thirteen of the fourteen have 24/24 access.",
+     "location": "J (b), Q2"
+    },
+    {
+     "q": "What is the closed period for deliveries in Ghent's car-free areas?",
+     "options": [
+      "11:00 to 19:00",
+      "11:00 to 18:00",
+      "06:00 to 10:00",
+      "18:00 to 11:00"
+     ],
+     "answer_index": 1,
+     "explanation": "11:00 to 18:00. 18:00 to 11:00 is the delivery window; 11:00 to 19:00 was the closed period before the 2016 dialogue.",
+     "location": "J (b), Q1 and Q6"
+    },
+    {
+     "q": "What did Ghent's own model expect for suppliers' traffic in the open window?",
+     "options": [
+      "It falls by 40%",
+      "It falls by at least two thirds",
+      "It stays the same size",
+      "It falls by 50%"
+     ],
+     "answer_index": 2,
+     "explanation": "It stays the same size. The falls of 40% and two thirds are for all traffic in streets without public transport, in the open and closed windows.",
+     "location": "J (b), Q5; Table C"
+    },
+    {
+     "q": "How is Ghent's access regime enforced, according to the 2016 plan?",
+     "options": [
+      "Permits checked by the distribution platform",
+      "Police patrols and a €110 fine",
+      "14 cameras and a €218 fine",
+      "27 ANPR cameras and a €55 fine"
+     ],
+     "answer_index": 3,
+     "explanation": "27 ANPR cameras and a municipal administrative fine of €55. €218,000 is the Flemish subsidy for a shared transshipment point.",
+     "location": "J (b), Q3"
+    },
+    {
+     "q": "What does 'venstertijd' name in each plan?",
+     "options": [
+      "The closed period in 2016; the open window in 2023",
+      "Night deliveries only",
+      "The open window in 2016; the closed period in 2023",
+      "The same thing in both"
+     ],
+     "answer_index": 2,
+     "explanation": "The label flips between the two documents; the hours do not.",
+     "location": "J.1, 'A note on terminology'"
+    }
+   ]
+  },
+  {
+   "letter": "K",
+   "title": "The survey tables",
+   "pages": {
+    "start": 574,
+    "end": 579
+   },
+   "what_it_is": "Every number the survey produced, in twelve tables: when responses came, who answered, how many collaborate, what they say about trust, goals, benefits and challenges, and their open answers.",
+   "why_it_exists": "Backs 3.6 (132 responses, 119 usable; the timing against the interviews; kappa 1.00 on the open answers), 3.8 change 2, and 5.3 (Tables 5.5 to 5.9; 89 of 119 rate trust at 4 or 5).",
+   "key_facts": [
+    {
+     "fact": "132 responses: 6 answered No to consent, 7 consented and answered nothing more, leaving 119 usable.",
+     "figure": "132 / 6 / 7 / 119",
+     "location": "K.2"
+    },
+    {
+     "fact": "36 responses arrived before July 2024, 37 during the interviews (July to September 2024) and 59 from October 2024 to April 2025.",
+     "figure": "36 / 37 / 59",
+     "location": "K.1 (summed); stated in 3.6"
+    },
+    {
+     "fact": "Company size: 50 small (42.0%), 35 medium (29.4%), 34 large (28.6%).",
+     "figure": "50 / 35 / 34",
+     "location": "K.3"
+    },
+    {
+     "fact": "36 of the 109 who answered (33.0%) collaborate now.",
+     "figure": "36 of 109 (33.0%)",
+     "location": "K.4"
+    },
+    {
+     "fact": "Collaborating now rises with size: small 20.0%, medium 38.2%, large 46.7%.",
+     "figure": "20.0 / 38.2 / 46.7",
+     "location": "K.5"
+    },
+    {
+     "fact": "89 of 119 (74.8%) rate trust at 4 or 5; nobody rated it 1 or 2.",
+     "figure": "89 (74.8)",
+     "location": "K.6"
+    },
+    {
+     "fact": "Of the 45 who named trust mechanisms: joint planning 37 (82.2%), formal contracts 22 (48.9%), third-party coordination 13 (28.9%), public authority support 5 (11.1%).",
+     "figure": "37 (82.2); 22 (48.9); 13 (28.9); 5 (11.1)",
+     "location": "K.7"
+    },
+    {
+     "fact": "Cost reduction is named as a goal by 103 of 107 (96.3%).",
+     "figure": "103 (96.3)",
+     "location": "K.4"
+    },
+    {
+     "fact": "Most-named challenges, of 93: regulatory or legal obstacles 64 (68.8%), finding trustworthy partners 50 (53.8%).",
+     "figure": "64 (68.8); 50 (53.8)",
+     "location": "K.9"
+    },
+    {
+     "fact": "39 open answers fall under six themes plus 'no answer of substance' (6); the largest theme is 'Agreed terms and a party to hold them' (10).",
+     "figure": "39 answers; 10",
+     "location": "K.11"
+    },
+    {
+     "fact": "Two blind codings agreed on every open answer: Cohen's kappa 1.00 over 273 coding decisions (39 answers × 7 codes).",
+     "figure": "kappa 1.00 over 273",
+     "location": "3.6; K.11"
+    },
+    {
+     "fact": "Four open answers were written in Spanish, French, German and Italian, each set beside its rendering.",
+     "figure": "four open answers not written in English",
+     "location": "K.12"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "With a self-selected sample and no response rate, what is this survey worth?",
+     "model_answer": "Scale, not inference. It's a non-probability sample that reached people along my networks; no response rate can be computed and none is claimed; no test of significance is run, and nothing is inferred to a population. I use it to set what organisations say about trust beside what the 117 arrangements show binds them (3.6; 5.3)."
+    },
+    {
+     "question": "89 of 119 say trust is important. Doesn't that contradict your finding that trust doesn't bind?",
+     "model_answer": "No, it sits beside it. The survey records what people say matters; the arrangements show what actually held them. And among the 45 who said how they build trust, formal contracts, third-party coordination and public authority support were named beside joint planning. Saying trust matters and relying on outside binders aren't in conflict (5.3)."
+    },
+    {
+     "question": "Why do companies that don't collaborate answer questions meant for those that do?",
+     "model_answer": "Because the form didn't apply the draft's skip. I report the answers as they stand: of the 48 who rated success, 12 don't collaborate now. I read those as past or expected collaboration, and I say the challenges item can't tell a challenge met in an earlier attempt from one that's expected (3.6)."
+    },
+    {
+     "question": "Could your interviewees be among the respondents?",
+     "model_answer": "Possibly. The link went to the interview participants while they were being interviewed, and the form asked no name, so the overlap can't be counted. The survey isn't a sample independent of the interviews, and I say so (3.6)."
+    },
+    {
+     "question": "A kappa of 1.00 looks too good to be true.",
+     "model_answer": "It's high partly because the codebook was drawn up from these same 39 answers in the first coding, which makes agreement easier in so short a set. The second coding was blind, from the codebook and the answers alone, and I report the agreement with that limit (3.6)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many usable survey responses were there?",
+     "options": [
+      "119",
+      "109",
+      "132",
+      "126"
+     ],
+     "answer_index": 0,
+     "explanation": "119 of 132. 126 gave consent; 109 answered whether they collaborate now.",
+     "location": "K.2"
+    },
+    {
+     "q": "How many respondents' companies collaborate now?",
+     "options": [
+      "48 of 119",
+      "36 of 109",
+      "73 of 109",
+      "45 of 119"
+     ],
+     "answer_index": 1,
+     "explanation": "36 of 109 (33.0%). 48 rated success, 73 said No, 45 named trust mechanisms.",
+     "location": "K.4"
+    },
+    {
+     "q": "How many rated trust at 4 or 5?",
+     "options": [
+      "30 of 119 (25.2%)",
+      "89 of 119 (74.8%)",
+      "68 of 119 (57.1%)",
+      "34 of 36 (94.4%)"
+     ],
+     "answer_index": 1,
+     "explanation": "89 of 119. 68 rated it 5; 34 of 36 is among those who collaborate now; 30 rated it 3.",
+     "location": "K.6; 5.3"
+    },
+    {
+     "q": "Which goal was named most often?",
+     "options": [
+      "Cost reduction, 96.3%",
+      "Competitive advantage, 14.0%",
+      "Sustainability, 72.0%",
+      "Improved efficiency, 78.5%"
+     ],
+     "answer_index": 0,
+     "explanation": "Cost reduction, 103 of 107.",
+     "location": "K.4"
+    },
+    {
+     "q": "Which challenge was named most often overall?",
+     "options": [
+      "Finding trustworthy partners, 53.8%",
+      "Regulatory or legal obstacles, 68.8%",
+      "Sharing profits and costs fairly, 20.4%",
+      "Integrating operations and systems, 26.9%"
+     ],
+     "answer_index": 1,
+     "explanation": "Regulatory or legal obstacles, 64 of 93. Among companies that collaborate now, finding trustworthy partners leads (86.1%).",
+     "location": "K.9"
+    },
+    {
+     "q": "What share of large companies collaborate now?",
+     "options": [
+      "38.2%",
+      "20.0%",
+      "33.0%",
+      "46.7%"
+     ],
+     "answer_index": 3,
+     "explanation": "46.7% (14 of 30). Small 20.0%, medium 38.2%, all 33.0%.",
+     "location": "K.5"
+    },
+    {
+     "q": "How many respondents answered the open question on key factors for success?",
+     "options": [
+      "119",
+      "45",
+      "93",
+      "39"
+     ],
+     "answer_index": 3,
+     "explanation": "39. 93 answered the challenges item, 45 the trust-mechanisms item.",
+     "location": "K.11; 3.6"
+    },
+    {
+     "q": "What agreement did the two codings of the open answers reach?",
+     "options": [
+      "Krippendorff's alpha .91 over 31 papers",
+      "Cohen's kappa 1.00 over 273 decisions",
+      "Alpha .80 over 117 rows",
+      "Alpha .87 over 47 periods"
+     ],
+     "answer_index": 1,
+     "explanation": "Kappa 1.00. The other figures belong to the review re-run, the initiator re-check and the locker owners.",
+     "location": "3.6; K.11"
+    }
+   ]
+  },
+  {
+   "letter": "L",
+   "title": "The coding of the 117 arrangements for the fifth link: the codebook, the settlements and both runs",
+   "pages": {
+    "start": 580,
+    "end": 642
+   },
+   "what_it_is": "How the 117 arrangements were coded again in October 2026 for the fifth link: the written rules, how well two independent coding passes agreed, how every disagreement was settled, and the comparative (QCA) results with and without a rule added late.",
+   "why_it_exists": "Backs 3.4 (directed content analysis, Krippendorff's alpha for each variable, crisp-set QCA thresholds), 3.7 (rule 1a and the other choices made after results were seen), 4.4 (the holder results and the thirty-six neutral-third-party rows), 4.7 and 7.4; and the initiator re-check of 98 of 117 cited in 3.4 and 3.7.",
+   "key_facts": [
+    {
+     "fact": "The condition tested is that collaboration between overlapping operators runs only when the saving plus the penalty for staying out at least equals the exposure of the customer relationship plus the cost of the wall.",
+     "figure": "S + P ≥ L + W",
+     "location": "L.1, Purpose"
+    },
+    {
+     "fact": "Version 2 of the codebook followed a pilot on ten rows (H1-1 to H1-5 and H2-1 to H2-5), after which seven changes were made.",
+     "figure": "10 rows; seven changes",
+     "location": "L.1, Procedure and 'Changes from version 1'"
+    },
+    {
+     "fact": "Version 3 (28 October 2026) adds the holder of the shared point, in six classes: receiver, no-stake third party, helper, public body, rival party, joint.",
+     "figure": "HOLDER_CLASS",
+     "location": "L.1, Version 3"
+    },
+    {
+     "fact": "Version-2 agreement: market commonality .84, footprint .84, outcome .87 (firm); wall .76 (tentative); penalty .54, stage .59, flows .55, what crosses .65 (below the bar).",
+     "figure": "0.84 / 0.84 / 0.87 / 0.76 / 0.54 / 0.59 / 0.55 / 0.65",
+     "location": "L.2, passes C and D"
+    },
+    {
+     "fact": "The initiator, copied from Appendix H and re-checked in each pass, agreed in 98 of 117 rows.",
+     "figure": "98/117 (84%) | 0.80",
+     "location": "L.2, passes C and D, INIT"
+    },
+    {
+     "fact": "Version-3 agreement: holder class .88 (106/117), sells delivery .87, co-users rivals .85, neutral holder .84 (107/117); 35 disagreeing codes across 24 rows, all settled.",
+     "figure": "HOLDER_CLASS 106/117 0.88",
+     "location": "L.2, passes E and F"
+    },
+    {
+     "fact": "Krippendorff's bars: .800 for firm conclusions, .667 for tentative ones.",
+     "figure": ".800; .667",
+     "location": "L.1, Version 3; 3.4"
+    },
+    {
+     "fact": "Among rivals not far from the customer, arrangements with a wall or a penalty were running in 11 of 13 (pass C) and 11 of 12 (pass D); with neither and normal flows, in 3 of 8 and 2 of 8.",
+     "figure": "11 of 13 (85%) | 11 of 12 (92%)",
+     "location": "L.4, 'The result in brief (corrected)'"
+    },
+    {
+     "fact": "Where something actually crosses, 7 of 8 (pass C) and 8 of 9 (pass D) run with a wall or a penalty; the one running exception with neither is H2-56, two bike couriers' joint bid.",
+     "figure": "7 of 8 (88%) | 8 of 9 (89%)",
+     "location": "L.4, 'The same test where something actually crosses'"
+    },
+    {
+     "fact": "Rule 1a (a trustee that runs the scheme is the holder; the operator it hires is a helper) was added after the results were seen; with it the holder condition reaches 9 of 10 running rows (0.90), without it 6 of 7 (0.86).",
+     "figure": "9 of 10 running rows (0.90); 6 of 7 running rows (0.86)",
+     "location": "L.1 'Rule 1a'; L.5, C with E, with and without rule 1a"
+    },
+    {
+     "fact": "Rule 1a changes three rows, the one trustee-run shipper network: H1-11, H1-17 and H1-37.",
+     "figure": "H1-11, H1-17 and H1-37",
+     "location": "L.1; L.6"
+    },
+    {
+     "fact": "No row was coded 'receiver' as holder.",
+     "figure": "No row was coded receiver",
+     "location": "L.6"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Rule 1a was added after you saw the results. Isn't that data dredging?",
+     "model_answer": "It was added after the results, and I say so plainly in L.1, 3.7, 4.4 and 7.4. The reason was mechanical: version 3 moved the trustee out of the wall code and into the holder code, but the tie-break rule then sent the holder to the hired operator in the three rows of the one trustee-run shipper network, so the trustee was coded nowhere. Rule 1a applies to every row, and I report every result with and without it. Without it the count is six of seven, short of 0.9, so I say the interviews support the holder only under that rule."
+    },
+    {
+     "question": "Several of your alphas are below Krippendorff's bar.",
+     "model_answer": "Yes: penalty .54, stage .59, flows .55, what crosses .65. I report each pass separately rather than merging them, and the results I lean on use the firm codes: holder class .88, rivalry among co-users .85, neutral holder .84, market commonality .84. Every disagreement was listed and settled with its reason recorded (L.2, L.3)."
+    },
+    {
+     "question": "How independent were the two coding passes?",
+     "model_answer": "Each version-3 pass was made from Appendix H and the transcripts, without sight of the earlier codes or of the other pass, to my written codebook, and every decision was logged and checked by me (3.2, 3.4, L.1). Version 2 was also coded twice, independently, over all 117 rows."
+    },
+    {
+     "question": "Why use QCA on so few cases?",
+     "model_answer": "Because the question is which conditions are present wherever the outcome is, and crisp-set QCA asks exactly that. I use the conventional thresholds, 0.8 for sufficiency, re-run at 0.75 and 0.9, and 0.9 for necessity; I drop each case in turn and recode every helper and public body as never neutral. The two passes are run as replications, so a result has to hold in both (3.4)."
+    },
+    {
+     "question": "Is there a case your condition can't explain?",
+     "model_answer": "Yes, H2-56: two bike couriers who, asked separately for quotes by the same city, came together and made a joint bid with no wall and no penalty. I report it as the exception rather than explain it away (L.4)."
+    },
+    {
+     "question": "Why does L.6 count 36 neutral-third-party rows when Table H.3 says 35?",
+     "model_answer": "L.6 groups Appendix H's 'Bound by' column by keyword, while Table H.3 assigns one primary binder to each row by hand, so the counts differ by a row or two. I give both side by side (L.6; 4.4)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "What was Krippendorff's alpha for the holder's class?",
+     "options": [
+      ".88",
+      ".84",
+      ".76",
+      ".54"
+     ],
+     "answer_index": 0,
+     "explanation": ".88, firm. .84 is the derived neutral holder, .76 the version-2 wall, .54 the penalty.",
+     "location": "L.2; 3.4"
+    },
+    {
+     "q": "Which bars does the thesis use for firm and for tentative conclusions?",
+     "options": [
+      ".900 and .800",
+      ".667 and .500",
+      ".700 and .500",
+      ".800 and .667"
+     ],
+     "answer_index": 3,
+     "explanation": "Krippendorff (2004, p. 241): .800 firm, .667 tentative.",
+     "location": "L.1; 3.4"
+    },
+    {
+     "q": "What does rule 1a say?",
+     "options": [
+      "Proposals are left out of the outcome",
+      "Thin flows count as a condition",
+      "Every public body counts as never neutral",
+      "A trustee that runs the scheme is coded as the holder, and the operator it hires as a helper"
+     ],
+     "answer_index": 3,
+     "explanation": "Rule 1a codes the trustee as holder. Treating public bodies as never neutral is robustness check R2; thin flows is a separate post-hoc condition.",
+     "location": "L.1, 'Rule 1a and the settlement'"
+    },
+    {
+     "q": "With rule 1a and without it, what share of running rows meet the holder condition (H9)?",
+     "options": [
+      "6 of 7 with it; 9 of 10 without",
+      "12 of 15 with it; 12 of 14 without",
+      "9 of 10 (0.90) with it; 6 of 7 (0.86) without",
+      "8 of 9 with it; 9 of 10 without"
+     ],
+     "answer_index": 2,
+     "explanation": "0.90 with, 0.86 without, so the 0.9 bar is reached only under rule 1a. 12 of 15 and 12 of 14 are the version-2 necessity figures.",
+     "location": "L.5"
+    },
+    {
+     "q": "Which running arrangement between rivals has neither a wall nor a penalty where something crosses?",
+     "options": [
+      "H2-55, a cross-border reciprocal swap",
+      "H1-49, a municipal climate declaration",
+      "H2-56, two bike couriers' joint bid",
+      "H1-42, rural carriers"
+     ],
+     "answer_index": 2,
+     "explanation": "H2-56. H1-42 runs on thin flows; H1-49 is a forum where nothing crosses.",
+     "location": "L.4"
+    },
+    {
+     "q": "Which version-2 variable had the lowest alpha?",
+     "options": [
+      "Stage, .59",
+      "Wall, .76",
+      "Flows, .55",
+      "Penalty, .54"
+     ],
+     "answer_index": 3,
+     "explanation": "Penalty at .54, just below flows at .55.",
+     "location": "L.2"
+    },
+    {
+     "q": "How many rows were used in each pilot?",
+     "options": [
+      "117",
+      "13",
+      "10",
+      "22"
+     ],
+     "answer_index": 2,
+     "explanation": "Ten rows, H1-1 to H1-5 and H2-1 to H2-5. 22 is the number of rival rows not far from the customer in pass C.",
+     "location": "L.1"
+    },
+    {
+     "q": "Which condition does Appendix L test?",
+     "options": [
+      "S + P ≥ L + W",
+      "S ≥ L",
+      "P + W ≥ S + L",
+      "S + L ≥ P + W"
+     ],
+     "answer_index": 0,
+     "explanation": "Saving plus penalty at least equal to exposure plus the cost of the wall.",
+     "location": "L.1, Purpose"
+    }
+   ]
+  },
+  {
+   "letter": "M",
+   "title": "The systematised review of locker networks and the rules read",
+   "pages": {
+    "start": 643,
+    "end": 675
+   },
+   "what_it_is": "A repeatable search of Europe's parcel-locker and pick-up-point networks and of the rules that call a shared point neutral, testing whether carriers deliver into networks held by a neutral firm more than into ones held by a rival.",
+   "why_it_exists": "Backs 3.5 (the systematised review: 43 networks, 16 countries, 47 ownership periods, 210 rows; owner coded twice; Fisher and permutation tests), 3.7 (limits) and 5.2 (46.0 per cent against 21.3 per cent, p = .008), with the same result repeated in 1.5, 5.4, 6.3, 6.5, 7.1 and 7.4.",
+   "key_facts": [
+    {
+     "fact": "43 networks in 16 countries, 47 ownership periods, 210 rows of network-carrier evidence (207 distinct pairs).",
+     "figure": "43 networks (47 rows, one per ownership period) in 16 countries",
+     "location": "M.1, The data"
+    },
+    {
+     "fact": "Owner type was coded twice: class 42 of 47, alpha .87; neutral against rival-held 43 of 47, alpha .81.",
+     "figure": "alpha 0.87; alpha 0.81",
+     "location": "M.1, Owner type, coded twice"
+    },
+    {
+     "fact": "Main test, each ownership period counted once: neutral-held networks reach 46.0% of a country's main carriers (12 periods), rival-held 21.3% (14 periods); permutation test p = .008.",
+     "figure": "46.0% (12) | 21.3% (14) | .008 (permutation)",
+     "location": "M.1, Results, M3"
+    },
+    {
+     "fact": "Pairs with evidence: the carrier delivers in 45 of 48 neutral-held pairs (94%) and 18 of 44 rival-held (41%); Fisher p < .001.",
+     "figure": "45/48 (94%) | 18/44 (41%)",
+     "location": "M.1, Results, M1"
+    },
+    {
+     "fact": "Main carriers delivering: 41 of 88 (47%) against 18 of 86 (21%); Fisher p < .001.",
+     "figure": "41/88 (47%) | 18/86 (21%)",
+     "location": "M.1, Results, M2"
+    },
+    {
+     "fact": "The 26 ownership periods in the test cover 25 open networks.",
+     "figure": "The 26 ownership periods in the test cover 25 networks",
+     "location": "M.1"
+    },
+    {
+     "fact": "Same carrier, different holders: by group 7 against 2 (10 equal), sign test p = .18; by national name 10 against 2 (9 equal), p = .039.",
+     "figure": "p = .18; p = .039",
+     "location": "M.1, Same carrier, different holders"
+    },
+    {
+     "fact": "Two changes of holder are read both ways: the ex-A1 stations passing to Austrian Post (GLS stopped delivering) and De Buren passing to DHL Group in May 2025.",
+     "figure": "Two changes of holder, read both ways",
+     "location": "M.1"
+    },
+    {
+     "fact": "The myflexbox sale (announced 1 October 2026) gives a baseline: four weeks later the same five carriers are still listed as partners in Germany.",
+     "figure": "the same five carriers are still listed",
+     "location": "M.1; M.4"
+    },
+    {
+     "fact": "All searches were run and all pages accessed on 28 October 2026.",
+     "figure": "28 October 2026",
+     "location": "M.2"
+    },
+    {
+     "fact": "Only nine refusals by carriers are documented, two of them inferred; locker quality, price and terms were not measured.",
+     "figure": "only nine refusals by carriers are documented, two of them inferred",
+     "location": "M.1, What this does and does not show"
+    },
+    {
+     "fact": "Two rules were added once the networks had been listed, before the final run.",
+     "figure": "Two rules were added once the networks had been listed",
+     "location": "M.1; 3.5"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Doesn't this just show that neutral lockers are better lockers?",
+     "model_answer": "It might. The networks weren't matched on quality, price or terms, because no public measure of quality was found. The same-carrier check holds the carrier fixed but not the network. So it shows a difference by owner class, not cause, and I say so in M.1 and 3.7."
+    },
+    {
+     "question": "Twenty-six ownership periods is a tiny sample.",
+     "model_answer": "It is, which is why I ran no regression and rest the result on a permutation test that counts each ownership period once: 46.0 per cent against 21.3, p = .008. The pair-level Fisher tests point the same way, but the pairs aren't independent, since one network serves several carriers, so those p-values are indicative only (5.2; M.1)."
+    },
+    {
+     "question": "Does this test your claim that use falls as the holder's market commonality with each carrier rises?",
+     "model_answer": "No. Market commonality is coded by the holder's class, not measured pair by pair. The result is consistent with that gradient but doesn't test it, and I say so (M.1; 3.7)."
+    },
+    {
+     "question": "What evidence is there that a sale changes who delivers?",
+     "model_answer": "It rests on two changes of owner, each read both ways. When the ex-A1 stations went to Austrian Post, GLS stopped delivering, but Austrian Post wouldn't say which cooperations continued, so there may be other causes. De Buren's sale to DHL Group is covered only by a sale-day statement. The myflexbox sale gives a baseline for a later check (M.1)."
+    },
+    {
+     "question": "Could your sources bias the result?",
+     "model_answer": "Yes. A main carrier with no source is counted as not delivering, published sources may under-record carriers, and a neutral network that lives by selling access may list its carriers more readily. The count of pairs with evidence, which leaves unsourced carriers out, points the same way (5.2)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many locker networks, in how many countries, did the review find?",
+     "options": [
+      "47 networks in 16 countries",
+      "43 networks in 11 countries",
+      "25 networks in 11 countries",
+      "43 networks in 16 countries"
+     ],
+     "answer_index": 3,
+     "explanation": "43 networks in 16 countries. 47 is the number of ownership periods, 25 the open networks in the test, 11 the interview countries.",
+     "location": "M.1; 3.5"
+    },
+    {
+     "q": "What share of a country's main carriers do neutral-held and rival-held networks reach on average?",
+     "options": [
+      "43.8% against 21.3%",
+      "94% against 41%",
+      "47% against 21%",
+      "46.0% against 21.3%"
+     ],
+     "answer_index": 3,
+     "explanation": "46.0% against 21.3% is the main test. 47/21 is the main-carrier count (M2), 94/41 the pairs with evidence (M1), 43.8 the pass-1 check.",
+     "location": "M.1; 5.2"
+    },
+    {
+     "q": "What is the p-value of the main test?",
+     "options": [
+      ".039",
+      ".18",
+      ".008",
+      "< .001"
+     ],
+     "answer_index": 2,
+     "explanation": ".008, by permutation. < .001 is Fisher on pairs; .039 and .18 are the sign tests.",
+     "location": "M.1"
+    },
+    {
+     "q": "Why does the thesis rest on the permutation test rather than Fisher's test?",
+     "options": [
+      "It needs more data than Fisher's test",
+      "It matches the networks on quality",
+      "It counts each ownership period once, because the pairs are not independent",
+      "It measures the per-pair gradient"
+     ],
+     "answer_index": 2,
+     "explanation": "One network serves several carriers and one carrier faces several networks, so pair-level p-values are only indicative.",
+     "location": "5.2; M.1"
+    },
+    {
+     "q": "What was the alpha for the owner's class?",
+     "options": [
+      ".81",
+      ".87",
+      ".88",
+      ".84"
+     ],
+     "answer_index": 1,
+     "explanation": ".87 on class (42 of 47); .81 on neutral against rival-held. .88 and .84 belong to Appendix L.",
+     "location": "M.1"
+    },
+    {
+     "q": "When were the locker searches run?",
+     "options": [
+      "1 September 2022",
+      "16 September 2026",
+      "1 October 2026",
+      "28 October 2026"
+     ],
+     "answer_index": 3,
+     "explanation": "28 October 2026. 1 October 2026 is the myflexbox sale.",
+     "location": "M.2"
+    },
+    {
+     "q": "What did the sign test by carrier group show?",
+     "options": [
+      "12 against 14, p = .008",
+      "7 against 2, p = .18",
+      "45 against 18, p < .001",
+      "10 against 2, p = .039"
+     ],
+     "answer_index": 1,
+     "explanation": "Same direction, not statistically convincing on its own. 10 against 2 is the count by national name.",
+     "location": "M.1"
+    }
+   ]
+  },
+  {
+   "letter": "N",
+   "title": "The savings scenario: inputs, sources and formulas",
+   "pages": {
+    "start": 676,
+    "end": 680
+   },
+   "what_it_is": "A worked example of what the proposed rule, checking that shared parcel points are neutral, might cost and save in one imaginary council area of 50,000 households, with every input and formula shown.",
+   "why_it_exists": "Backs 3.5 (the scenario method: low, central and high values, a worst case, only the increment counted, £7.08 an hour and 0.167 kg CO2e a kilometre) and 6.3 (the central net value of about £262,000; a check costing about £400 to £1,500 a point a year).",
+   "key_facts": [
+    {
+     "fact": "One notional council area of 50,000 households; a worked example, not a forecast.",
+     "figure": "50,000 households",
+     "location": "Appendix N, heading and introduction"
+    },
+    {
+     "fact": "Thirteen inputs, each with low, central and high values; eight are assumptions (P, d, r0, r, c, L, dt and N), and s and k are partly assumed.",
+     "figure": "Eight of the thirteen inputs",
+     "location": "N.1; N.5"
+    },
+    {
+     "fact": "Time is valued at the Department for Transport's non-work value and car emissions at the government's average-car factor.",
+     "figure": "7.08 GBP/hour; 0.167 kg CO2e/km",
+     "location": "N.1"
+    },
+    {
+     "fact": "Central case: 280,000 failed first attempts, 84,000 depot trips, 33,600 trips avoided, 28,000 hours saved.",
+     "figure": "280,000 / 84,000 / 33,600 / 28,000",
+     "location": "N.3"
+    },
+    {
+     "fact": "Central case money: time worth £198,240, carrier saving £105,840, check cost £42,000 (60 points at £700), net £262,080 a year.",
+     "figure": "£262,080",
+     "location": "N.3"
+    },
+    {
+     "fact": "Low case net −£12,000; stress case (low benefits, high check cost) −£150,000 a year; high case net £1,719,000.",
+     "figure": "-£12,000; -£150,000; £1,719,000",
+     "location": "N.3"
+    },
+    {
+     "fact": "CO2 saved is 28.1 tonnes in the central case and 243.2 in the high; it is reported, not priced.",
+     "figure": "28.1; 243.2",
+     "location": "N.2; N.3"
+    },
+    {
+     "fact": "Only the increment over today's redirection is counted: trips avoided equal depot trips times (r minus r0).",
+     "figure": "A = T × (r − r0)",
+     "location": "N.2"
+    },
+    {
+     "fact": "Households without a car (23.3%) account for about 7,829 of the central avoided trips and about 9,134 hours.",
+     "figure": "about 7,829; about 9,134 hours",
+     "location": "N.3"
+    },
+    {
+     "fact": "For a carrier, the expected cost per parcel is £1.82 at the door against £0.45 to £0.95 at a neutral point.",
+     "figure": "£1.82; £0.45–0.95",
+     "location": "N.4"
+    },
+    {
+     "fact": "The check cost per point is built from Charnwood Borough Council's officer cost of £306.51 to £423.55 per licence plus about 24 test parcels at about £4.",
+     "figure": "400 / 700 / 1500 GBP/point/year",
+     "location": "N.1, input k"
+    },
+    {
+     "fact": "The result turns on two inputs: the share of failures redirected (r) and the time saved per trip (dt).",
+     "figure": "r and dt",
+     "location": "N.5"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "Most of your inputs are assumptions. What is this scenario worth?",
+     "model_answer": "It shows the order of magnitude and which inputs drive it, the share redirected and the time saved, and nothing more. Eight of the thirteen inputs are assumptions and I say so; the UK publishes no official first-attempt failure rate and I found no UK data on depot trips. The proper test is the matched-streets design I propose for further research (N.5)."
+    },
+    {
+     "question": "Couldn't the rule lose money?",
+     "model_answer": "Yes. In the low case it adds nothing and the council is £12,000 down; in the stress case, low benefits with 100 points checked at £1,500 each, it's £150,000 down a year. The central case is about £262,000 net. I show all of them (N.3; 6.3)."
+    },
+    {
+     "question": "Why don't you price the carbon?",
+     "model_answer": "I report it, 28.1 tonnes a year in the central case, but I don't price it, so the net figure is only residents' time and carriers' savings minus the cost of checking (N.2, N.3)."
+    },
+    {
+     "question": "Aren't you counting redirection that already happens?",
+     "model_answer": "No. Only the increment counts: trips avoided are depot trips times r minus r0, the share redirected under the rule minus the share already redirected today (N.2)."
+    },
+    {
+     "question": "Lockers can be worse than the doorstep if people drive to them.",
+     "model_answer": "They can, as Niemeijer and Buijs found, which is why the rule is limited to shared points in towns within a five-minute walk (N.5)."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many households does the notional council area have?",
+     "options": [
+      "28,000",
+      "33,600",
+      "50,000",
+      "100,000"
+     ],
+     "answer_index": 2,
+     "explanation": "50,000. 28,000 is the hours saved and 33,600 the trips avoided in the central case.",
+     "location": "Appendix N"
+    },
+    {
+     "q": "What is the central net value a year?",
+     "options": [
+      "£262,080",
+      "£105,840",
+      "£1,719,000",
+      "£198,240"
+     ],
+     "answer_index": 0,
+     "explanation": "£262,080 (6.3 says about £262,000). £198,240 is the value of time, £105,840 the carrier saving, £1,719,000 the high case.",
+     "location": "N.3; 6.3"
+    },
+    {
+     "q": "At what value is residents' time costed?",
+     "options": [
+      "£1.35 an hour",
+      "£7.80 an hour",
+      "£7.08 an hour",
+      "£0.167 an hour"
+     ],
+     "answer_index": 2,
+     "explanation": "£7.08, the DfT value for non-work time. 0.167 is the emissions factor in kg CO2e per km; £1.35 the central carrier saving per redelivery.",
+     "location": "N.1; 3.5"
+    },
+    {
+     "q": "How many of the thirteen inputs are assumptions?",
+     "options": [
+      "8",
+      "5",
+      "3",
+      "13"
+     ],
+     "answer_index": 0,
+     "explanation": "Eight (P, d, r0, r, c, L, dt, N); s and k are partly assumed.",
+     "location": "N.5"
+    },
+    {
+     "q": "What is the stress case?",
+     "options": [
+      "−£150,000 a year",
+      "−£42,000 a year",
+      "£0",
+      "−£12,000 a year"
+     ],
+     "answer_index": 0,
+     "explanation": "Low benefits with high check cost: −£150,000. −£12,000 is the low case; £42,000 the central check cost.",
+     "location": "N.3"
+    },
+    {
+     "q": "How many depot trips are avoided in the central case?",
+     "options": [
+      "33,600",
+      "28,000",
+      "84,000",
+      "280,000"
+     ],
+     "answer_index": 0,
+     "explanation": "33,600. 84,000 is all depot trips, 280,000 the failed first attempts, 28,000 the hours saved.",
+     "location": "N.3"
+    },
+    {
+     "q": "What does the check cost per point a year, across the three cases?",
+     "options": [
+      "£4 to £24",
+      "£700 to £1,500",
+      "£306 to £424",
+      "£400 to £1,500"
+     ],
+     "answer_index": 3,
+     "explanation": "£400 low, £700 central, £1,500 high. £306.51 to £423.55 is Charnwood's officer cost per licence that it is built from.",
+     "location": "N.1"
+    }
+   ]
+  },
+  {
+   "letter": "O",
+   "title": "The claim register for the fifth link",
+   "pages": {
+    "start": 681,
+    "end": 727
+   },
+   "what_it_is": "A numbered register of the 228 claims behind the fifth link, each with its type, its evidence (source and page, or data and row), the step of the argument it supports, and whether it has been checked.",
+   "why_it_exists": "Backs 3.5 ('The register': every claim of the fifth link entered with its evidence and the step it supports, so it can be traced) and 3.7 (dependability: every claim of the fifth link, the holder, traced to its evidence).",
+   "key_facts": [
+    {
+     "fact": "228 numbered claims; Nos. 226 to 228 stand in their sections out of numerical order.",
+     "figure": "Nos. 1 to 228",
+     "location": "Appendix O (counted); introduction"
+    },
+    {
+     "fact": "Status counts: verified 122; matches the data 64; verified, as corrected 23; an absence claim 5; a proposition, untested 4; exploratory, not reproduced 2; a prediction 1; arithmetic on assumptions 1; not verified 1; and 5 with mixed statuses.",
+     "figure": "122 / 64 / 23 / 5 / 4 / 2 / 1 / 1 / 1 / 5",
+     "location": "Appendix O, Status column (counted)"
+    },
+    {
+     "fact": "Fifteen sections, from A, The overlap paradox, to O, What it is not.",
+     "figure": "A. The overlap paradox ... O. What it is not",
+     "location": "Appendix O, section headings"
+    },
+    {
+     "fact": "No. 1: on three carriers holding three requests each, network profit rises by about 19, 67 and 155% from adjacent to identical service areas (Berger and Bierwirth 2010).",
+     "figure": "about 19, 67 and 155%",
+     "location": "Appendix O, No. 1"
+    },
+    {
+     "fact": "No. 2: realistic pooling saves 'generally between 9% and 30%' (Vanovermeire and Sörensen 2014).",
+     "figure": "\"generally between 9% and 30%\"",
+     "location": "Appendix O, No. 2"
+    },
+    {
+     "fact": "No. 49: no rule, statute or study found re-checks a point when control changes (an absence claim).",
+     "figure": "an absence claim",
+     "location": "Appendix O, No. 49"
+    },
+    {
+     "fact": "No. 202 is the one claim marked 'not verified': the page on which Schneider and Wagemann state the QCA thresholds could not be checked.",
+     "figure": "not verified",
+     "location": "Appendix O, No. 202"
+    },
+    {
+     "fact": "Nos. 188 and 190 rest on an exploratory coding made once and not reproduced in the thesis.",
+     "figure": "exploratory, not reproduced",
+     "location": "Appendix O, Nos. 188 and 190"
+    },
+    {
+     "fact": "Tier 1 is the rule on the council's own land; Tier 2 the rule at the points the council permits.",
+     "figure": "Tier 1; Tier 2",
+     "location": "Appendix O, introduction; 6.3"
+    },
+    {
+     "fact": "No. 167: the UK publishes no official first-attempt failure rate, and no UK data on depot trips were found.",
+     "figure": "an absence claim",
+     "location": "Appendix O, No. 167"
+    },
+    {
+     "fact": "No. 217 states the novelty as an absence claim: policy defines a neutral point by who may use it, not who holds it, and does not look again when control changes.",
+     "figure": "No. 217",
+     "location": "Appendix O, No. 217"
+    }
+   ],
+   "examiner_questions": [
+    {
+     "question": "How would I check that a claim in Chapter 6 is supported?",
+     "model_answer": "Look it up in the register. Every claim the fifth link makes is entered with its evidence, the source and page or the data file and row, the step of the argument it supports, and a status that says whether it was checked against its source, matched against my own data, or is a proposition or an assumption (3.5; Appendix O)."
+    },
+    {
+     "question": "Are there claims you couldn't verify?",
+     "model_answer": "One is marked 'not verified', No. 202: the QCA thresholds from Schneider and Wagemann, where the chapter is identified but I couldn't check the exact page. Two rest on an exploratory coding made once and not reproduced, Nos. 188 and 190. I mark them rather than hide them."
+    },
+    {
+     "question": "What does 'verified, as corrected' mean?",
+     "model_answer": "That the claim was checked against its source and corrected when it was checked. Twenty-three claims carry that status (Appendix O, introduction)."
+    },
+    {
+     "question": "What exactly is your novelty claim, and what supports it?",
+     "model_answer": "That policy defines a neutral point by who may use it, not by who holds it, and doesn't look again when control changes. It's an absence claim, No. 217, resting on the rules read and the sources in Nos. 21 to 29, 48 and 49, 206 to 216, and 219 and 220."
+    }
+   ],
+   "quiz": [
+    {
+     "q": "How many claims does the register hold?",
+     "options": [
+      "117",
+      "94",
+      "241",
+      "228"
+     ],
+     "answer_index": 3,
+     "explanation": "228. 241 is the update set, 117 the arrangement rows, 94 the Ghent extracts.",
+     "location": "Appendix O"
+    },
+    {
+     "q": "What is the most common status in the register?",
+     "options": [
+      "A proposition, untested (4)",
+      "Verified, as corrected (23)",
+      "Verified (122)",
+      "Matches the data (64)"
+     ],
+     "answer_index": 2,
+     "explanation": "122 claims are verified against their source.",
+     "location": "Appendix O, Status column"
+    },
+    {
+     "q": "Which claim is marked 'not verified'?",
+     "options": [
+      "No. 202, the page of the QCA thresholds",
+      "No. 1, Berger and Bierwirth",
+      "No. 49, no re-check on a change of control",
+      "No. 167, no UK failure rate"
+     ],
+     "answer_index": 0,
+     "explanation": "No. 202. Nos. 49 and 167 are absence claims; No. 1 is verified.",
+     "location": "Appendix O, No. 202"
+    },
+    {
+     "q": "What is Tier 1 of the rule?",
+     "options": [
+      "The rule on the council's own land",
+      "The rule for trustee-run schemes",
+      "The rule at the points the council permits",
+      "The rule by vehicle and hour"
+     ],
+     "answer_index": 0,
+     "explanation": "Tier 1 is the council's own land; Tier 2 the points it permits.",
+     "location": "Appendix O, introduction"
+    },
+    {
+     "q": "In Berger and Bierwirth's model, by about how much does network profit rise when the carriers' areas are identical?",
+     "options": [
+      "About 155%",
+      "Between 9% and 30%",
+      "About 19%",
+      "About 67%"
+     ],
+     "answer_index": 0,
+     "explanation": "About 155% identical, 67% overlapping, 19% adjacent. 9% to 30% is Vanovermeire and Sörensen's realistic saving.",
+     "location": "Appendix O, Nos. 1 and 2"
+    },
+    {
+     "q": "What does the status 'matches the data' mean?",
+     "options": [
+      "Not yet checked against anything",
+      "Checked against this study's own material (Appendices H and J to N, a transcript, the thesis or the author's notes)",
+      "An assumption",
+      "Checked against its published source"
+     ],
+     "answer_index": 1,
+     "explanation": "'Verified' means checked against the cited source; 'matches the data' means checked against the study's own material.",
+     "location": "Appendix O, introduction"
+    }
+   ]
+  }
+ ],
+ "trace_the_number": [
+  {
+   "number": "49",
+   "what_it_means": "Studies the 2023 systematic review included, after 860 records passed five screening stages (860 → 596 → 263 → 238 → 72 → 49).",
+   "stated_in_chapter": "2.1; Table 3.3 (3.2)",
+   "comes_from": "Appendix E, E.2.4 ('Full flow, as the files support it') and E.2.6"
+  },
+  {
+   "number": "72",
+   "what_it_means": "Papers judged relevant on reading the 238 at the 2023 full-text stage; the record gives no list of them.",
+   "stated_in_chapter": "2.1; Table 3.3 (3.2)",
+   "comes_from": "Appendix E, E.2.4, Stage 5 table; gaps in E.2.9"
+  },
+  {
+   "number": "29 of 31 (α = .91)",
+   "what_it_means": "In the 2026 re-run of the 2023 full-text stage, 29 of the 31 candidate exclusions stood; the two codings agreed on subject for 30 of 31, alpha .91.",
+   "stated_in_chapter": "3.2; Table 3.8, change 4 (3.8)",
+   "comes_from": "Appendix E, E.2.10"
+  },
+  {
+   "number": "241",
+   "what_it_means": "Papers in the 2026 update: 1,535 records → 1,023 of eligible type → 254 relevant on title and abstract → 242 records after the thirty-citation rule → 241 papers.",
+   "stated_in_chapter": "2.2; Table 3.3 (3.2)",
+   "comes_from": "Appendix E, E.1 and 'Title-and-abstract screen of the update'; E.3"
+  },
+  {
+   "number": "13 of 241",
+   "what_it_means": "Update papers in which a shipper or receiver began the collaboration studied.",
+   "stated_in_chapter": "2.2; 7.5",
+   "comes_from": "Appendix E, E.3.1.5 and E.3.3.1"
+  },
+  {
+   "number": "26 interviews, 30 people, 11 countries",
+   "what_it_means": "The interview set: twenty-six interviews, thirty participants, eleven countries (ten European plus one comparator), twenty hours and five minutes, 146,778 words of speech.",
+   "stated_in_chapter": "3.3; Table 3.1 (3.1)",
+   "comes_from": "Appendix G, G.1 (table and Totals)"
+  },
+  {
+   "number": "22 February 2024",
+   "what_it_means": "The day the ethics application was submitted and approved as Category A, on condition that the supervisors approved the final questions; the survey opened the same day.",
+   "stated_in_chapter": "3.3; 3.6; Table 3.1 (3.1)",
+   "comes_from": "Appendix C, C.3; Appendix B, B.3"
+  },
+  {
+   "number": "117",
+   "what_it_means": "Arrangement rows the participants described: 56 from A1-A13 (Table H.1) and 61 from B1-B13 (Table H.2).",
+   "stated_in_chapter": "3.4; 4.1",
+   "comes_from": "Appendix H, note after Table H.2 ('Row counts')"
+  },
+  {
+   "number": "95 of 117",
+   "what_it_means": "Arrangements bound by something outside the parties: neutral third party 35, grant 21, regulation or permit 17, contract 12, client mandate 5, prior vertical relationship 3, reciprocal trade 1, platform reputation 1.",
+   "stated_in_chapter": "4.4; 4.7; 5.3",
+   "comes_from": "Appendix H, Table H.3, 'Combined from rows (117)' column"
+  },
+  {
+   "number": "42 and 19",
+   "what_it_means": "Of the 117 rows, 42 were begun by a city or public body and 19 by a carrier.",
+   "stated_in_chapter": "4.5; 1.5",
+   "comes_from": "Appendix H, Tables H.1 and H.2, 'Initiated by' column (counted)"
+  },
+  {
+   "number": "112 of 130 (86 per cent)",
+   "what_it_means": "Stances read the same way in the first and second readings of the twenty-six transcripts against the five-concept codebook: 53 of 65 on A1-A13 and 59 of 65 on B1-B13.",
+   "stated_in_chapter": "3.4 (Table 3.6); 3.7",
+   "comes_from": "Appendix I, coding files 3 to 6, section 2 summary tables (compared)"
+  },
+  {
+   "number": "98 of 117 (alpha .80)",
+   "what_it_means": "Rows in which both October 2026 coding passes read the initiator the same way.",
+   "stated_in_chapter": "3.4; 3.7",
+   "comes_from": "Appendix L, L.2, passes C and D table, row INIT"
+  },
+  {
+   "number": "46.0 per cent against 21.3 per cent (p = .008)",
+   "what_it_means": "Average share of a country's main carriers that deliver into a locker network held by a firm that sells no delivery, against one held by a rival, over 26 ownership periods of 25 open networks; permutation test.",
+   "stated_in_chapter": "5.2; 1.5; 5.4; 6.3; 6.5; 7.1; 7.4",
+   "comes_from": "Appendix M, M.1, Results table, test M3"
+  },
+  {
+   "number": "119 of 132",
+   "what_it_means": "Usable survey responses: 132 received, 6 refused consent, 7 consented and answered nothing more.",
+   "stated_in_chapter": "3.6; Table 3.1 (3.1)",
+   "comes_from": "Appendix K, Table K.2"
+  },
+  {
+   "number": "£262,080 (about £262,000)",
+   "what_it_means": "Central net value a year of the proposed rule in one notional council area of 50,000 households: residents' time £198,240 plus carriers' saving £105,840, minus a £42,000 check.",
+   "stated_in_chapter": "6.3",
+   "comes_from": "Appendix N, N.3 Results"
+  }
+ ],
+ "gaps_and_honest_answers": [
+  {
+   "gap": "No list of the 72 papers judged relevant at the 2023 full-text stage (E.2.9, gap 1). The screening log gives the count only; the nearest artefact, the EndNote export of 27 January 2023, holds 79 records, not 72.",
+   "model_answer": "That's right, and I set it out myself in E.2.9. Every file in the archive was searched. The 2023 manuscript, the one I submitted to MDPI Future Transportation in March 2023, gives the same counts but no list of the 72 either. What survives is the EndNote export of 79 records, the 49 plus 30 others, and in 2026 I assessed every one of those 30, plus Kanter, against the 2023 criteria, so every paper that could have been among the 23 dropped now has a recorded decision and reason (E.2.10).",
+   "where_disclosed": "E.2.7; E.2.9; E.2.10; 2.1; 3.2; Table 3.8, change 4"
+  },
+  {
+   "gap": "No reasons recorded for the 23 papers dropped between the 72 and the 49 (E.2.9, gap 2). The record gives only four topic labels.",
+   "model_answer": "The 2023 record gives reasons by topic, not paper by paper: crowd-shipping, travelling salesman problems, bicycle deliveries and public transport sharing. My MDPI manuscript of March 2023 gives those same four labels and no per-paper reasons, so the gap stands. That's why I re-ran the stage in 2026: each candidate coded twice against the 2023 criteria, every disagreement settled, agreement on subject 30 of 31, alpha .91. Twenty-nine exclusions stand, and the two papers that meet the criteria, Casado-Vara (2020), a model, and Marcucci (2021), an encyclopedia chapter, aren't of a kind the 49 lack.",
+   "where_disclosed": "E.2.4 ('The 72 → 49 step'); E.2.9; E.2.10; 2.1; 3.2"
+  },
+  {
+   "gap": "No per-paper reasons at Stage 3 (title and abstract, 333 removed) or Stage 5 (full reading, 166 removed): both are totals per database with no titles behind them; Stage 4 names journals, not papers (E.2.9, gap 3).",
+   "model_answer": "Those can't be reconstructed from the 2023 files, and I don't pretend they can. What I could do was make the update transparent where the original wasn't: in 2026 I ran the original string again in OpenAlex alongside five corrected strings and logged a decision and a reason for every one of the 1,535 records, and I re-ran the full-text stage of 2023 paper by paper.",
+   "where_disclosed": "E.2.9; E.1; Table 3.3 (3.2)"
+  },
+  {
+   "gap": "The surviving full-text database holds 237 rows where the screening log says 238 (E.2.9, gap 4).",
+   "model_answer": "One record is missing and the file doesn't show which. I used the 237-row table as it stands, to de-duplicate the 2026 screen against it, and not to reconstruct any decision: its screening columns are almost entirely empty, so it can't carry a decision trail anyway.",
+   "where_disclosed": "E.2.7; E.2.9"
+  },
+  {
+   "gap": "The 2023 manuscript says four screening stages; the spreadsheet runs five and numbers them differently (E.2.9, gap 5).",
+   "model_answer": "Not a gap in the data, but they won't line up if quoted side by side, so I say so. The manuscript's four stages are its exclusion steps, starting with duplicates; the spreadsheet also numbers the keyword search and download as Stage 1, so it runs to five. The spreadsheet is the one with the counts, so the thesis follows its five stages.",
+   "where_disclosed": "E.2.2; E.2.9"
+  },
+  {
+   "gap": "The 860 records count the eight hand-added pre-2018 papers twice (662 + 198).",
+   "model_answer": "Yes. The eight sit both under 'Extra' in the 662 and in the 198 published before 2018. I keep 860 because it's the figure the 2023 manuscript reports, and I explain the double count wherever it appears.",
+   "where_disclosed": "E.2.4, Stage 1; 2.1; Table 3.3"
+  },
+  {
+   "gap": "The 2023 criteria table has two date rules that conflict: 'Papers published between 2010 to February 2023' among the inclusions and 'Papers before 2018' among the exclusions.",
+   "model_answer": "Both are recorded as written. The operative rule in the screening log is 2018 onwards, with named earlier papers added back by hand, and that's the rule the counts follow. The update replaced judgement with a stated threshold: an earlier paper is kept only if cited thirty times or more.",
+   "where_disclosed": "E.2.2, 'Note on the two date criteria'; E.2.5; 3.2"
+  },
+  {
+   "gap": "The Stage 5 rule in the screening log says 'eliminating those based on mathematical modelling', yet sixteen of the 49 are models or simulations.",
+   "model_answer": "The cell says that, but the included set shows it wasn't applied as written, and the review's own criteria table has no modelling exclusion. So in the 2026 re-run I applied the criteria as Table 1 words them and as the 49 show they were applied: no paper was excluded on a ground one of the 49 also fails. That's why Casado-Vara, a model, meets the criteria in the re-run.",
+   "where_disclosed": "E.2.4, Stage 5 rule; E.2.1; E.2.2; E.2.10; Table 2.1 (2.1)"
+  },
+  {
+   "gap": "The 2023 screening was done by the author alone.",
+   "model_answer": "It was, and Table 3.3 says so. The 2026 re-run of its full-text stage was coded twice, with every disagreement settled, and every decision in the update was logged with its reason.",
+   "where_disclosed": "Table 3.3 (3.2); E.2.10"
+  },
+  {
+   "gap": "The update's stance counts have limits: the stance assignments were given no second reading; eleven late cards were folded in rather than re-adjudicated; 63 cards rest on abstracts and 8 on records only; 38 verdicts on power were assigned by the thesis's own rule.",
+   "model_answer": "All true, and all stated. The cards were read again from the full texts in September 2026, which moved the silence counts but not the direction, but the stance assignments themselves had no second reading. Silence counts are upper bounds, because absence from an abstract isn't absence from the paper. And the power count only shows whom the field assumes decides; the actual test of power is the interviews and the 117 arrangements in 4.5.",
+   "where_disclosed": "E.3.5.2; E.3.2.1; E.3.1.3; 2.2; 3.2; 3.7; 7.4"
+  },
+  {
+   "gap": "Appendix E names only 27 of the 29 papers in which a carrier begins the collaboration.",
+   "model_answer": "The list was drawn from the cards whose initiator line began with 'carrier' before the full texts were read on 22 September 2026; the synthesis counts 29 after that reading, and the record doesn't name the other two. I say so in E.4 and in 2.2.",
+   "where_disclosed": "E.4; 2.2"
+  },
+  {
+   "gap": "The 49 and the 241 were not selected the same way, so comparisons between them set a stricter set beside a looser one.",
+   "model_answer": "Yes. The 49 were included after full-text reading; the 241 after title-and-abstract screening and the citation rule, with 170 then read in full. Wherever the two stand together I say which kind each is.",
+   "where_disclosed": "2.2; 3.2"
+  },
+  {
+   "gap": "Three participants did not sign the consent form (B.3): A5, the second participant in A9, and B8, whose consent came at the close of the call.",
+   "model_answer": "Every participant was sent the information sheet and the form. Twenty-seven signed; three gave consent verbally and it's on the recording. B8 had been sent the sheet, which says the interview would be recorded and that recording could be declined. The ESRC holds that verbal consent may be ethically preferable in some contexts and should be audio-recorded where possible, and all three are.",
+   "where_disclosed": "B.3; 3.3; Appendix G"
+  },
+  {
+   "gap": "The information sheet and consent form carry template slips: the construction-industry sentence, 'herself', 'Date xx/xx/2024', consent item 6 pointing to detail the sheet lacks, and an opt-out the form doesn't contain.",
+   "model_answer": "They're reproduced exactly as approved and as participants received them, and I list every slip myself in B.3. The construction sentence is template wording that describes neither this research nor any use of its data. Approval was given on 22 February 2024 and data collection began after it.",
+   "where_disclosed": "B.3"
+  },
+  {
+   "gap": "The information sheet says the principal investigator would transcribe the interviews; 3.3 says the transcripts were made automatically from the recordings.",
+   "model_answer": "The transcripts were made automatically from the recordings and kept as made, with timestamps, as McLellan and colleagues advise. The sheet described the plan at the time of approval. I checked every quotation in Chapters 4 and 5 against its transcript myself, and where the transcript was weak I flag it: in A9 the answers were typed in afterwards, so I read it as low confidence throughout.",
+   "where_disclosed": "B.1; 3.3; 4.1"
+  },
+  {
+   "gap": "The ethics application planned elements the study did not carry through: a survey built on the qualitative findings and analysed by correlation and regression, case studies, and validation of the framework by expert panels.",
+   "model_answer": "The survey change is recorded as change 2 in Table 3.8: it opened on the day of approval, ran beside the interviews, and is read descriptively because a self-selected sample supports no estimate beyond itself. The thesis reports no case study and no expert-panel stage: Ghent is a document analysis, not a case study in Yin's sense, and the framework is offered as propositions for others to test. Those two weren't carried through, and I'd say so plainly.",
+   "where_disclosed": "C.1, item 6; 3.6; 3.8; 3.5; 3.1"
+  },
+  {
+   "gap": "The survey: a self-selected sample with no response rate and no country; not piloted; the draft's skip not applied; durations jump from '1-3 years' to 'More than 5 years'; respondents may include interviewees; kappa 1.00 on a codebook drawn from the same answers.",
+   "model_answer": "All stated in 3.6 and carried into 3.7. That's why the survey is used for scale only: counts and cross-tabulations, no significance test, nothing inferred to a population, and no link of the chain rests on it. Answers given by non-collaborators to collaborator questions are kept and read as past or expected collaboration.",
+   "where_disclosed": "3.6; 3.7; D.1; Appendix K"
+  },
+  {
+   "gap": "Only four of the twenty-six interviews speak for a carrier, and two transcripts (B10, B11) lie outside the domain.",
+   "model_answer": "Four carrier voices, three from inside a carrier and one as adviser to a cargo-bike operator; the rest have dealt with carriers from across the table for years. Saturation was reached by kind of party, so carriers are the one kind I call thin. B10 and B11 stay in every denominator of twenty-six and their eight rows stay in the 117, both codings mark them silent on most concepts, and no finding rests on them alone.",
+   "where_disclosed": "3.3; 3.7; Appendix I, files 4 and 5"
+  },
+  {
+   "gap": "Poor or incomplete transcripts: A9 substantially incomplete with answers typed in afterwards; A5 eight minutes of prepared answers; B8 phone audio and limited English; A11's speaker labels give some participant answers to the interviewer.",
+   "model_answer": "Each is flagged in the coding files and in Table 4.1, and read with the confidence it deserves: A9 low confidence throughout, A5's 'successes' recorded as proposals. In A11 the timestamps are right and only the labels are wrong, which Appendix H notes.",
+   "where_disclosed": "Appendix I, file 1 cautions and section 5 of files 3 to 6; Appendix H, note on rows; 4.1"
+  },
+  {
+   "gap": "The interviewer raised brand in five interviews and relayed earlier participants' positions in several, so agreement across transcripts is partly the interviewer's doing; the author also coded first and wrote the claim the later codings tested.",
+   "model_answer": "Brand was declined in all five interviews where I raised it, and I count it as declined, not absent. The coding files mark every theme I introduced or relayed, and none of it is counted as the participant's view. The later codings were made from the transcripts alone, required evidence against, and each half was read twice; and they threw out two of my own clauses. The exposure that remains is mine, and I name it in 3.7.",
+   "where_disclosed": "Appendix I, file 1 'Methodological cautions' and section 4 of files 3 to 6; 3.4; 3.7"
+  },
+  {
+   "gap": "Appendix H's binder was assigned once, by hand, so the 95 of 117 carries no agreement figure; rows are accounts, not schemes; coding A counted one city's scheme three times and another once; six rows have no stated binder; the rural row (H.1, 42) is the participant's inference.",
+   "model_answer": "All disclosed. The binder has no agreement figure; the initiator was re-checked in both passes of October 2026, 98 of 117, alpha .80. Rows are counted as accounts and the unique-scheme count for the A half is given, 51 to 52. Cells that couldn't be filled are left 'unclear' rather than inferred, and row 42 is flagged as an inference wherever it's used.",
+   "where_disclosed": "3.4; 3.7; Appendix H, notes after Tables H.2 and H.3 and 'Note on rows that could not be fully filled'"
+  },
+  {
+   "gap": "In Appendix L, rule 1a, thin flows as a condition and the 'something crosses' restriction were all set after the first results were seen; several alphas fall below the tentative bar; the planned re-run without unclear rows is not reported; the outcome counts pilots though the procedure named operating alone.",
+   "model_answer": "Each is stated where it's used. Every result is reported with and without rule 1a, and without it the holder condition falls short of 0.9, so I say the interviews support the holder only under that rule. The low alphas (penalty .54, stage .59, flows .55, what crosses .65) are reported, each pass is run separately as a replication, and the results I rely on use the firm codes.",
+   "where_disclosed": "L.1; L.4 (caveats); L.5; 3.4; 3.7; 4.4; 7.4"
+  },
+  {
+   "gap": "Two counts of the neutral-third-party binder differ: 36 rows in L.6, 35 in Table H.3.",
+   "model_answer": "L.6 groups the 'Bound by' column by keyword; Table H.3 assigns one primary binder per row by hand. Both are given side by side, with every class's difference listed in L.6.",
+   "where_disclosed": "L.6; 4.4"
+  },
+  {
+   "gap": "The locker test: networks not matched on quality, price or terms; only 26 ownership periods; drift by sale rests on two changes of owner; the per-pair gradient is not tested; sources may under-record carriers; the second coder could see the first pass's class totals, though not its codes.",
+   "model_answer": "All stated. It shows a difference by owner class at one time, consistent with the link but not a test of its per-pair form. I rest on the permutation test that counts each period once, run no regression, and read both changes of owner both ways.",
+   "where_disclosed": "M.1; 3.5; 3.7; 5.2"
+  },
+  {
+   "gap": "The Ghent renderings were not checked by a Dutch speaker, and the documents say what the regime allocates and expected, not what happened on the street.",
+   "model_answer": "Each rendering was checked against the Dutch, a second independent translation and a dictionary, and the Dutch stands beside every English line in Appendix J. The permit register and the operators weren't read, so the regime's practice, as opposed to its law, is the next study's question; the city's own promised evaluations aren't reported in the 2023 plan either.",
+   "where_disclosed": "3.5; 7.4; J (e)"
+  },
+  {
+   "gap": "The savings scenario rests mostly on assumptions: eight of thirteen inputs, with no official UK first-attempt failure rate and no UK data on depot trips.",
+   "model_answer": "It's a worked example, not a forecast, and it says so. It shows the order of magnitude and which inputs drive it; it reports a low case, a stress case and every formula, and the proper test is a matched-streets design.",
+   "where_disclosed": "N.5; 3.5; 3.7; Appendix O, No. 167"
+  },
+  {
+   "gap": "In the claim register, one claim is 'not verified' (No. 202, the page of the QCA thresholds) and two rest on an exploratory coding made once and not reproduced (Nos. 188 and 190).",
+   "model_answer": "They're marked as such rather than hidden. For No. 202 the chapter of Schneider and Wagemann is identified; only the page on which the thresholds are stated couldn't be checked. No. 190's evidence line reads 'not in the chapters', and No. 188's coding is described as made once and not reproduced in the thesis.",
+   "where_disclosed": "Appendix O, introduction and Nos. 188, 190, 202"
+  }
+ ],
+ "characters_hint": [
+  {
+   "letter": "A",
+   "character": "A street-corner radio interviewer with a pocket card of fourteen questions and a longer script tucked in her coat."
+  },
+  {
+   "letter": "B",
+   "character": "A town-hall clerk who keeps the signed consent slips in a locked drawer and remembers the three who said yes out loud."
+  },
+  {
+   "letter": "C",
+   "character": "The city's ethics officer, who stamps permits for research at the town-hall counter."
+  },
+  {
+   "letter": "D",
+   "character": "A pollster with a clipboard in the market square, reading out the questionnaire word for word."
+  },
+  {
+   "letter": "E",
+   "character": "The archive librarian, keeper of the review's audit trail, who knows exactly which shelves are missing."
+  },
+  {
+   "letter": "F",
+   "character": "A lost-property officer holding twelve papers that were handed in at the wrong office."
+  },
+  {
+   "letter": "G",
+   "character": "The hotel concierge who keeps the guest register: codes, roles and how long each guest stayed, never names."
+  },
+  {
+   "letter": "H",
+   "character": "A depot manager with a ledger of every shared-delivery arrangement in town and what held each one together."
+  },
+  {
+   "letter": "I",
+   "character": "A court stenographer who reads every transcript twice and notes where the two readings disagree."
+  },
+  {
+   "letter": "J",
+   "character": "A translator at the city gate who sets each Dutch road sign beside its English meaning."
+  },
+  {
+   "letter": "K",
+   "character": "A census clerk who tallies the townsfolk's survey answers into neat tables."
+  },
+  {
+   "letter": "L",
+   "character": "A pair of referees who mark the same match separately and then settle every disputed call."
+  },
+  {
+   "letter": "M",
+   "character": "A locker-bank inspector who walks the city checking who owns each locker and which couriers use it."
+  },
+  {
+   "letter": "N",
+   "character": "The town treasurer, working out on a slate what the council would spend and save."
+  },
+  {
+   "letter": "O",
+   "character": "A notary who keeps the register of claims, each stamped with its evidence and whether it has been checked."
+  }
+ ]
+}
