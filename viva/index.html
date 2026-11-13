@@ -507,6 +507,8 @@ window.Render3DReady = new Promise(function (res) { window.__r3resolve = res; se
 <script type="module">
 try { const m = await import('./assets/js/render3d.js'); window.__r3resolve(m.default); } catch (e) { console.warn('3D city not loaded', e && e.message); window.__r3resolve(null); }
 </script>
+<script src="assets/js/fflate.js"></script>
+<script src="assets/js/web-sync.js"></script>
 <script src="assets/js/core.js"></script>
 <script src="assets/js/save.js"></script>
 <script src="assets/js/audio.js"></script>
