@@ -95,39 +95,51 @@ function facadeTex(night) {
   for (let y = 0; y < 8; y++) for (let x = 0; x < 6; x++) { const lit = night ? Math.random() < 0.55 : true; g.fillStyle = night ? (lit ? '#ffd98a' : '#000') : '#cfd8e6'; g.fillRect(14 + x * 40, 10 + y * 31, 22, 18); }
   const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; t.colorSpace = THREE.SRGBColorSpace; return t;
 }
-/* QAR12-01: every act's drop box stands clear of the scenery, its body and lid in view from every side the bike comes from.
-   The camera looks north from the south (65 degrees down), so scenery hides a box only by standing within reach of it or
-   south of it under the sight lines. With the bike within 20 m of the box, family mode or not, at every screen size, those
-   lines rise at least 1.5 m for each metre south of the box's foot and spread at most 0.45 m either way per metre south.
-   clearTop(x0, x1, z0, z1) is the tallest a solid with that footprint (metres) may stand: Infinity where no box is seen
-   across it, 0 within 0.3 m of a box. Buildings step down there (clearParts) and trees there are smaller; the Archive stacks
-   and the Witness Court stand behind their boxes (landmarks). */
+/* QAR12-01, QAR13-02: every act's drop box stands clear of the scenery, its body and lid in view wherever the box is on
+   screen. The camera (frame()) looks north from the south, 65 degrees down, with a 30 degree field of view, so scenery hides
+   a box only by standing within reach of it or south of it under the sight lines from the box to the camera. Family mode
+   and a narrow screen only move the camera along its line, so the lines depend only on where the box is on screen: through
+   screen row y (camera units, -tan 15 at the bottom to tan 15 at the top) a line rises (sin 65 - y cos 65) / (cos 65 +
+   y sin 65) m for each metre south of the box (1.19 m at the top row) and, on a screen up to 1.6 wide per 1 high (1440x900,
+   1180x820 and 390x844), spreads at most 1.6 tan 15 / (cos 65 + y sin 65) m either way (0.64 m at the top row). CLEAR.rows
+   holds 41 rows from the bottom to the top. Round 12 took only the lines with the bike within 20 m (1.5 m and 0.45 m); from
+   further south the south-west building's lower wing hid the box's foot.
+   QAR14-01: the Top view (T) looks straight down from above the bike (89.5 degrees), so a sight line from a box leans
+   towards the middle of the screen, wherever the box is on it: on a screen up to 1.6 wide per 1 high it rises at least
+   1 / (1.6 tan 15) m for each metre east or west (2.33 m) and 1 / tan 15 m for each metre north or south (3.73 m), less 4 per
+   cent for the 0.5 degree tilt (CLEAR.ex and CLEAR.ez). A solid Lx m east or west of a box and Lz m north or south of it
+   (past the 0.3 m gap) stays under every such line when it stands no taller than the larger of Lx / ex and Lz / ez.
+   clearTop(x0, x1, z0, z1) is the tallest a solid with that footprint (metres) may stand in both views: Infinity where no box
+   is seen across it, 0 within 0.3 m of a box. Buildings step down there (clearParts) and trees there are smaller; no
+   building or tree needs more for the Top view. The landmarks stand behind their boxes, clear of both views (landmarks). */
 const BOX_DX = 4.6; /* the drop box stands 4.6 m east of its marker point: frame() builds it there and the pick finds it there */
-const CLEAR = { rise: 1.5, spread: 0.45, gap: 0.3 }, INKW = 0.22; /* INKW: the ink line's width on the High tier */
+const CLEAR = { gap: 0.3, rows: [], ex: 1.6 * Math.tan(15 * Math.PI / 180) * 1.04, ez: Math.tan(15 * Math.PI / 180) * 1.04 }, INKW = 0.22; /* INKW: the ink line's width on the High tier */
+{ const p = 65 * Math.PI / 180, t = Math.tan(15 * Math.PI / 180); for (let k = 0; k <= 40; k++) { const y = t * (k / 20 - 1), s = Math.cos(p) + y * Math.sin(p); CLEAR.rows.push({ rise: (Math.sin(p) - y * Math.cos(p)) / s, spread: 1.6 * t / s }); } }
 let DROPS = [];
 function clearTop(x0, x1, z0, z1) {
   let top = Infinity; const g = CLEAR.gap;
   DROPS.forEach(b => {
     if (x1 > b.x0 - g && x0 < b.x1 + g && z1 > b.z0 - g && z0 < b.z1 + g) { top = 0; return; }
+    const lat = Math.max(0, b.x0 - g - x1, x0 - b.x1 - g);
+    top = Math.min(top, Math.max(lat / CLEAR.ex, Math.max(0, b.z0 - g - z1, z0 - b.z1 - g) / CLEAR.ez)); /* QAR14-01: the Top view */
     if (z1 <= b.z0 - g) return; /* behind the box */
-    const lat = Math.max(0, b.x0 - g - x1, x0 - b.x1 - g), zIn = Math.max(z0, b.z0 + lat / CLEAR.spread);
-    if (zIn < z1) top = Math.min(top, CLEAR.rise * Math.max(0, zIn - b.z1));
+    CLEAR.rows.forEach(r => { const zIn = Math.max(z0, b.z0 + lat / r.spread); if (zIn < z1) top = Math.min(top, r.rise * Math.max(0, zIn - b.z1)); });
   });
   return top;
 }
 /* a building b (sim units) of height h as parts [x, w, h]: the part in front of a drop box steps down under the sight lines
-   (its roof cap overhangs 0.3 m and tops out 1.1 m above h, and the ink line adds 0.22 m); a step of 3 m or less lowers the
-   whole building instead, and a tall remainder under 4 m wide goes down with the step */
+   (its roof cap overhangs 0.3 m and tops out 1.1 m above h, and the ink line adds 0.22 m); a step of 5 m or less lowers the
+   whole building instead, and a tall remainder under 4 m wide goes down with the step. QAR14-02: with a 3 m step, round 13
+   put the west part of Returns Desk, Gate House and Key Cutter (3.8 to 4.5 m above its 9.62 m wing) back up in front of its
+   act's side-mission ring; with 5 m each stands whole at 9.62 m, under round 12's height, and no other building changes */
 function clearParts(b, h) {
   const G = 0.3 + INKW, T = 1.1 + INKW, z0 = b.y * U - G, z1 = (b.y + b.h) * U + G;
   const allowed = (xa, xb) => Math.max(0, clearTop(xa * U - G, xb * U + G, z0, z1) - T);
   const low = allowed(b.x, b.x + b.w); if (h <= low) return [[b.x, b.w, h]];
-  if (h - low <= 3) return [[b.x, b.w, low]];
-  let lo = Infinity, hi = -Infinity;
-  /* the span of the sight lines under the roof, from each box whose lines reach the building */
-  DROPS.forEach(d => { if (z1 <= d.z0 - CLEAR.gap) return; const zH = d.z1 + (h + T) / CLEAR.rise; if (z0 >= zH) return; const w = CLEAR.spread * Math.max(0, Math.min(z1, zH) - d.z0), s0 = (d.x0 - CLEAR.gap - w - G) / U, s1 = (d.x1 + CLEAR.gap + w + G) / U; if (s1 <= b.x || s0 >= b.x + b.w) return; lo = Math.min(lo, s0); hi = Math.max(hi, s1); });
-  if (!(lo < hi)) return [[b.x, b.w, low]];
-  let a = Math.max(b.x, lo), c = Math.min(b.x + b.w, hi); if (a - b.x < 40) a = b.x; if (b.x + b.w - c < 40) c = b.x + b.w;
+  if (h - low <= 5) return [[b.x, b.w, low]];
+  /* QAR13-02: each tall end keeps its height as far as every sight line passes over it (0.1 m steps) */
+  let a = b.x, c = b.x + b.w; while (a < c && allowed(b.x, a + 1) >= h) a++; while (c > a && allowed(c - 1, b.x + b.w) >= h) c--;
+  if (a - b.x < 40) a = b.x; if (b.x + b.w - c < 40) c = b.x + b.w;
   return [[b.x, a - b.x, h], [a, c - a, allowed(a, c)], [c, b.x + b.w - c, h]].filter(p => p[1] > 0);
 }
 
@@ -168,7 +180,10 @@ function buildCity() {
       clearParts(b, h).forEach(([px, pw, ph]) => {
         BOXES.push({ id: bid, x0: px * U, x1: (px + pw) * U, z0: b.y * U, z1: (b.y + b.h) * U, y1: ph + 1.1 });
         bg.push(bidAttr(box(pw * U, ph, b.h * U, (px + pw / 2) * U, ph / 2 + 0.3, (b.y + b.h / 2) * U, col), bid));
-        bg.push(bidAttr(box(pw * U + 0.6, 0.8, b.h * U + 0.6, (px + pw / 2) * U, ph + 0.7, (b.y + b.h / 2) * U, shade(col, -0.18)), bid));
+        /* QAR14-02: a part stepped down for a drop box has its roof cap flush with its walls: lowered, a cap's 0.3 m overhang
+           (and its ink line) stood in sight lines from the markers beside it that passed over the taller building */
+        const ov = ph < h ? 0 : 0.6;
+        bg.push(bidAttr(box(pw * U + ov, 0.8, b.h * U + ov, (px + pw / 2) * U, ph + 0.7, (b.y + b.h / 2) * U, shade(col, -0.18)), bid));
         /* window band planes on the south face */
         const wp = new THREE.PlaneGeometry(pw * U * 0.86, ph * 0.8); wp.translate((px + pw / 2) * U, ph * 0.5 + 0.3, (b.y + b.h) * U + 0.06);
         const uv = wp.attributes.uv; for (let q = 0; q < uv.count; q++) uv.setXY(q, uv.getX(q) * pw * U / 8, uv.getY(q) * ph / 6); wg.push(bidAttr(wp, bid));
@@ -198,17 +213,24 @@ function landmarks(root) {
   const ctr = c => [(c.x + c.w / 2) * U, (c.y + c.h / 2) * U];
   const g = [];
   let [x, z] = ctr(cellOf(1)); g.push(cyl(0.6, 1.2, 34, x + 18, 17, z - 6, 0xff8a3d, 6)); g.push(cyl(2.5, 2.5, 1, x + 18, 34, z - 6, 0xffd166));
-  /* QAR12-01: the Archive stacks end 1.1 m behind (north of) the Act 2 drop box; 12 m deep, they stood across it */
-  [x, z] = ctr(cellOf(2)); for (let i = 0; i < 5; i++) g.push(box(3, 8 + i * 2, 4, x - 10 + i * 4, 4 + i, z - 4, 0x8a6a3a));
+  /* QAR12-01: the Archive stacks end behind (north of) the Act 2 drop box; 12 m deep, they stood across it. QAR14-01: 3 m
+     further north (4.1 m behind the box), under the Top view's sight lines */
+  [x, z] = ctr(cellOf(2)); for (let i = 0; i < 5; i++) g.push(box(3, 8 + i * 2, 4, x - 10 + i * 4, 4 + i, z - 7, 0x8a6a3a));
   [x, z] = ctr(cellOf(3)); g.push(box(16, 10, 10, x + 14, 5, z + 8, 0xb5412f)); g.push(box(17, 1.2, 11, x + 14, 10.6, z + 8, 0x7a2a20)); g.push(cyl(0.2, 0.2, 5, x + 14, 13.5, z + 8, 0xffd166, 4));
-  /* QAR12-01: the Witness Court stands north of the square, behind the Act 4 drop box; south of it, its beam hid the box */
-  [x, z] = ctr(cellOf(4)); for (let i = 0; i < 6; i++) g.push(cyl(0.7, 0.7, 10, x - 8 + i * 3.2, 5, z - 6, 0xfff3e0, 8)); g.push(box(22, 1.5, 6, x + 0, 10.7, z - 6, 0xe2456f));
-  const c5 = cellOf(5); [x, z] = ctr(c5); g.push(box(4, 22, 4, x, 11, z, 0xffb000));
+  /* QAR12-01: the Witness Court stands north of the square, behind the Act 4 drop box; south of it, its beam hid the box.
+     QAR14-01: its beam is 2.4 m deep (was 6), still centred on the columns, so it ends 3.9 m behind the box */
+  [x, z] = ctr(cellOf(4)); for (let i = 0; i < 6; i++) g.push(cyl(0.7, 0.7, 10, x - 8 + i * 3.2, 5, z - 6, 0xfff3e0, 8)); g.push(box(22, 1.5, 2.4, x + 0, 10.7, z - 6, 0xe2456f));
+  /* QAR14-01: the Receiver's Clock tower stands 7.2 m east of the Act 5 drop box, so in the Top view it may stand 14.4 m tall
+     (was 22), its clock face (2 m in radius, was 2.4) lower with it, inside the ink line of the tower as it stood */
+  const c5 = cellOf(5); [x, z] = ctr(c5); g.push(box(4, 14.4, 4, x, 7.2, z, 0xffb000));
   [x, z] = ctr(cellOf(6)); g.push(box(4, 4, 4, x + 6, 2, z - 4, 0xe6332a)); g.push(box(4.6, 0.6, 4.6, x + 6, 4.3, z - 4, 0x15101f));
-  [x, z] = ctr(cellOf(7)); g.push(cyl(0.3, 0.5, 18, x - 14, 34 + 9, z - 10, 0x16a0d8, 6));
+  /* QAR14-01: the Rooftops mast stands over the far (north-west) end of the Aerial Mast's roof (was by its south-east corner,
+     10 m north of the Act 7 drop box), clear of the Top view's sight lines from the box, and 26 m or more from every marker,
+     so that no sight line from one meets it at its height (34 to 52 m) */
+  [x, z] = ctr(cellOf(7)); g.push(cyl(0.3, 0.5, 18, x - 35, 34 + 9, z - 32, 0x16a0d8, 6));
   const merged = mergeGeometries(g.filter(Boolean)); withHull(merged, toon(0xffffff, { vertexColors: true }), root);
   /* the Receiver's Clock: a face and two hands that follow the game time */
-  const face = new THREE.Mesh(new THREE.CircleGeometry(2.4, 24), toon(0xfff3e0)); face.position.set(x = ctr(c5)[0], 18, ctr(c5)[1] + 2.05); root.add(face);
+  const face = new THREE.Mesh(new THREE.CircleGeometry(2, 24), toon(0xfff3e0)); face.position.set(x = ctr(c5)[0], 10.8, ctr(c5)[1] + 2.05); root.add(face);
   clockHands = new THREE.Group(); clockHands.position.copy(face.position).add(new THREE.Vector3(0, 0, 0.05));
   const hh = new THREE.Mesh(new THREE.BoxGeometry(0.25, 1.4, 0.05), new THREE.MeshBasicMaterial({ color: INK })); hh.geometry.translate(0, 0.7, 0);
   const mh = new THREE.Mesh(new THREE.BoxGeometry(0.15, 2.1, 0.05), new THREE.MeshBasicMaterial({ color: INK })); mh.geometry.translate(0, 1.05, 0);
